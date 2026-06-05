@@ -45,7 +45,7 @@ export const toolPlannerPlugin: PluginDefinition = {
   hooks: ['pre-publish'],
   failureMode: toolPlannerConfig.failureMode,
   threshold: toolPlannerConfig.threshold,
-  mcpDependencies: ['memory', 'sqlite', 'postgres'],
+  mcpDependencies: ['memory', 'postgres'],
   checks: [
     architecturePlanningCheck,
     urlPlanningCheck,

@@ -6,7 +6,8 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "build": "tsc",
-    "validate": "tsx src/plugins/validate.ts"
+    "validate": "tsx src/plugins/validate.ts",
+    "control-system": "node project-control-system/server.cjs"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub-Based Project Control System | SEO-AEO Platform</title>
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for modern dashboard elements -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Reference main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Cyber glow backgrounds -->
+  <div class="radial-glow glow-1"></div>
+  <div class="radial-glow glow-2"></div>
+  <div class="radial-glow glow-3"></div>
+
+  <!-- Main System Wrapper -->
+  <div class="dashboard-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo-box">
+          <i class="fa-brands fa-github logo-icon"></i>
+        </div>
+        <div class="brand-text">
+          <h2>Antigravity</h2>
+          <span>Project Control</span>
+        </div>
+      </div>
+      
+      <nav class="sidebar-nav">
+        <a href="#overview" class="nav-item active" data-tab="overview">
+          <i class="fa-solid fa-chart-line"></i>
+          <span>System Overview</span>
+        </a>
+        <a href="#kanban" class="nav-item" data-tab="kanban">
+          <i class="fa-solid fa-square-poll-horizontal"></i>
+          <span>Project Board</span>
+        </a>
+        <a href="#pipeline" class="nav-item" data-tab="pipeline">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Gating Pipeline</span>
+        </a>
+        <a href="#governor" class="nav-item" data-tab="governor">
+          <i class="fa-solid fa-sliders"></i>
+          <span>System Governor</span>
+        </a>
+        <a href="#skills" class="nav-item" data-tab="skills">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Skills Registry</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="system-status">
+          <div class="status-indicator online"></div>
+          <div class="status-details">
+            <p>GitHub MCP Hook</p>
+            <span>Connected</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top Global Header -->
+      <header class="main-header">
+        <div class="header-left">
+          <h1>GitHub Project Control</h1>
+          <p class="subtitle">Real-time repository sync, release governance, and system-level gating.</p>
+        </div>
+        <div class="header-right">
+          <!-- Repo Selector and Stats badge -->
+          <div class="header-widget repo-badge">
+            <i class="fa-brands fa-git-alt branch-icon"></i>
+            <div class="widget-info">
+              <span class="label">Repository</span>
+              <span class="value">seo-aeo-platform-plugins</span>
+            </div>
+            <span class="branch-tag">main</span>
+          </div>
+          <div class="header-widget node-badge">
+            <i class="fa-solid fa-code-commit commit-icon"></i>
+            <div class="widget-info">
+              <span class="label">Latest Commit</span>
+              <span class="value" id="current-commit-hash">938fa2a2</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- TAB: Overview -->
+      <section id="overview-tab" class="tab-pane active">
+        <!-- Overview Grid -->
+        <div class="grid grid-3">
+          <!-- Card 1: Commit Feed -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-clock-rotate-left header-icon cyan"></i> Repository Activity</h3>
+              <span class="badge cyan-bg">Sync: Live</span>
+            </div>
+            <div class="card-body">
+              <div class="commit-list" id="commit-feed">
+                <!-- JavaScript populates this -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Release Status -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-tags header-icon purple"></i> Tag Governance</h3>
+              <span class="badge purple-bg" id="last-release-tag">plugin-layer-v1</span>
+            </div>
+            <div class="card-body">
+              <div class="deployment-box">
+                <div class="deployment-header">
+                  <span class="env-title">Cloudflare Staging</span>
+                  <span class="env-status status-active">Staged</span>
+                </div>
+                <div class="deployment-meta">
+                  <p>Branch: <code>main</code></p>
+                  <p>Status: Active, 100% Traffic</p>
+                </div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar bg-cyan" style="width: 100%"></div>
+                </div>
+              </div>
+
+              <div class="deployment-box margin-t-md">
+                <div class="deployment-header">
+                  <span class="env-title">Cloudflare Production</span>
+                  <span class="env-status status-pending" id="prod-deploy-status">Deploy Approved</span>
+                </div>
+                <div class="deployment-meta">
+                  <p>Release Target: <code>plugin-layer-v2</code></p>
+                  <p id="prod-deploy-desc">Awaiting Gating Suite verification</p>
+                </div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar bg-green" id="prod-deploy-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: System Health Overview -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-gauge-high header-icon green"></i> Hook Pipeline Health</h3>
+              <span class="badge green-bg">Universal Scale</span>
+            </div>
+            <div class="card-body centered-content">
+              <div class="radial-gauge-wrapper">
+                <svg class="radial-gauge" viewBox="0 0 120 120">
+                  <circle class="gauge-bg" cx="60" cy="60" r="50"></circle>
+                  <circle class="gauge-value" id="gauge-circle" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 54.6;"></circle>
+                </svg>
+                <div class="gauge-center-text">
+                  <span class="score-num" id="gauge-score-text">826</span>
+                  <span class="score-max">/ 1000</span>
+                </div>
+              </div>
+              <div class="health-meta">
+                <div class="health-tag status-green" id="publish-band-label">PUBLISH (Green)</div>
+                <p class="description text-center margin-t-sm">
+                  Pre-publish sequence successfully completed. Ready for production release.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondary Overview Section -->
+        <div class="grid grid-2-1 margin-t-lg">
+          <!-- Left: Gating Overview -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-network-wired header-icon cyan"></i> Gating Status Table</h3>
+              <button class="btn btn-sm btn-cyan" id="quick-run-btn">
+                <i class="fa-solid fa-play"></i> Trigger Gating Run
+              </button>
+            </div>
+            <div class="card-body table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Plugin</th>
+                    <th>Hook Bindings</th>
+                    <th>Mode</th>
+                    <th>Checks</th>
+                    <th>Threshold</th>
+                    <th>Actual Score</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="overview-plugin-rows">
+                  <!-- JS generated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Governor Shield -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-shield-halved header-icon red"></i> Governor Status</h3>
+            </div>
+            <div class="card-body">
+              <div class="shield-display">
+                <div class="shield-icon-wrapper pulse-blue" id="governor-shield-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h4 id="shield-status-text">Governor Active & Guarding</h4>
+                <p class="text-muted text-center text-sm">
+                  Intercepting plugin transactions, tracking CPU resource budgets, and auditing database transactions.
+                </p>
+              </div>
+              
+              <div class="governor-quick-stats">
+                <div class="stat-item">
+                  <span class="label">Time Budget (Used / Max)</span>
+                  <span class="value" id="governor-budget-used">328ms / 90s</span>
+                </div>
+                <div class="stat-item">
+                  <span class="label">Active Violations</span>
+                  <span class="value text-green" id="governor-violations-count">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: Kanban -->
+      <section id="kanban-tab" class="tab-pane">
+        <div class="board-header">
+          <div class="board-header-left">
+            <h2>Project Board</h2>
+            <p class="text-sm text-muted">Manage issues, tag assignments, and auto-remediation triggers.</p>
+          </div>
+          <button class="btn btn-cyan" id="new-issue-btn">
+            <i class="fa-solid fa-plus"></i> New Issue / Task
+          </button>
+        </div>
+
+        <div class="kanban-board">
+          <!-- Column 1: Backlog / To Do -->
+          <div class="kanban-column" id="col-todo">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-circle-notch text-cyan"></i> To Do</span>
+              <span class="column-count">3</span>
+            </div>
+            <div class="kanban-cards-container" data-status="todo">
+              <!-- Cards dynamically inserted -->
+            </div>
+          </div>
+
+          <!-- Column 2: In Progress -->
+          <div class="kanban-column" id="col-progress">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-spinner text-purple spinner"></i> In Progress</span>
+              <span class="column-count">1</span>
+            </div>
+            <div class="kanban-cards-container" data-status="progress">
+              <!-- Cards dynamically inserted -->
+            </div>
+          </div>
+
+          <!-- Column 3: In Review -->
+          <div class="kanban-column" id="col-review">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-glasses text-yellow"></i> In Review</span>
+              <span class="column-count">1</span>
+            </div>
+            <div class="kanban-cards-container" data-status="review">
+              <!-- Cards dynamically inserted -->
+            </div>
+          </div>
+
+          <!-- Column 4: Done -->
+          <div class="kanban-column" id="col-done">
+            <div class="column-header">
+              <span class="column-title"><i class="fa-solid fa-circle-check text-green"></i> Done</span>
+              <span class="column-count">2</span>
+            </div>
+            <div class="kanban-cards-container" data-status="done">
+              <!-- Cards dynamically inserted -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: Gating Pipeline -->
+      <section id="pipeline-tab" class="tab-pane">
+        <div class="pipeline-workspace">
+          
+          <div class="workspace-left">
+            <div class="card glass">
+              <div class="card-header">
+                <h3><i class="fa-solid fa-vial-virus header-icon cyan"></i> Gating Simulation Suite</h3>
+                <button class="btn btn-green" id="trigger-pipeline-btn">
+                  <i class="fa-solid fa-rocket"></i> Run Gating Pipeline
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="description">
+                  Adjust simulated check outputs below to test deployment gating policies. Change variables to trigger Green (Publish), Yellow (Needs Fix), or Red (Reject) states.
+                </p>
+                
+                <div class="simulation-sliders">
+                  <div class="slider-group">
+                    <label>
+                      <span>Quality Gatekeeper Score</span>
+                      <span class="slider-val text-cyan" id="val-quality">826 / 1000</span>
+                    </label>
+                    <input type="range" class="custom-slider" id="slider-quality" min="0" max="1000" value="826">
+                    <span class="threshold-label text-sm text-muted">Threshold: 800</span>
+                  </div>
+
+                  <div class="slider-group">
+                    <label>
+                      <span>SEO Compliance Score</span>
+                      <span class="slider-val text-purple" id="val-seo">93 / 100</span>
+                    </label>
+                    <input type="range" class="custom-slider" id="slider-seo" min="0" max="100" value="93">
+                    <span class="threshold-label text-sm text-muted">Threshold: 70 (Fail-Open)</span>
+                  </div>
+
+                  <div class="slider-group">
+                    <label>
+                      <span>AEO Compliance Score</span>
+                      <span class="slider-val text-yellow" id="val-aeo">71 / 100</span>
+                    </label>
+                    <input type="range" class="custom-slider" id="slider-aeo" min="0" max="100" value="71">
+                    <span class="threshold-label text-sm text-muted">Threshold: 65 (Fail-Open)</span>
+                  </div>
+
+                  <div class="slider-group">
+                    <label>
+                      <span>Deployment Guardian Score</span>
+                      <span class="slider-val text-green" id="val-deploy">83 / 100</span>
+                    </label>
+                    <input type="range" class="custom-slider" id="slider-deploy" min="0" max="100" value="83">
+                    <span class="threshold-label text-sm text-muted">Threshold: 80</span>
+                  </div>
+
+                  <div class="slider-group">
+                    <label>
+                      <span>QA Automation Score</span>
+                      <span class="slider-val text-red" id="val-qa">100 / 100</span>
+                    </label>
+                    <input type="range" class="custom-slider" id="slider-qa" min="0" max="100" value="100">
+                    <span class="threshold-label text-sm text-muted">Threshold: 70</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="workspace-right">
+            <!-- Terminal Log view -->
+            <div class="card glass console-card">
+              <div class="card-header console-header">
+                <div class="console-controls">
+                  <span class="dot red-dot"></span>
+                  <span class="dot yellow-dot"></span>
+                  <span class="dot green-dot"></span>
+                </div>
+                <span class="console-title">Gating Console Feed</span>
+                <button class="btn btn-sm btn-icon" id="clear-console-btn" title="Clear Console">
+                  <i class="fa-solid fa-trash-can"></i>
+                </button>
+              </div>
+              <div class="card-body console-body" id="console-logs">
+                <div class="log-entry system">[SYSTEM] Console Initialized. Press "Run Gating Pipeline" to test.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: Governor Config -->
+      <section id="governor-tab" class="tab-pane">
+        <div class="grid grid-2">
+          <!-- Policy Settings Card -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-user-shield header-icon cyan"></i> Security & Resource Limits</h3>
+            </div>
+            <div class="card-body">
+              <form id="governor-policy-form">
+                <div class="form-group">
+                  <label for="policy-max-exec">Max Exec Duration per Plugin (ms)</label>
+                  <input type="number" id="policy-max-exec" class="form-control" value="30000" min="1000" max="90000">
+                  <small class="form-text">Caps individual plugin processes from running infinitely.</small>
+                </div>
+                
+                <div class="form-group margin-t-md">
+                  <label for="policy-max-sequence">Sequence Timeout Budget (ms)</label>
+                  <input type="number" id="policy-max-sequence" class="form-control" value="90000" min="5000" max="180000">
+                  <small class="form-text">Cumulative time allowed across all plugin checks before execution aborts.</small>
+                </div>
+
+                <div class="form-group margin-t-md">
+                  <button type="submit" class="btn btn-cyan">Save Governor Policy</button>
+                  <button type="button" class="btn btn-secondary margin-l-sm" id="reset-policy-btn">Reset Defaults</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- MCP Whitelist Panel -->
+          <div class="card glass">
+            <div class="card-header">
+              <h3><i class="fa-solid fa-list-check header-icon purple"></i> MCP Server Dependency Whitelist</h3>
+            </div>
+            <div class="card-body">
+              <p class="description">
+                Map which plugins are permitted to access sensitive MCP servers. Unauthorized calls trigger immediate pipeline blocks.
+              </p>
+              
+              <div class="mcp-whitelist-editor">
+                <div class="whitelist-item">
+                  <div class="whitelist-info">
+                    <h4>github MCP</h4>
+                    <p class="text-xs text-muted">Authorizations: <code>deployment-guardian</code></p>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="mcp-github-guardian" checked>
+                    <span class="slider"></span>
+                  </label>
+                </div>
+
+                <div class="whitelist-item">
+                  <div class="whitelist-info">
+                    <h4>playwright MCP</h4>
+                    <p class="text-xs text-muted">Authorizations: <code>qa-automation</code>, <code>weekly-seo-engine</code></p>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="mcp-playwright-engine" checked>
+                    <span class="slider"></span>
+                  </label>
+                </div>
+
+                <div class="whitelist-item">
+                  <div class="whitelist-info">
+                    <h4>postgres MCP</h4>
+                    <p class="text-xs text-muted">Authorizations: <code>tool-planner</code>, <code>weekly-seo-engine</code></p>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="mcp-postgres-planner" checked>
+                    <span class="slider"></span>
+                  </label>
+                </div>
+
+                <div class="whitelist-item">
+                  <div class="whitelist-info">
+                    <h4>sqlite MCP</h4>
+                    <p class="text-xs text-muted">Authorizations: <code>weekly-seo-engine</code>, <code>google-update-engine</code></p>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="mcp-sqlite-engine" checked>
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Button to simulate an unauthorized check -->
+              <div class="security-simulation-box margin-t-lg">
+                <h4>Simulate Security Intrusion</h4>
+                <p class="text-sm text-muted margin-b-md">
+                  Force a plugin (e.g. <code>seo-auditor</code>) to request the restricted <code>github</code> MCP server to verify the System Governor interceptor rules.
+                </p>
+                <button class="btn btn-red w-full" id="trigger-violation-btn">
+                  <i class="fa-solid fa-triangle-exclamation"></i> Inject Unauthorized MCP Request
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: Skills Layer -->
+      <section id="skills-tab" class="tab-pane">
+        <div class="skills-catalog-header">
+          <h2>Centralized Skills Library</h2>
+          <p class="text-muted">A catalog of the 15 production-level skills extracted to de-duplicate logic and power the self-healing loops.</p>
+        </div>
+
+        <div class="skills-filter-tabs margin-t-md">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="text">Text & Linguistics</button>
+          <button class="filter-btn" data-filter="html">HTML & Metadata</button>
+          <button class="filter-btn" data-filter="integration">MCP Integration</button>
+          <button class="filter-btn" data-filter="db">Database Operations</button>
+        </div>
+
+        <div class="skills-grid margin-t-lg" id="skills-catalog-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- New Issue Modal -->
+  <div class="modal-backdrop" id="new-issue-modal">
+    <div class="modal glass">
+      <div class="modal-header">
+        <h3>Create Project Issue</h3>
+        <button class="btn-close" id="close-modal-btn">&times;</button>
+      </div>
+      <form id="new-issue-form">
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="issue-title">Issue Title</label>
+            <input type="text" id="issue-title" class="form-control" placeholder="e.g., Fix WCAG accessibility violations" required>
+          </div>
+          <div class="form-group margin-t-md">
+            <label for="issue-desc">Description</label>
+            <textarea id="issue-desc" class="form-control" rows="3" placeholder="Describe the problem or check that failed..."></textarea>
+          </div>
+          <div class="grid grid-2 margin-t-md">
+            <div class="form-group">
+              <label for="issue-priority">Priority</label>
+              <select id="issue-priority" class="form-control">
+                <option value="critical">Critical (P0)</option>
+                <option value="high">High (P1)</option>
+                <option value="medium">Medium (P2)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="issue-assignee">Assignee Agent</label>
+              <select id="issue-assignee" class="form-control">
+                <option value="content">Content Re-Writer Agent</option>
+                <option value="deploy">Deploy & Recovery Agent</option>
+                <option value="trend">Trend Discovery Agent</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="cancel-modal-btn">Cancel</button>
+          <button type="submit" class="btn btn-cyan">Create Task</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Action Alert Toast -->
+  <div class="toast-container" id="toast-box">
+    <!-- Populated by JS -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
