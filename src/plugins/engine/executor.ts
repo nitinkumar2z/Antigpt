@@ -20,6 +20,7 @@ import type {
 } from './types.js';
 import { pluginEventBus } from './events.js';
 import { pluginRegistry } from './registry.js';
+import { systemGovernor } from './governor.js';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -193,6 +194,9 @@ export class PluginExecutor {
     context: CheckContext,
     hook: PluginHook,
   ): Promise<PluginExecutionResult> {
+    // Run pre-execution governor audit
+    systemGovernor.preExecuteAudit(pluginName, hook);
+
     const executionId = randomUUID();
     const startTime = performance.now();
     const timestamp = new Date().toISOString();
@@ -333,6 +337,9 @@ export class PluginExecutor {
       },
     });
 
+    // Run post-execution governor audit
+    systemGovernor.postExecuteAudit(executionResult);
+
     return executionResult;
   }
 
@@ -353,6 +360,9 @@ export class PluginExecutor {
     hook: PluginHook,
     context: CheckContext,
   ): Promise<PluginExecutionResult[]> {
+    // Reset governor execution budget for this sequence
+    systemGovernor.resetBudget();
+
     const instances = pluginRegistry.getByHook(hook);
     const results: PluginExecutionResult[] = [];
 
@@ -416,6 +426,9 @@ export class PluginExecutor {
   async executeAll(
     context: CheckContext,
   ): Promise<Map<string, PluginExecutionResult>> {
+    // Reset governor execution budget for this sequence
+    systemGovernor.resetBudget();
+
     const allInstances = pluginRegistry.getAll();
     const resultMap = new Map<string, PluginExecutionResult>();
 

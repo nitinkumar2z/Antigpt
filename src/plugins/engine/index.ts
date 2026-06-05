@@ -45,3 +45,11 @@ export {
   pluginLifecycleManager,
 } from './lifecycle.js';
 export type { PluginHealthReport } from './lifecycle.js';
+
+// -- System Governor --------------------------------------------------------
+export {
+  SystemGovernor,
+  systemGovernor,
+} from './governor.js';
+export type { GovernorPolicy } from './governor.js';
+

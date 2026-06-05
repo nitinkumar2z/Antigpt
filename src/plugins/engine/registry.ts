@@ -16,6 +16,7 @@ import type {
   RegistryState,
 } from './types.js';
 import { pluginEventBus } from './events.js';
+import { systemGovernor } from './governor.js';
 
 // ---------------------------------------------------------------------------
 // Validation helpers (module-private)
@@ -212,6 +213,9 @@ export class PluginRegistry {
    *   same name is already registered.
    */
   register(definition: PluginDefinition): PluginInstance {
+    // Run governor audit first
+    systemGovernor.auditDefinition(definition);
+
     // Validate.
     const errors = validateDefinition(definition);
     if (errors.length > 0) {
