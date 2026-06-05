@@ -6,7 +6,11 @@ All notable changes to this project will be documented in this file.
 - Ongoing refactoring of remaining checks to use the centralized Skills Layer.
 
 ## [2026-06-06]
-### Commit: `6f11d71` ("Initialize Project Control System")
+### Commit: `e4c7dc9` ("docs: add GITHUB_CONNECTION_REPORT.md")
+- **Changes:** Created GITHUB_CONNECTION_REPORT.md describing remote push actions.
+- **Reason:** Verify repository URL transition.
+
+### Commit: `a570b44` ("Initialize Project Control System")
 - **Changes:**
   - Initialized Project Control System governance documentation (`PROJECT_STATUS.md`, `CURRENT_TASK.md`, `NEXT_TASK.md`, `ARCHITECTURE_REPORT.md`, `CHANGELOG.md`, `BACKLOG.md`).
   - Created web-based Project Control System dashboard (HTML, CSS, JS) and server runner (`server.cjs`).
