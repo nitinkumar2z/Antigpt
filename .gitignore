@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.cache/
+.gemini/
+plugins_backup.tar.gz
+src/plugins_backup/
+.bash_history

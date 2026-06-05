@@ -1,0 +1,16 @@
+{
+  "name": "seo-aeo-platform-plugins",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "validate": "tsx src/plugins/validate.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
