@@ -37,6 +37,8 @@ const DEFAULT_POLICY: GovernorPolicy = {
     github: ['deployment-guardian'],
     cloudflare: ['deployment-guardian'],
     postgres: ['tool-planner', 'weekly-seo-engine'],
+    sqlite: ['weekly-seo-engine', 'google-update-engine'],
+    playwright: ['qa-automation', 'weekly-seo-engine'],
   },
 };
 
@@ -139,6 +141,50 @@ export class SystemGovernor {
     if (instance && instance.definition.failureMode === 'fail-closed' && !result.passed) {
       const warnMsg = `Critical Safety Block: Fail-closed plugin "${result.pluginName}" failed to meet threshold. Score: ${result.compositeScore}. Gating pipeline.`;
       this.emitViolation(result.pluginName, 'critical_safety_block', warnMsg);
+    }
+  }
+
+  /**
+   * Universal Publish Gating Rules
+   * Evaluates the pre-publish sequence results to apply Green/Yellow/Red bands and agent loops.
+   */
+  evaluatePublishGates(results: PluginExecutionResult[]): void {
+    const gatekeeperResult = results.find(r => r.pluginName === 'quality-gatekeeper');
+    if (!gatekeeperResult) return;
+
+    const score = gatekeeperResult.compositeScore;
+
+    if (score < 700) {
+      // REJECT (Red)
+      const errorMsg = `Publish Gate REJECTED (Red): Score ${score}/1000. Build failed. Deployments blocked.`;
+      this.emitViolation('system', 'publish_gate_red', errorMsg);
+      // Trigger Deploy & Recovery Agent logic to rollback
+      pluginEventBus.emit({
+        type: 'plugin:execution:error',
+        pluginName: 'system',
+        timestamp: new Date().toISOString(),
+        data: { agent: 'Deploy & Recovery Agent', action: 'rollback', target: 'plugin-layer-v1', message: errorMsg }
+      }).catch(() => {});
+      throw new Error(errorMsg);
+    } else if (score < 800) {
+      // NEEDS FIX (Yellow)
+      const warnMsg = `Publish Gate NEEDS FIX (Yellow): Score ${score}/1000. Allowed staging, blocked prod.`;
+      this.emitViolation('system', 'publish_gate_yellow', warnMsg);
+      // Trigger Content Re-Writer Agent
+      pluginEventBus.emit({
+        type: 'plugin:execution:error',
+        pluginName: 'system',
+        timestamp: new Date().toISOString(),
+        data: { agent: 'Content Re-Writer Agent', action: 'patch', message: warnMsg }
+      }).catch(() => {});
+    } else {
+      // PUBLISH (Green)
+      pluginEventBus.emit({
+        type: 'plugin:execution:complete',
+        pluginName: 'system',
+        timestamp: new Date().toISOString(),
+        data: { message: `Publish Gate PASSED (Green): Score ${score}/1000.` }
+      }).catch(() => {});
     }
   }
 

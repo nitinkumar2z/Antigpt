@@ -247,6 +247,8 @@ export async function registerProductionPlugins(): Promise<RegistrationReport> {
 
 // ─── Convenience Executors ─────────────────────────────────────────────────────
 
+import { systemGovernor } from './engine/governor.js';
+
 /**
  * Execute the pre-publish hook (Quality Gatekeeper, Tool Research, Tool Planner, QA, Deployment Guardian).
  * Returns true if content should be published, false if blocked.
@@ -256,6 +258,10 @@ export async function executePrePublish(
 ): Promise<{ approved: boolean; results: PluginExecutionResult[] }> {
   const results = await pluginExecutor.executeHook('pre-publish', context);
   const approved = results.every((r) => r.passed);
+  
+  // Apply the Green/Yellow/Red publish gates
+  systemGovernor.evaluatePublishGates(results);
+  
   return { approved, results };
 }
 
