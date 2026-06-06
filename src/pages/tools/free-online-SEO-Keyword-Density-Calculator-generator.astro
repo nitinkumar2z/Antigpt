@@ -16,37 +16,37 @@ description: "An automated online tool for free online SEO Keyword Density Calcu
 </head>
 <body>
   <div class="tool-card">
-  <h1>Free Online SEO Keyword Density Calculator Generator</h1>
-  <p class="description">An automated online tool for free online SEO Keyword Density Calculator generator</p>
+  <h1>SEO Keyword Density Calculator</h1>
+  <p class="description">Paste your content to analyze keyword distribution ratios, word counts, and optimization density percentages instantly.</p>
   
   <form id="tool-form">
     <div class="input-group">
-      <label for="param-a">First Parameter Value</label>
-      <input type="number" id="param-a" placeholder="e.g. 150" required step="any" />
+      <label for="text-content">Paste Article / Body Copy</label>
+      <textarea id="text-content" rows="6" placeholder="Paste your article content here to analyze keyword densities..." required></textarea>
     </div>
     
     <div class="input-group">
-      <label for="calc-op">Calculation Type</label>
-      <select id="calc-op">
-        <option value="multiply">Multiply (*)</option>
-        <option value="add">Add (+)</option>
-        <option value="subtract">Subtract (-)</option>
-        <option value="divide">Divide (/)</option>
-      </select>
+      <label for="target-keyword">Target Focus Keyword (Optional)</label>
+      <input type="text" id="target-keyword" placeholder="e.g. search engine optimization" />
     </div>
     
-    <div class="input-group">
-      <label for="param-b">Second Parameter Value</label>
-      <input type="number" id="param-b" placeholder="e.g. 5" required step="any" />
-    </div>
-    
-    <button type="submit" class="action-btn">Calculate Score</button>
+    <button type="submit" class="action-btn">Analyze Density</button>
   </form>
   
   <div id="results-box" class="results-panel">
-    <div class="result-row">
-      <span class="result-label">Computed Result:</span>
-      <span id="res-value" class="result-value">-</span>
+    <div class="result-row" style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Total Words Count:</span>
+      <span id="word-count-val" class="result-value" style="font-size: 1.1rem; color: var(--primary-glow);">-</span>
+    </div>
+    
+    <div id="target-density-row" class="result-row" style="display: none; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Target Focus Keyword Density:</span>
+      <span id="target-density-val" class="result-value" style="font-size: 1.1rem; color: var(--secondary-glow);">-</span>
+    </div>
+    
+    <label style="margin-bottom: 0.75rem;">Top Density Frequency Distribution</label>
+    <div id="density-table" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+      <!-- Populated via Javascript -->
     </div>
   </div>
 </div>

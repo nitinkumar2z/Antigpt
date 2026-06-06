@@ -1,5 +1,5 @@
 /**
- * @fileoverview AST / Template-based Tool Generation Engine.
+ * @fileoverview AST / Template-based Tool Generation Engine with specialized tool support.
  * @module orchestrator/generator
  */
 
@@ -11,6 +11,9 @@ import type { ToolSpecification, GeneratedFile } from './types.js';
 export function generateToolAssets(spec: ToolSpecification): GeneratedFile[] {
   const toolName = spec.name;
   const toolTitle = toolName.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  
+  // Detect tool niches
+  const isDensity = toolName.toLowerCase().includes('density');
   const isGenerator = toolName.toLowerCase().includes('generator') || toolName.toLowerCase().includes('builder');
   const isCalculator = toolName.toLowerCase().includes('calculator') || toolName.toLowerCase().includes('score') || toolName.toLowerCase().includes('estimator');
   
@@ -44,7 +47,7 @@ body {
   border-radius: 20px;
   padding: 2.5rem;
   width: 100%;
-  max-width: 500px;
+  max-width: ${isDensity ? '650px' : '500px'};
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(59, 130, 246, 0.15);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -165,7 +168,98 @@ input:focus, select:focus, textarea:focus {
 
   // 2. Generate Interactive Client Javascript
   let jsContent = '';
-  if (isCalculator) {
+  if (isDensity) {
+    jsContent = `// Interactive keyword density logic for ${toolTitle}
+document.getElementById('tool-form')?.addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+  const text = document.getElementById('text-content')?.value || '';
+  const targetKeyword = document.getElementById('target-keyword')?.value.trim().toLowerCase() || '';
+  
+  // Clean and split words
+  const words = text
+    .toLowerCase()
+    .replace(/[.,\\/#!$%\\^&\\*;:{}=\\-_~()?"'\\n\\r]/g, " ")
+    .split(/\\s+/)
+    .filter(w => w.length > 1);
+    
+  const totalCount = words.length;
+  const countOutput = document.getElementById('word-count-val');
+  if (countOutput) {
+    countOutput.innerText = totalCount;
+  }
+  
+  // Exclude common stop words
+  const stopWords = new Set([
+    'the', 'a', 'and', 'is', 'of', 'to', 'in', 'it', 'for', 'on', 'with', 
+    'as', 'this', 'that', 'by', 'at', 'an', 'be', 'are', 'from', 'or', 'your', 'my'
+  ]);
+  
+  const frequencyMap = {};
+  words.forEach(word => {
+    if (!stopWords.has(word)) {
+      frequencyMap[word] = (frequencyMap[word] || 0) + 1;
+    }
+  });
+  
+  // Analyze Target Keyword density if provided
+  const targetRow = document.getElementById('target-density-row');
+  const targetVal = document.getElementById('target-density-val');
+  if (targetKeyword && targetRow && targetVal) {
+    let targetCount = 0;
+    if (targetKeyword.split(/\\s+/).length > 1) {
+      let pos = 0;
+      const cleanText = text.toLowerCase();
+      while ((pos = cleanText.indexOf(targetKeyword, pos)) !== -1) {
+        targetCount++;
+        pos += targetKeyword.length;
+      }
+    } else {
+      targetCount = words.filter(w => w === targetKeyword).length;
+    }
+    
+    const densityPercent = totalCount > 0 ? (targetCount / totalCount) * 100 : 0;
+    targetVal.innerText = targetCount + ' occurrences (' + densityPercent.toFixed(2) + '%)';
+    targetRow.style.display = 'flex';
+  } else if (targetRow) {
+    targetRow.style.display = 'none';
+  }
+  
+  // Populate top keywords table
+  const sortedKeywords = Object.entries(frequencyMap)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5);
+    
+  const tableContainer = document.getElementById('density-table');
+  if (tableContainer) {
+    tableContainer.innerHTML = '';
+    
+    if (sortedKeywords.length === 0) {
+      tableContainer.innerHTML = '<div style="color: var(--text-muted); font-size: 0.9rem;">No keywords analyzed yet.</div>';
+    } else {
+      sortedKeywords.forEach(([kw, count]) => {
+        const pct = totalCount > 0 ? (count / totalCount) * 100 : 0;
+        
+        const row = document.createElement('div');
+        row.style.display = 'flex';
+        row.style.justify = 'space-between';
+        row.style.background = 'rgba(255, 255, 255, 0.03)';
+        row.style.padding = '0.5rem 0.75rem';
+        row.style.borderRadius = '6px';
+        row.style.fontSize = '0.9rem';
+        
+        row.innerHTML = '<strong>' + kw + '</strong><span>' + count + ' times (' + pct.toFixed(2) + '%)</span>';
+        tableContainer.appendChild(row);
+      });
+    }
+  }
+  
+  const panel = document.getElementById('results-box');
+  if (panel) {
+    panel.style.display = 'block';
+  }
+});`;
+  } else if (isCalculator) {
     jsContent = `// Interactive logic for ${toolTitle} Calculator
 document.getElementById('tool-form')?.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -245,7 +339,43 @@ document.getElementById('tool-form')?.addEventListener('submit', (e) => {
 
   // 3. Generate Astro Page wrapping the Layout
   let bodyHtml = '';
-  if (isCalculator) {
+  if (isDensity) {
+    bodyHtml = `<div class="tool-card">
+  <h1>SEO Keyword Density Calculator</h1>
+  <p class="description">Paste your content to analyze keyword distribution ratios, word counts, and optimization density percentages instantly.</p>
+  
+  <form id="tool-form">
+    <div class="input-group">
+      <label for="text-content">Paste Article / Body Copy</label>
+      <textarea id="text-content" rows="6" placeholder="Paste your article content here to analyze keyword densities..." required></textarea>
+    </div>
+    
+    <div class="input-group">
+      <label for="target-keyword">Target Focus Keyword (Optional)</label>
+      <input type="text" id="target-keyword" placeholder="e.g. search engine optimization" />
+    </div>
+    
+    <button type="submit" class="action-btn">Analyze Density</button>
+  </form>
+  
+  <div id="results-box" class="results-panel">
+    <div class="result-row" style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Total Words Count:</span>
+      <span id="word-count-val" class="result-value" style="font-size: 1.1rem; color: var(--primary-glow);">-</span>
+    </div>
+    
+    <div id="target-density-row" class="result-row" style="display: none; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Target Focus Keyword Density:</span>
+      <span id="target-density-val" class="result-value" style="font-size: 1.1rem; color: var(--secondary-glow);">-</span>
+    </div>
+    
+    <label style="margin-bottom: 0.75rem;">Top Density Frequency Distribution</label>
+    <div id="density-table" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+      <!-- Populated via Javascript -->
+    </div>
+  </div>
+</div>`;
+  } else if (isCalculator) {
     bodyHtml = `<div class="tool-card">
   <h1>${toolTitle}</h1>
   <p class="description">${spec.description}</p>
