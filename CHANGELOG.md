@@ -6,6 +6,17 @@ All notable changes to this project will be documented in this file.
 - Ongoing refactoring of remaining checks to use the centralized Skills Layer.
 
 ## [2026-06-06]
+### Commit: `97ec4ef` ("feat(skills): implement and register remaining 12 production skills specified in architecture report, reconciling the Skills Layer")
+- **Changes:**
+  - Implemented all 12 missing Native Skills (EEAT, structural, JSON-LD, links, media, playwright-render, accessibility-axe, rss-feed-monitor, cloudflare-check, github-status, relational-planner, and performance-index).
+  - Registered and validated all 25 skills.
+- **Reason:** Reconcile Skills Layer and complete the implementations.
+
+### Commit: `5e66670` ("docs: add SKILLS_RECONCILIATION_REPORT.md explaining skill categorization and resolution")
+- **Changes:**
+  - Created SKILLS_RECONCILIATION_REPORT.md detailing exact mapping, status, counts, and resolution of audits.
+- **Reason:** Provide detailed reconciliation report resolving previous contradiction.
+
 ### Commit: `e0da599` / `1df340e` / `e0da599` ("docs: add GOVERNOR_RUNTIME_AUDIT.md tracking all 8 governor components")
 - **Changes:**
   - Audited and verified Governor Layer and all 8 governor components under LAYER_COMPLETION_POLICY.md.
