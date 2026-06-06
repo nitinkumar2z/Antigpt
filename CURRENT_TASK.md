@@ -1,10 +1,11 @@
 # Current Task
 
 ## Current Objective
-Phase 2: Refactoring & Skills Layer Integration is completed successfully.
+Design and specify the Factory Orchestrator v1 architecture, state machine, and roadmap.
 
 ## Current Step
-All 25 checks in `seo-auditor`, `aeo-auditor`, and `qa-automation` have been ported to use the centralized Skills Registry.
+Completed the FACTORY_ORCHESTRATOR.md specification mapping current reusable components, missing systems, stage contracts, and the implementation roadmap.
 
 ## Dependencies
-- All tests passing (`npm run validate`).
+- Validation tests passing (`npm run validate`).
+- Review of existing governance, plugins, and skills layers.

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 
 ## [2026-06-06]
+### Commit: `fffaff9` ("docs: add FACTORY_ORCHESTRATOR.md detailing architecture, execution pipeline, state machine, and roadmap for Factory Orchestrator v1")
+- **Changes:** Designed the Factory Orchestrator v1 specification detailing current reusable components, missing layers, execution pipeline, state machine, and phase-wise roadmap.
+- **Reason:** Define the final orchestration system controlling the autonomous keyword research, page generation, QA validation, and edge deployment pipelines.
+
+### Commit: `a147fcd` ("docs: add FETCH_DEPENDENCY_AUDIT.md detailing fetch MCP server dependency usage and recommendations")
+- **Changes:** Audited the `fetch` MCP server and logged findings confirming it is metadata-only and optional.
+- **Reason:** Document optional MCP server status to simplify the MCP validation layer.
+
+### Commit: `b29a3e4` ("docs: add POSTGRES_DEPENDENCY_AUDIT.md detailing postgres MCP server dependency usage and recommendations")
+- **Changes:** Audited the `postgres` MCP server and logged findings confirming it is metadata-only and optional.
+- **Reason:** Document optional MCP server status to simplify the MCP validation layer.
+
 ### Commit: `f09e0ca` ("refactor(plugins): migrate remaining checks in seo-auditor, aeo-auditor, and qa-automation to use central Skills Layer")
 - **Changes:**
   - Migrated all 25 plugin checks across `seo-auditor`, `aeo-auditor`, and `qa-automation` to run centralized SkillDefinitions in `src/skills/` via `skillRegistry.run()`.

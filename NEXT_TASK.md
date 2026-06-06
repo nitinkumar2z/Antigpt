@@ -1,10 +1,14 @@
 # Next Task
 
 ## Immediate Next Actions
-Begin Phase 3/Backlog items: Integrate semantic intent embeddings check against target queries (Semantic Intent Embeddings Check).
+Begin Phase 1 of the Factory Orchestrator implementation:
+1. Initialize the SQLite database schema for tracking orchestrator job states and execution logs.
+2. Code the Workflow Engine `src/orchestrator/engine.ts` state manager.
+3. Add CLI entry points and dry-run simulation parameters.
 
 ## Priority
-Medium
+High
 
 ## Dependencies
-- Completion of Phase 2 refactoring & validation tests.
+- Approval of FACTORY_ORCHESTRATOR.md specification.
+- Verification of database skill performance utilities.
