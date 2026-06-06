@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [2026-06-06]
-### Commit: `docs: specify core engine layers, execution flows, swarm capabilities, and long-term vision`
+### Commit: `docs: specify core engine layers, execution flows, swarm capabilities, long-term vision, and operational loops`
 - **Changes:** 
   - Mapped complete capabilities, check structures, and weekly SEO operations logic for all 8 agents and the weekly audit agent in `AGENT_SWARM_CAPABILITIES_MAPPING.md`.
   - Documented Trend Discovery Agent (Research Agent) dry-run execution log and architecture in `RESEARCH_AGENT_DRY_RUN_REPORT.md`.
@@ -12,7 +12,9 @@ All notable changes to this project will be documented in this file.
   - Mapped the 5 lifecycle stages and 10 coordinating agents of the factory in `FULLY_AUTONOMOUS_SEO_FACTORY.md`.
   - Mapped the 8 structural layers of the Core Engine and 8 stages of the Tool Execution Flow in `CORE_ENGINE_TOPOLOGY.md`.
   - Codified the core vision parameters, access rules, advanced validation tests, and nightly/weekly schedule tasks in `LONG_TERM_VISION.md`.
-- **Reason:** Codify the gating logic, agent roles, skill maps, automated healing scripts, weekly audit workflows, and factory pipeline for full autonomy.
+  - Codified the loop cycles, metadata synchronisation, and GitHub push/review routines in `OPERATIONAL_LOOP.md`.
+- **Reason:** Codify the gating logic, agent roles, skill maps, automated healing scripts, weekly audit workflows, factory pipeline, and scaling loop operations for full autonomy.
+
 
 
 ### Commit: `fffaff9` ("docs: add FACTORY_ORCHESTRATOR.md detailing architecture, execution pipeline, state machine, and roadmap for Factory Orchestrator v1")
