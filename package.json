@@ -7,7 +7,15 @@
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "validate": "tsx src/plugins/validate.ts",
-    "control-system": "node project-control-system/server.cjs"
+    "control-system": "node project-control-system/server.cjs",
+    "deploy-skills": "node scripts/deploy-skills.cjs",
+    "deploy:skills": "node scripts/deploy-skills.cjs",
+    "deploy:skills:dry": "node scripts/deploy-skills.cjs --dry-run",
+    "deploy:skills:force": "node scripts/deploy-skills.cjs --force",
+    "deploy:skills:verbose": "node scripts/deploy-skills.cjs --verbose",
+    "scan:skills": "node scripts/scan-skills.cjs",
+    "scan:skills:summary": "node scripts/scan-skills.cjs --summary",
+    "scan:skills:diff": "node scripts/scan-skills.cjs --diff"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
