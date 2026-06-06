@@ -70,6 +70,7 @@ This report audits the **System Governor Layer** against the 7 proof requirement
 - **Local Commits:**
   - `938fa2a` - feat(governor): implement report generation, cron schedules, and gating policies
   - `78ba231` - docs: add architecture reports, plans, and system governor lite integration
+  - `73e002a` - docs: update governor layer audit report with exact proof logs and code references
   - `ade18bd` - docs: add GOVERNOR_LAYER_AUDIT.md
 
 ### 1.7. GitHub Sync Proof (Status: PASS)
