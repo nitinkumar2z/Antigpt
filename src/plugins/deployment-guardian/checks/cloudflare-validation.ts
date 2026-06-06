@@ -56,11 +56,19 @@ export const cloudflareValidationCheck: PluginCheck = {
         }
       }
       const assetScore = allAssets.length > 0 ? Math.round((properPaths / allAssets.length) * 100) : 100;
+      
+      // 5. Required Verification Tags (20% weight, 100 if all present)
+      const hasAnalytics = /gtag|google-analytics|ga\.js|analytics\.js|googletagmanager|beacon\.min\.js/i.test(html);
+      const hasSearchConsole = /<meta[^>]*name\s*=\s*["']google-site-verification["']/i.test(html);
+      const hasAdsense = /adsbygoogle|pagead2\.googlesyndication|google-adsense|ca-pub-/i.test(html);
+
+      const verificationSignals = (hasAnalytics ? 1 : 0) + (hasSearchConsole ? 1 : 0) + (hasAdsense ? 1 : 0);
+      const verificationScore = Math.round((verificationSignals / 3) * 100);
 
       const score = Math.round(
-        cdnScore * 0.25 + edgeScore * 0.25 + securityScore * 0.25 + assetScore * 0.25
+        cdnScore * 0.20 + edgeScore * 0.20 + securityScore * 0.20 + assetScore * 0.20 + verificationScore * 0.20
       );
-      const passed = score >= 60;
+      const passed = score >= 60 && verificationSignals === 3;
 
       return {
         checkName: 'cloudflare-validation',
@@ -68,11 +76,11 @@ export const cloudflareValidationCheck: PluginCheck = {
         passed,
         severity: 'critical',
         message: passed
-          ? `Cloudflare validation passed (${score}/100). Deployment ready.`
-          : `Cloudflare validation issues (${score}/100). Deployment risks detected.`,
-        details: { cdnScore, edgeScore, securityScore, assetScore, totalAssets: allAssets.length },
+          ? `Cloudflare validation passed (${score}/100). Deployment ready with Analytics, Search Console, and AdSense.`
+          : `Cloudflare validation issues (${score}/100). Missing mandatory verification scripts or tags (Analytics: ${hasAnalytics}, GSC: ${hasSearchConsole}, AdSense: ${hasAdsense}).`,
+        details: { cdnScore, edgeScore, securityScore, assetScore, verificationScore, totalAssets: allAssets.length },
         fixSuggestion: !passed
-          ? 'Remove require()/process.env from inline scripts, use content-hashed asset filenames, add CSP meta tag.'
+          ? 'Ensure Analytics is installed, Google Search Console verification meta tag is present, and AdSense script is configured.'
           : undefined,
       };
     } catch (error: unknown) {

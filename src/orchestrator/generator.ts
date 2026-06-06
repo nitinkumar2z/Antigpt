@@ -583,25 +583,70 @@ document.getElementById('tool-form')?.addEventListener('submit', (e) => {
   }
 
   const astroContent = `---
-// Programmatically generated page for ${toolTitle} by ANTIGPT
-title: "${toolTitle} - Free Online Tool"
-description: "${spec.description}"
+// Programmatically generated page for \${toolTitle} by ANTIGPT
+title: "\${toolTitle} - Free Online Tool"
+description: "\${spec.description}"
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${toolTitle} - Online Tool</title>
+  <title>\${toolTitle} - Free Online Tool</title>
+  <meta name="description" content="\${spec.description}" />
+  <meta name="keywords" content="\${toolName.replace(/-/g, ', ')}, online tool, free generator, antigpt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://antigpt-tools.pages.dev/tools/\${spec.name}.html" />
+  
+  <!-- Required Verification & Tracking Scripts -->
+  <meta name="google-site-verification" content="google-verification-hash-123456789" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-123456789" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="\${toolTitle} - Free Online Tool" />
+  <meta property="og:description" content="\${spec.description}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://antigpt-tools.pages.dev/tools/\${spec.name}.html" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="\${toolTitle} - Free Online Tool" />
+  <meta name="twitter:description" content="\${spec.description}" />
+
+  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/${spec.name}.css" />
+  <link rel="stylesheet" href="/styles/\${spec.name}.css" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "\${toolTitle}",
+    "description": "\${spec.description}",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
 </head>
 <body>
-  ${bodyHtml}
+  \${bodyHtml}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
-  <script src="/scripts/${spec.name}.js" defer></script>
+  <script src="/scripts/\${spec.name}.js" defer></script>
 </body>
 </html>
 `;

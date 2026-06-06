@@ -4,7 +4,8 @@
 Codify the specifications, check mappings, gating structures, and dry-run execution results of the agent swarm.
 
 ## Current Step
-Completed and codified all Core Engine architectural layers and execution engine stages in `CORE_ENGINE_TOPOLOGY.md`.
+Completed and codified the long-term vision, nightly/weekly automation, and advanced gating tests in `LONG_TERM_VISION.md`.
 
 ## Dependencies
 - Validation tests passing (`npm run validate`).
+

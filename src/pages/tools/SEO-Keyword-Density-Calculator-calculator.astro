@@ -1,55 +1,67 @@
 ---
-// Programmatically generated page for SEO Keyword Density Calculator Calculator by ANTIGPT
-title: "SEO Keyword Density Calculator Calculator - Free Online Tool"
-description: "An automated online tool for SEO Keyword Density Calculator calculator"
+// Programmatically generated page for ${toolTitle} by ANTIGPT
+title: "${toolTitle} - Free Online Tool"
+description: "${spec.description}"
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SEO Keyword Density Calculator Calculator - Online Tool</title>
+  <title>${toolTitle} - Free Online Tool</title>
+  <meta name="description" content="${spec.description}" />
+  <meta name="keywords" content="${toolName.replace(/-/g, ', ')}, online tool, free generator, antigpt" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://antigpt-tools.pages.dev/tools/${spec.name}.html" />
+  
+  <!-- Required Verification & Tracking Scripts -->
+  <meta name="google-site-verification" content="google-verification-hash-123456789" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-123456789" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="${toolTitle} - Free Online Tool" />
+  <meta property="og:description" content="${spec.description}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://antigpt-tools.pages.dev/tools/${spec.name}.html" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${toolTitle} - Free Online Tool" />
+  <meta name="twitter:description" content="${spec.description}" />
+
+  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/SEO-Keyword-Density-Calculator-calculator.css" />
+  <link rel="stylesheet" href="/styles/${spec.name}.css" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "${toolTitle}",
+    "description": "${spec.description}",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
 </head>
 <body>
-  <div class="tool-card">
-  <h1>SEO Keyword Density Calculator</h1>
-  <p class="description">Paste your content to analyze keyword distribution ratios, word counts, and optimization density percentages instantly.</p>
-  
-  <form id="tool-form">
-    <div class="input-group">
-      <label for="text-content">Paste Article / Body Copy</label>
-      <textarea id="text-content" rows="6" placeholder="Paste your article content here to analyze keyword densities..." required></textarea>
-    </div>
-    
-    <div class="input-group">
-      <label for="target-keyword">Target Focus Keyword (Optional)</label>
-      <input type="text" id="target-keyword" placeholder="e.g. search engine optimization" />
-    </div>
-    
-    <button type="submit" class="action-btn">Analyze Density</button>
-  </form>
-  
-  <div id="results-box" class="results-panel">
-    <div class="result-row" style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
-      <span class="result-label">Total Words Count:</span>
-      <span id="word-count-val" class="result-value" style="font-size: 1.1rem; color: var(--primary-glow);">-</span>
-    </div>
-    
-    <div id="target-density-row" class="result-row" style="display: none; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
-      <span class="result-label">Target Focus Keyword Density:</span>
-      <span id="target-density-val" class="result-value" style="font-size: 1.1rem; color: var(--secondary-glow);">-</span>
-    </div>
-    
-    <label style="margin-bottom: 0.75rem;">Top Density Frequency Distribution</label>
-    <div id="density-table" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
-      <!-- Populated via Javascript -->
-    </div>
-  </div>
-</div>
-  <script src="/scripts/SEO-Keyword-Density-Calculator-calculator.js" defer></script>
+  ${bodyHtml}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <script src="/scripts/${spec.name}.js" defer></script>
 </body>
 </html>

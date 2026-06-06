@@ -34,6 +34,15 @@ const TEST_HTML = `<!DOCTYPE html>
   <meta name="generator" content="AstroJS v5.2.0">
   <meta name="build-id" content="v2.1.0-build.4821">
   <link rel="canonical" href="https://example.com/tools/seo-audit-calculator">
+  <meta name="google-site-verification" content="google-verification-hash-123456789">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-123456789" crossorigin="anonymous"></script>
   <meta property="og:title" content="Free SEO Audit Calculator — Check Your Score Online">
   <meta property="og:description" content="Use our free SEO audit calculator to check your website score instantly.">
   <meta property="og:image" content="https://example.com/images/seo-calculator-og.jpg">
