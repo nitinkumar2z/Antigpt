@@ -1,26 +1,33 @@
 # MCP Runtime Evidence Log
 
-This document lists the runtime validation evidence and execution logs for the 8 available Model Context Protocol (MCP) servers.
+This document lists the runtime validation evidence and execution logs for all 9 available Model Context Protocol (MCP) servers.
+
+**Last Updated:** 2026-06-06T10:12:35+06:00  
+**Session:** 457f88a7-e6aa-42f0-935a-2adebc45a08a
 
 ---
 
 ## 1. Verified Executions Log
 
 ### 1.1. github
-- **Status:** PASS
-- **Execution Proof:** Run `create_repository` tool during project control remote setup.
-- **Output Evidence:** Successful creation of `nitinkumar2z/seo-aeo-platform-plugins` repository.
-- **Log Evidence:** Recorded in stdout session trace logs.
+- **Status:** ✅ PASS
+- **Execution Proof:** `create_repository` tool invoked during project control remote setup
+- **Output Evidence:** Successful creation of `nitinkumar2z/seo-aeo-platform-plugins` repository (JSON object returned)
+- **Log Evidence:** Session trace log — git commit `1bd4e29`
+
+---
 
 ### 1.2. cloudflare
-- **Status:** PASS
-- **Execution Proof:** Run `worker_list` and `zones_list` tools.
-- **Output Evidence:** Output successfully completed.
-- **Log Evidence:** Session trace logs.
+- **Status:** ✅ PASS
+- **Execution Proof:** `worker_list` and `zones_list` tools invoked
+- **Output Evidence:** Tool execution completed successfully; worker and zone lists returned
+- **Log Evidence:** Session trace logs recorded in prior run
+
+---
 
 ### 1.3. sqlite
-- **Status:** PASS
-- **Execution Proof:** Run `list_tables` tool.
+- **Status:** ✅ PASS
+- **Execution Proof:** `list_tables` invoked in session `457f88a7` at 2026-06-06T04:14:26Z
 - **Output Evidence:**
   ```json
   [
@@ -29,47 +36,82 @@ This document lists the runtime validation evidence and execution logs for the 8
     {"name": "plugin_configs"}
   ]
   ```
-- **Log Evidence:** Session trace logs.
+- **Log Evidence:** Step output recorded in `.system_generated/steps/`
 
-### 1.4. playwright
-- **Status:** PASS
-- **Execution Proof:** Run `browser_navigate` tool to `https://example.com`.
+---
+
+### 1.4. memory
+- **Status:** ✅ PASS
+- **Execution Proof:** `read_graph` invoked in session `457f88a7` at 2026-06-06T04:14:27Z
+- **Output Evidence:** Returned knowledge graph with entities: `PluginEngine`, `QualityGatekeeper`, `SEOAuditor`, `AEOAuditor`, `PluginRegistry`, `PluginExecutor`, `SQLiteAuditLog`
+- **Log Evidence:** Output saved to `file:///root/.gemini/antigravity-cli/brain/457f88a7-e6aa-42f0-935a-2adebc45a08a/.system_generated/steps/26/output.txt`
+
+---
+
+### 1.5. playwright
+- **Status:** ✅ PASS
+- **Execution Proof:** `browser_navigate` tool invoked to `https://example.com`
 - **Output Evidence:**
-  * Page URL: `https://example.com/`
-  * Page Title: `Example Domain`
-  * Snapshot path: `.playwright-mcp/page-2026-06-05T22-26-24-758Z.yml`
-- **Log Evidence:** Captured output console data logs.
+  - Page URL: `https://example.com/`
+  - Page Title: `Example Domain`
+  - Snapshot path: `.playwright-mcp/page-2026-06-05T22-26-24-758Z.yml`
+- **Log Evidence:** Captured output console data logs in prior session
 
-### 1.5. memory
-- **Status:** PASS
-- **Execution Proof:** Run `read_graph` tool.
-- **Output Evidence:** Returned knowledge graph with entities: `PluginEngine`, `QualityGatekeeper`, `SEOAuditor`, `AEOAuditor`, `PluginRegistry`, `PluginExecutor`, `SQLiteAuditLog`.
-- **Log Evidence:** Output written to path `file:///root/.gemini/antigravity-cli/brain/24529b80-4320-4dc7-81c3-8bc48e4e1212/.system_generated/steps/409/output.txt`.
+---
 
 ### 1.6. postgres
-- **Status:** FAIL
-- **Execution Proof:** Run `query` tool with `sql: "SELECT 1 as val;"`.
-- **Output Evidence:** Empty error returned.
-- **Log Evidence:** Offline connection error logs.
+- **Status:** ❌ FAIL
+- **Execution Proof:** `query` tool invoked with `SELECT 1 AS val;` in session `457f88a7` at 2026-06-06T04:14:28Z
+- **Output Evidence:** `Encountered error in step execution: calling "tools/call":` — database connection refused (offline)
+- **Log Evidence:** Error captured at step execution level
+- **Failure Cause:** No live PostgreSQL database provisioned in this environment
+
+---
 
 ### 1.7. fetch
-- **Status:** FAIL
-- **Execution Proof:** Run `fetch` tool for `https://example.com`.
-- **Output Evidence:** Outbound connection issue fetching `robots.txt`.
-- **Log Evidence:** Network blocked logs.
+- **Status:** ❌ FAIL
+- **Execution Proof:** `fetch` tool invoked for `https://example.com` in session `457f88a7` at 2026-06-06T04:14:34Z
+- **Output Evidence:** `Failed to fetch robots.txt https://example.com/robots.txt due to a connection issue`
+- **Log Evidence:** Network error logged at step execution
+- **Failure Cause:** Outbound network connections blocked in this sandbox environment
+
+---
 
 ### 1.8. context7
-- **Status:** FAIL
-- **Execution Proof:** Run `query-docs` tool.
-- **Output Evidence:** `Invalid API key` validation error.
-- **Log Evidence:** Authentication failure logs.
+- **Status:** ❌ FAIL
+- **Execution Proof:** Attempted `query-docs` tool — returned `Invalid API key` in prior session
+- **Output Evidence:** Authentication failure — no data returned
+- **Log Evidence:** Authentication failure log recorded
+- **Failure Cause:** Missing or invalid Context7 API key in agent configuration
+
+---
+
+### 1.9. filesystem
+- **Status:** ❌ FAIL
+- **Execution Proof:** `list_directory` invoked for `/root` in session `457f88a7` at 2026-06-06T04:14:48Z
+- **Output Evidence:** `server name filesystem failed to load: context deadline exceeded`
+- **Log Evidence:** Step execution error — server failed to initialize within timeout
+- **Failure Cause:** MCP filesystem server startup timeout; server unreachable
 
 ---
 
 ## 2. Scorecard
 
-- **Total Servers:** 8
-- **Passed:** 5 (github, cloudflare, sqlite, playwright, memory)
-- **Failed:** 3 (postgres, fetch, context7)
+| Server      | Tool Executed          | Result  | Status  |
+|-------------|------------------------|---------|---------|
+| github      | create_repository      | ✅ OK   | ✅ PASS |
+| cloudflare  | worker_list, zones_list| ✅ OK   | ✅ PASS |
+| sqlite      | list_tables            | ✅ OK   | ✅ PASS |
+| memory      | read_graph             | ✅ OK   | ✅ PASS |
+| playwright  | browser_navigate       | ✅ OK   | ✅ PASS |
+| postgres    | query                  | ❌ ERR  | ❌ FAIL |
+| fetch       | fetch                  | ❌ ERR  | ❌ FAIL |
+| context7    | query-docs             | ❌ ERR  | ❌ FAIL |
+| filesystem  | list_directory         | ❌ ERR  | ❌ FAIL |
 
-**Final MCP Reality Score:** **62.5 / 100**
+- **Total Servers:** 9
+- **Passed:** 5 (github, cloudflare, sqlite, memory, playwright)
+- **Failed:** 4 (postgres, fetch, context7, filesystem)
+
+**Final MCP Reality Score:** **55.5 / 100**  
+**Final MCP Layer Status:** ❌ **FAIL** (per LAYER_COMPLETION_POLICY.md Hard Failure rule)
