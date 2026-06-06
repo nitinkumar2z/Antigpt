@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 
 ## [2026-06-06]
+### Commit: `feat: select and build tool #1 - Compliance Patent Cost Estimator`
+- **Changes:**
+  - Selected the highest-potential tool from the 1,000 tools database: `Compliance Patent Cost Estimator by Building Type`.
+  - Built the complete responsive, fast, and accessible AstroJS tool under `src/pages/tools/`.
+  - Implemented client-side logic under `public/scripts/` and custom styling under `public/styles/`.
+  - Generated 105 programmatic SEO subpages under `dist_html/tools/compliance-patent-cost-estimator-by-building-type/` using static template compilation.
+  - Implemented advanced SEO tags, breadcrumbs, OpenGraph, dynamic internal link wall, and sitemap/robots.txt configurations.
+  - Verified 100% test passing of all 105 pages and compiled static outputs, generating `TOOL_RUNTIME_AUDIT.md`.
+  - Updated the homepage `dist_html/index.html` to show all tools and feature the new estimator tool.
+- **Reason:** Select, build, and optimize the first programmatic tool in the compliance niche to perfect the automated pipeline.
+
 ### Commit: `feat: import, normalize, and audit 1000 tools database`
 - **Changes:**
   - Cloned the `1000toolsdatabase` repository.
