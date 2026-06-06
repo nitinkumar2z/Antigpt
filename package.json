@@ -15,7 +15,9 @@
     "deploy:skills:verbose": "node scripts/deploy-skills.cjs --verbose",
     "scan:skills": "node scripts/scan-skills.cjs",
     "scan:skills:summary": "node scripts/scan-skills.cjs --summary",
-    "scan:skills:diff": "node scripts/scan-skills.cjs --diff"
+    "scan:skills:diff": "node scripts/scan-skills.cjs --diff",
+    "control-center": "node control-center/server.cjs",
+    "cc": "node control-center/server.cjs"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",

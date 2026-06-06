@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antigravity Control Center | Tool Website SEO by Nitin</title>
+  <meta name="description" content="Real-time control center for the Antigravity autonomous SEO tool factory. Monitor agents, plugins, skills, deployments, and system health." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-icon">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <circle cx="14" cy="14" r="13" stroke="url(#lg1)" stroke-width="2"/>
+        <path d="M8 14l4 4 8-8" stroke="url(#lg2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+          <linearGradient id="lg2" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <span class="logo-title">Antigravity</span>
+      <span class="logo-sub">Control Center</span>
+    </div>
+  </div>
+
+  <div class="sidebar-section-label">NAVIGATION</div>
+  <ul class="nav-list">
+    <li><a href="#overview" class="nav-item active" data-page="overview" onclick="navigate('overview',this)">
+      <span class="nav-icon">⊕</span><span>Overview</span>
+    </a></li>
+    <li><a href="#mcp" class="nav-item" data-page="mcp" onclick="navigate('mcp',this)">
+      <span class="nav-icon">⬡</span><span>MCP Dashboard</span>
+    </a></li>
+    <li><a href="#plugins" class="nav-item" data-page="plugins" onclick="navigate('plugins',this)">
+      <span class="nav-icon">⚙</span><span>Plugins</span>
+    </a></li>
+    <li><a href="#skills" class="nav-item" data-page="skills" onclick="navigate('skills',this)">
+      <span class="nav-icon">◈</span><span>Skills</span>
+    </a></li>
+    <li><a href="#agents" class="nav-item" data-page="agents" onclick="navigate('agents',this)">
+      <span class="nav-icon">◎</span><span>Agents</span>
+    </a></li>
+    <li><a href="#project" class="nav-item" data-page="project" onclick="navigate('project',this)">
+      <span class="nav-icon">◻</span><span>Project</span>
+    </a></li>
+    <li><a href="#logs" class="nav-item" data-page="logs" onclick="navigate('logs',this)">
+      <span class="nav-icon">≡</span><span>Logs Viewer</span>
+    </a></li>
+    <li><a href="#github" class="nav-item" data-page="github" onclick="navigate('github',this)">
+      <span class="nav-icon">⎇</span><span>GitHub</span>
+    </a></li>
+    <li><a href="#deployment" class="nav-item" data-page="deployment" onclick="navigate('deployment',this)">
+      <span class="nav-icon">⤴</span><span>Deployment</span>
+    </a></li>
+    <li><a href="#audit" class="nav-item" data-page="audit" onclick="navigate('audit',this)">
+      <span class="nav-icon">✓</span><span>Audit</span>
+    </a></li>
+  </ul>
+
+  <div class="sidebar-footer">
+    <div class="live-indicator">
+      <span class="pulse-dot"></span>
+      <span id="live-status">Connecting...</span>
+    </div>
+    <div class="footer-meta">Port 5524 · Real Data Only</div>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+  <header class="topbar">
+    <div class="topbar-left">
+      <button class="sidebar-toggle" onclick="toggleSidebar()" id="sidebar-toggle">☰</button>
+      <div class="page-breadcrumb">
+        <span id="current-page-label">Overview</span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="refresh-control">
+        <span class="refresh-label">Auto-refresh</span>
+        <select id="refresh-interval" class="refresh-select" onchange="setRefreshInterval(this.value)">
+          <option value="5000">5s</option>
+          <option value="10000" selected>10s</option>
+          <option value="30000">30s</option>
+          <option value="0">Off</option>
+        </select>
+      </div>
+      <button class="btn-refresh" onclick="refreshCurrent()">↻ Refresh</button>
+      <div class="clock" id="topbar-clock"></div>
+    </div>
+  </header>
+
+  <!-- PAGES -->
+  <div class="page-container">
+
+    <!-- ═══ PAGE: OVERVIEW ═══════════════════════════════════════ -->
+    <section class="page active" id="page-overview">
+      <div class="page-header">
+        <h1 class="page-title">System Overview</h1>
+        <p class="page-subtitle">Real-time status of the Antigravity Tool Factory</p>
+      </div>
+      <div id="overview-content">
+        <div class="skeleton-grid" id="overview-skeleton">
+          <div class="skeleton-card"></div><div class="skeleton-card"></div>
+          <div class="skeleton-card"></div><div class="skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PAGE: MCP ════════════════════════════════════════════ -->
+    <section class="page" id="page-mcp">
+      <div class="page-header">
+        <h1 class="page-title">MCP Dashboard</h1>
+        <p class="page-subtitle">Model Context Protocol servers — installation, load, and execution evidence</p>
+      </div>
+      <div id="mcp-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: PLUGINS ════════════════════════════════════════ -->
+    <section class="page" id="page-plugins">
+      <div class="page-header">
+        <h1 class="page-title">Plugin Dashboard</h1>
+        <p class="page-subtitle">All 9 production plugins — hooks, runtime scores, and status</p>
+      </div>
+      <div id="plugins-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: SKILLS ═════════════════════════════════════════ -->
+    <section class="page" id="page-skills">
+      <div class="page-header">
+        <h1 class="page-title">Skills Dashboard</h1>
+        <p class="page-subtitle">Registered skills — load, execution, and last result evidence</p>
+      </div>
+      <div id="skills-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: AGENTS ═════════════════════════════════════════ -->
+    <section class="page" id="page-agents">
+      <div class="page-header">
+        <h1 class="page-title">Agent Dashboard</h1>
+        <p class="page-subtitle">Autonomous agent swarm — current task, queue, and runtime state</p>
+      </div>
+      <div id="agents-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: PROJECT ════════════════════════════════════════ -->
+    <section class="page" id="page-project">
+      <div class="page-header">
+        <h1 class="page-title">Project Dashboard</h1>
+        <p class="page-subtitle">Tool Website SEO by Nitin — build metrics and delivery status</p>
+      </div>
+      <div id="project-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: LOGS ═══════════════════════════════════════════ -->
+    <section class="page" id="page-logs">
+      <div class="page-header">
+        <h1 class="page-title">Logs Viewer</h1>
+        <p class="page-subtitle">Live log streaming from plugins, skills, agents, and deployments</p>
+      </div>
+      <div class="logs-toolbar">
+        <div class="source-tabs">
+          <button class="source-tab active" onclick="setLogSource('all', this)">All</button>
+          <button class="source-tab" onclick="setLogSource('deployments', this)">Deployments</button>
+          <button class="source-tab" onclick="setLogSource('plugins', this)">Plugins</button>
+          <button class="source-tab" onclick="setLogSource('skills', this)">Skills</button>
+          <button class="source-tab" onclick="setLogSource('agents', this)">Agents</button>
+          <button class="source-tab" onclick="setLogSource('mcp', this)">MCP</button>
+        </div>
+        <div class="logs-controls">
+          <label class="toggle-label"><input type="checkbox" id="auto-scroll" checked /> Auto-scroll</label>
+          <button class="btn-secondary" onclick="clearLogView()">Clear view</button>
+        </div>
+      </div>
+      <div class="log-terminal" id="log-terminal">
+        <div class="log-placeholder">Select a log source to begin streaming...</div>
+      </div>
+    </section>
+
+    <!-- ═══ PAGE: GITHUB ═════════════════════════════════════════ -->
+    <section class="page" id="page-github">
+      <div class="page-header">
+        <h1 class="page-title">GitHub Dashboard</h1>
+        <p class="page-subtitle">Repository sync status, branch, commit, and push state</p>
+      </div>
+      <div id="github-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: DEPLOYMENT ══════════════════════════════════════ -->
+    <section class="page" id="page-deployment">
+      <div class="page-header">
+        <h1 class="page-title">Deployment Dashboard</h1>
+        <p class="page-subtitle">Cloudflare Pages — staging, production, domain, and queue status</p>
+      </div>
+      <div id="deployment-content"><div class="loading-spinner"></div></div>
+    </section>
+
+    <!-- ═══ PAGE: AUDIT ═══════════════════════════════════════════ -->
+    <section class="page" id="page-audit">
+      <div class="page-header">
+        <h1 class="page-title">Audit Dashboard</h1>
+        <p class="page-subtitle">Architecture, runtime, reality, and governor audit evidence</p>
+      </div>
+      <div id="audit-content"><div class="loading-spinner"></div></div>
+    </section>
+
+  </div><!-- /.page-container -->
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
