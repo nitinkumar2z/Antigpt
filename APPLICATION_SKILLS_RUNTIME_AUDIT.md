@@ -131,6 +131,7 @@ This report evaluates each of the requested **Application Skills** against the 7
 ## 2. Git History & Synchronization Proofs
 - **Git Commit Proof:** YES
   - Verified by local git commits:
+    - `268c587` - docs: add APPLICATION_SKILLS_RUNTIME_AUDIT.md tracking 10 application skills
     - `938fa2a` - feat(governor): implement report generation, cron schedules, and gating policies (adds skills registry)
     - `78ba231` - docs: add architecture reports, plans, and system governor lite integration
     - `2886aa6` - docs: adjust commits list in SKILLS_LAYER_AUDIT.md
