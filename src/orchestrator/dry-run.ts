@@ -4,11 +4,11 @@
  */
 
 import { OrchestratorEngine } from './engine.js';
-import '../../src/skills/index.js'; // Bootstrap skills registry
+import '../skills/index.js'; // Bootstrap skills registry
 
 async function main() {
   const engine = new OrchestratorEngine();
-  const niche = 'SEO Audit Calculator';
+  const niche = 'SEO Keyword Density Calculator';
 
   console.log('=== FACTORY ORCHESTRATOR DRY-RUN INITIATED ===');
   try {

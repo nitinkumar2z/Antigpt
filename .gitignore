@@ -5,3 +5,8 @@ dist/
 plugins_backup.tar.gz
 src/plugins_backup/
 .bash_history
+.local/
+.npm/
+.config/
+.playwright-mcp/
+reports/factory.db

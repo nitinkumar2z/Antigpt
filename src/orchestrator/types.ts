@@ -5,14 +5,23 @@
 
 export type OrchestratorState =
   | 'IDLE'
+  | 'APPROVING'
+  | 'BOOTSTRAPPING'
   | 'RESEARCHING'
+  | 'ANALYZING'
+  | 'SELECTING'
   | 'SPECIFYING'
-  | 'GENERATING'
-  | 'VALIDATING'
+  | 'CREATING'
+  | 'PAGE_GENERATING'
+  | 'SEO_VALIDATING'
   | 'GATING'
-  | 'DEPLOYING'
-  | 'MONITORING'
   | 'REWRITING'
+  | 'COMMITTING'
+  | 'DEPLOYING'
+  | 'ANALYTICS_QUEUE'
+  | 'GSC_QUEUE'
+  | 'ADSENSE_QUEUE'
+  | 'MONITORING'
   | 'RECOVERING'
   | 'COMPLETED'
   | 'FAILED';
@@ -46,6 +55,8 @@ export interface ValidationScorecard {
 export interface OrchestratorJob {
   jobId: string;
   niche: string;
+  toolQuantity?: number;
+  credentialsProvided?: boolean;
   state: OrchestratorState;
   keywords: KeywordOpportunity[];
   specifications: ToolSpecification[];
