@@ -134,7 +134,7 @@ function compileAssets() {
 
 // Generate sitemap.xml and robots.txt
 function generateSeoFiles() {
-  const BASE_URL = 'https://antigpt.pages.dev';
+  const BASE_URL = 'https://t20tycoon.com';
   
   // 1. Robots.txt
   const robotsContent = `User-agent: *

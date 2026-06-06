@@ -57,7 +57,7 @@ function runAudit() {
       if (fs.existsSync(pagePath)) {
         const content = fs.readFileSync(pagePath, 'utf-8');
         // Validate meta, canonical, schemas, and links
-        const hasCanonical = content.includes(`canonical" href="https://antigpt.pages.dev/tools/compliance-patent-cost-estimator-by-building-type/${type.slug}`);
+        const hasCanonical = content.includes(`canonical" href="https://t20tycoon.com/tools/compliance-patent-cost-estimator-by-building-type/${type.slug}`);
         const hasFaqSchema = content.includes('"@type": "FAQPage"');
         const hasBreadcrumb = content.includes('"@type": "BreadcrumbList"');
         const hasMetadata = content.includes(type.name);

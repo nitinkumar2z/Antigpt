@@ -341,8 +341,8 @@ export class OrchestratorEngine {
       this.log(`Transitioned to state: ${job.state}`, jobId, 'DEPLOYING');
       this.log(`Deploying to Cloudflare Pages staging network...`, jobId, 'DEPLOYING');
       
-      await skillRegistry.run('integration:cloudflare-check', { url: 'https://staging.antigpt.pages.dev' });
-      job.deploymentUrl = `https://${niche.replace(/\s+/g, '-')}.antigpt.pages.dev`;
+      await skillRegistry.run('integration:cloudflare-check', { url: 'https://t20tycoon.com' });
+      job.deploymentUrl = `https://t20tycoon.com`;
       updateJobState(jobId, 'DEPLOYING', { deploymentUrl: job.deploymentUrl });
       this.log(`Staging deployment is live at: ${job.deploymentUrl}`, jobId, 'DEPLOYING');
 

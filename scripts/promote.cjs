@@ -27,10 +27,10 @@ function log(msg) {
 
 async function main() {
   const args = process.argv.slice(2);
-  const stagingUrl = args[0] || 'https://staging.antigpt.pages.dev';
+  const stagingUrl = args[0] || 'https://staging.t20tycoon.com';
   
   log('===================================================');
-  log('  ANTIGPT — Staging to Production Promoter v1.0   ');
+  log('  T20TYCOON — Staging to Production Promoter v1.0   ');
   log('===================================================');
   log(`  Staging Target : ${stagingUrl}`);
   
