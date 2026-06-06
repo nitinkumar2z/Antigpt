@@ -3,9 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 ## [2026-06-06]
+### Commit: `docs: specify agent swarm capabilities, gating rules, and research agent dry-run results`
+- **Changes:** 
+  - Mapped complete capabilities, check structures, and weekly SEO operations logic for all 8 agents and the weekly audit agent in `AGENT_SWARM_CAPABILITIES_MAPPING.md`.
+  - Documented Trend Discovery Agent (Research Agent) dry-run execution log and architecture in `RESEARCH_AGENT_DRY_RUN_REPORT.md`.
+- **Reason:** Codify the gating logic, agent roles, and weekly audit workflows for full autonomy.
+
 ### Commit: `fffaff9` ("docs: add FACTORY_ORCHESTRATOR.md detailing architecture, execution pipeline, state machine, and roadmap for Factory Orchestrator v1")
 - **Changes:** Designed the Factory Orchestrator v1 specification detailing current reusable components, missing layers, execution pipeline, state machine, and phase-wise roadmap.
 - **Reason:** Define the final orchestration system controlling the autonomous keyword research, page generation, QA validation, and edge deployment pipelines.
+
 
 ### Commit: `a147fcd` ("docs: add FETCH_DEPENDENCY_AUDIT.md detailing fetch MCP server dependency usage and recommendations")
 - **Changes:** Audited the `fetch` MCP server and logged findings confirming it is metadata-only and optional.

@@ -15,6 +15,7 @@ Phase 2: Refactoring & Skills Layer Integration
 - **Tool AST Generation Engine:** Compiler programmatically generating HTML/JS/CSS interactive calculator and generator assets.
 - **Autonomous Agent Swarm Daemon:** Coordinating TDA keyword scraping, CRA prompt repair loops, and DRA forced git rollbacks.
 - **Cloudflare Pages Staging Promoter:** Utility promoting staging URLs to production route.
+- **Agent Swarm Capabilities & Gating Specification:** Mapping of all 8 agents, gating rules, and weekly audit routines.
 
 ## In Progress Components
 - None
@@ -23,10 +24,11 @@ Phase 2: Refactoring & Skills Layer Integration
 - None
 
 ## System Health Score
-950.0 / 1000 (Universal Composite Score)
+960.0 / 1000 (Universal Composite Score)
 
 ## Last Commit
-`fffaff9`
+`docs: specify agent swarm capabilities`
 
 ## Last Updated
-2026-06-06T11:47:00+06:00
+2026-06-06T13:25:00+06:00
+

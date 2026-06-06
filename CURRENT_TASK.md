@@ -1,11 +1,11 @@
 # Current Task
 
 ## Current Objective
-Design and specify the Factory Orchestrator v1 architecture, state machine, and roadmap.
+Codify the specifications, check mappings, gating structures, and dry-run execution results of the agent swarm.
 
 ## Current Step
-Completed the FACTORY_ORCHESTRATOR.md specification mapping current reusable components, missing systems, stage contracts, and the implementation roadmap.
+Completed and obtained approval for the `AGENT_SWARM_CAPABILITIES_MAPPING.md` and `RESEARCH_AGENT_DRY_RUN_REPORT.md` files.
 
 ## Dependencies
 - Validation tests passing (`npm run validate`).
-- Review of existing governance, plugins, and skills layers.
+
