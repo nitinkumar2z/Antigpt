@@ -66,6 +66,7 @@ This report audits the **Application Skills Layer** against the strict proof req
 ### 1.6. Git Commit Proof (Status: PASS)
 - **Details:** Central skills files, registries, and implemented text skills are tracked in local git.
 - **Commits:**
+  - `b148a73` - docs: add SKILLS_LAYER_AUDIT.md assessing 15 skills
   - `938fa2a` - feat(governor): implement report generation, cron schedules, and gating policies (adds skills registry)
   - `78ba231` - docs: add architecture reports, plans, and system governor lite integration
 
