@@ -1,0 +1,317 @@
+
+> seo-aeo-platform-plugins@1.0.0 validate
+> tsx src/plugins/validate.ts
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║          PRODUCTION PLUGIN LAYER v2.0 — VALIDATION SUITE            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+▸ Phase 1: Plugin Registration
+[PluginLifecycleManager] Plugin engine initialized.
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.525Z","version":"1.0.0","hooks":["pre-publish","on-schedule"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.531Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.534Z","version":"1.0.0","hooks":["post-build","on-schedule"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.534Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.535Z","version":"1.0.0","hooks":["post-build","on-schedule"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.535Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.535Z","version":"1.0.0","hooks":["pre-publish"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.535Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.537Z","version":"1.0.0","hooks":["pre-publish"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.537Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.537Z","version":"1.0.0","hooks":["post-build","pre-publish"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.537Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.538Z","version":"1.0.0","hooks":["pre-publish"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.538Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.538Z","version":"1.0.0","hooks":["on-schedule","post-build"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.539Z","previousStatus":"active"}
+{"level":"info","component":"plugin-system","event":"plugin:registered","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.539Z","version":"1.0.0","hooks":["on-schedule"]}
+{"level":"info","component":"plugin-system","event":"plugin:activated","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.540Z","previousStatus":"active"}
+{"level":"info","component":"plugin-registration","event":"registration-complete","report":{"totalPlugins":9,"activatedPlugins":["quality-gatekeeper","seo-auditor","aeo-auditor","tool-research-engine","tool-planner","qa-automation","deployment-guardian","google-update-engine","weekly-seo-engine"],"failedPlugins":[],"totalChecks":47,"hookBindings":{"pre-publish":["quality-gatekeeper","tool-research-engine","tool-planner","qa-automation","deployment-guardian"],"post-build":["seo-auditor","aeo-auditor","qa-automation","google-update-engine"],"on-schedule":["quality-gatekeeper","seo-auditor","aeo-auditor","google-update-engine","weekly-seo-engine"]},"mcpDependencies":{"quality-gatekeeper":[],"seo-auditor":[],"aeo-auditor":[],"tool-research-engine":["fetch","memory","context7"],"tool-planner":["memory","postgres"],"qa-automation":["playwright"],"deployment-guardian":["github","cloudflare"],"google-update-engine":["fetch","memory","sqlite"],"weekly-seo-engine":["sqlite","postgres","memory","fetch","playwright"]},"registeredAt":"2026-06-05T14:57:26.541Z","durationMs":19}}
+  ✓ 9/9 plugins activated (47 checks)
+
+▸ Phase 2: Health Check
+  ✓ Status: healthy | Active: 9/9 | Checks: 47
+
+▸ Phase 3: MCP Dependency Verification
+  ✓ quality-gatekeeper → (no MCP dependencies)
+  ✓ seo-auditor → (no MCP dependencies)
+  ✓ aeo-auditor → (no MCP dependencies)
+  ✓ tool-research-engine → [fetch, memory, context7]
+  ✓ tool-planner → [memory, postgres]
+  ✓ qa-automation → [playwright]
+  ✓ deployment-guardian → [github, cloudflare]
+  ✓ google-update-engine → [fetch, memory, sqlite]
+  ✓ weekly-seo-engine → [sqlite, postgres, memory, fetch, playwright]
+
+▸ Phase 4: Hook Bindings
+  ✓ pre-publish → [quality-gatekeeper, tool-research-engine, tool-planner, qa-automation, deployment-guardian]
+  ✓ post-build → [seo-auditor, aeo-auditor, qa-automation, google-update-engine]
+  ✓ on-schedule → [quality-gatekeeper, seo-auditor, aeo-auditor, google-update-engine, weekly-seo-engine]
+
+▸ Phase 5: Execution Verification
+  ── pre-publish ──
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.546Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.546Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"readability"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.552Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"readability","score":19,"passed":false}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.552Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"content-depth"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.555Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"content-depth","score":99,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.555Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"originality"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.557Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"originality","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.557Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"broken-links"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.560Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"broken-links","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.560Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"alt-text"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.563Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"alt-text","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.563Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"structured-data"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.566Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"structured-data","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.566Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"freshness"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.567Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","checkName":"freshness","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.568Z","executionId":"ff545e95-9967-4939-a04e-90c480be6695","compositeScore":826.5,"passed":true,"durationMs":21.96,"checksRun":7,"checksPassed":6,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.568Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.569Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"competition-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.570Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"competition-analysis","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.571Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"demand-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.575Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"demand-analysis","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.575Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"monetization-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.579Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","checkName":"monetization-analysis","score":90,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.579Z","executionId":"1432c35c-23a9-4f04-afe7-84b186608b14","compositeScore":97.5,"passed":true,"durationMs":10.72,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.580Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.580Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"architecture-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.587Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"architecture-planning","score":90,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.588Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"url-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.590Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"url-planning","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.591Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"database-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.602Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","checkName":"database-planning","score":61,"passed":false}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.602Z","executionId":"d9a0a3c1-101f-4551-8a95-cc9dde87069a","compositeScore":84.8,"passed":true,"durationMs":22.29,"checksRun":3,"checksPassed":2,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.603Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.603Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"playwright-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.610Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"playwright-validation","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.610Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"accessibility"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.616Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"accessibility","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.616Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"functional-testing"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.620Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","checkName":"functional-testing","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.621Z","executionId":"26f348f5-a4e9-499a-86e0-3b4b6afc82c7","compositeScore":100,"passed":true,"durationMs":17.53,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.621Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.621Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"github-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.627Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"github-validation","score":88,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.627Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"cloudflare-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.630Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"cloudflare-validation","score":63,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.630Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"rollback-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.633Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","checkName":"rollback-validation","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.633Z","executionId":"c0643382-84ee-48a3-9e4a-3b7fbc0da3f0","compositeScore":82.85,"passed":true,"durationMs":11.87,"checksRun":3,"checksPassed":3,"checksFailed":0}
+  ✓ quality-gatekeeper: 826.5/1000 | 6/7 passed | 21.96ms
+  ✓ tool-research-engine: 97.5/100 | 3/3 passed | 10.72ms
+  ✓ tool-planner: 84.8/100 | 2/3 passed | 22.29ms
+  ✓ qa-automation: 100.0/100 | 3/3 passed | 17.53ms
+  ✓ deployment-guardian: 82.8/100 | 3/3 passed | 11.87ms
+  ── post-build ──
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.634Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.634Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"title-tag"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.636Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"title-tag","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.636Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"meta-description"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.639Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"meta-description","score":98,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.639Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"heading-hierarchy"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.641Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"heading-hierarchy","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.641Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"canonical"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.644Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"canonical","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.644Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"internal-links"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.649Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"internal-links","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.649Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"schema-markup"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.653Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"schema-markup","score":85,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.653Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"social-meta"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.656Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"social-meta","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.656Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"robots-sitemap"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.661Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"robots-sitemap","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.661Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"core-web-vitals"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.667Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"core-web-vitals","score":92,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.667Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"adsense-policy"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.671Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"adsense-policy","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.671Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"hreflang"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.672Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"hreflang","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.672Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"index-coverage"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.675Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","checkName":"index-coverage","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.675Z","executionId":"17d394d8-544c-4fad-a8a4-237005a90c5e","compositeScore":93.06,"passed":true,"durationMs":40.86,"checksRun":12,"checksPassed":12,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.675Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.675Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"direct-answer"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.678Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"direct-answer","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.678Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"entity-markup"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.683Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"entity-markup","score":87,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.683Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"conversational-query"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.689Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"conversational-query","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.689Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"faq-schema"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.692Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"faq-schema","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.692Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"speakable"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.697Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"speakable","score":32,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.697Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"citation-worthiness"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.704Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"citation-worthiness","score":0,"passed":false}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.704Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"ai-parseable"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.714Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"ai-parseable","score":88,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.715Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"eeat-signals"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.724Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"eeat-signals","score":60,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.724Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"knowledge-graph"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.729Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"knowledge-graph","score":74,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.730Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"llms-txt"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.736Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","checkName":"llms-txt","score":50,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.736Z","executionId":"1f235695-f7ec-409e-ad85-110eab29a39e","compositeScore":71.26,"passed":true,"durationMs":61.13,"checksRun":10,"checksPassed":9,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.736Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.736Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"playwright-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.738Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"playwright-validation","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.738Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"accessibility"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.739Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"accessibility","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.740Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"functional-testing"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.741Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","checkName":"functional-testing","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.741Z","executionId":"7b9bf8c7-5e67-4aa6-9be0-be0cc0c47889","compositeScore":100,"passed":true,"durationMs":4.62,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.741Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.741Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"update-monitoring"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.752Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"update-monitoring","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.752Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"impact-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.756Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"impact-analysis","score":94,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.757Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"remediation-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.759Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","checkName":"remediation-planning","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.759Z","executionId":"f3da2b43-7471-4447-9f81-b323fc530cf4","compositeScore":84.1,"passed":true,"durationMs":17.76,"checksRun":3,"checksPassed":3,"checksFailed":0}
+  ✓ seo-auditor: 93.1/100 | 12/12 passed | 40.86ms
+  ✓ aeo-auditor: 71.3/100 | 9/10 passed | 61.13ms
+  ✓ qa-automation: 100.0/100 | 3/3 passed | 4.62ms
+  ✓ google-update-engine: 84.1/100 | 3/3 passed | 17.76ms
+  ── on-schedule ──
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.760Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.761Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"readability"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.761Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"readability","score":19,"passed":false}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.762Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"content-depth"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.762Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"content-depth","score":99,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.762Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"originality"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.763Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"originality","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.763Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"broken-links"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.763Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"broken-links","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.763Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"alt-text"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.765Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"alt-text","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.765Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"structured-data"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.765Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"structured-data","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.765Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"freshness"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.766Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","checkName":"freshness","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"quality-gatekeeper","timestamp":"2026-06-05T14:57:26.766Z","executionId":"04df2250-f819-45b0-9337-8e68404bcd5a","compositeScore":826.5,"passed":true,"durationMs":5.26,"checksRun":7,"checksPassed":6,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.766Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.766Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"title-tag"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.766Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"title-tag","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.766Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"meta-description"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.768Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"meta-description","score":98,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.768Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"heading-hierarchy"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.768Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"heading-hierarchy","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.768Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"canonical"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.769Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"canonical","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.769Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"internal-links"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.769Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"internal-links","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.770Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"schema-markup"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.770Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"schema-markup","score":85,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.770Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"social-meta"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.771Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"social-meta","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.771Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"robots-sitemap"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.772Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"robots-sitemap","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.772Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"core-web-vitals"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.774Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"core-web-vitals","score":92,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.774Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"adsense-policy"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.774Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"adsense-policy","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.774Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"hreflang"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.774Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"hreflang","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.775Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"index-coverage"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.775Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","checkName":"index-coverage","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"seo-auditor","timestamp":"2026-06-05T14:57:26.775Z","executionId":"b6ad6eaa-1a20-45c8-a166-7695cd5ba7a6","compositeScore":93.06,"passed":true,"durationMs":8.97,"checksRun":12,"checksPassed":12,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.775Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.775Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"direct-answer"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.783Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"direct-answer","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.783Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"entity-markup"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.784Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"entity-markup","score":87,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.784Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"conversational-query"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.785Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"conversational-query","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.785Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"faq-schema"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.786Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"faq-schema","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.786Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"speakable"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.787Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"speakable","score":32,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.787Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"citation-worthiness"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.794Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"citation-worthiness","score":0,"passed":false}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.795Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"ai-parseable"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.798Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"ai-parseable","score":88,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.798Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"eeat-signals"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.803Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"eeat-signals","score":60,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.804Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"knowledge-graph"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.804Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"knowledge-graph","score":74,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.805Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"llms-txt"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.805Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","checkName":"llms-txt","score":50,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"aeo-auditor","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c3110716-1335-40a4-a16d-53719cf7c658","compositeScore":71.26,"passed":true,"durationMs":30.45,"checksRun":10,"checksPassed":9,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"competition-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"competition-analysis","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"demand-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.806Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"demand-analysis","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.807Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"monetization-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.807Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","checkName":"monetization-analysis","score":90,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"tool-research-engine","timestamp":"2026-06-05T14:57:26.807Z","executionId":"c4f95925-abca-4504-a589-90c7c0adda1e","compositeScore":97.5,"passed":true,"durationMs":1.5,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.807Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.808Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"architecture-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.809Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"architecture-planning","score":90,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.809Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"url-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.809Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"url-planning","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.810Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"database-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.810Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","checkName":"database-planning","score":61,"passed":false}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"tool-planner","timestamp":"2026-06-05T14:57:26.811Z","executionId":"c0f3ac09-4342-425b-879c-dffa971580ea","compositeScore":84.8,"passed":true,"durationMs":3.1,"checksRun":3,"checksPassed":2,"checksFailed":1}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.811Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","hook":"post-build","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.811Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"playwright-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.812Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"playwright-validation","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.812Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"accessibility"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.812Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"accessibility","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.812Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"functional-testing"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.814Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","checkName":"functional-testing","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"qa-automation","timestamp":"2026-06-05T14:57:26.814Z","executionId":"4c3aa864-e5e0-4d5e-a2d8-b9dac4967d75","compositeScore":100,"passed":true,"durationMs":2.97,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.814Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","hook":"pre-publish","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.814Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"github-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.814Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"github-validation","score":88,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.814Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"cloudflare-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.815Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"cloudflare-validation","score":63,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.816Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"rollback-validation"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.816Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","checkName":"rollback-validation","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"deployment-guardian","timestamp":"2026-06-05T14:57:26.816Z","executionId":"b8e29f54-b668-4c4c-a667-08e1adcbec27","compositeScore":82.85,"passed":true,"durationMs":2.06,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.816Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","hook":"on-schedule","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.816Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"update-monitoring"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.818Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"update-monitoring","score":80,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.818Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"impact-analysis"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.820Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"impact-analysis","score":94,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.820Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"remediation-planning"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.820Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","checkName":"remediation-planning","score":75,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"google-update-engine","timestamp":"2026-06-05T14:57:26.820Z","executionId":"fdc74f18-96dc-4d60-b446-59e7e51b720e","compositeScore":84.1,"passed":true,"durationMs":4.21,"checksRun":3,"checksPassed":3,"checksFailed":0}
+{"level":"info","component":"plugin-system","event":"plugin:execution:start","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.820Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","hook":"on-schedule","pageUrl":"https://example.com/tools/seo-audit-calculator"}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.821Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-audit"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.825Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-audit","score":100,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.826Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-fixes"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.828Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-fixes","score":97,"passed":true}
+{"level":"info","component":"plugin-system","event":"check:start","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.828Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-optimization"}
+{"level":"info","component":"plugin-system","event":"check:complete","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.831Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","checkName":"weekly-optimization","score":63,"passed":true}
+{"level":"info","component":"plugin-system","event":"plugin:execution:complete","plugin":"weekly-seo-engine","timestamp":"2026-06-05T14:57:26.832Z","executionId":"d633324e-3b04-41e9-a791-51ca79a800ca","compositeScore":87.85,"passed":true,"durationMs":11.15,"checksRun":3,"checksPassed":3,"checksFailed":0}
+  ✓ quality-gatekeeper: 826.5/1000 | 6/7 passed | 5.26ms
+  ✓ seo-auditor: 93.1/100 | 12/12 passed | 8.97ms
+  ✓ aeo-auditor: 71.3/100 | 9/10 passed | 30.45ms
+  ✓ tool-research-engine: 97.5/100 | 3/3 passed | 1.5ms
+  ✓ tool-planner: 84.8/100 | 2/3 passed | 3.1ms
+  ✓ qa-automation: 100.0/100 | 3/3 passed | 2.97ms
+  ✓ deployment-guardian: 82.8/100 | 3/3 passed | 2.06ms
+  ✓ google-update-engine: 84.1/100 | 3/3 passed | 4.21ms
+  ✓ weekly-seo-engine: 87.8/100 | 3/3 passed | 11.15ms
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                  PLUGIN STATUS TABLE                                        ║
+╠════════════════════════╦═════════╦══════════╦════════╦══════════════╦═══════════╦════════════╣
+║ Plugin                 ║ Version ║ Status   ║ Checks ║ Hooks        ║ Mode      ║ Threshold  ║
+╠════════════════════════╬═════════╬══════════╬════════╬══════════════╬═══════════╬════════════╣
+║ quality-gatekeeper     ║ 1.0.0   ║ ✓ active ║ 7      ║ pre-publish,on-schedule ║ fail-closed ║ 800/1000   ║
+║ seo-auditor            ║ 1.0.0   ║ ✓ active ║ 12     ║ post-build,on-schedule ║ fail-open ║ 70/100     ║
+║ aeo-auditor            ║ 1.0.0   ║ ✓ active ║ 10     ║ post-build,on-schedule ║ fail-open ║ 65/100     ║
+║ tool-research-engine   ║ 1.0.0   ║ ✓ active ║ 3      ║ pre-publish  ║ fail-open ║ 60/100     ║
+║ tool-planner           ║ 1.0.0   ║ ✓ active ║ 3      ║ pre-publish  ║ fail-open ║ 65/100     ║
+║ qa-automation          ║ 1.0.0   ║ ✓ active ║ 3      ║ post-build,pre-publish ║ fail-closed ║ 70/100     ║
+║ deployment-guardian    ║ 1.0.0   ║ ✓ active ║ 3      ║ pre-publish  ║ fail-closed ║ 80/100     ║
+║ google-update-engine   ║ 1.0.0   ║ ✓ active ║ 3      ║ on-schedule,post-build ║ fail-open ║ 55/100     ║
+║ weekly-seo-engine      ║ 1.0.0   ║ ✓ active ║ 3      ║ on-schedule  ║ fail-open ║ 60/100     ║
+╠════════════════════════╩═════════╩══════════╩════════╩══════════════╩═══════════╩════════════╣
+║  Total: 9 plugins | 47 checks | 313ms | All hooks verified                                 ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+✅ ALL 9 PLUGINS VALIDATED AND ACTIVE
