@@ -132,7 +132,7 @@ function compileAssets() {
   }
 }
 
-// Generate sitemap.xml and robots.txt
+// Generate sitemap.xml, robots.txt and ads.txt
 function generateSeoFiles() {
   const BASE_URL = 'https://t20tycoon.com';
   
@@ -143,6 +143,11 @@ Sitemap: ${BASE_URL}/sitemap.xml
 `;
   fs.writeFileSync(path.resolve(DIST_DIR, 'robots.txt'), robotsContent, 'utf-8');
   console.log('Generated robots.txt');
+
+  // 2. Ads.txt
+  const adsContent = `google.com, pub-6493264985508827, DIRECT, f08c47fec0942fa0\n`;
+  fs.writeFileSync(path.resolve(DIST_DIR, 'ads.txt'), adsContent, 'utf-8');
+  console.log('Generated ads.txt');
 
   // 2. Sitemap.xml
   const urls = [
