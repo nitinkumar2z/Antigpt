@@ -62,6 +62,12 @@
     <li><a href="#audit" class="nav-item" data-page="audit" onclick="navigate('audit',this)">
       <span class="nav-icon">✓</span><span>Audit</span>
     </a></li>
+    <li><a href="#terminal" class="nav-item" data-page="terminal" onclick="navigate('terminal',this)">
+      <span class="nav-icon">⌘</span><span>Terminal</span>
+    </a></li>
+    <li><a href="#actions" class="nav-item" data-page="actions" onclick="navigate('actions',this)">
+      <span class="nav-icon">⚡</span><span>Actions</span>
+    </a></li>
   </ul>
 
   <div class="sidebar-footer">
@@ -211,8 +217,106 @@
       <div id="audit-content"><div class="loading-spinner"></div></div>
     </section>
 
+    <!-- ═══ PAGE: TERMINAL ═══════════════════════════════════════ -->
+    <section class="page" id="page-terminal">
+      <div class="page-header">
+        <h1 class="page-title">Terminal</h1>
+        <p class="page-subtitle">Run commands directly from the GUI — output streams in real-time</p>
+      </div>
+      <div class="terminal-input-row">
+        <span class="terminal-prompt">$</span>
+        <input type="text" class="terminal-input" id="terminal-input" placeholder="Type command and press Enter..." onkeydown="if(event.key==='Enter')runTerminalCmd()" />
+        <button class="btn-action" onclick="runTerminalCmd()">Run</button>
+      </div>
+      <div class="terminal-quick-actions">
+        <button class="btn-secondary" onclick="runQuickCmd('npm run validate')">▶ Validate</button>
+        <button class="btn-secondary" onclick="runQuickCmd('npm run typecheck')">▶ Typecheck</button>
+        <button class="btn-secondary" onclick="runQuickCmd('git status')">▶ Git Status</button>
+        <button class="btn-secondary" onclick="runQuickCmd('git log --oneline -10')">▶ Git Log</button>
+        <button class="btn-secondary" onclick="runQuickCmd('ls -la reports/')">▶ Reports Dir</button>
+        <button class="btn-secondary" onclick="runQuickCmd('npx tsx src/orchestrator/dry-run.ts')">▶ Dry Run</button>
+      </div>
+      <div class="log-terminal" id="terminal-output" style="margin-top:16px">
+        <div class="log-placeholder">Run a command above or use the quick actions...</div>
+      </div>
+    </section>
+
+    <!-- ═══ PAGE: ACTIONS ═══════════════════════════════════════ -->
+    <section class="page" id="page-actions">
+      <div class="page-header">
+        <h1 class="page-title">Actions Center</h1>
+        <p class="page-subtitle">Quick actions, background tasks, and task file management</p>
+      </div>
+
+      <div class="section-title">Quick Actions</div>
+      <div class="action-grid">
+        <button class="action-card" onclick="fireAction('validate')">
+          <span class="action-icon">⚙</span>
+          <span class="action-label">Run Validation</span>
+          <span class="action-desc">npm run validate</span>
+        </button>
+        <button class="action-card" onclick="fireAction('typecheck')">
+          <span class="action-icon">✓</span>
+          <span class="action-label">TypeCheck</span>
+          <span class="action-desc">npm run typecheck</span>
+        </button>
+        <button class="action-card" onclick="fireAction('dry-run')">
+          <span class="action-icon">▶</span>
+          <span class="action-label">Factory Dry-Run</span>
+          <span class="action-desc">Run full pipeline simulation</span>
+        </button>
+        <button class="action-card" onclick="showGitCommitModal()">
+          <span class="action-icon">⤴</span>
+          <span class="action-label">Git Commit & Push</span>
+          <span class="action-desc">Stage all + commit + push</span>
+        </button>
+        <button class="action-card" onclick="fireAction('git-pull')">
+          <span class="action-icon">⤵</span>
+          <span class="action-label">Git Pull</span>
+          <span class="action-desc">Pull from origin/main</span>
+        </button>
+        <button class="action-card" onclick="fireAction('git-status')">
+          <span class="action-icon">⎇</span>
+          <span class="action-label">Git Status</span>
+          <span class="action-desc">Check working tree</span>
+        </button>
+      </div>
+
+      <div class="section-title">Task Management</div>
+      <div class="card-grid card-grid-2">
+        <div class="card">
+          <div class="card-label">Edit CURRENT_TASK.md</div>
+          <textarea id="edit-current-task" class="task-editor" rows="6" placeholder="Loading..."></textarea>
+          <button class="btn-action" style="margin-top:10px" onclick="saveTask('current')">Save Current Task</button>
+        </div>
+        <div class="card">
+          <div class="card-label">Edit NEXT_TASK.md</div>
+          <textarea id="edit-next-task" class="task-editor" rows="6" placeholder="Loading..."></textarea>
+          <button class="btn-action" style="margin-top:10px" onclick="saveTask('next')">Save Next Task</button>
+        </div>
+      </div>
+
+      <div class="section-title">Action History</div>
+      <div id="action-history"><div class="loading-spinner"></div></div>
+    </section>
+
   </div><!-- /.page-container -->
 </main>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <span class="modal-title" id="modal-title">Action</span>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-footer" id="modal-footer"></div>
+  </div>
+</div>
+
+<!-- ACTION OUTPUT TOAST -->
+<div class="toast-container" id="toast-container"></div>
 
 <script src="app.js"></script>
 </body>

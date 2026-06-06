@@ -395,6 +395,158 @@ function collectAudit() {
   });
 }
 
+// ─── ACTION RUNNER (BACKGROUND PROCESSES) ────────────────────────────────────
+
+const { spawn } = require('child_process');
+
+/** Store running/completed actions for status polling */
+const actionStore = new Map();
+let actionIdCounter = 1;
+
+function runAction(id, cmd, args, cwd) {
+  const action = {
+    id, cmd: `${cmd} ${args.join(' ')}`,
+    status: 'RUNNING', output: '', exitCode: null,
+    startedAt: new Date().toISOString(), completedAt: null
+  };
+  actionStore.set(id, action);
+
+  const proc = spawn(cmd, args, {
+    cwd: cwd || ROOT, shell: true,
+    env: { ...process.env, FORCE_COLOR: '0', PAGER: 'cat' }
+  });
+
+  proc.stdout.on('data', (d) => { action.output += d.toString(); });
+  proc.stderr.on('data', (d) => { action.output += d.toString(); });
+  proc.on('close', (code) => {
+    action.exitCode = code;
+    action.status = code === 0 ? 'SUCCESS' : 'FAILED';
+    action.completedAt = new Date().toISOString();
+  });
+  proc.on('error', (err) => {
+    action.status = 'ERROR';
+    action.output += `\nProcess error: ${err.message}`;
+    action.completedAt = new Date().toISOString();
+  });
+
+  return action;
+}
+
+/** POST action handlers — each returns { actionId, status } */
+const actions = {
+
+  // ── Run npm validate ──────────────────────────────────────────
+  'validate': (body) => {
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'npm', ['run', 'validate'], ROOT);
+    return { actionId: id, status: 'STARTED', message: 'Running npm run validate...' };
+  },
+
+  // ── Run typecheck ──────────────────────────────────────────────
+  'typecheck': (body) => {
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'npm', ['run', 'typecheck'], ROOT);
+    return { actionId: id, status: 'STARTED', message: 'Running npm run typecheck...' };
+  },
+
+  // ── Run dry-run pipeline ───────────────────────────────────────
+  'dry-run': (body) => {
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'npx', ['tsx', 'src/orchestrator/dry-run.ts'], ROOT);
+    return { actionId: id, status: 'STARTED', message: 'Running factory orchestrator dry-run...' };
+  },
+
+  // ── Git: commit and push ───────────────────────────────────────
+  'git-push': (body) => {
+    const msg = (body && body.message) || `chore: GUI commit at ${new Date().toISOString()}`;
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'bash', ['-c', `cd "${ROOT}" && git add -A && git commit -m "${msg.replace(/"/g,'\\"')}" && git push origin main`], ROOT);
+    return { actionId: id, status: 'STARTED', message: `Committing: "${msg}" and pushing...` };
+  },
+
+  // ── Git: pull ──────────────────────────────────────────────────
+  'git-pull': (body) => {
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'git', ['pull', 'origin', 'main'], ROOT);
+    return { actionId: id, status: 'STARTED', message: 'Pulling from origin/main...' };
+  },
+
+  // ── Git: status ────────────────────────────────────────────────
+  'git-status': (body) => {
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'git', ['status'], ROOT);
+    return { actionId: id, status: 'STARTED', message: 'Running git status...' };
+  },
+
+  // ── Run terminal command ───────────────────────────────────────
+  'terminal': (body) => {
+    const cmd = body && body.command;
+    if (!cmd) return { error: 'No command provided' };
+    // Security: block dangerous patterns
+    const blocked = ['rm -rf /', 'mkfs', 'dd if=', ':(){', 'fork bomb'];
+    if (blocked.some(b => cmd.includes(b))) return { error: 'Command blocked for safety' };
+    const id = `action-${actionIdCounter++}`;
+    runAction(id, 'bash', ['-c', cmd], ROOT);
+    return { actionId: id, status: 'STARTED', message: `Running: ${cmd}` };
+  },
+
+  // ── Update CURRENT_TASK.md ─────────────────────────────────────
+  'update-task': (body) => {
+    const content = body && body.content;
+    if (!content) return { error: 'No content provided' };
+    try {
+      fs.writeFileSync(path.join(ROOT, 'CURRENT_TASK.md'), content, 'utf8');
+      return { status: 'SUCCESS', message: 'CURRENT_TASK.md updated' };
+    } catch (e) { return { error: e.message }; }
+  },
+
+  // ── Update NEXT_TASK.md ────────────────────────────────────────
+  'update-next-task': (body) => {
+    const content = body && body.content;
+    if (!content) return { error: 'No content provided' };
+    try {
+      fs.writeFileSync(path.join(ROOT, 'NEXT_TASK.md'), content, 'utf8');
+      return { status: 'SUCCESS', message: 'NEXT_TASK.md updated' };
+    } catch (e) { return { error: e.message }; }
+  },
+
+  // ── Poll action status ─────────────────────────────────────────
+  'status': (body) => {
+    const aid = body && body.actionId;
+    if (!aid) {
+      // Return all recent actions
+      const all = [...actionStore.values()].slice(-20).reverse();
+      return { actions: all };
+    }
+    const action = actionStore.get(aid);
+    if (!action) return { error: 'Action not found' };
+    return action;
+  },
+
+  // ── List all files in reports/ ─────────────────────────────────
+  'list-reports': () => {
+    try {
+      const files = fs.readdirSync(REPORTS_DIR);
+      return { files: files.map(f => {
+        const stat = fs.statSync(path.join(REPORTS_DIR, f));
+        return { name: f, size: stat.size, modified: stat.mtime.toISOString() };
+      })};
+    } catch (e) { return { error: e.message }; }
+  },
+
+  // ── Read any project .md file ──────────────────────────────────
+  'read-file': (body) => {
+    const fileName = body && body.file;
+    if (!fileName) return { error: 'No file specified' };
+    // Only allow reading within project root, no path traversal
+    const resolved = path.resolve(ROOT, fileName);
+    if (!resolved.startsWith(ROOT)) return { error: 'Access denied' };
+    const content = readFileSafe(resolved);
+    if (content === null) return { error: 'File not found' };
+    return { file: fileName, content: content.slice(0, 50000), truncated: content.length > 50000 };
+  }
+};
+
 // ─── API ROUTER ──────────────────────────────────────────────────────────────
 
 const routes = {
@@ -408,7 +560,7 @@ const routes = {
   '/api/deployment': () => collectDeployment(),
   '/api/audit': () => collectAudit(),
   '/api/logs': (query) => collectLogs(query.source || 'all'),
-  '/api/health': () => ({ status: 'OK', port: PORT, timestamp: new Date().toISOString() })
+  '/api/health': () => ({ status: 'OK', port: PORT, timestamp: new Date().toISOString(), actionsRunning: [...actionStore.values()].filter(a=>a.status==='RUNNING').length })
 };
 
 // ─── HTTP SERVER ─────────────────────────────────────────────────────────────
@@ -441,12 +593,37 @@ const server = http.createServer((req, res) => {
 
   // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Cache-Control', 'no-cache');
 
   if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
 
-  // API routes
+  // ─── POST: Action endpoints ────────────────────────────────────
+  if (req.method === 'POST' && pathname === '/api/action') {
+    let body = '';
+    req.on('data', (chunk) => { body += chunk; });
+    req.on('end', () => {
+      try {
+        const parsed = body ? JSON.parse(body) : {};
+        const actionName = parsed.action;
+        if (!actionName || !actions[actionName]) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'Unknown action', available: Object.keys(actions) }));
+          return;
+        }
+        const result = actions[actionName](parsed);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(result, null, 2));
+      } catch (e) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: e.message }));
+      }
+    });
+    return;
+  }
+
+  // API routes (GET)
   if (pathname.startsWith('/api/')) {
     const handler = routes[pathname];
     if (handler) {

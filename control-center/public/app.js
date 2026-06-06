@@ -45,7 +45,8 @@ function navigate(page, el) {
   const labels = {
     overview:'Overview', mcp:'MCP Dashboard', plugins:'Plugin Dashboard',
     skills:'Skills Dashboard', agents:'Agent Dashboard', project:'Project Dashboard',
-    logs:'Logs Viewer', github:'GitHub Dashboard', deployment:'Deployment Dashboard', audit:'Audit Dashboard'
+    logs:'Logs Viewer', github:'GitHub Dashboard', deployment:'Deployment Dashboard',
+    audit:'Audit Dashboard', terminal:'Terminal', actions:'Actions Center'
   };
   document.getElementById('current-page-label').textContent = labels[page] || page;
   loadPage(page);
@@ -63,7 +64,9 @@ function loadPage(page) {
     logs:       loadLogs,
     github:     loadGithub,
     deployment: loadDeployment,
-    audit:      loadAudit
+    audit:      loadAudit,
+    terminal:   loadTerminal,
+    actions:    loadActions
   };
   if (loaders[page]) loaders[page]();
 }
@@ -170,6 +173,15 @@ async function loadOverview() {
         <div class="hero-score-label">System Health</div>
         <div class="hero-score-value">${escHtml(d.systemStatus || '---')}</div>
       </div>
+    </div>`;
+
+    // Quick Action Buttons
+    html += `<div class="overview-actions">
+      <button class="btn-action" onclick="fireAction('validate')">▶ Run Validation</button>
+      <button class="btn-action" onclick="fireAction('typecheck')">▶ TypeCheck</button>
+      <button class="btn-action" onclick="fireAction('dry-run')">▶ Dry Run</button>
+      <button class="btn-action" onclick="showGitCommitModal()">⤴ Git Commit & Push</button>
+      <button class="btn-secondary" onclick="navigate('terminal',document.querySelector('[data-page=terminal]'))">⌘ Terminal</button>
     </div>`;
 
     // Stat cards row 1
@@ -679,4 +691,239 @@ async function loadAudit() {
   } catch(e) {
     set('audit-content', `<div class="error-state"><h3>API Error</h3><p>${escHtml(e.message)}</p></div>`);
   }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+//  ACTION SYSTEM — POST API calls for real operations
+// ═══════════════════════════════════════════════════════════════════════════
+
+async function postAction(actionName, body = {}) {
+  const res = await fetch('/api/action', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action: actionName, ...body })
+  });
+  return res.json();
+}
+
+// ─── FIRE ACTION + POLL ──────────────────────────────────────────────────────
+let activePolls = new Map();
+
+async function fireAction(actionName, extraBody = {}) {
+  showToast(`Starting: ${actionName}...`, 'running');
+  try {
+    const result = await postAction(actionName, extraBody);
+    if (result.error) { showToast(`Error: ${result.error}`, 'error'); return result; }
+    if (result.actionId) {
+      showToast(`${actionName} started (${result.actionId})`, 'running');
+      pollAction(result.actionId, actionName);
+    } else {
+      showToast(`${actionName}: ${result.message || 'Done'}`, 'success');
+    }
+    return result;
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+    return { error: e.message };
+  }
+}
+
+function pollAction(actionId, label) {
+  if (activePolls.has(actionId)) return;
+  const interval = setInterval(async () => {
+    try {
+      const result = await postAction('status', { actionId });
+      if (result.status && result.status !== 'RUNNING') {
+        clearInterval(interval);
+        activePolls.delete(actionId);
+        const cls = result.status === 'SUCCESS' ? 'success' : 'error';
+        showToast(`${label}: ${result.status}`, cls);
+        // Auto-refresh current page
+        refreshCurrent();
+      }
+    } catch {}
+  }, 2000);
+  activePolls.set(actionId, interval);
+}
+
+// ─── PAGE: TERMINAL ──────────────────────────────────────────────────────────
+let terminalActionId = null;
+let terminalPollInterval = null;
+
+function loadTerminal() {
+  // Focus input
+  setTimeout(() => {
+    const inp = document.getElementById('terminal-input');
+    if (inp) inp.focus();
+  }, 100);
+}
+
+async function runTerminalCmd() {
+  const inp = document.getElementById('terminal-input');
+  const cmd = inp.value.trim();
+  if (!cmd) return;
+
+  const termOut = document.getElementById('terminal-output');
+  termOut.innerHTML = `<div class="log-line state">$ ${escHtml(cmd)}</div><div class="log-line info">Running...</div>`;
+
+  try {
+    const result = await postAction('terminal', { command: cmd });
+    if (result.error) {
+      termOut.innerHTML += `<div class="log-line fail">Error: ${escHtml(result.error)}</div>`;
+      return;
+    }
+    terminalActionId = result.actionId;
+    // Poll for output
+    if (terminalPollInterval) clearInterval(terminalPollInterval);
+    terminalPollInterval = setInterval(async () => {
+      const status = await postAction('status', { actionId: terminalActionId });
+      let html = `<div class="log-line state">$ ${escHtml(cmd)}</div>`;
+      if (status.output) {
+        const lines = status.output.split('\n');
+        lines.forEach(line => {
+          let cls = 'log-line';
+          const low = line.toLowerCase();
+          if (low.includes('error') || low.includes('fail')) cls += ' fail';
+          else if (low.includes('warn')) cls += ' warn';
+          else if (low.includes('✓') || low.includes('pass') || low.includes('success')) cls += ' pass';
+          else if (low.includes('deploy') || low.includes('staging')) cls += ' deploy';
+          html += `<div class="${cls}">${escHtml(line)}</div>`;
+        });
+      }
+      if (status.status && status.status !== 'RUNNING') {
+        clearInterval(terminalPollInterval);
+        terminalPollInterval = null;
+        const exitCls = status.exitCode === 0 ? 'pass' : 'fail';
+        html += `<div class="log-line ${exitCls}">── Process exited with code ${status.exitCode} (${status.status}) ──</div>`;
+      }
+      termOut.innerHTML = html;
+      termOut.scrollTop = termOut.scrollHeight;
+    }, 1000);
+  } catch (e) {
+    termOut.innerHTML += `<div class="log-line fail">Error: ${escHtml(e.message)}</div>`;
+  }
+  inp.value = '';
+}
+
+function runQuickCmd(cmd) {
+  const inp = document.getElementById('terminal-input');
+  inp.value = cmd;
+  runTerminalCmd();
+}
+
+// ─── PAGE: ACTIONS ───────────────────────────────────────────────────────────
+async function loadActions() {
+  // Load task editors
+  try {
+    const overview = await api('/api/overview');
+    const ctEl = document.getElementById('edit-current-task');
+    const ntEl = document.getElementById('edit-next-task');
+    if (ctEl && overview.currentTask) ctEl.value = overview.currentTask;
+    if (ntEl && overview.nextTask) ntEl.value = overview.nextTask;
+  } catch {}
+
+  // Load action history
+  try {
+    const result = await postAction('status', {});
+    const acts = result.actions || [];
+    if (acts.length === 0) {
+      set('action-history', '<div style="color:var(--text-muted);padding:16px;font-size:13px">No actions executed yet. Use the quick actions above to start.</div>');
+      return;
+    }
+    let html = `<div class="table-container">
+      <div class="table-header">
+        <span class="table-title">Recent Actions</span>
+        <span class="table-count">${acts.length} actions</span>
+      </div>
+      <table class="data-table">
+        <thead><tr><th>ID</th><th>Command</th><th>Status</th><th>Started</th><th>Duration</th><th>Output</th></tr></thead>
+        <tbody>`;
+    acts.forEach(a => {
+      const statusCls = `action-status-${(a.status||'').toLowerCase()}`;
+      const dur = a.completedAt && a.startedAt
+        ? `${((new Date(a.completedAt) - new Date(a.startedAt))/1000).toFixed(1)}s`
+        : 'running...';
+      const started = a.startedAt ? new Date(a.startedAt).toLocaleTimeString() : '';
+      html += `<tr>
+        <td class="mono" style="font-size:11px">${escHtml(a.id)}</td>
+        <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;font-size:12px">${escHtml((a.cmd||'').slice(0,80))}</td>
+        <td><span class="${statusCls}" style="font-weight:700">${escHtml(a.status||'UNKNOWN')}</span></td>
+        <td style="font-size:11px">${started}</td>
+        <td class="mono" style="font-size:11px">${dur}</td>
+        <td><span class="action-output-toggle" onclick="toggleActionOutput('${a.id}')">Show</span>
+          <div id="output-${a.id}" style="display:none">
+            <pre class="action-output-pre">${escHtml((a.output||'').slice(0,5000))}</pre>
+          </div>
+        </td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+    set('action-history', html);
+  } catch(e) {
+    set('action-history', `<div class="error-state"><h3>Error</h3><p>${escHtml(e.message)}</p></div>`);
+  }
+}
+
+function toggleActionOutput(actionId) {
+  const el = document.getElementById(`output-${actionId}`);
+  if (el) el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+async function saveTask(type) {
+  const field = type === 'current' ? 'edit-current-task' : 'edit-next-task';
+  const content = document.getElementById(field).value;
+  const actionName = type === 'current' ? 'update-task' : 'update-next-task';
+  try {
+    const result = await postAction(actionName, { content });
+    if (result.error) { showToast(`Error: ${result.error}`, 'error'); return; }
+    showToast(result.message || 'Saved!', 'success');
+  } catch (e) {
+    showToast(`Failed: ${e.message}`, 'error');
+  }
+}
+
+// ─── MODAL SYSTEM ────────────────────────────────────────────────────────────
+function openModal(title, bodyHtml, footerHtml) {
+  document.getElementById('modal-title').textContent = title;
+  document.getElementById('modal-body').innerHTML = bodyHtml;
+  document.getElementById('modal-footer').innerHTML = footerHtml || '';
+  document.getElementById('modal-overlay').classList.add('show');
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('show');
+}
+
+function showGitCommitModal() {
+  openModal('Git Commit & Push',
+    `<label>Commit Message</label>
+     <input type="text" id="git-commit-msg" placeholder="chore: update from Control Center" />`,
+    `<button class="btn-secondary" onclick="closeModal()">Cancel</button>
+     <button class="btn-action" onclick="doGitPush()">Commit & Push</button>`
+  );
+  setTimeout(() => {
+    const inp = document.getElementById('git-commit-msg');
+    if (inp) inp.focus();
+  }, 200);
+}
+
+async function doGitPush() {
+  const msg = document.getElementById('git-commit-msg').value.trim();
+  closeModal();
+  await fireAction('git-push', { message: msg || undefined });
+}
+
+// ─── TOAST SYSTEM ────────────────────────────────────────────────────────────
+function showToast(message, type = 'running') {
+  const container = document.getElementById('toast-container');
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  const icons = { success: '✓', error: '✗', running: '⟳' };
+  toast.innerHTML = `<span>${icons[type] || '•'}</span><span>${escHtml(message)}</span>`;
+  container.appendChild(toast);
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(10px)';
+    toast.style.transition = '300ms ease';
+    setTimeout(() => toast.remove(), 300);
+  }, 5000);
 }
