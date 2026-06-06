@@ -1,11 +1,10 @@
 # Next Task
 
 ## Immediate Next Actions
-Migrate the remaining checks inside `seo-auditor`, `aeo-auditor`, and `qa-automation` into centralized, reusable `SkillDefinition` contracts in `src/skills/`.
+Begin Phase 3/Backlog items: Integrate semantic intent embeddings check against target queries (Semantic Intent Embeddings Check).
 
 ## Priority
-High
+Medium
 
 ## Dependencies
-- Completion of Project Control System initialization.
-- Verification of basic text & html skills registry execution.
+- Completion of Phase 2 refactoring & validation tests.

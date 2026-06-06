@@ -2,10 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
-- Ongoing refactoring of remaining checks to use the centralized Skills Layer.
-
 ## [2026-06-06]
+### Commit: `f09e0ca` ("refactor(plugins): migrate remaining checks in seo-auditor, aeo-auditor, and qa-automation to use central Skills Layer")
+- **Changes:**
+  - Migrated all 25 plugin checks across `seo-auditor`, `aeo-auditor`, and `qa-automation` to run centralized SkillDefinitions in `src/skills/` via `skillRegistry.run()`.
+  - Refactored `register.ts` to import the skills layer index during plugin bootstrapping.
+  - Removed over 5,000 lines of redundant validation code across checks.
+- **Reason:** Achieve modularity, single-source of logic truth, and complete check-to-skill layer migration.
+
 ### Commit: `97ec4ef` ("feat(skills): implement and register remaining 12 production skills specified in architecture report, reconciling the Skills Layer")
 - **Changes:**
   - Implemented all 12 missing Native Skills (EEAT, structural, JSON-LD, links, media, playwright-render, accessibility-axe, rss-feed-monitor, cloudflare-check, github-status, relational-planner, and performance-index).
