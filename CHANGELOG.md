@@ -3,11 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 ## [2026-06-06]
-### Commit: `docs: specify agent swarm capabilities, gating rules, and research agent dry-run results`
+### Commit: `docs: specify agent swarm capabilities, gating rules, and skills matrix`
 - **Changes:** 
   - Mapped complete capabilities, check structures, and weekly SEO operations logic for all 8 agents and the weekly audit agent in `AGENT_SWARM_CAPABILITIES_MAPPING.md`.
   - Documented Trend Discovery Agent (Research Agent) dry-run execution log and architecture in `RESEARCH_AGENT_DRY_RUN_REPORT.md`.
-- **Reason:** Codify the gating logic, agent roles, and weekly audit workflows for full autonomy.
+  - Mapped the 15 Skills Layer components to the 12 Agents Layer components in `AGENT_SKILLS_MATRIX.md`.
+- **Reason:** Codify the gating logic, agent roles, skill maps, and weekly audit workflows for full autonomy.
+
 
 ### Commit: `fffaff9` ("docs: add FACTORY_ORCHESTRATOR.md detailing architecture, execution pipeline, state machine, and roadmap for Factory Orchestrator v1")
 - **Changes:** Designed the Factory Orchestrator v1 specification detailing current reusable components, missing layers, execution pipeline, state machine, and phase-wise roadmap.
