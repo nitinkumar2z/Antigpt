@@ -1,0 +1,84 @@
+[2026-06-06T05:11:25.125Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780722685125-76 for niche "SEO Audit Calculator"
+[2026-06-06T05:11:25.135Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T05:11:25.136Z] [OrchestratorEngine] Running research & keyword intent analysis...
+[2026-06-06T05:11:25.159Z] [OrchestratorEngine] Discovered 3 keyword opportunities:
+[2026-06-06T05:11:25.164Z] [OrchestratorEngine]   - "SEO Audit Calculator calculator" (Vol: 5400, Score: 92)
+[2026-06-06T05:11:25.166Z] [OrchestratorEngine]   - "free online SEO Audit Calculator generator" (Vol: 2900, Score: 88)
+[2026-06-06T05:11:25.167Z] [OrchestratorEngine]   - "how to build a SEO Audit Calculator" (Vol: 1200, Score: 74)
+[2026-06-06T05:11:25.171Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T05:11:25.176Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T05:11:25.184Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T05:11:25.191Z] [OrchestratorEngine] Compiled tool specification for: SEO-Audit-Calculator-tool
+[2026-06-06T05:11:25.232Z] [OrchestratorEngine] Transitioned to state: GENERATING
+[2026-06-06T05:11:25.250Z] [OrchestratorEngine] Executing code generator for page templates and tool logic...
+[2026-06-06T05:11:25.253Z] [OrchestratorEngine] Successfully compiled and generated 2 outputs:
+[2026-06-06T05:11:25.254Z] [OrchestratorEngine]   - File created: [src/pages/tools/SEO-Audit-Calculator.astro] (463 bytes)
+[2026-06-06T05:11:25.255Z] [OrchestratorEngine]   - File created: [public/scripts/SEO-Audit-Calculator.js] (190 bytes)
+[2026-06-06T05:11:25.257Z] [OrchestratorEngine] Job execution failed: Invalid state transition: Cannot transition from GENERATING to COMPLETED
+[2026-06-06T05:12:53.867Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780722773866-111 for niche "SEO Audit Calculator"
+[2026-06-06T05:12:53.924Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T05:12:53.933Z] [OrchestratorEngine] Running research & keyword intent analysis...
+[2026-06-06T05:12:53.975Z] [OrchestratorEngine] Discovered 3 keyword opportunities:
+[2026-06-06T05:12:53.983Z] [OrchestratorEngine]   - "SEO Audit Calculator calculator" (Vol: 5400, Score: 92)
+[2026-06-06T05:12:53.993Z] [OrchestratorEngine]   - "free online SEO Audit Calculator generator" (Vol: 2900, Score: 88)
+[2026-06-06T05:12:54.002Z] [OrchestratorEngine]   - "how to build a SEO Audit Calculator" (Vol: 1200, Score: 74)
+[2026-06-06T05:12:54.034Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T05:12:54.110Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T05:12:54.149Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T05:12:54.156Z] [OrchestratorEngine] Compiled tool specification for: SEO-Audit-Calculator-tool
+[2026-06-06T05:12:54.186Z] [OrchestratorEngine] Transitioned to state: GENERATING
+[2026-06-06T05:12:54.197Z] [OrchestratorEngine] Executing code generator for page templates and tool logic...
+[2026-06-06T05:12:54.203Z] [OrchestratorEngine] Successfully compiled and generated 2 outputs:
+[2026-06-06T05:12:54.205Z] [OrchestratorEngine]   - File created: [src/pages/tools/SEO-Audit-Calculator.astro] (463 bytes)
+[2026-06-06T05:12:54.206Z] [OrchestratorEngine]   - File created: [public/scripts/SEO-Audit-Calculator.js] (190 bytes)
+[2026-06-06T05:12:54.213Z] [OrchestratorEngine] Transitioned to state: VALIDATING
+[2026-06-06T05:12:54.216Z] [OrchestratorEngine] Running QA validation & SEO compliance scoring...
+[2026-06-06T05:12:54.227Z] [OrchestratorEngine] Readability check results: score=0
+[2026-06-06T05:12:54.236Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T05:12:54.250Z] [OrchestratorEngine] Gating decision: compositeScore=0, passed=false
+[2026-06-06T05:12:54.261Z] [OrchestratorEngine] Job execution failed: Gating failed: Composite score 0 is below green band threshold
+[2026-06-06T05:14:11.194Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780722851194-442 for niche "SEO Audit Calculator"
+[2026-06-06T05:14:11.205Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T05:14:11.207Z] [OrchestratorEngine] Running research & keyword intent analysis...
+[2026-06-06T05:14:11.246Z] [OrchestratorEngine] Discovered 3 keyword opportunities:
+[2026-06-06T05:14:11.249Z] [OrchestratorEngine]   - "SEO Audit Calculator calculator" (Vol: 5400, Score: 92)
+[2026-06-06T05:14:11.254Z] [OrchestratorEngine]   - "free online SEO Audit Calculator generator" (Vol: 2900, Score: 88)
+[2026-06-06T05:14:11.256Z] [OrchestratorEngine]   - "how to build a SEO Audit Calculator" (Vol: 1200, Score: 74)
+[2026-06-06T05:14:11.262Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T05:14:11.264Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T05:14:11.270Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T05:14:11.271Z] [OrchestratorEngine] Compiled tool specification for: SEO-Audit-Calculator-tool
+[2026-06-06T05:14:11.272Z] [OrchestratorEngine] Transitioned to state: GENERATING
+[2026-06-06T05:14:11.273Z] [OrchestratorEngine] Executing code generator for page templates and tool logic...
+[2026-06-06T05:14:11.283Z] [OrchestratorEngine] Successfully compiled and generated 2 outputs:
+[2026-06-06T05:14:11.290Z] [OrchestratorEngine]   - File created: [src/pages/tools/SEO-Audit-Calculator.astro] (463 bytes)
+[2026-06-06T05:14:11.292Z] [OrchestratorEngine]   - File created: [public/scripts/SEO-Audit-Calculator.js] (190 bytes)
+[2026-06-06T05:14:11.294Z] [OrchestratorEngine] Transitioned to state: VALIDATING
+[2026-06-06T05:14:11.296Z] [OrchestratorEngine] Running QA validation & SEO compliance scoring...
+[2026-06-06T05:14:11.302Z] [OrchestratorEngine] Readability check results: score=77
+[2026-06-06T05:14:11.303Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T05:14:11.306Z] [OrchestratorEngine] Gating decision: compositeScore=77, passed=false
+[2026-06-06T05:14:11.307Z] [OrchestratorEngine] Job execution failed: Gating failed: Composite score 77 is below green band threshold
+[2026-06-06T05:15:21.026Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780722921024-248 for niche "SEO Audit Calculator"
+[2026-06-06T05:15:21.045Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T05:15:21.053Z] [OrchestratorEngine] Running research & keyword intent analysis...
+[2026-06-06T05:15:21.100Z] [OrchestratorEngine] Discovered 3 keyword opportunities:
+[2026-06-06T05:15:21.104Z] [OrchestratorEngine]   - "SEO Audit Calculator calculator" (Vol: 5400, Score: 92)
+[2026-06-06T05:15:21.106Z] [OrchestratorEngine]   - "free online SEO Audit Calculator generator" (Vol: 2900, Score: 88)
+[2026-06-06T05:15:21.108Z] [OrchestratorEngine]   - "how to build a SEO Audit Calculator" (Vol: 1200, Score: 74)
+[2026-06-06T05:15:21.112Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T05:15:21.117Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T05:15:21.136Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T05:15:21.146Z] [OrchestratorEngine] Compiled tool specification for: SEO-Audit-Calculator-tool
+[2026-06-06T05:15:21.163Z] [OrchestratorEngine] Transitioned to state: GENERATING
+[2026-06-06T05:15:21.168Z] [OrchestratorEngine] Executing code generator for page templates and tool logic...
+[2026-06-06T05:15:21.173Z] [OrchestratorEngine] Successfully compiled and generated 2 outputs:
+[2026-06-06T05:15:21.178Z] [OrchestratorEngine]   - File created: [src/pages/tools/SEO-Audit-Calculator.astro] (463 bytes)
+[2026-06-06T05:15:21.206Z] [OrchestratorEngine]   - File created: [public/scripts/SEO-Audit-Calculator.js] (190 bytes)
+[2026-06-06T05:15:21.212Z] [OrchestratorEngine] Transitioned to state: VALIDATING
+[2026-06-06T05:15:21.213Z] [OrchestratorEngine] Running QA validation & SEO compliance scoring...
+[2026-06-06T05:15:21.220Z] [OrchestratorEngine] Readability check results: score=100
+[2026-06-06T05:15:21.232Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T05:15:21.235Z] [OrchestratorEngine] Gating decision: compositeScore=100, passed=true
+[2026-06-06T05:15:21.242Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T05:15:21.251Z] [OrchestratorEngine] Job job-1780722921024-248 completed successfully!
