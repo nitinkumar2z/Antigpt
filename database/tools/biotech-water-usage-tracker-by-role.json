@@ -1,0 +1,23 @@
+{
+  "tool_id": "biotech-water-usage-tracker-by-role",
+  "tool_name": "Biotech Water Usage Tracker by Role",
+  "category": "Biotech",
+  "rank": 525,
+  "composite_score": 7.58,
+  "volume": 24353,
+  "kd": 12,
+  "pages": 253,
+  "target_user": "Professionals in Biotech",
+  "problem_solved": "Automates complex Biotech Water Usage Tracker by Role tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

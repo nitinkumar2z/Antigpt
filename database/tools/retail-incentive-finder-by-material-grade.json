@@ -1,0 +1,23 @@
+{
+  "tool_id": "retail-incentive-finder-by-material-grade",
+  "tool_name": "Retail Incentive Finder by Material Grade",
+  "category": "Retail",
+  "rank": 330,
+  "composite_score": 7.9,
+  "volume": 15986,
+  "kd": 5,
+  "pages": 569,
+  "target_user": "Professionals in Retail",
+  "problem_solved": "Automates complex Retail Incentive Finder by Material Grade tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

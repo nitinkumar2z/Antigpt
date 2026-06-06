@@ -1,0 +1,23 @@
+{
+  "tool_id": "sustainability-churn-predictor-by-niche",
+  "tool_name": "Sustainability Churn Predictor by Niche",
+  "category": "Sustainability",
+  "rank": 719,
+  "composite_score": 7.26,
+  "volume": 17450,
+  "kd": 9,
+  "pages": 138,
+  "target_user": "Professionals in Sustainability",
+  "problem_solved": "Automates complex Sustainability Churn Predictor by Niche tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

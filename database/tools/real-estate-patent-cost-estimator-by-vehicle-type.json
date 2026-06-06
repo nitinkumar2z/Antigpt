@@ -1,0 +1,23 @@
+{
+  "tool_id": "real-estate-patent-cost-estimator-by-vehicle-type",
+  "tool_name": "Real Estate Patent Cost Estimator by Vehicle Type",
+  "category": "Real Estate",
+  "rank": 489,
+  "composite_score": 7.64,
+  "volume": 41281,
+  "kd": 38,
+  "pages": 513,
+  "target_user": "Professionals in Real Estate",
+  "problem_solved": "Automates complex Real Estate Patent Cost Estimator by Vehicle Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

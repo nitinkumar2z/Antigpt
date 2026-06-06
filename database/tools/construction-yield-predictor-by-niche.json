@@ -1,0 +1,23 @@
+{
+  "tool_id": "construction-yield-predictor-by-niche",
+  "tool_name": "Construction Yield Predictor by Niche",
+  "category": "Construction",
+  "rank": 712,
+  "composite_score": 7.28,
+  "volume": 27646,
+  "kd": 31,
+  "pages": 434,
+  "target_user": "Professionals in Construction",
+  "problem_solved": "Automates complex Construction Yield Predictor by Niche tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

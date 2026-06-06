@@ -1,0 +1,23 @@
+{
+  "tool_id": "agriculture-energy-audit-by-cloud-provider",
+  "tool_name": "Agriculture Energy Audit by Cloud Provider",
+  "category": "Agriculture",
+  "rank": 727,
+  "composite_score": 7.24,
+  "volume": 15688,
+  "kd": 29,
+  "pages": 505,
+  "target_user": "Professionals in Agriculture",
+  "problem_solved": "Automates complex Agriculture Energy Audit by Cloud Provider tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

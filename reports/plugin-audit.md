@@ -1,46 +1,46 @@
 # Plugin Audit
 
 ### quality-gatekeeper
-- Score: 695
-- Passed: false
-- Duration: 10.23ms
-
-### seo-auditor
-- Score: 27.8
-- Passed: false
-- Duration: 56.67ms
-
-### aeo-auditor
-- Score: 15.12
-- Passed: false
-- Duration: 23.89ms
+- Score: 826.5
+- Passed: true
+- Duration: 43.73ms
 
 ### tool-research-engine
-- Score: 31.65
-- Passed: false
-- Duration: 4.54ms
+- Score: 97.5
+- Passed: true
+- Duration: 10.09ms
 
 ### tool-planner
-- Score: 35
-- Passed: false
-- Duration: 8.1ms
+- Score: 84.8
+- Passed: true
+- Duration: 26.93ms
 
 ### qa-automation
-- Score: 65.95
-- Passed: false
-- Duration: 3.76ms
+- Score: 100
+- Passed: true
+- Duration: 5.5ms
 
 ### deployment-guardian
-- Score: 41.35
-- Passed: false
-- Duration: 6.7ms
+- Score: 89.5
+- Passed: true
+- Duration: 16.06ms
+
+### seo-auditor
+- Score: 100
+- Passed: true
+- Duration: 19.8ms
+
+### aeo-auditor
+- Score: 83.65
+- Passed: true
+- Duration: 14.74ms
 
 ### google-update-engine
-- Score: 32.5
-- Passed: false
-- Duration: 9.84ms
+- Score: 91.6
+- Passed: true
+- Duration: 31.7ms
 
 ### weekly-seo-engine
-- Score: 64.45
+- Score: 87.85
 - Passed: true
-- Duration: 7.19ms
+- Duration: 19.17ms

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Online PDF To Markdown Converter Generator - Online Tool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/free-online-PDF-to-Markdown-Converter-generator.css" />
+</head>
+<body>
+  <div class="tool-card">
+  <h1>PDF to Markdown Converter</h1>
+  <p class="description">Select a PDF document to extract its full text content and convert it into clean formatted Markdown code instantaneously.</p>
+  
+  <form id="tool-form">
+    <div class="input-group">
+      <label for="pdf-file">Choose PDF File</label>
+      <input type="file" id="pdf-file" accept=".pdf" required style="padding: 0.5rem;" />
+    </div>
+    
+    <button type="submit" class="action-btn">Convert to Markdown</button>
+  </form>
+  
+  <div id="results-box" class="results-panel">
+    <div id="status-message" style="color: var(--secondary-glow); margin-bottom: 1rem; font-size: 0.9rem; text-align: center; display: none;">Converting...</div>
+    <label>Converted Markdown Output</label>
+    <textarea id="res-value" readonly rows="8" style="background: rgba(0,0,0,0.5); font-family: monospace;"></textarea>
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+      <button id="copy-btn" class="action-btn" style="background: var(--primary-glow); flex: 1;">Copy to Clipboard</button>
+      <button id="download-btn" class="action-btn" style="background: var(--secondary-glow); flex: 1;">Download .md</button>
+    </div>
+  </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <script src="/scripts/free-online-PDF-to-Markdown-Converter-generator.js" defer></script>
+</body>
+</html>

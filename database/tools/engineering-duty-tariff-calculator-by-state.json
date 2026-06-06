@@ -1,0 +1,23 @@
+{
+  "tool_id": "engineering-duty-tariff-calculator-by-state",
+  "tool_name": "Engineering Duty & Tariff Calculator by State",
+  "category": "Engineering",
+  "rank": 110,
+  "composite_score": 8.38,
+  "volume": 49606,
+  "kd": 12,
+  "pages": 223,
+  "target_user": "Professionals in Engineering",
+  "problem_solved": "Automates complex Engineering Duty & Tariff Calculator by State tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

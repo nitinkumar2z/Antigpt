@@ -10,3 +10,5 @@ src/plugins_backup/
 .config/
 .playwright-mcp/
 reports/factory.db
+.env
+1000toolsdatabase-src/

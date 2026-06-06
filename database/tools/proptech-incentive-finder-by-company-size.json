@@ -1,0 +1,23 @@
+{
+  "tool_id": "proptech-incentive-finder-by-company-size",
+  "tool_name": "Proptech Incentive Finder by Company Size",
+  "category": "Proptech",
+  "rank": 580,
+  "composite_score": 7.49,
+  "volume": 15566,
+  "kd": 11,
+  "pages": 418,
+  "target_user": "Professionals in Proptech",
+  "problem_solved": "Automates complex Proptech Incentive Finder by Company Size tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

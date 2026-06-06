@@ -1,0 +1,23 @@
+{
+  "tool_id": "transportation-contract-value-estimator-by-framework",
+  "tool_name": "Transportation Contract Value Estimator by Framework",
+  "category": "Transportation",
+  "rank": 384,
+  "composite_score": 7.8,
+  "volume": 43197,
+  "kd": 9,
+  "pages": 122,
+  "target_user": "Professionals in Transportation",
+  "problem_solved": "Automates complex Transportation Contract Value Estimator by Framework tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

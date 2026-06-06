@@ -1,0 +1,33 @@
+{
+  "tool_id": "logistics-patent-cost-estimator-by-revenue-bracket",
+  "tool_name": "Logistics Patent Cost Estimator by Revenue Bracket",
+  "category": "Logistics",
+  "rank": 13,
+  "composite_score": 9.0,
+  "volume": 51521,
+  "kd": 7,
+  "pages": 429,
+  "target_user": "Professionals in Logistics",
+  "problem_solved": "Automates complex Patent Cost Estimator tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 10.0,
+    "D2": 8.6,
+    "D3": 6.5,
+    "D4": 9.0,
+    "D5": 8.6,
+    "D6": 6.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

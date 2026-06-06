@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Online SEO Keyword Density Calculator Generator - Online Tool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/free-online-SEO-Keyword-Density-Calculator-generator.css" />
+</head>
+<body>
+  <div class="tool-card">
+  <h1>SEO Keyword Density Calculator</h1>
+  <p class="description">Paste your content to analyze keyword distribution ratios, word counts, and optimization density percentages instantly.</p>
+  
+  <form id="tool-form">
+    <div class="input-group">
+      <label for="text-content">Paste Article / Body Copy</label>
+      <textarea id="text-content" rows="6" placeholder="Paste your article content here to analyze keyword densities..." required></textarea>
+    </div>
+    
+    <div class="input-group">
+      <label for="target-keyword">Target Focus Keyword (Optional)</label>
+      <input type="text" id="target-keyword" placeholder="e.g. search engine optimization" />
+    </div>
+    
+    <button type="submit" class="action-btn">Analyze Density</button>
+  </form>
+  
+  <div id="results-box" class="results-panel">
+    <div class="result-row" style="border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Total Words Count:</span>
+      <span id="word-count-val" class="result-value" style="font-size: 1.1rem; color: var(--primary-glow);">-</span>
+    </div>
+    
+    <div id="target-density-row" class="result-row" style="display: none; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+      <span class="result-label">Target Focus Keyword Density:</span>
+      <span id="target-density-val" class="result-value" style="font-size: 1.1rem; color: var(--secondary-glow);">-</span>
+    </div>
+    
+    <label style="margin-bottom: 0.75rem;">Top Density Frequency Distribution</label>
+    <div id="density-table" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+      <!-- Populated via Javascript -->
+    </div>
+  </div>
+</div>
+  <script src="/scripts/free-online-SEO-Keyword-Density-Calculator-generator.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "tool_id": "engineering-contract-value-estimator-by-language",
+  "tool_name": "Engineering Contract Value Estimator by Language",
+  "category": "Engineering",
+  "rank": 943,
+  "composite_score": 6.7,
+  "volume": 6317,
+  "kd": 13,
+  "pages": 201,
+  "target_user": "Professionals in Engineering",
+  "problem_solved": "Automates complex Engineering Contract Value Estimator by Language tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

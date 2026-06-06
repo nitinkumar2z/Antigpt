@@ -1,0 +1,23 @@
+{
+  "tool_id": "agriculture-feasibility-study-by-jurisdiction",
+  "tool_name": "Agriculture Feasibility Study by Jurisdiction",
+  "category": "Agriculture",
+  "rank": 175,
+  "composite_score": 8.21,
+  "volume": 59719,
+  "kd": 20,
+  "pages": 440,
+  "target_user": "Professionals in Agriculture",
+  "problem_solved": "Automates complex Agriculture Feasibility Study by Jurisdiction tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

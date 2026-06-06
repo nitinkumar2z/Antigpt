@@ -1,0 +1,23 @@
+{
+  "tool_id": "automotive-roi-calculator-by-revenue-bracket",
+  "tool_name": "Automotive ROI Calculator by Revenue Bracket",
+  "category": "Automotive",
+  "rank": 987,
+  "composite_score": 6.56,
+  "volume": 27523,
+  "kd": 36,
+  "pages": 237,
+  "target_user": "Professionals in Automotive",
+  "problem_solved": "Automates complex Automotive ROI Calculator by Revenue Bracket tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

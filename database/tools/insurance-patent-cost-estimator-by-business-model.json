@@ -1,0 +1,23 @@
+{
+  "tool_id": "insurance-patent-cost-estimator-by-business-model",
+  "tool_name": "Insurance Patent Cost Estimator by Business Model",
+  "category": "Insurance",
+  "rank": 977,
+  "composite_score": 6.61,
+  "volume": 40752,
+  "kd": 36,
+  "pages": 102,
+  "target_user": "Professionals in Insurance",
+  "problem_solved": "Automates complex Insurance Patent Cost Estimator by Business Model tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

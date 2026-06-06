@@ -1,14 +1,14 @@
 # Next Task
 
 ## Immediate Next Actions
-Begin Phase 1 of the Factory Orchestrator implementation:
-1. Initialize the SQLite database schema for tracking orchestrator job states and execution logs.
-2. Code the Workflow Engine `src/orchestrator/engine.ts` state manager.
-3. Add CLI entry points and dry-run simulation parameters.
+Begin Phase 3 of the Factory Orchestrator implementation:
+1. Connect Deployer automation scripts under `src/skills/integration/cloudflare.ts` to Cloudflare edge deployment workers.
+2. Verify DRA forces checkout rollbacks on live Chromium console errors during monitoring.
+3. Conduct human approval dashboard validation runs via the Control Center.
 
 ## Priority
 High
 
 ## Dependencies
-- Approval of FACTORY_ORCHESTRATOR.md specification.
-- Verification of database skill performance utilities.
+- Phase 2 execution verified successfully (dry-run output verified).
+- Staging and production configurations on Cloudflare Pages.

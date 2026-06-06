@@ -1,0 +1,23 @@
+{
+  "tool_id": "retail-hiring-cost-analyzer-by-material",
+  "tool_name": "Retail Hiring Cost Analyzer by Material",
+  "category": "Retail",
+  "rank": 899,
+  "composite_score": 6.84,
+  "volume": 19790,
+  "kd": 30,
+  "pages": 409,
+  "target_user": "Professionals in Retail",
+  "problem_solved": "Automates complex Retail Hiring Cost Analyzer by Material tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

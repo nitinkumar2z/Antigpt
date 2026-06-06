@@ -52,7 +52,7 @@ export class StateMachine {
     
     // Check validation rules
     const allowed = StateMachine.VALID_TRANSITIONS[from];
-    if (!allowed || (!allowed.has(to) && to !== 'FAILED')) {
+    if (!allowed || (!allowed.has(to) && to !== 'FAILED' && to !== 'RECOVERING')) {
       throw new Error(`Invalid state transition: Cannot transition from ${from} to ${to}`);
     }
 

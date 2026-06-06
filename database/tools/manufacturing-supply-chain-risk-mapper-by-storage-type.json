@@ -1,0 +1,23 @@
+{
+  "tool_id": "manufacturing-supply-chain-risk-mapper-by-storage-type",
+  "tool_name": "Manufacturing Supply Chain Risk Mapper by Storage Type",
+  "category": "Manufacturing",
+  "rank": 766,
+  "composite_score": 7.17,
+  "volume": 18149,
+  "kd": 12,
+  "pages": 241,
+  "target_user": "Professionals in Manufacturing",
+  "problem_solved": "Automates complex Manufacturing Supply Chain Risk Mapper by Storage Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

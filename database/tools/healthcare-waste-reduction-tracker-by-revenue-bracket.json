@@ -1,0 +1,23 @@
+{
+  "tool_id": "healthcare-waste-reduction-tracker-by-revenue-bracket",
+  "tool_name": "Healthcare Waste Reduction Tracker by Revenue Bracket",
+  "category": "Healthcare",
+  "rank": 677,
+  "composite_score": 7.34,
+  "volume": 9924,
+  "kd": 18,
+  "pages": 471,
+  "target_user": "Professionals in Healthcare",
+  "problem_solved": "Automates complex Healthcare Waste Reduction Tracker by Revenue Bracket tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

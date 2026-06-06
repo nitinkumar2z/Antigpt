@@ -1,0 +1,33 @@
+{
+  "tool_id": "compliance-patent-cost-estimator-by-building-type",
+  "tool_name": "Compliance Patent Cost Estimator by Building Type",
+  "category": "Compliance",
+  "rank": 1,
+  "composite_score": 9.53,
+  "volume": 51006,
+  "kd": 5,
+  "pages": 591,
+  "target_user": "Professionals in Compliance",
+  "problem_solved": "Automates complex Patent Cost Estimator tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 10.0,
+    "D2": 9.0,
+    "D3": 8.5,
+    "D4": 9.0,
+    "D5": 10.0,
+    "D6": 6.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

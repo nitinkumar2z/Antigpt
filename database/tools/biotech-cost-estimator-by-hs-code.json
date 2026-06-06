@@ -1,0 +1,23 @@
+{
+  "tool_id": "biotech-cost-estimator-by-hs-code",
+  "tool_name": "Biotech Cost Estimator by HS Code",
+  "category": "Biotech",
+  "rank": 369,
+  "composite_score": 7.83,
+  "volume": 48082,
+  "kd": 37,
+  "pages": 471,
+  "target_user": "Professionals in Biotech",
+  "problem_solved": "Automates complex Biotech Cost Estimator by HS Code tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

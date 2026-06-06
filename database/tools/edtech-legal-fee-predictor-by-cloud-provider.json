@@ -1,0 +1,23 @@
+{
+  "tool_id": "edtech-legal-fee-predictor-by-cloud-provider",
+  "tool_name": "Edtech Legal Fee Predictor by Cloud Provider",
+  "category": "Edtech",
+  "rank": 65,
+  "composite_score": 8.58,
+  "volume": 37991,
+  "kd": 17,
+  "pages": 575,
+  "target_user": "Professionals in Edtech",
+  "problem_solved": "Automates complex Edtech Legal Fee Predictor by Cloud Provider tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

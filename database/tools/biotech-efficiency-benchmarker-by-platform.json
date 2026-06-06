@@ -1,0 +1,23 @@
+{
+  "tool_id": "biotech-efficiency-benchmarker-by-platform",
+  "tool_name": "Biotech Efficiency Benchmarker by Platform",
+  "category": "Biotech",
+  "rank": 113,
+  "composite_score": 8.37,
+  "volume": 31686,
+  "kd": 7,
+  "pages": 583,
+  "target_user": "Professionals in Biotech",
+  "problem_solved": "Automates complex Biotech Efficiency Benchmarker by Platform tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

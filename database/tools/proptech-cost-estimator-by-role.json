@@ -1,0 +1,23 @@
+{
+  "tool_id": "proptech-cost-estimator-by-role",
+  "tool_name": "Proptech Cost Estimator by Role",
+  "category": "Proptech",
+  "rank": 935,
+  "composite_score": 6.72,
+  "volume": 30588,
+  "kd": 39,
+  "pages": 371,
+  "target_user": "Professionals in Proptech",
+  "problem_solved": "Automates complex Proptech Cost Estimator by Role tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

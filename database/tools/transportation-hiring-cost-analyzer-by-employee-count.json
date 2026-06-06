@@ -1,0 +1,23 @@
+{
+  "tool_id": "transportation-hiring-cost-analyzer-by-employee-count",
+  "tool_name": "Transportation Hiring Cost Analyzer by Employee Count",
+  "category": "Transportation",
+  "rank": 447,
+  "composite_score": 7.69,
+  "volume": 50913,
+  "kd": 17,
+  "pages": 124,
+  "target_user": "Professionals in Transportation",
+  "problem_solved": "Automates complex Transportation Hiring Cost Analyzer by Employee Count tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

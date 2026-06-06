@@ -1,0 +1,23 @@
+{
+  "tool_id": "proptech-supply-chain-risk-mapper-by-category",
+  "tool_name": "Proptech Supply Chain Risk Mapper by Category",
+  "category": "Proptech",
+  "rank": 326,
+  "composite_score": 7.9,
+  "volume": 36557,
+  "kd": 13,
+  "pages": 349,
+  "target_user": "Professionals in Proptech",
+  "problem_solved": "Automates complex Proptech Supply Chain Risk Mapper by Category tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

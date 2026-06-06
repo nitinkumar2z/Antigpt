@@ -1,0 +1,23 @@
+{
+  "tool_id": "automotive-regulatory-navigator-by-transaction-volume",
+  "tool_name": "Automotive Regulatory Navigator by Transaction Volume",
+  "category": "Automotive",
+  "rank": 978,
+  "composite_score": 6.61,
+  "volume": 13211,
+  "kd": 27,
+  "pages": 182,
+  "target_user": "Professionals in Automotive",
+  "problem_solved": "Automates complex Automotive Regulatory Navigator by Transaction Volume tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

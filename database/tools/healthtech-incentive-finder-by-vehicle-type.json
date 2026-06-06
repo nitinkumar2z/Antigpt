@@ -1,0 +1,23 @@
+{
+  "tool_id": "healthtech-incentive-finder-by-vehicle-type",
+  "tool_name": "Healthtech Incentive Finder by Vehicle Type",
+  "category": "Healthtech",
+  "rank": 937,
+  "composite_score": 6.72,
+  "volume": 34048,
+  "kd": 33,
+  "pages": 197,
+  "target_user": "Professionals in Healthtech",
+  "problem_solved": "Automates complex Healthtech Incentive Finder by Vehicle Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

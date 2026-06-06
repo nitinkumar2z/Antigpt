@@ -1,0 +1,23 @@
+{
+  "tool_id": "food-beverage-energy-audit-by-category",
+  "tool_name": "Food & Beverage Energy Audit by Category",
+  "category": "Food & Beverage",
+  "rank": 134,
+  "composite_score": 8.31,
+  "volume": 27560,
+  "kd": 6,
+  "pages": 399,
+  "target_user": "Professionals in Food & Beverage",
+  "problem_solved": "Automates complex Food & Beverage Energy Audit by Category tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

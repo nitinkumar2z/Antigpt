@@ -1,0 +1,23 @@
+{
+  "tool_id": "electronics-roi-calculator-by-regulation",
+  "tool_name": "Electronics ROI Calculator by Regulation",
+  "category": "Electronics",
+  "rank": 697,
+  "composite_score": 7.31,
+  "volume": 12225,
+  "kd": 19,
+  "pages": 542,
+  "target_user": "Professionals in Electronics",
+  "problem_solved": "Automates complex Electronics ROI Calculator by Regulation tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

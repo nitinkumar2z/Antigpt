@@ -1,0 +1,23 @@
+{
+  "tool_id": "healthcare-risk-assessor-by-asset-type",
+  "tool_name": "Healthcare Risk Assessor by Asset Type",
+  "category": "Healthcare",
+  "rank": 988,
+  "composite_score": 6.56,
+  "volume": 11591,
+  "kd": 29,
+  "pages": 374,
+  "target_user": "Professionals in Healthcare",
+  "problem_solved": "Automates complex Healthcare Risk Assessor by Asset Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

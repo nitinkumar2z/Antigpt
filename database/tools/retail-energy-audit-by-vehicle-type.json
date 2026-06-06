@@ -1,0 +1,23 @@
+{
+  "tool_id": "retail-energy-audit-by-vehicle-type",
+  "tool_name": "Retail Energy Audit by Vehicle Type",
+  "category": "Retail",
+  "rank": 236,
+  "composite_score": 8.08,
+  "volume": 36767,
+  "kd": 10,
+  "pages": 225,
+  "target_user": "Professionals in Retail",
+  "problem_solved": "Automates complex Retail Energy Audit by Vehicle Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

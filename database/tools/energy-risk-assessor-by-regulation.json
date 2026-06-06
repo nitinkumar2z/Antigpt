@@ -1,0 +1,23 @@
+{
+  "tool_id": "energy-risk-assessor-by-regulation",
+  "tool_name": "Energy Risk Assessor by Regulation",
+  "category": "Energy",
+  "rank": 178,
+  "composite_score": 8.21,
+  "volume": 41852,
+  "kd": 8,
+  "pages": 325,
+  "target_user": "Professionals in Energy",
+  "problem_solved": "Automates complex Energy Risk Assessor by Regulation tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

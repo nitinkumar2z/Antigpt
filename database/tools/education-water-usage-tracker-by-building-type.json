@@ -1,0 +1,33 @@
+{
+  "tool_id": "education-water-usage-tracker-by-building-type",
+  "tool_name": "Education Water Usage Tracker by Building Type",
+  "category": "Education",
+  "rank": 12,
+  "composite_score": 9.0,
+  "volume": 58565,
+  "kd": 8,
+  "pages": 496,
+  "target_user": "Professionals in Education",
+  "problem_solved": "Automates complex Water Usage Tracker tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 10.0,
+    "D2": 8.4,
+    "D3": 6.5,
+    "D4": 7.0,
+    "D5": 9.9,
+    "D6": 8.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

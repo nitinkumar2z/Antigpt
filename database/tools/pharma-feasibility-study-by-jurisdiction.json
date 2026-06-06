@@ -1,0 +1,23 @@
+{
+  "tool_id": "pharma-feasibility-study-by-jurisdiction",
+  "tool_name": "Pharma Feasibility Study by Jurisdiction",
+  "category": "Pharma",
+  "rank": 917,
+  "composite_score": 6.78,
+  "volume": 27800,
+  "kd": 36,
+  "pages": 232,
+  "target_user": "Professionals in Pharma",
+  "problem_solved": "Automates complex Pharma Feasibility Study by Jurisdiction tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

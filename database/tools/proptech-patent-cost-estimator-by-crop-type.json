@@ -1,0 +1,23 @@
+{
+  "tool_id": "proptech-patent-cost-estimator-by-crop-type",
+  "tool_name": "Proptech Patent Cost Estimator by Crop Type",
+  "category": "Proptech",
+  "rank": 196,
+  "composite_score": 8.15,
+  "volume": 50338,
+  "kd": 24,
+  "pages": 493,
+  "target_user": "Professionals in Proptech",
+  "problem_solved": "Automates complex Proptech Patent Cost Estimator by Crop Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

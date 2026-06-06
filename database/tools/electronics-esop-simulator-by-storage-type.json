@@ -1,0 +1,33 @@
+{
+  "tool_id": "electronics-esop-simulator-by-storage-type",
+  "tool_name": "Electronics ESOP Simulator by Storage Type",
+  "category": "Electronics",
+  "rank": 16,
+  "composite_score": 8.97,
+  "volume": 46298,
+  "kd": 6,
+  "pages": 552,
+  "target_user": "Professionals in Electronics",
+  "problem_solved": "Automates complex ESOP Simulator tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 9.3,
+    "D2": 8.8,
+    "D3": 6.5,
+    "D4": 7.0,
+    "D5": 10.0,
+    "D6": 8.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

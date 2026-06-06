@@ -1,0 +1,23 @@
+{
+  "tool_id": "proptech-emission-estimator-by-hs-code",
+  "tool_name": "Proptech Emission Estimator by HS Code",
+  "category": "Proptech",
+  "rank": 160,
+  "composite_score": 8.25,
+  "volume": 45570,
+  "kd": 26,
+  "pages": 519,
+  "target_user": "Professionals in Proptech",
+  "problem_solved": "Automates complex Proptech Emission Estimator by HS Code tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

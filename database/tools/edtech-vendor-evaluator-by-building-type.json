@@ -1,0 +1,23 @@
+{
+  "tool_id": "edtech-vendor-evaluator-by-building-type",
+  "tool_name": "Edtech Vendor Evaluator by Building Type",
+  "category": "Edtech",
+  "rank": 123,
+  "composite_score": 8.35,
+  "volume": 54177,
+  "kd": 13,
+  "pages": 372,
+  "target_user": "Professionals in Edtech",
+  "problem_solved": "Automates complex Edtech Vendor Evaluator by Building Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

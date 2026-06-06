@@ -1,0 +1,23 @@
+{
+  "tool_id": "agriculture-logistics-optimizer-by-transaction-volume",
+  "tool_name": "Agriculture Logistics Optimizer by Transaction Volume",
+  "category": "Agriculture",
+  "rank": 596,
+  "composite_score": 7.47,
+  "volume": 23758,
+  "kd": 5,
+  "pages": 164,
+  "target_user": "Professionals in Agriculture",
+  "problem_solved": "Automates complex Agriculture Logistics Optimizer by Transaction Volume tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "tool_id": "energy-margin-analyzer-by-country",
+  "tool_name": "Energy Margin Analyzer by Country",
+  "category": "Energy",
+  "rank": 76,
+  "composite_score": 8.53,
+  "volume": 36910,
+  "kd": 5,
+  "pages": 553,
+  "target_user": "Professionals in Energy",
+  "problem_solved": "Automates complex Energy Margin Analyzer by Country tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

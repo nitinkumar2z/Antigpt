@@ -1,0 +1,23 @@
+{
+  "tool_id": "adtech-gap-analyzer-by-revenue-bracket",
+  "tool_name": "Adtech Gap Analyzer by Revenue Bracket",
+  "category": "Adtech",
+  "rank": 724,
+  "composite_score": 7.25,
+  "volume": 27827,
+  "kd": 30,
+  "pages": 494,
+  "target_user": "Professionals in Adtech",
+  "problem_solved": "Automates complex Adtech Gap Analyzer by Revenue Bracket tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

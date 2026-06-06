@@ -1,0 +1,23 @@
+{
+  "tool_id": "construction-safety-audit-by-employee-count",
+  "tool_name": "Construction Safety Audit by Employee Count",
+  "category": "Construction",
+  "rank": 154,
+  "composite_score": 8.27,
+  "volume": 43838,
+  "kd": 5,
+  "pages": 114,
+  "target_user": "Professionals in Construction",
+  "problem_solved": "Automates complex Construction Safety Audit by Employee Count tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "tool_id": "construction-ltv-estimator-by-employee-count",
+  "tool_name": "Construction LTV Estimator by Employee Count",
+  "category": "Construction",
+  "rank": 88,
+  "composite_score": 8.48,
+  "volume": 50400,
+  "kd": 16,
+  "pages": 595,
+  "target_user": "Professionals in Construction",
+  "problem_solved": "Automates complex Construction LTV Estimator by Employee Count tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

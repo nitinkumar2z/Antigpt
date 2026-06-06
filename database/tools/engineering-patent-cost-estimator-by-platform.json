@@ -1,0 +1,23 @@
+{
+  "tool_id": "engineering-patent-cost-estimator-by-platform",
+  "tool_name": "Engineering Patent Cost Estimator by Platform",
+  "category": "Engineering",
+  "rank": 295,
+  "composite_score": 7.95,
+  "volume": 31777,
+  "kd": 12,
+  "pages": 427,
+  "target_user": "Professionals in Engineering",
+  "problem_solved": "Automates complex Engineering Patent Cost Estimator by Platform tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

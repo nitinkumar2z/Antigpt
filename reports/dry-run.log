@@ -329,3 +329,288 @@
 [2026-06-06T06:21:11.185Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
 [2026-06-06T06:21:11.272Z] [OrchestratorEngine] Transitioned to state: COMPLETED
 [2026-06-06T06:21:11.313Z] [OrchestratorEngine] Job job-1780726867810-273 completed successfully!
+[2026-06-06T07:19:40.646Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780730380645-397 for niche "PDF to Markdown Converter"
+[2026-06-06T07:19:40.888Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T07:19:40.940Z] [OrchestratorEngine] Input parameters checked. Niche: "PDF to Markdown Converter", Quantity: 2
+[2026-06-06T07:19:40.992Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T07:19:41.078Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T07:19:41.105Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T07:19:41.153Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T07:19:41.191Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T07:19:41.284Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T07:19:41.320Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T07:19:41.357Z] [OrchestratorEngine] TrendDiscoveryAgent found keyword topics: ["PDF to Markdown Converter dynamic calculator","best free PDF to Markdown Converter generator","online interactive PDF to Markdown Converter scoring tool"]
+[2026-06-06T07:19:41.429Z] [OrchestratorEngine] Discovered 3 keyword opportunities.
+[2026-06-06T07:19:41.522Z] [OrchestratorEngine] Transitioned to state: ANALYZING
+[2026-06-06T07:19:41.561Z] [OrchestratorEngine] Running competitor content gap analysis...
+[2026-06-06T07:19:41.649Z] [OrchestratorEngine] Transitioned to state: SELECTING
+[2026-06-06T07:19:41.698Z] [OrchestratorEngine] Filtering and selecting high-potential tool targets...
+[2026-06-06T07:19:41.758Z] [OrchestratorEngine] Selected tools for generation: ["PDF to Markdown Converter calculator","free online PDF to Markdown Converter generator"]
+[2026-06-06T07:19:41.864Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T07:19:41.902Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T07:19:41.950Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T07:19:41.989Z] [OrchestratorEngine] Compiled specifications for 2 tools.
+[2026-06-06T07:19:42.077Z] [OrchestratorEngine] Transitioned to state: CREATING
+[2026-06-06T07:19:42.125Z] [OrchestratorEngine] Executing AST compiler for tool backend and frontend scripts...
+[2026-06-06T07:19:42.211Z] [OrchestratorEngine] File written to disk: [src/pages/tools/PDF-to-Markdown-Converter-calculator.astro]
+[2026-06-06T07:19:42.278Z] [OrchestratorEngine] File written to disk: [public/scripts/PDF-to-Markdown-Converter-calculator.js]
+[2026-06-06T07:19:42.341Z] [OrchestratorEngine] File written to disk: [public/styles/PDF-to-Markdown-Converter-calculator.css]
+[2026-06-06T07:19:42.420Z] [OrchestratorEngine] File written to disk: [src/pages/tools/free-online-PDF-to-Markdown-Converter-generator.astro]
+[2026-06-06T07:19:42.470Z] [OrchestratorEngine] File written to disk: [public/scripts/free-online-PDF-to-Markdown-Converter-generator.js]
+[2026-06-06T07:19:42.519Z] [OrchestratorEngine] File written to disk: [public/styles/free-online-PDF-to-Markdown-Converter-generator.css]
+[2026-06-06T07:19:42.566Z] [OrchestratorEngine] Successfully compiled and outputted 6 files.
+[2026-06-06T07:19:42.692Z] [OrchestratorEngine] Transitioned to state: PAGE_GENERATING
+[2026-06-06T07:19:42.754Z] [OrchestratorEngine] Assembling static layout page elements...
+[2026-06-06T07:19:42.913Z] [OrchestratorEngine] Transitioned to state: SEO_VALIDATING
+[2026-06-06T07:19:42.960Z] [OrchestratorEngine] Running structural and meta compliance validation audits...
+[2026-06-06T07:19:43.051Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T07:19:43.134Z] [OrchestratorEngine] Evaluated Quality Gate score: 100
+[2026-06-06T07:19:43.263Z] [OrchestratorEngine] Quality Gate passed! Gating decision score: 100
+[2026-06-06T07:19:43.340Z] [OrchestratorEngine] Transitioned to state: COMMITTING
+[2026-06-06T07:19:43.399Z] [OrchestratorEngine] Pushing code files to remote branch and checking CI status...
+[2026-06-06T07:19:44.041Z] [OrchestratorEngine] Transitioned to state: DEPLOYING
+[2026-06-06T07:19:44.086Z] [OrchestratorEngine] Deploying to Cloudflare Pages staging network...
+[2026-06-06T07:19:44.212Z] [OrchestratorEngine] Staging deployment is live at: https://PDF-to-Markdown-Converter.antigpt.pages.dev
+[2026-06-06T07:19:44.287Z] [OrchestratorEngine] Transitioned to state: ANALYTICS_QUEUE
+[2026-06-06T07:19:44.400Z] [OrchestratorEngine] Adding analytics event scripts and tracking targets...
+[2026-06-06T07:19:44.537Z] [OrchestratorEngine] Transitioned to state: GSC_QUEUE
+[2026-06-06T07:19:44.612Z] [OrchestratorEngine] Submitting site sitemaps to Google Search Console queue...
+[2026-06-06T07:19:44.749Z] [OrchestratorEngine] Transitioned to state: ADSENSE_QUEUE
+[2026-06-06T07:19:44.859Z] [OrchestratorEngine] Checking commercial viability and registering AdSense units...
+[2026-06-06T07:19:45.028Z] [OrchestratorEngine] Transitioned to state: MONITORING
+[2026-06-06T07:19:45.063Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
+[2026-06-06T07:19:45.216Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T07:19:45.294Z] [OrchestratorEngine] Job job-1780730380645-397 completed successfully!
+[2026-06-06T08:55:13.506Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780736113505-435 for niche "PDF to Markdown Converter"
+[2026-06-06T08:55:13.708Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T08:55:13.731Z] [OrchestratorEngine] Input parameters checked. Niche: "PDF to Markdown Converter", Quantity: 2
+[2026-06-06T08:55:13.758Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T08:55:13.862Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T08:55:13.893Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T08:55:13.959Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T08:55:13.990Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T08:55:14.041Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T08:55:14.086Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T08:55:14.124Z] [OrchestratorEngine] TrendDiscoveryAgent found keyword topics: ["PDF to Markdown Converter dynamic calculator","best free PDF to Markdown Converter generator","online interactive PDF to Markdown Converter scoring tool"]
+[2026-06-06T08:55:14.171Z] [OrchestratorEngine] Discovered 3 keyword opportunities.
+[2026-06-06T08:55:14.240Z] [OrchestratorEngine] Transitioned to state: ANALYZING
+[2026-06-06T08:55:14.260Z] [OrchestratorEngine] Running competitor content gap analysis...
+[2026-06-06T08:55:14.316Z] [OrchestratorEngine] Transitioned to state: SELECTING
+[2026-06-06T08:55:14.347Z] [OrchestratorEngine] Filtering and selecting high-potential tool targets...
+[2026-06-06T08:55:14.397Z] [OrchestratorEngine] Selected tools for generation: ["PDF to Markdown Converter calculator","free online PDF to Markdown Converter generator"]
+[2026-06-06T08:55:14.442Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T08:55:14.496Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T08:55:14.545Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T08:55:14.578Z] [OrchestratorEngine] Compiled specifications for 2 tools.
+[2026-06-06T08:55:14.660Z] [OrchestratorEngine] Transitioned to state: CREATING
+[2026-06-06T08:55:14.691Z] [OrchestratorEngine] Executing AST compiler for tool backend and frontend scripts...
+[2026-06-06T08:55:14.761Z] [OrchestratorEngine] File written to disk: [src/pages/tools/PDF-to-Markdown-Converter-calculator.astro]
+[2026-06-06T08:55:14.805Z] [OrchestratorEngine] File written to disk: [public/scripts/PDF-to-Markdown-Converter-calculator.js]
+[2026-06-06T08:55:14.837Z] [OrchestratorEngine] File written to disk: [public/styles/PDF-to-Markdown-Converter-calculator.css]
+[2026-06-06T08:55:14.901Z] [OrchestratorEngine] File written to disk: [src/pages/tools/free-online-PDF-to-Markdown-Converter-generator.astro]
+[2026-06-06T08:55:14.952Z] [OrchestratorEngine] File written to disk: [public/scripts/free-online-PDF-to-Markdown-Converter-generator.js]
+[2026-06-06T08:55:14.990Z] [OrchestratorEngine] File written to disk: [public/styles/free-online-PDF-to-Markdown-Converter-generator.css]
+[2026-06-06T08:55:15.036Z] [OrchestratorEngine] Successfully compiled and outputted 6 files.
+[2026-06-06T08:55:15.113Z] [OrchestratorEngine] Transitioned to state: PAGE_GENERATING
+[2026-06-06T08:55:15.150Z] [OrchestratorEngine] Assembling static layout page elements...
+[2026-06-06T08:55:15.219Z] [OrchestratorEngine] Transitioned to state: SEO_VALIDATING
+[2026-06-06T08:55:15.243Z] [OrchestratorEngine] Running structural and meta compliance validation audits...
+[2026-06-06T08:55:15.338Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T08:55:15.369Z] [OrchestratorEngine] Evaluated Quality Gate score: 100
+[2026-06-06T08:55:15.417Z] [OrchestratorEngine] Quality Gate passed! Gating decision score: 100
+[2026-06-06T08:55:15.469Z] [OrchestratorEngine] Transitioned to state: COMMITTING
+[2026-06-06T08:55:15.506Z] [OrchestratorEngine] Pushing code files to remote branch and checking CI status...
+[2026-06-06T08:55:15.965Z] [OrchestratorEngine] Transitioned to state: DEPLOYING
+[2026-06-06T08:55:16.041Z] [OrchestratorEngine] Deploying to Cloudflare Pages staging network...
+[2026-06-06T08:55:16.102Z] [OrchestratorEngine] Staging deployment is live at: https://PDF-to-Markdown-Converter.antigpt.pages.dev
+[2026-06-06T08:55:16.190Z] [OrchestratorEngine] Transitioned to state: ANALYTICS_QUEUE
+[2026-06-06T08:55:16.228Z] [OrchestratorEngine] Adding analytics event scripts and tracking targets...
+[2026-06-06T08:55:16.292Z] [OrchestratorEngine] Transitioned to state: GSC_QUEUE
+[2026-06-06T08:55:16.342Z] [OrchestratorEngine] Submitting site sitemaps to Google Search Console queue...
+[2026-06-06T08:55:16.399Z] [OrchestratorEngine] Transitioned to state: ADSENSE_QUEUE
+[2026-06-06T08:55:16.442Z] [OrchestratorEngine] Checking commercial viability and registering AdSense units...
+[2026-06-06T08:55:16.534Z] [OrchestratorEngine] Transitioned to state: MONITORING
+[2026-06-06T08:55:16.574Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
+[2026-06-06T08:55:16.654Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T08:55:16.693Z] [OrchestratorEngine] Job job-1780736113505-435 completed successfully!
+[2026-06-06T08:56:07.514Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780736167514-712 for niche "T2OTYCOON SMART TOOLS EMPIRE"
+[2026-06-06T08:56:07.827Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T08:56:07.864Z] [OrchestratorEngine] Input parameters checked. Niche: "T2OTYCOON SMART TOOLS EMPIRE", Quantity: 2
+[2026-06-06T08:56:07.912Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T08:56:07.989Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T08:56:08.036Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T08:56:08.076Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T08:56:08.111Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T08:56:08.184Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T08:56:08.220Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T08:56:08.283Z] [OrchestratorEngine] TrendDiscoveryAgent found keyword topics: ["T2OTYCOON SMART TOOLS EMPIRE dynamic calculator","best free T2OTYCOON SMART TOOLS EMPIRE generator","online interactive T2OTYCOON SMART TOOLS EMPIRE scoring tool"]
+[2026-06-06T08:56:08.340Z] [OrchestratorEngine] Discovered 3 keyword opportunities.
+[2026-06-06T08:56:08.423Z] [OrchestratorEngine] Transitioned to state: ANALYZING
+[2026-06-06T08:56:08.463Z] [OrchestratorEngine] Running competitor content gap analysis...
+[2026-06-06T08:56:08.560Z] [OrchestratorEngine] Transitioned to state: SELECTING
+[2026-06-06T08:56:08.623Z] [OrchestratorEngine] Filtering and selecting high-potential tool targets...
+[2026-06-06T08:56:08.662Z] [OrchestratorEngine] Selected tools for generation: ["T2OTYCOON SMART TOOLS EMPIRE calculator","free online T2OTYCOON SMART TOOLS EMPIRE generator"]
+[2026-06-06T08:56:08.757Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T08:56:08.850Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T08:56:08.884Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T08:56:08.914Z] [OrchestratorEngine] Compiled specifications for 2 tools.
+[2026-06-06T08:56:09.004Z] [OrchestratorEngine] Transitioned to state: CREATING
+[2026-06-06T08:56:09.054Z] [OrchestratorEngine] Executing AST compiler for tool backend and frontend scripts...
+[2026-06-06T08:56:09.119Z] [OrchestratorEngine] File written to disk: [src/pages/tools/T2OTYCOON-SMART-TOOLS-EMPIRE-calculator.astro]
+[2026-06-06T08:56:09.186Z] [OrchestratorEngine] File written to disk: [public/scripts/T2OTYCOON-SMART-TOOLS-EMPIRE-calculator.js]
+[2026-06-06T08:56:09.224Z] [OrchestratorEngine] File written to disk: [public/styles/T2OTYCOON-SMART-TOOLS-EMPIRE-calculator.css]
+[2026-06-06T08:56:09.261Z] [OrchestratorEngine] File written to disk: [src/pages/tools/free-online-T2OTYCOON-SMART-TOOLS-EMPIRE-generator.astro]
+[2026-06-06T08:56:09.296Z] [OrchestratorEngine] File written to disk: [public/scripts/free-online-T2OTYCOON-SMART-TOOLS-EMPIRE-generator.js]
+[2026-06-06T08:56:09.326Z] [OrchestratorEngine] File written to disk: [public/styles/free-online-T2OTYCOON-SMART-TOOLS-EMPIRE-generator.css]
+[2026-06-06T08:56:09.385Z] [OrchestratorEngine] Successfully compiled and outputted 6 files.
+[2026-06-06T08:56:09.464Z] [OrchestratorEngine] Transitioned to state: PAGE_GENERATING
+[2026-06-06T08:56:09.521Z] [OrchestratorEngine] Assembling static layout page elements...
+[2026-06-06T08:56:09.595Z] [OrchestratorEngine] Transitioned to state: SEO_VALIDATING
+[2026-06-06T08:56:09.630Z] [OrchestratorEngine] Running structural and meta compliance validation audits...
+[2026-06-06T08:56:09.701Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T08:56:09.763Z] [OrchestratorEngine] Evaluated Quality Gate score: 100
+[2026-06-06T08:56:09.815Z] [OrchestratorEngine] Quality Gate passed! Gating decision score: 100
+[2026-06-06T08:56:09.874Z] [OrchestratorEngine] Transitioned to state: COMMITTING
+[2026-06-06T08:56:09.928Z] [OrchestratorEngine] Pushing code files to remote branch and checking CI status...
+[2026-06-06T08:56:10.456Z] [OrchestratorEngine] Transitioned to state: DEPLOYING
+[2026-06-06T08:56:10.488Z] [OrchestratorEngine] Deploying to Cloudflare Pages staging network...
+[2026-06-06T08:56:10.576Z] [OrchestratorEngine] Staging deployment is live at: https://T2OTYCOON-SMART-TOOLS-EMPIRE.antigpt.pages.dev
+[2026-06-06T08:56:10.711Z] [OrchestratorEngine] Transitioned to state: ANALYTICS_QUEUE
+[2026-06-06T08:56:10.769Z] [OrchestratorEngine] Adding analytics event scripts and tracking targets...
+[2026-06-06T08:56:10.868Z] [OrchestratorEngine] Transitioned to state: GSC_QUEUE
+[2026-06-06T08:56:10.914Z] [OrchestratorEngine] Submitting site sitemaps to Google Search Console queue...
+[2026-06-06T08:56:10.982Z] [OrchestratorEngine] Transitioned to state: ADSENSE_QUEUE
+[2026-06-06T08:56:11.017Z] [OrchestratorEngine] Checking commercial viability and registering AdSense units...
+[2026-06-06T08:56:11.082Z] [OrchestratorEngine] Transitioned to state: MONITORING
+[2026-06-06T08:56:11.130Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
+[2026-06-06T08:56:11.203Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T08:56:11.265Z] [OrchestratorEngine] Job job-1780736167514-712 completed successfully!
+[2026-06-06T13:59:17.477Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780754357476-89 for niche "PDF to Markdown Converter"
+[2026-06-06T13:59:17.729Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T13:59:17.763Z] [OrchestratorEngine] Input parameters checked. Niche: "PDF to Markdown Converter", Quantity: 2
+[2026-06-06T13:59:17.817Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T13:59:17.896Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T13:59:17.941Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T13:59:17.976Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T13:59:18.019Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T13:59:18.088Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T13:59:18.129Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T13:59:18.174Z] [OrchestratorEngine] TrendDiscoveryAgent found keyword topics: ["PDF to Markdown Converter dynamic calculator","best free PDF to Markdown Converter generator","online interactive PDF to Markdown Converter scoring tool"]
+[2026-06-06T13:59:18.240Z] [OrchestratorEngine] Discovered 3 keyword opportunities.
+[2026-06-06T13:59:18.397Z] [OrchestratorEngine] Transitioned to state: ANALYZING
+[2026-06-06T13:59:18.466Z] [OrchestratorEngine] Running competitor content gap analysis...
+[2026-06-06T13:59:18.572Z] [OrchestratorEngine] Transitioned to state: SELECTING
+[2026-06-06T13:59:18.643Z] [OrchestratorEngine] Filtering and selecting high-potential tool targets...
+[2026-06-06T13:59:18.716Z] [OrchestratorEngine] Selected tools for generation: ["PDF to Markdown Converter calculator","free online PDF to Markdown Converter generator"]
+[2026-06-06T13:59:18.831Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T13:59:18.899Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T13:59:18.948Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T13:59:18.981Z] [OrchestratorEngine] Compiled specifications for 2 tools.
+[2026-06-06T13:59:19.067Z] [OrchestratorEngine] Transitioned to state: CREATING
+[2026-06-06T13:59:19.108Z] [OrchestratorEngine] Executing AST compiler for tool backend and frontend scripts...
+[2026-06-06T13:59:19.156Z] [OrchestratorEngine] File written to disk: [src/pages/tools/PDF-to-Markdown-Converter-calculator.astro]
+[2026-06-06T13:59:19.218Z] [OrchestratorEngine] File written to disk: [public/scripts/PDF-to-Markdown-Converter-calculator.js]
+[2026-06-06T13:59:19.284Z] [OrchestratorEngine] File written to disk: [public/styles/PDF-to-Markdown-Converter-calculator.css]
+[2026-06-06T13:59:19.343Z] [OrchestratorEngine] File written to disk: [src/pages/tools/free-online-PDF-to-Markdown-Converter-generator.astro]
+[2026-06-06T13:59:19.411Z] [OrchestratorEngine] File written to disk: [public/scripts/free-online-PDF-to-Markdown-Converter-generator.js]
+[2026-06-06T13:59:19.470Z] [OrchestratorEngine] File written to disk: [public/styles/free-online-PDF-to-Markdown-Converter-generator.css]
+[2026-06-06T13:59:19.518Z] [OrchestratorEngine] Successfully compiled and outputted 6 files.
+[2026-06-06T13:59:19.716Z] [OrchestratorEngine] Transitioned to state: PAGE_GENERATING
+[2026-06-06T13:59:19.743Z] [OrchestratorEngine] Assembling static layout page elements...
+[2026-06-06T13:59:19.852Z] [OrchestratorEngine] Transitioned to state: SEO_VALIDATING
+[2026-06-06T13:59:19.896Z] [OrchestratorEngine] Running structural and meta compliance validation audits...
+[2026-06-06T13:59:19.987Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T13:59:20.013Z] [OrchestratorEngine] Evaluated Quality Gate score: 100
+[2026-06-06T13:59:20.084Z] [OrchestratorEngine] Quality Gate passed! Gating decision score: 100
+[2026-06-06T13:59:20.150Z] [OrchestratorEngine] Transitioned to state: COMMITTING
+[2026-06-06T13:59:20.194Z] [OrchestratorEngine] Pushing code files to remote branch and checking CI status...
+[2026-06-06T13:59:20.806Z] [OrchestratorEngine] Transitioned to state: DEPLOYING
+[2026-06-06T13:59:20.848Z] [OrchestratorEngine] Deploying to Cloudflare Pages staging network...
+[2026-06-06T13:59:20.943Z] [OrchestratorEngine] Staging deployment is live at: https://PDF-to-Markdown-Converter.antigpt.pages.dev
+[2026-06-06T13:59:21.038Z] [OrchestratorEngine] Transitioned to state: ANALYTICS_QUEUE
+[2026-06-06T13:59:21.084Z] [OrchestratorEngine] Adding analytics event scripts and tracking targets...
+[2026-06-06T13:59:21.165Z] [OrchestratorEngine] Transitioned to state: GSC_QUEUE
+[2026-06-06T13:59:21.233Z] [OrchestratorEngine] Submitting site sitemaps to Google Search Console queue...
+[2026-06-06T13:59:21.295Z] [OrchestratorEngine] Transitioned to state: ADSENSE_QUEUE
+[2026-06-06T13:59:21.336Z] [OrchestratorEngine] Checking commercial viability and registering AdSense units...
+[2026-06-06T13:59:21.421Z] [OrchestratorEngine] Transitioned to state: MONITORING
+[2026-06-06T13:59:21.463Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
+[2026-06-06T13:59:21.548Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T13:59:21.584Z] [OrchestratorEngine] Job job-1780754357476-89 completed successfully!
+[2026-06-06T14:02:14.997Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780754534997-207 for niche "T2OTYCOON SMART TOOLS EMPIRE"
+[2026-06-06T14:02:15.193Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T14:02:15.237Z] [OrchestratorEngine] Input parameters checked. Niche: "T2OTYCOON SMART TOOLS EMPIRE", Quantity: 2
+[2026-06-06T14:02:15.285Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T14:02:15.744Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T14:02:15.808Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T14:02:15.861Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T14:02:15.892Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T14:02:15.985Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T14:02:16.022Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T14:02:16.752Z] [OrchestratorEngine] Job execution failed: Unknown file extension ".ts" for /root/src/orchestrator/agents.ts
+[2026-06-06T14:02:16.756Z] [OrchestratorEngine] Recovery failed: Invalid state transition: Cannot transition from RESEARCHING to RECOVERING
+[2026-06-06T14:02:50.882Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780754570882-272 for niche "T2OTYCOON SMART TOOLS EMPIRE"
+[2026-06-06T14:02:51.029Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T14:02:51.056Z] [OrchestratorEngine] Input parameters checked. Niche: "T2OTYCOON SMART TOOLS EMPIRE", Quantity: 2
+[2026-06-06T14:02:51.091Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T14:02:51.144Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T14:02:51.166Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T14:02:51.190Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T14:02:51.218Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T14:02:51.310Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T14:02:51.351Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T14:02:51.894Z] [OrchestratorEngine] Job execution failed: Unknown file extension ".ts" for /root/src/orchestrator/agents.ts
+[2026-06-06T14:02:51.931Z] [OrchestratorEngine] Triggering DRA recovery fallback logic...
+[2026-06-06T14:02:52.633Z] [OrchestratorEngine] Recovery failed: Unknown file extension ".ts" for /root/src/orchestrator/agents.ts
+[2026-06-06T14:03:17.864Z] [OrchestratorEngine] Starting Factory Orchestrator Job: job-1780754597864-566 for niche "PDF to Markdown Converter"
+[2026-06-06T14:03:18.073Z] [OrchestratorEngine] Transitioned to state: APPROVING
+[2026-06-06T14:03:18.160Z] [OrchestratorEngine] Input parameters checked. Niche: "PDF to Markdown Converter", Quantity: 2
+[2026-06-06T14:03:18.192Z] [OrchestratorEngine] Human Approval status: APPROVED. Budget and safety checked.
+[2026-06-06T14:03:18.267Z] [OrchestratorEngine] Transitioned to state: BOOTSTRAPPING
+[2026-06-06T14:03:18.318Z] [OrchestratorEngine] No credentials provided explicitly. Falling back to default environment variables.
+[2026-06-06T14:03:18.372Z] [OrchestratorEngine] Bootstrapping ANTIGPT engine runtime parameters...
+[2026-06-06T14:03:18.449Z] [OrchestratorEngine] ANTIGPT bootstrapped successfully. Loaded 25 skills from registry.
+[2026-06-06T14:03:18.583Z] [OrchestratorEngine] Transitioned to state: RESEARCHING
+[2026-06-06T14:03:18.634Z] [OrchestratorEngine] Running keyword and search intent analysis...
+[2026-06-06T14:03:18.684Z] [OrchestratorEngine] TrendDiscoveryAgent found keyword topics: ["PDF to Markdown Converter dynamic calculator","best free PDF to Markdown Converter generator","online interactive PDF to Markdown Converter scoring tool"]
+[2026-06-06T14:03:18.751Z] [OrchestratorEngine] Discovered 3 keyword opportunities.
+[2026-06-06T14:03:18.873Z] [OrchestratorEngine] Transitioned to state: ANALYZING
+[2026-06-06T14:03:18.949Z] [OrchestratorEngine] Running competitor content gap analysis...
+[2026-06-06T14:03:19.066Z] [OrchestratorEngine] Transitioned to state: SELECTING
+[2026-06-06T14:03:19.100Z] [OrchestratorEngine] Filtering and selecting high-potential tool targets...
+[2026-06-06T14:03:19.158Z] [OrchestratorEngine] Selected tools for generation: ["PDF to Markdown Converter calculator","free online PDF to Markdown Converter generator"]
+[2026-06-06T14:03:19.274Z] [OrchestratorEngine] Transitioned to state: SPECIFYING
+[2026-06-06T14:03:19.310Z] [OrchestratorEngine] Running tool specification & relational schema planning...
+[2026-06-06T14:03:19.354Z] [OrchestratorEngine] Schema validation results: isValid=true, score=100
+[2026-06-06T14:03:19.414Z] [OrchestratorEngine] Compiled specifications for 2 tools.
+[2026-06-06T14:03:19.502Z] [OrchestratorEngine] Transitioned to state: CREATING
+[2026-06-06T14:03:19.536Z] [OrchestratorEngine] Executing AST compiler for tool backend and frontend scripts...
+[2026-06-06T14:03:19.602Z] [OrchestratorEngine] File written to disk: [src/pages/tools/PDF-to-Markdown-Converter-calculator.astro]
+[2026-06-06T14:03:19.692Z] [OrchestratorEngine] File written to disk: [public/scripts/PDF-to-Markdown-Converter-calculator.js]
+[2026-06-06T14:03:19.748Z] [OrchestratorEngine] File written to disk: [public/styles/PDF-to-Markdown-Converter-calculator.css]
+[2026-06-06T14:03:19.785Z] [OrchestratorEngine] File written to disk: [src/pages/tools/free-online-PDF-to-Markdown-Converter-generator.astro]
+[2026-06-06T14:03:19.820Z] [OrchestratorEngine] File written to disk: [public/scripts/free-online-PDF-to-Markdown-Converter-generator.js]
+[2026-06-06T14:03:19.911Z] [OrchestratorEngine] File written to disk: [public/styles/free-online-PDF-to-Markdown-Converter-generator.css]
+[2026-06-06T14:03:19.945Z] [OrchestratorEngine] Successfully compiled and outputted 6 files.
+[2026-06-06T14:03:20.008Z] [OrchestratorEngine] Transitioned to state: PAGE_GENERATING
+[2026-06-06T14:03:20.049Z] [OrchestratorEngine] Assembling static layout page elements...
+[2026-06-06T14:03:20.161Z] [OrchestratorEngine] Transitioned to state: SEO_VALIDATING
+[2026-06-06T14:03:20.218Z] [OrchestratorEngine] Running structural and meta compliance validation audits...
+[2026-06-06T14:03:20.360Z] [OrchestratorEngine] Transitioned to state: GATING
+[2026-06-06T14:03:20.410Z] [OrchestratorEngine] Evaluated Quality Gate score: 100
+[2026-06-06T14:03:20.498Z] [OrchestratorEngine] Quality Gate passed! Gating decision score: 100
+[2026-06-06T14:03:20.592Z] [OrchestratorEngine] Transitioned to state: COMMITTING
+[2026-06-06T14:03:20.629Z] [OrchestratorEngine] Pushing code files to remote branch and checking CI status...
+[2026-06-06T14:03:22.426Z] [OrchestratorEngine] Transitioned to state: DEPLOYING
+[2026-06-06T14:03:22.472Z] [OrchestratorEngine] Deploying to Cloudflare Pages staging network...
+[2026-06-06T14:03:22.606Z] [OrchestratorEngine] Staging deployment is live at: https://PDF-to-Markdown-Converter.antigpt.pages.dev
+[2026-06-06T14:03:22.693Z] [OrchestratorEngine] Transitioned to state: ANALYTICS_QUEUE
+[2026-06-06T14:03:22.786Z] [OrchestratorEngine] Adding analytics event scripts and tracking targets...
+[2026-06-06T14:03:22.927Z] [OrchestratorEngine] Transitioned to state: GSC_QUEUE
+[2026-06-06T14:03:22.994Z] [OrchestratorEngine] Submitting site sitemaps to Google Search Console queue...
+[2026-06-06T14:03:23.144Z] [OrchestratorEngine] Transitioned to state: ADSENSE_QUEUE
+[2026-06-06T14:03:23.293Z] [OrchestratorEngine] Checking commercial viability and registering AdSense units...
+[2026-06-06T14:03:23.445Z] [OrchestratorEngine] Transitioned to state: MONITORING
+[2026-06-06T14:03:23.517Z] [OrchestratorEngine] Executing playwright browser and visual regression audit...
+[2026-06-06T14:03:23.731Z] [OrchestratorEngine] Transitioned to state: COMPLETED
+[2026-06-06T14:03:23.761Z] [OrchestratorEngine] Job job-1780754597864-566 completed successfully!

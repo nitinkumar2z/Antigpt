@@ -1,0 +1,23 @@
+{
+  "tool_id": "cybersecurity-gap-analyzer-by-role",
+  "tool_name": "Cybersecurity Gap Analyzer by Role",
+  "category": "Cybersecurity",
+  "rank": 571,
+  "composite_score": 7.5,
+  "volume": 11287,
+  "kd": 16,
+  "pages": 438,
+  "target_user": "Professionals in Cybersecurity",
+  "problem_solved": "Automates complex Cybersecurity Gap Analyzer by Role tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

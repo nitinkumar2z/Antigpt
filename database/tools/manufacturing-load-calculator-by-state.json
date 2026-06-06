@@ -1,0 +1,23 @@
+{
+  "tool_id": "manufacturing-load-calculator-by-state",
+  "tool_name": "Manufacturing Load Calculator by State",
+  "category": "Manufacturing",
+  "rank": 970,
+  "composite_score": 6.63,
+  "volume": 8481,
+  "kd": 22,
+  "pages": 165,
+  "target_user": "Professionals in Manufacturing",
+  "problem_solved": "Automates complex Manufacturing Load Calculator by State tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

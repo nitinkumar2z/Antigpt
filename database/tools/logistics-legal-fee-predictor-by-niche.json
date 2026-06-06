@@ -1,0 +1,33 @@
+{
+  "tool_id": "logistics-legal-fee-predictor-by-niche",
+  "tool_name": "Logistics Legal Fee Predictor by Niche",
+  "category": "Logistics",
+  "rank": 11,
+  "composite_score": 9.03,
+  "volume": 30720,
+  "kd": 8,
+  "pages": 587,
+  "target_user": "Professionals in Logistics",
+  "problem_solved": "Automates complex Legal Fee Predictor tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 6.1,
+    "D2": 8.4,
+    "D3": 8.5,
+    "D4": 9.0,
+    "D5": 10.0,
+    "D6": 8.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "tool_id": "transportation-yield-predictor-by-jurisdiction",
+  "tool_name": "Transportation Yield Predictor by Jurisdiction",
+  "category": "Transportation",
+  "rank": 416,
+  "composite_score": 7.75,
+  "volume": 46612,
+  "kd": 18,
+  "pages": 122,
+  "target_user": "Professionals in Transportation",
+  "problem_solved": "Automates complex Transportation Yield Predictor by Jurisdiction tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

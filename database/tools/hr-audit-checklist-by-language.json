@@ -1,0 +1,23 @@
+{
+  "tool_id": "hr-audit-checklist-by-language",
+  "tool_name": "HR Audit Checklist by Language",
+  "category": "Hr",
+  "rank": 302,
+  "composite_score": 7.94,
+  "volume": 12644,
+  "kd": 9,
+  "pages": 515,
+  "target_user": "Professionals in Hr",
+  "problem_solved": "Automates complex HR Audit Checklist by Language tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

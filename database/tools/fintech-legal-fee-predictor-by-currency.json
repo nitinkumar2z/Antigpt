@@ -1,0 +1,23 @@
+{
+  "tool_id": "fintech-legal-fee-predictor-by-currency",
+  "tool_name": "Fintech Legal Fee Predictor by Currency",
+  "category": "Fintech",
+  "rank": 486,
+  "composite_score": 7.64,
+  "volume": 6647,
+  "kd": 17,
+  "pages": 530,
+  "target_user": "Professionals in Fintech",
+  "problem_solved": "Automates complex Fintech Legal Fee Predictor by Currency tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

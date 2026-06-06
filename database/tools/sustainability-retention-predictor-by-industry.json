@@ -1,0 +1,23 @@
+{
+  "tool_id": "sustainability-retention-predictor-by-industry",
+  "tool_name": "Sustainability Retention Predictor by Industry",
+  "category": "Sustainability",
+  "rank": 870,
+  "composite_score": 6.93,
+  "volume": 10109,
+  "kd": 17,
+  "pages": 240,
+  "target_user": "Professionals in Sustainability",
+  "problem_solved": "Automates complex Sustainability Retention Predictor by Industry tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

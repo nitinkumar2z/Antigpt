@@ -1,0 +1,23 @@
+{
+  "tool_id": "telecom-audit-checklist-by-company-size",
+  "tool_name": "Telecom Audit Checklist by Company Size",
+  "category": "Telecom",
+  "rank": 585,
+  "composite_score": 7.48,
+  "volume": 7340,
+  "kd": 13,
+  "pages": 425,
+  "target_user": "Professionals in Telecom",
+  "problem_solved": "Automates complex Telecom Audit Checklist by Company Size tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

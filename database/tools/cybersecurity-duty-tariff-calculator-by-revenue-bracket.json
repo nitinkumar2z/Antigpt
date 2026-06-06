@@ -1,0 +1,33 @@
+{
+  "tool_id": "cybersecurity-duty-tariff-calculator-by-revenue-bracket",
+  "tool_name": "Cybersecurity Duty & Tariff Calculator by Revenue Bracket",
+  "category": "Cybersecurity",
+  "rank": 5,
+  "composite_score": 9.12,
+  "volume": 51295,
+  "kd": 11,
+  "pages": 415,
+  "target_user": "Professionals in Cybersecurity",
+  "problem_solved": "Automates complex Duty & Tariff Calculator tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": {
+    "D1": 10.0,
+    "D2": 7.8,
+    "D3": 8.5,
+    "D4": 9.0,
+    "D5": 8.3,
+    "D6": 6.0,
+    "D7": 8.0,
+    "D8": 6.0,
+    "D9": 9.0
+  },
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

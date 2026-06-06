@@ -1,0 +1,23 @@
+{
+  "tool_id": "chemicals-yield-predictor-by-storage-type",
+  "tool_name": "Chemicals Yield Predictor by Storage Type",
+  "category": "Chemicals",
+  "rank": 790,
+  "composite_score": 7.13,
+  "volume": 16849,
+  "kd": 30,
+  "pages": 517,
+  "target_user": "Professionals in Chemicals",
+  "problem_solved": "Automates complex Chemicals Yield Predictor by Storage Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

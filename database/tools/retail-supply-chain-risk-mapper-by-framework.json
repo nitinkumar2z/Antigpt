@@ -1,0 +1,23 @@
+{
+  "tool_id": "retail-supply-chain-risk-mapper-by-framework",
+  "tool_name": "Retail Supply Chain Risk Mapper by Framework",
+  "category": "Retail",
+  "rank": 879,
+  "composite_score": 6.89,
+  "volume": 57364,
+  "kd": 36,
+  "pages": 101,
+  "target_user": "Professionals in Retail",
+  "problem_solved": "Automates complex Retail Supply Chain Risk Mapper by Framework tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

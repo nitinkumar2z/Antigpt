@@ -1,0 +1,23 @@
+{
+  "tool_id": "hr-legal-fee-predictor-by-building-type",
+  "tool_name": "HR Legal Fee Predictor by Building Type",
+  "category": "Hr",
+  "rank": 159,
+  "composite_score": 8.26,
+  "volume": 40569,
+  "kd": 27,
+  "pages": 561,
+  "target_user": "Professionals in Hr",
+  "problem_solved": "Automates complex HR Legal Fee Predictor by Building Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

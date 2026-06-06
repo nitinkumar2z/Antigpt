@@ -1,0 +1,23 @@
+{
+  "tool_id": "fintech-patent-cost-estimator-by-city",
+  "tool_name": "Fintech Patent Cost Estimator by City",
+  "category": "Fintech",
+  "rank": 215,
+  "composite_score": 8.12,
+  "volume": 51606,
+  "kd": 25,
+  "pages": 535,
+  "target_user": "Professionals in Fintech",
+  "problem_solved": "Automates complex Fintech Patent Cost Estimator by City tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

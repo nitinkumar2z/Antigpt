@@ -1,0 +1,23 @@
+{
+  "tool_id": "engineering-ltv-estimator-by-regulation",
+  "tool_name": "Engineering LTV Estimator by Regulation",
+  "category": "Engineering",
+  "rank": 146,
+  "composite_score": 8.28,
+  "volume": 49455,
+  "kd": 5,
+  "pages": 188,
+  "target_user": "Professionals in Engineering",
+  "problem_solved": "Automates complex Engineering LTV Estimator by Regulation tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

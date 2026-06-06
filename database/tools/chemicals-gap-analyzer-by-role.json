@@ -1,0 +1,23 @@
+{
+  "tool_id": "chemicals-gap-analyzer-by-role",
+  "tool_name": "Chemicals Gap Analyzer by Role",
+  "category": "Chemicals",
+  "rank": 468,
+  "composite_score": 7.67,
+  "volume": 32309,
+  "kd": 20,
+  "pages": 437,
+  "target_user": "Professionals in Chemicals",
+  "problem_solved": "Automates complex Chemicals Gap Analyzer by Role tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

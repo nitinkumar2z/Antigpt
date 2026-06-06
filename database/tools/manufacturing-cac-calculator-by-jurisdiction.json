@@ -1,0 +1,23 @@
+{
+  "tool_id": "manufacturing-cac-calculator-by-jurisdiction",
+  "tool_name": "Manufacturing CAC Calculator by Jurisdiction",
+  "category": "Manufacturing",
+  "rank": 952,
+  "composite_score": 6.68,
+  "volume": 26541,
+  "kd": 36,
+  "pages": 350,
+  "target_user": "Professionals in Manufacturing",
+  "problem_solved": "Automates complex Manufacturing CAC Calculator by Jurisdiction tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

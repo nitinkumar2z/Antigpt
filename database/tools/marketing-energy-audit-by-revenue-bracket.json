@@ -1,0 +1,23 @@
+{
+  "tool_id": "marketing-energy-audit-by-revenue-bracket",
+  "tool_name": "Marketing Energy Audit by Revenue Bracket",
+  "category": "Marketing",
+  "rank": 537,
+  "composite_score": 7.56,
+  "volume": 39084,
+  "kd": 20,
+  "pages": 132,
+  "target_user": "Professionals in Marketing",
+  "problem_solved": "Automates complex Marketing Energy Audit by Revenue Bracket tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

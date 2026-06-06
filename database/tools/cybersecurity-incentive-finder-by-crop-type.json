@@ -1,0 +1,23 @@
+{
+  "tool_id": "cybersecurity-incentive-finder-by-crop-type",
+  "tool_name": "Cybersecurity Incentive Finder by Crop Type",
+  "category": "Cybersecurity",
+  "rank": 281,
+  "composite_score": 7.97,
+  "volume": 44257,
+  "kd": 32,
+  "pages": 556,
+  "target_user": "Professionals in Cybersecurity",
+  "problem_solved": "Automates complex Cybersecurity Incentive Finder by Crop Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

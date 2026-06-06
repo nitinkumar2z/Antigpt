@@ -1,0 +1,23 @@
+{
+  "tool_id": "retail-pricing-simulator-by-asset-type",
+  "tool_name": "Retail Pricing Simulator by Asset Type",
+  "category": "Retail",
+  "rank": 860,
+  "composite_score": 6.97,
+  "volume": 39077,
+  "kd": 33,
+  "pages": 147,
+  "target_user": "Professionals in Retail",
+  "problem_solved": "Automates complex Retail Pricing Simulator by Asset Type tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

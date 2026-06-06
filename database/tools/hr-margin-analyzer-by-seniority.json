@@ -1,0 +1,23 @@
+{
+  "tool_id": "hr-margin-analyzer-by-seniority",
+  "tool_name": "HR Margin Analyzer by Seniority",
+  "category": "Hr",
+  "rank": 436,
+  "composite_score": 7.71,
+  "volume": 49902,
+  "kd": 27,
+  "pages": 334,
+  "target_user": "Professionals in Hr",
+  "problem_solved": "Automates complex HR Margin Analyzer by Seniority tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

@@ -1,0 +1,23 @@
+{
+  "tool_id": "cybersecurity-vendor-evaluator-by-material",
+  "tool_name": "Cybersecurity Vendor Evaluator by Material",
+  "category": "Cybersecurity",
+  "rank": 389,
+  "composite_score": 7.8,
+  "volume": 35284,
+  "kd": 28,
+  "pages": 466,
+  "target_user": "Professionals in Cybersecurity",
+  "problem_solved": "Automates complex Cybersecurity Vendor Evaluator by Material tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

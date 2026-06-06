@@ -1,0 +1,23 @@
+{
+  "tool_id": "aerospace-safety-audit-by-role",
+  "tool_name": "Aerospace Safety Audit by Role",
+  "category": "Aerospace",
+  "rank": 655,
+  "composite_score": 7.38,
+  "volume": 11069,
+  "kd": 13,
+  "pages": 322,
+  "target_user": "Professionals in Aerospace",
+  "problem_solved": "Automates complex Aerospace Safety Audit by Role tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

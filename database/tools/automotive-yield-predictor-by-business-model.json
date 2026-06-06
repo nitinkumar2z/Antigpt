@@ -1,0 +1,23 @@
+{
+  "tool_id": "automotive-yield-predictor-by-business-model",
+  "tool_name": "Automotive Yield Predictor by Business Model",
+  "category": "Automotive",
+  "rank": 421,
+  "composite_score": 7.74,
+  "volume": 41360,
+  "kd": 30,
+  "pages": 438,
+  "target_user": "Professionals in Automotive",
+  "problem_solved": "Automates complex Automotive Yield Predictor by Business Model tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

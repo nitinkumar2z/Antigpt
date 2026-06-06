@@ -1,0 +1,23 @@
+{
+  "tool_id": "healthcare-patent-cost-estimator-by-energy-source",
+  "tool_name": "Healthcare Patent Cost Estimator by Energy Source",
+  "category": "Healthcare",
+  "rank": 692,
+  "composite_score": 7.32,
+  "volume": 8390,
+  "kd": 14,
+  "pages": 539,
+  "target_user": "Professionals in Healthcare",
+  "problem_solved": "Automates complex Healthcare Patent Cost Estimator by Energy Source tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

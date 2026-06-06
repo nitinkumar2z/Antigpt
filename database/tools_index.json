@@ -1,0 +1,5002 @@
+{
+  "compliance-patent-cost-estimator-by-building-type": {
+    "tool_name": "Compliance Patent Cost Estimator by Building Type",
+    "category": "Compliance",
+    "composite_score": 9.53
+  },
+  "legal-legal-fee-predictor-by-employee-count": {
+    "tool_name": "Legal Legal Fee Predictor by Employee Count",
+    "category": "Legal",
+    "composite_score": 9.35
+  },
+  "telecom-regulatory-navigator-by-transaction-volume": {
+    "tool_name": "Telecom Regulatory Navigator by Transaction Volume",
+    "category": "Telecom",
+    "composite_score": 9.19
+  },
+  "insurance-cac-calculator-by-hs-code": {
+    "tool_name": "Insurance CAC Calculator by HS Code",
+    "category": "Insurance",
+    "composite_score": 9.16
+  },
+  "cybersecurity-duty-tariff-calculator-by-revenue-bracket": {
+    "tool_name": "Cybersecurity Duty & Tariff Calculator by Revenue Bracket",
+    "category": "Cybersecurity",
+    "composite_score": 9.12
+  },
+  "food-beverage-legal-fee-predictor-by-material-grade": {
+    "tool_name": "Food & Beverage Legal Fee Predictor by Material Grade",
+    "category": "Food & Beverage",
+    "composite_score": 9.08
+  },
+  "pharma-legal-fee-predictor-by-asset-type": {
+    "tool_name": "Pharma Legal Fee Predictor by Asset Type",
+    "category": "Pharma",
+    "composite_score": 9.07
+  },
+  "compliance-benchmark-tool-by-country": {
+    "tool_name": "Compliance Benchmark Tool by Country",
+    "category": "Compliance",
+    "composite_score": 9.06
+  },
+  "transportation-pricing-simulator-by-role": {
+    "tool_name": "Transportation Pricing Simulator by Role",
+    "category": "Transportation",
+    "composite_score": 9.04
+  },
+  "legal-esop-simulator-by-hs-code": {
+    "tool_name": "Legal ESOP Simulator by HS Code",
+    "category": "Legal",
+    "composite_score": 9.04
+  },
+  "logistics-legal-fee-predictor-by-niche": {
+    "tool_name": "Logistics Legal Fee Predictor by Niche",
+    "category": "Logistics",
+    "composite_score": 9.03
+  },
+  "education-water-usage-tracker-by-building-type": {
+    "tool_name": "Education Water Usage Tracker by Building Type",
+    "category": "Education",
+    "composite_score": 9.0
+  },
+  "logistics-patent-cost-estimator-by-revenue-bracket": {
+    "tool_name": "Logistics Patent Cost Estimator by Revenue Bracket",
+    "category": "Logistics",
+    "composite_score": 9.0
+  },
+  "pharma-hiring-cost-analyzer-by-crop-type": {
+    "tool_name": "Pharma Hiring Cost Analyzer by Crop Type",
+    "category": "Pharma",
+    "composite_score": 8.98
+  },
+  "hospitality-duty-tariff-calculator-by-material": {
+    "tool_name": "Hospitality Duty & Tariff Calculator by Material",
+    "category": "Hospitality",
+    "composite_score": 8.97
+  },
+  "electronics-esop-simulator-by-storage-type": {
+    "tool_name": "Electronics ESOP Simulator by Storage Type",
+    "category": "Electronics",
+    "composite_score": 8.97
+  },
+  "cybersecurity-load-estimator-by-business-model": {
+    "tool_name": "Cybersecurity Load Estimator by Business Model",
+    "category": "Cybersecurity",
+    "composite_score": 8.95
+  },
+  "insurance-compliance-checker-by-industry": {
+    "tool_name": "Insurance Compliance Checker by Industry",
+    "category": "Insurance",
+    "composite_score": 8.94
+  },
+  "real-estate-yield-predictor-by-material-grade": {
+    "tool_name": "Real Estate Yield Predictor by Material Grade",
+    "category": "Real Estate",
+    "composite_score": 8.93
+  },
+  "finance-budget-planner-by-company-size": {
+    "tool_name": "Finance Budget Planner by Company Size",
+    "category": "Finance",
+    "composite_score": 8.93
+  },
+  "compliance-feasibility-study-by-country": {
+    "tool_name": "Compliance Feasibility Study by Country",
+    "category": "Compliance",
+    "composite_score": 8.89
+  },
+  "legal-tax-nexus-estimator-by-asset-type": {
+    "tool_name": "Legal Tax Nexus Estimator by Asset Type",
+    "category": "Legal",
+    "composite_score": 8.88
+  },
+  "sustainability-cost-estimator-by-category": {
+    "tool_name": "Sustainability Cost Estimator by Category",
+    "category": "Sustainability",
+    "composite_score": 8.88
+  },
+  "cybersecurity-duty-tariff-calculator-by-material-grade": {
+    "tool_name": "Cybersecurity Duty & Tariff Calculator by Material Grade",
+    "category": "Cybersecurity",
+    "composite_score": 8.84
+  },
+  "e-commerce-esop-simulator-by-material": {
+    "tool_name": "E-commerce ESOP Simulator by Material",
+    "category": "E-Commerce",
+    "composite_score": 8.83
+  },
+  "pharma-yield-predictor-by-framework": {
+    "tool_name": "Pharma Yield Predictor by Framework",
+    "category": "Pharma",
+    "composite_score": 8.83
+  },
+  "e-commerce-duty-tariff-calculator-by-crop-type": {
+    "tool_name": "E-commerce Duty & Tariff Calculator by Crop Type",
+    "category": "E-Commerce",
+    "composite_score": 8.81
+  },
+  "compliance-load-estimator-by-transaction-volume": {
+    "tool_name": "Compliance Load Estimator by Transaction Volume",
+    "category": "Compliance",
+    "composite_score": 8.8
+  },
+  "cybersecurity-load-estimator-by-energy-source": {
+    "tool_name": "Cybersecurity Load Estimator by Energy Source",
+    "category": "Cybersecurity",
+    "composite_score": 8.79
+  },
+  "cybersecurity-roi-calculator-by-storage-type": {
+    "tool_name": "Cybersecurity ROI Calculator by Storage Type",
+    "category": "Cybersecurity",
+    "composite_score": 8.77
+  },
+  "electronics-efficiency-benchmarker-by-vehicle-type": {
+    "tool_name": "Electronics Efficiency Benchmarker by Vehicle Type",
+    "category": "Electronics",
+    "composite_score": 8.76
+  },
+  "education-load-calculator-by-jurisdiction": {
+    "tool_name": "Education Load Calculator by Jurisdiction",
+    "category": "Education",
+    "composite_score": 8.75
+  },
+  "telecom-water-usage-tracker-by-industry": {
+    "tool_name": "Telecom Water Usage Tracker by Industry",
+    "category": "Telecom",
+    "composite_score": 8.75
+  },
+  "utilities-audit-checklist-by-cloud-provider": {
+    "tool_name": "Utilities Audit Checklist by Cloud Provider",
+    "category": "Utilities",
+    "composite_score": 8.74
+  },
+  "utilities-vendor-evaluator-by-storage-type": {
+    "tool_name": "Utilities Vendor Evaluator by Storage Type",
+    "category": "Utilities",
+    "composite_score": 8.73
+  },
+  "martech-efficiency-benchmarker-by-cloud-provider": {
+    "tool_name": "Martech Efficiency Benchmarker by Cloud Provider",
+    "category": "Martech",
+    "composite_score": 8.72
+  },
+  "compliance-ltv-estimator-by-industry": {
+    "tool_name": "Compliance LTV Estimator by Industry",
+    "category": "Compliance",
+    "composite_score": 8.7
+  },
+  "legal-energy-audit-by-city": {
+    "tool_name": "Legal Energy Audit by City",
+    "category": "Legal",
+    "composite_score": 8.7
+  },
+  "compliance-carbon-footprint-tracker-by-company-size": {
+    "tool_name": "Compliance Carbon Footprint Tracker by Company Size",
+    "category": "Compliance",
+    "composite_score": 8.7
+  },
+  "telecom-ltv-estimator-by-transaction-volume": {
+    "tool_name": "Telecom LTV Estimator by Transaction Volume",
+    "category": "Telecom",
+    "composite_score": 8.7
+  },
+  "edtech-carbon-footprint-tracker-by-jurisdiction": {
+    "tool_name": "Edtech Carbon Footprint Tracker by Jurisdiction",
+    "category": "Edtech",
+    "composite_score": 8.69
+  },
+  "agriculture-risk-assessor-by-framework": {
+    "tool_name": "Agriculture Risk Assessor by Framework",
+    "category": "Agriculture",
+    "composite_score": 8.69
+  },
+  "clean-energy-roi-calculator-by-platform": {
+    "tool_name": "Clean Energy ROI Calculator by Platform",
+    "category": "Clean Energy",
+    "composite_score": 8.69
+  },
+  "cybersecurity-carbon-footprint-tracker-by-niche": {
+    "tool_name": "Cybersecurity Carbon Footprint Tracker by Niche",
+    "category": "Cybersecurity",
+    "composite_score": 8.66
+  },
+  "logistics-duty-tariff-calculator-by-regulation": {
+    "tool_name": "Logistics Duty & Tariff Calculator by Regulation",
+    "category": "Logistics",
+    "composite_score": 8.66
+  },
+  "logistics-water-usage-tracker-by-asset-type": {
+    "tool_name": "Logistics Water Usage Tracker by Asset Type",
+    "category": "Logistics",
+    "composite_score": 8.66
+  },
+  "legal-carbon-footprint-tracker-by-state": {
+    "tool_name": "Legal Carbon Footprint Tracker by State",
+    "category": "Legal",
+    "composite_score": 8.66
+  },
+  "clean-energy-optimization-simulator-by-revenue-bracket": {
+    "tool_name": "Clean Energy Optimization Simulator by Revenue Bracket",
+    "category": "Clean Energy",
+    "composite_score": 8.65
+  },
+  "automotive-hiring-cost-analyzer-by-vehicle-type": {
+    "tool_name": "Automotive Hiring Cost Analyzer by Vehicle Type",
+    "category": "Automotive",
+    "composite_score": 8.64
+  },
+  "edtech-contract-value-estimator-by-hs-code": {
+    "tool_name": "Edtech Contract Value Estimator by HS Code",
+    "category": "Edtech",
+    "composite_score": 8.64
+  },
+  "clean-energy-audit-checklist-by-storage-type": {
+    "tool_name": "Clean Energy Audit Checklist by Storage Type",
+    "category": "Clean Energy",
+    "composite_score": 8.64
+  },
+  "utilities-budget-planner-by-energy-source": {
+    "tool_name": "Utilities Budget Planner by Energy Source",
+    "category": "Utilities",
+    "composite_score": 8.64
+  },
+  "engineering-audit-checklist-by-vehicle-type": {
+    "tool_name": "Engineering Audit Checklist by Vehicle Type",
+    "category": "Engineering",
+    "composite_score": 8.63
+  },
+  "aerospace-duty-tariff-calculator-by-country": {
+    "tool_name": "Aerospace Duty & Tariff Calculator by Country",
+    "category": "Aerospace",
+    "composite_score": 8.62
+  },
+  "finance-water-usage-tracker-by-currency": {
+    "tool_name": "Finance Water Usage Tracker by Currency",
+    "category": "Finance",
+    "composite_score": 8.62
+  },
+  "insurance-energy-audit-by-niche": {
+    "tool_name": "Insurance Energy Audit by Niche",
+    "category": "Insurance",
+    "composite_score": 8.62
+  },
+  "e-commerce-roi-calculator-by-transaction-volume": {
+    "tool_name": "E-commerce ROI Calculator by Transaction Volume",
+    "category": "E-Commerce",
+    "composite_score": 8.61
+  },
+  "finance-tax-nexus-estimator-by-industry": {
+    "tool_name": "Finance Tax Nexus Estimator by Industry",
+    "category": "Finance",
+    "composite_score": 8.61
+  },
+  "education-esop-simulator-by-state": {
+    "tool_name": "Education ESOP Simulator by State",
+    "category": "Education",
+    "composite_score": 8.61
+  },
+  "utilities-pricing-simulator-by-currency": {
+    "tool_name": "Utilities Pricing Simulator by Currency",
+    "category": "Utilities",
+    "composite_score": 8.6
+  },
+  "construction-benchmark-tool-by-building-type": {
+    "tool_name": "Construction Benchmark Tool by Building Type",
+    "category": "Construction",
+    "composite_score": 8.59
+  },
+  "compliance-esop-simulator-by-business-model": {
+    "tool_name": "Compliance ESOP Simulator by Business Model",
+    "category": "Compliance",
+    "composite_score": 8.59
+  },
+  "hospitality-legal-fee-predictor-by-energy-source": {
+    "tool_name": "Hospitality Legal Fee Predictor by Energy Source",
+    "category": "Hospitality",
+    "composite_score": 8.59
+  },
+  "clean-energy-churn-predictor-by-crop-type": {
+    "tool_name": "Clean Energy Churn Predictor by Crop Type",
+    "category": "Clean Energy",
+    "composite_score": 8.58
+  },
+  "edtech-legal-fee-predictor-by-cloud-provider": {
+    "tool_name": "Edtech Legal Fee Predictor by Cloud Provider",
+    "category": "Edtech",
+    "composite_score": 8.58
+  },
+  "healthtech-duty-tariff-calculator-by-energy-source": {
+    "tool_name": "Healthtech Duty & Tariff Calculator by Energy Source",
+    "category": "Healthtech",
+    "composite_score": 8.57
+  },
+  "food-beverage-audit-checklist-by-cloud-provider": {
+    "tool_name": "Food & Beverage Audit Checklist by Cloud Provider",
+    "category": "Food & Beverage",
+    "composite_score": 8.57
+  },
+  "compliance-efficiency-benchmarker-by-energy-source": {
+    "tool_name": "Compliance Efficiency Benchmarker by Energy Source",
+    "category": "Compliance",
+    "composite_score": 8.57
+  },
+  "cybersecurity-load-estimator-by-platform": {
+    "tool_name": "Cybersecurity Load Estimator by Platform",
+    "category": "Cybersecurity",
+    "composite_score": 8.56
+  },
+  "fintech-safety-audit-by-language": {
+    "tool_name": "Fintech Safety Audit by Language",
+    "category": "Fintech",
+    "composite_score": 8.56
+  },
+  "logistics-cac-calculator-by-technology-stack": {
+    "tool_name": "Logistics CAC Calculator by Technology Stack",
+    "category": "Logistics",
+    "composite_score": 8.56
+  },
+  "finance-churn-predictor-by-hs-code": {
+    "tool_name": "Finance Churn Predictor by HS Code",
+    "category": "Finance",
+    "composite_score": 8.55
+  },
+  "hr-safety-audit-by-niche": {
+    "tool_name": "HR Safety Audit by Niche",
+    "category": "Hr",
+    "composite_score": 8.55
+  },
+  "finance-margin-analyzer-by-industry": {
+    "tool_name": "Finance Margin Analyzer by Industry",
+    "category": "Finance",
+    "composite_score": 8.54
+  },
+  "wholesale-cost-estimator-by-city": {
+    "tool_name": "Wholesale Cost Estimator by City",
+    "category": "Wholesale",
+    "composite_score": 8.54
+  },
+  "energy-margin-analyzer-by-country": {
+    "tool_name": "Energy Margin Analyzer by Country",
+    "category": "Energy",
+    "composite_score": 8.53
+  },
+  "edtech-pricing-simulator-by-material-grade": {
+    "tool_name": "Edtech Pricing Simulator by Material Grade",
+    "category": "Edtech",
+    "composite_score": 8.53
+  },
+  "electronics-gap-analyzer-by-material-grade": {
+    "tool_name": "Electronics Gap Analyzer by Material Grade",
+    "category": "Electronics",
+    "composite_score": 8.53
+  },
+  "proptech-gap-analyzer-by-company-size": {
+    "tool_name": "Proptech Gap Analyzer by Company Size",
+    "category": "Proptech",
+    "composite_score": 8.53
+  },
+  "logistics-budget-planner-by-company-size": {
+    "tool_name": "Logistics Budget Planner by Company Size",
+    "category": "Logistics",
+    "composite_score": 8.53
+  },
+  "food-beverage-gap-analyzer-by-company-size": {
+    "tool_name": "Food & Beverage Gap Analyzer by Company Size",
+    "category": "Food & Beverage",
+    "composite_score": 8.52
+  },
+  "education-load-calculator-by-framework": {
+    "tool_name": "Education Load Calculator by Framework",
+    "category": "Education",
+    "composite_score": 8.51
+  },
+  "hr-audit-checklist-by-employee-count": {
+    "tool_name": "HR Audit Checklist by Employee Count",
+    "category": "Hr",
+    "composite_score": 8.51
+  },
+  "finance-energy-audit-by-revenue-bracket": {
+    "tool_name": "Finance Energy Audit by Revenue Bracket",
+    "category": "Finance",
+    "composite_score": 8.5
+  },
+  "energy-duty-tariff-calculator-by-business-model": {
+    "tool_name": "Energy Duty & Tariff Calculator by Business Model",
+    "category": "Energy",
+    "composite_score": 8.49
+  },
+  "insurance-waste-reduction-tracker-by-currency": {
+    "tool_name": "Insurance Waste Reduction Tracker by Currency",
+    "category": "Insurance",
+    "composite_score": 8.48
+  },
+  "education-ltv-estimator-by-language": {
+    "tool_name": "Education LTV Estimator by Language",
+    "category": "Education",
+    "composite_score": 8.48
+  },
+  "construction-ltv-estimator-by-employee-count": {
+    "tool_name": "Construction LTV Estimator by Employee Count",
+    "category": "Construction",
+    "composite_score": 8.48
+  },
+  "biotech-water-usage-tracker-by-storage-type": {
+    "tool_name": "Biotech Water Usage Tracker by Storage Type",
+    "category": "Biotech",
+    "composite_score": 8.46
+  },
+  "energy-vendor-evaluator-by-hs-code": {
+    "tool_name": "Energy Vendor Evaluator by HS Code",
+    "category": "Energy",
+    "composite_score": 8.46
+  },
+  "martech-emission-estimator-by-employee-count": {
+    "tool_name": "Martech Emission Estimator by Employee Count",
+    "category": "Martech",
+    "composite_score": 8.45
+  },
+  "marketing-load-estimator-by-framework": {
+    "tool_name": "Marketing Load Estimator by Framework",
+    "category": "Marketing",
+    "composite_score": 8.44
+  },
+  "chemicals-churn-predictor-by-seniority": {
+    "tool_name": "Chemicals Churn Predictor by Seniority",
+    "category": "Chemicals",
+    "composite_score": 8.44
+  },
+  "electronics-safety-audit-by-platform": {
+    "tool_name": "Electronics Safety Audit by Platform",
+    "category": "Electronics",
+    "composite_score": 8.43
+  },
+  "chemicals-supply-chain-risk-mapper-by-material-grade": {
+    "tool_name": "Chemicals Supply Chain Risk Mapper by Material Grade",
+    "category": "Chemicals",
+    "composite_score": 8.43
+  },
+  "finance-supply-chain-risk-mapper-by-technology-stack": {
+    "tool_name": "Finance Supply Chain Risk Mapper by Technology Stack",
+    "category": "Finance",
+    "composite_score": 8.42
+  },
+  "finance-hiring-cost-analyzer-by-regulation": {
+    "tool_name": "Finance Hiring Cost Analyzer by Regulation",
+    "category": "Finance",
+    "composite_score": 8.41
+  },
+  "e-commerce-budget-planner-by-city": {
+    "tool_name": "E-commerce Budget Planner by City",
+    "category": "E-Commerce",
+    "composite_score": 8.41
+  },
+  "legal-regulatory-navigator-by-storage-type": {
+    "tool_name": "Legal Regulatory Navigator by Storage Type",
+    "category": "Legal",
+    "composite_score": 8.41
+  },
+  "martech-risk-assessor-by-seniority": {
+    "tool_name": "Martech Risk Assessor by Seniority",
+    "category": "Martech",
+    "composite_score": 8.41
+  },
+  "transportation-load-estimator-by-cloud-provider": {
+    "tool_name": "Transportation Load Estimator by Cloud Provider",
+    "category": "Transportation",
+    "composite_score": 8.41
+  },
+  "electronics-load-estimator-by-industry": {
+    "tool_name": "Electronics Load Estimator by Industry",
+    "category": "Electronics",
+    "composite_score": 8.4
+  },
+  "utilities-pricing-simulator-by-vehicle-type": {
+    "tool_name": "Utilities Pricing Simulator by Vehicle Type",
+    "category": "Utilities",
+    "composite_score": 8.39
+  },
+  "utilities-duty-tariff-calculator-by-vehicle-type": {
+    "tool_name": "Utilities Duty & Tariff Calculator by Vehicle Type",
+    "category": "Utilities",
+    "composite_score": 8.39
+  },
+  "electronics-energy-audit-by-role": {
+    "tool_name": "Electronics Energy Audit by Role",
+    "category": "Electronics",
+    "composite_score": 8.39
+  },
+  "fintech-load-calculator-by-asset-type": {
+    "tool_name": "Fintech Load Calculator by Asset Type",
+    "category": "Fintech",
+    "composite_score": 8.39
+  },
+  "pharma-logistics-optimizer-by-building-type": {
+    "tool_name": "Pharma Logistics Optimizer by Building Type",
+    "category": "Pharma",
+    "composite_score": 8.38
+  },
+  "martech-budget-planner-by-company-size": {
+    "tool_name": "Martech Budget Planner by Company Size",
+    "category": "Martech",
+    "composite_score": 8.38
+  },
+  "transportation-yield-predictor-by-asset-type": {
+    "tool_name": "Transportation Yield Predictor by Asset Type",
+    "category": "Transportation",
+    "composite_score": 8.38
+  },
+  "engineering-duty-tariff-calculator-by-state": {
+    "tool_name": "Engineering Duty & Tariff Calculator by State",
+    "category": "Engineering",
+    "composite_score": 8.38
+  },
+  "wholesale-duty-tariff-calculator-by-business-model": {
+    "tool_name": "Wholesale Duty & Tariff Calculator by Business Model",
+    "category": "Wholesale",
+    "composite_score": 8.37
+  },
+  "martech-patent-cost-estimator-by-industry": {
+    "tool_name": "Martech Patent Cost Estimator by Industry",
+    "category": "Martech",
+    "composite_score": 8.37
+  },
+  "biotech-efficiency-benchmarker-by-platform": {
+    "tool_name": "Biotech Efficiency Benchmarker by Platform",
+    "category": "Biotech",
+    "composite_score": 8.37
+  },
+  "clean-energy-hiring-cost-analyzer-by-role": {
+    "tool_name": "Clean Energy Hiring Cost Analyzer by Role",
+    "category": "Clean Energy",
+    "composite_score": 8.37
+  },
+  "education-waste-reduction-tracker-by-building-type": {
+    "tool_name": "Education Waste Reduction Tracker by Building Type",
+    "category": "Education",
+    "composite_score": 8.36
+  },
+  "martech-regulatory-navigator-by-energy-source": {
+    "tool_name": "Martech Regulatory Navigator by Energy Source",
+    "category": "Martech",
+    "composite_score": 8.36
+  },
+  "aerospace-legal-fee-predictor-by-material-grade": {
+    "tool_name": "Aerospace Legal Fee Predictor by Material Grade",
+    "category": "Aerospace",
+    "composite_score": 8.36
+  },
+  "food-beverage-capacity-calculator-by-niche": {
+    "tool_name": "Food & Beverage Capacity Calculator by Niche",
+    "category": "Food & Beverage",
+    "composite_score": 8.36
+  },
+  "marketing-energy-audit-by-hs-code": {
+    "tool_name": "Marketing Energy Audit by HS Code",
+    "category": "Marketing",
+    "composite_score": 8.36
+  },
+  "pharma-patent-cost-estimator-by-regulation": {
+    "tool_name": "Pharma Patent Cost Estimator by Regulation",
+    "category": "Pharma",
+    "composite_score": 8.35
+  },
+  "finance-load-calculator-by-transaction-volume": {
+    "tool_name": "Finance Load Calculator by Transaction Volume",
+    "category": "Finance",
+    "composite_score": 8.35
+  },
+  "construction-vendor-evaluator-by-framework": {
+    "tool_name": "Construction Vendor Evaluator by Framework",
+    "category": "Construction",
+    "composite_score": 8.35
+  },
+  "edtech-vendor-evaluator-by-building-type": {
+    "tool_name": "Edtech Vendor Evaluator by Building Type",
+    "category": "Edtech",
+    "composite_score": 8.35
+  },
+  "transportation-load-estimator-by-vehicle-type": {
+    "tool_name": "Transportation Load Estimator by Vehicle Type",
+    "category": "Transportation",
+    "composite_score": 8.34
+  },
+  "real-estate-hiring-cost-analyzer-by-niche": {
+    "tool_name": "Real Estate Hiring Cost Analyzer by Niche",
+    "category": "Real Estate",
+    "composite_score": 8.34
+  },
+  "pharma-regulatory-navigator-by-industry": {
+    "tool_name": "Pharma Regulatory Navigator by Industry",
+    "category": "Pharma",
+    "composite_score": 8.34
+  },
+  "energy-capacity-calculator-by-platform": {
+    "tool_name": "Energy Capacity Calculator by Platform",
+    "category": "Energy",
+    "composite_score": 8.33
+  },
+  "real-estate-emission-estimator-by-hs-code": {
+    "tool_name": "Real Estate Emission Estimator by HS Code",
+    "category": "Real Estate",
+    "composite_score": 8.33
+  },
+  "food-beverage-margin-analyzer-by-regulation": {
+    "tool_name": "Food & Beverage Margin Analyzer by Regulation",
+    "category": "Food & Beverage",
+    "composite_score": 8.32
+  },
+  "hr-retention-predictor-by-cloud-provider": {
+    "tool_name": "HR Retention Predictor by Cloud Provider",
+    "category": "Hr",
+    "composite_score": 8.32
+  },
+  "real-estate-duty-tariff-calculator-by-seniority": {
+    "tool_name": "Real Estate Duty & Tariff Calculator by Seniority",
+    "category": "Real Estate",
+    "composite_score": 8.32
+  },
+  "adtech-contract-value-estimator-by-framework": {
+    "tool_name": "Adtech Contract Value Estimator by Framework",
+    "category": "Adtech",
+    "composite_score": 8.32
+  },
+  "clean-energy-unit-economics-analyzer-by-industry": {
+    "tool_name": "Clean Energy Unit Economics Analyzer by Industry",
+    "category": "Clean Energy",
+    "composite_score": 8.31
+  },
+  "food-beverage-energy-audit-by-category": {
+    "tool_name": "Food & Beverage Energy Audit by Category",
+    "category": "Food & Beverage",
+    "composite_score": 8.31
+  },
+  "utilities-load-calculator-by-business-model": {
+    "tool_name": "Utilities Load Calculator by Business Model",
+    "category": "Utilities",
+    "composite_score": 8.31
+  },
+  "adtech-esop-simulator-by-storage-type": {
+    "tool_name": "Adtech ESOP Simulator by Storage Type",
+    "category": "Adtech",
+    "composite_score": 8.3
+  },
+  "adtech-legal-fee-predictor-by-business-model": {
+    "tool_name": "Adtech Legal Fee Predictor by Business Model",
+    "category": "Adtech",
+    "composite_score": 8.3
+  },
+  "finance-unit-economics-analyzer-by-material-grade": {
+    "tool_name": "Finance Unit Economics Analyzer by Material Grade",
+    "category": "Finance",
+    "composite_score": 8.3
+  },
+  "pharma-risk-assessor-by-state": {
+    "tool_name": "Pharma Risk Assessor by State",
+    "category": "Pharma",
+    "composite_score": 8.29
+  },
+  "retail-cost-estimator-by-currency": {
+    "tool_name": "Retail Cost Estimator by Currency",
+    "category": "Retail",
+    "composite_score": 8.29
+  },
+  "telecom-risk-assessor-by-business-model": {
+    "tool_name": "Telecom Risk Assessor by Business Model",
+    "category": "Telecom",
+    "composite_score": 8.29
+  },
+  "sustainability-budget-planner-by-cloud-provider": {
+    "tool_name": "Sustainability Budget Planner by Cloud Provider",
+    "category": "Sustainability",
+    "composite_score": 8.28
+  },
+  "energy-water-usage-tracker-by-company-size": {
+    "tool_name": "Energy Water Usage Tracker by Company Size",
+    "category": "Energy",
+    "composite_score": 8.28
+  },
+  "logistics-margin-analyzer-by-crop-type": {
+    "tool_name": "Logistics Margin Analyzer by Crop Type",
+    "category": "Logistics",
+    "composite_score": 8.28
+  },
+  "engineering-roi-calculator-by-role": {
+    "tool_name": "Engineering ROI Calculator by Role",
+    "category": "Engineering",
+    "composite_score": 8.28
+  },
+  "engineering-ltv-estimator-by-regulation": {
+    "tool_name": "Engineering LTV Estimator by Regulation",
+    "category": "Engineering",
+    "composite_score": 8.28
+  },
+  "e-commerce-audit-checklist-by-technology-stack": {
+    "tool_name": "E-commerce Audit Checklist by Technology Stack",
+    "category": "E-Commerce",
+    "composite_score": 8.28
+  },
+  "aerospace-supply-chain-risk-mapper-by-regulation": {
+    "tool_name": "Aerospace Supply Chain Risk Mapper by Regulation",
+    "category": "Aerospace",
+    "composite_score": 8.28
+  },
+  "logistics-hiring-cost-analyzer-by-energy-source": {
+    "tool_name": "Logistics Hiring Cost Analyzer by Energy Source",
+    "category": "Logistics",
+    "composite_score": 8.28
+  },
+  "legal-supply-chain-risk-mapper-by-employee-count": {
+    "tool_name": "Legal Supply Chain Risk Mapper by Employee Count",
+    "category": "Legal",
+    "composite_score": 8.27
+  },
+  "construction-pricing-simulator-by-country": {
+    "tool_name": "Construction Pricing Simulator by Country",
+    "category": "Construction",
+    "composite_score": 8.27
+  },
+  "cybersecurity-benchmark-tool-by-seniority": {
+    "tool_name": "Cybersecurity Benchmark Tool by Seniority",
+    "category": "Cybersecurity",
+    "composite_score": 8.27
+  },
+  "real-estate-supply-chain-risk-mapper-by-hs-code": {
+    "tool_name": "Real Estate Supply Chain Risk Mapper by HS Code",
+    "category": "Real Estate",
+    "composite_score": 8.27
+  },
+  "construction-safety-audit-by-employee-count": {
+    "tool_name": "Construction Safety Audit by Employee Count",
+    "category": "Construction",
+    "composite_score": 8.27
+  },
+  "electronics-cac-calculator-by-state": {
+    "tool_name": "Electronics CAC Calculator by State",
+    "category": "Electronics",
+    "composite_score": 8.26
+  },
+  "engineering-duty-tariff-calculator-by-building-type": {
+    "tool_name": "Engineering Duty & Tariff Calculator by Building Type",
+    "category": "Engineering",
+    "composite_score": 8.26
+  },
+  "compliance-audit-checklist-by-currency": {
+    "tool_name": "Compliance Audit Checklist by Currency",
+    "category": "Compliance",
+    "composite_score": 8.26
+  },
+  "edtech-contract-value-estimator-by-platform": {
+    "tool_name": "Edtech Contract Value Estimator by Platform",
+    "category": "Edtech",
+    "composite_score": 8.26
+  },
+  "hr-legal-fee-predictor-by-building-type": {
+    "tool_name": "HR Legal Fee Predictor by Building Type",
+    "category": "Hr",
+    "composite_score": 8.26
+  },
+  "proptech-emission-estimator-by-hs-code": {
+    "tool_name": "Proptech Emission Estimator by HS Code",
+    "category": "Proptech",
+    "composite_score": 8.25
+  },
+  "food-beverage-churn-predictor-by-framework": {
+    "tool_name": "Food & Beverage Churn Predictor by Framework",
+    "category": "Food & Beverage",
+    "composite_score": 8.25
+  },
+  "education-safety-audit-by-company-size": {
+    "tool_name": "Education Safety Audit by Company Size",
+    "category": "Education",
+    "composite_score": 8.24
+  },
+  "sustainability-risk-assessor-by-energy-source": {
+    "tool_name": "Sustainability Risk Assessor by Energy Source",
+    "category": "Sustainability",
+    "composite_score": 8.24
+  },
+  "proptech-cost-estimator-by-framework": {
+    "tool_name": "Proptech Cost Estimator by Framework",
+    "category": "Proptech",
+    "composite_score": 8.24
+  },
+  "biotech-legal-fee-predictor-by-employee-count": {
+    "tool_name": "Biotech Legal Fee Predictor by Employee Count",
+    "category": "Biotech",
+    "composite_score": 8.24
+  },
+  "e-commerce-cost-estimator-by-niche": {
+    "tool_name": "E-commerce Cost Estimator by Niche",
+    "category": "E-Commerce",
+    "composite_score": 8.24
+  },
+  "pharma-logistics-optimizer-by-vehicle-type": {
+    "tool_name": "Pharma Logistics Optimizer by Vehicle Type",
+    "category": "Pharma",
+    "composite_score": 8.23
+  },
+  "logistics-gap-analyzer-by-city": {
+    "tool_name": "Logistics Gap Analyzer by City",
+    "category": "Logistics",
+    "composite_score": 8.23
+  },
+  "telecom-regulatory-navigator-by-crop-type": {
+    "tool_name": "Telecom Regulatory Navigator by Crop Type",
+    "category": "Telecom",
+    "composite_score": 8.22
+  },
+  "education-load-calculator-by-regulation": {
+    "tool_name": "Education Load Calculator by Regulation",
+    "category": "Education",
+    "composite_score": 8.22
+  },
+  "utilities-vendor-evaluator-by-regulation": {
+    "tool_name": "Utilities Vendor Evaluator by Regulation",
+    "category": "Utilities",
+    "composite_score": 8.21
+  },
+  "proptech-pricing-simulator-by-transaction-volume": {
+    "tool_name": "Proptech Pricing Simulator by Transaction Volume",
+    "category": "Proptech",
+    "composite_score": 8.21
+  },
+  "marketing-pricing-simulator-by-material-grade": {
+    "tool_name": "Marketing Pricing Simulator by Material Grade",
+    "category": "Marketing",
+    "composite_score": 8.21
+  },
+  "automotive-cost-estimator-by-state": {
+    "tool_name": "Automotive Cost Estimator by State",
+    "category": "Automotive",
+    "composite_score": 8.21
+  },
+  "agriculture-feasibility-study-by-jurisdiction": {
+    "tool_name": "Agriculture Feasibility Study by Jurisdiction",
+    "category": "Agriculture",
+    "composite_score": 8.21
+  },
+  "utilities-gap-analyzer-by-vehicle-type": {
+    "tool_name": "Utilities Gap Analyzer by Vehicle Type",
+    "category": "Utilities",
+    "composite_score": 8.21
+  },
+  "compliance-cost-estimator-by-jurisdiction": {
+    "tool_name": "Compliance Cost Estimator by Jurisdiction",
+    "category": "Compliance",
+    "composite_score": 8.21
+  },
+  "energy-risk-assessor-by-regulation": {
+    "tool_name": "Energy Risk Assessor by Regulation",
+    "category": "Energy",
+    "composite_score": 8.21
+  },
+  "agriculture-load-calculator-by-technology-stack": {
+    "tool_name": "Agriculture Load Calculator by Technology Stack",
+    "category": "Agriculture",
+    "composite_score": 8.21
+  },
+  "cybersecurity-audit-checklist-by-technology-stack": {
+    "tool_name": "Cybersecurity Audit Checklist by Technology Stack",
+    "category": "Cybersecurity",
+    "composite_score": 8.2
+  },
+  "sustainability-vendor-evaluator-by-material-grade": {
+    "tool_name": "Sustainability Vendor Evaluator by Material Grade",
+    "category": "Sustainability",
+    "composite_score": 8.2
+  },
+  "energy-unit-economics-analyzer-by-company-size": {
+    "tool_name": "Energy Unit Economics Analyzer by Company Size",
+    "category": "Energy",
+    "composite_score": 8.2
+  },
+  "proptech-benchmark-tool-by-material-grade": {
+    "tool_name": "Proptech Benchmark Tool by Material Grade",
+    "category": "Proptech",
+    "composite_score": 8.19
+  },
+  "sustainability-esop-simulator-by-framework": {
+    "tool_name": "Sustainability ESOP Simulator by Framework",
+    "category": "Sustainability",
+    "composite_score": 8.19
+  },
+  "cybersecurity-cost-estimator-by-role": {
+    "tool_name": "Cybersecurity Cost Estimator by Role",
+    "category": "Cybersecurity",
+    "composite_score": 8.19
+  },
+  "retail-retention-predictor-by-seniority": {
+    "tool_name": "Retail Retention Predictor by Seniority",
+    "category": "Retail",
+    "composite_score": 8.19
+  },
+  "agriculture-capacity-calculator-by-employee-count": {
+    "tool_name": "Agriculture Capacity Calculator by Employee Count",
+    "category": "Agriculture",
+    "composite_score": 8.19
+  },
+  "healthtech-unit-economics-analyzer-by-company-size": {
+    "tool_name": "Healthtech Unit Economics Analyzer by Company Size",
+    "category": "Healthtech",
+    "composite_score": 8.19
+  },
+  "energy-optimization-simulator-by-material-grade": {
+    "tool_name": "Energy Optimization Simulator by Material Grade",
+    "category": "Energy",
+    "composite_score": 8.18
+  },
+  "logistics-contract-value-estimator-by-hs-code": {
+    "tool_name": "Logistics Contract Value Estimator by HS Code",
+    "category": "Logistics",
+    "composite_score": 8.18
+  },
+  "martech-load-estimator-by-jurisdiction": {
+    "tool_name": "Martech Load Estimator by Jurisdiction",
+    "category": "Martech",
+    "composite_score": 8.17
+  },
+  "agriculture-energy-audit-by-vehicle-type": {
+    "tool_name": "Agriculture Energy Audit by Vehicle Type",
+    "category": "Agriculture",
+    "composite_score": 8.16
+  },
+  "electronics-capacity-calculator-by-company-size": {
+    "tool_name": "Electronics Capacity Calculator by Company Size",
+    "category": "Electronics",
+    "composite_score": 8.16
+  },
+  "chemicals-carbon-footprint-tracker-by-material": {
+    "tool_name": "Chemicals Carbon Footprint Tracker by Material",
+    "category": "Chemicals",
+    "composite_score": 8.16
+  },
+  "real-estate-retention-predictor-by-company-size": {
+    "tool_name": "Real Estate Retention Predictor by Company Size",
+    "category": "Real Estate",
+    "composite_score": 8.15
+  },
+  "proptech-patent-cost-estimator-by-crop-type": {
+    "tool_name": "Proptech Patent Cost Estimator by Crop Type",
+    "category": "Proptech",
+    "composite_score": 8.15
+  },
+  "hr-pricing-simulator-by-transaction-volume": {
+    "tool_name": "HR Pricing Simulator by Transaction Volume",
+    "category": "Hr",
+    "composite_score": 8.15
+  },
+  "wholesale-regulatory-navigator-by-language": {
+    "tool_name": "Wholesale Regulatory Navigator by Language",
+    "category": "Wholesale",
+    "composite_score": 8.15
+  },
+  "martech-compliance-checker-by-state": {
+    "tool_name": "Martech Compliance Checker by State",
+    "category": "Martech",
+    "composite_score": 8.15
+  },
+  "transportation-cost-estimator-by-technology-stack": {
+    "tool_name": "Transportation Cost Estimator by Technology Stack",
+    "category": "Transportation",
+    "composite_score": 8.15
+  },
+  "compliance-retention-predictor-by-energy-source": {
+    "tool_name": "Compliance Retention Predictor by Energy Source",
+    "category": "Compliance",
+    "composite_score": 8.14
+  },
+  "legal-emission-estimator-by-material": {
+    "tool_name": "Legal Emission Estimator by Material",
+    "category": "Legal",
+    "composite_score": 8.14
+  },
+  "hr-margin-analyzer-by-vehicle-type": {
+    "tool_name": "HR Margin Analyzer by Vehicle Type",
+    "category": "Hr",
+    "composite_score": 8.14
+  },
+  "agriculture-load-estimator-by-industry": {
+    "tool_name": "Agriculture Load Estimator by Industry",
+    "category": "Agriculture",
+    "composite_score": 8.14
+  },
+  "edtech-feasibility-study-by-hs-code": {
+    "tool_name": "Edtech Feasibility Study by HS Code",
+    "category": "Edtech",
+    "composite_score": 8.14
+  },
+  "manufacturing-cac-calculator-by-niche": {
+    "tool_name": "Manufacturing CAC Calculator by Niche",
+    "category": "Manufacturing",
+    "composite_score": 8.14
+  },
+  "pharma-cac-calculator-by-currency": {
+    "tool_name": "Pharma CAC Calculator by Currency",
+    "category": "Pharma",
+    "composite_score": 8.13
+  },
+  "martech-tax-nexus-estimator-by-material": {
+    "tool_name": "Martech Tax Nexus Estimator by Material",
+    "category": "Martech",
+    "composite_score": 8.13
+  },
+  "sustainability-duty-tariff-calculator-by-vehicle-type": {
+    "tool_name": "Sustainability Duty & Tariff Calculator by Vehicle Type",
+    "category": "Sustainability",
+    "composite_score": 8.13
+  },
+  "food-beverage-margin-analyzer-by-industry": {
+    "tool_name": "Food & Beverage Margin Analyzer by Industry",
+    "category": "Food & Beverage",
+    "composite_score": 8.13
+  },
+  "adtech-risk-assessor-by-revenue-bracket": {
+    "tool_name": "Adtech Risk Assessor by Revenue Bracket",
+    "category": "Adtech",
+    "composite_score": 8.13
+  },
+  "agriculture-safety-audit-by-building-type": {
+    "tool_name": "Agriculture Safety Audit by Building Type",
+    "category": "Agriculture",
+    "composite_score": 8.13
+  },
+  "marketing-audit-checklist-by-seniority": {
+    "tool_name": "Marketing Audit Checklist by Seniority",
+    "category": "Marketing",
+    "composite_score": 8.12
+  },
+  "transportation-ltv-estimator-by-regulation": {
+    "tool_name": "Transportation LTV Estimator by Regulation",
+    "category": "Transportation",
+    "composite_score": 8.12
+  },
+  "fintech-patent-cost-estimator-by-city": {
+    "tool_name": "Fintech Patent Cost Estimator by City",
+    "category": "Fintech",
+    "composite_score": 8.12
+  },
+  "wholesale-budget-planner-by-city": {
+    "tool_name": "Wholesale Budget Planner by City",
+    "category": "Wholesale",
+    "composite_score": 8.12
+  },
+  "telecom-logistics-optimizer-by-language": {
+    "tool_name": "Telecom Logistics Optimizer by Language",
+    "category": "Telecom",
+    "composite_score": 8.12
+  },
+  "aerospace-yield-predictor-by-material-grade": {
+    "tool_name": "Aerospace Yield Predictor by Material Grade",
+    "category": "Aerospace",
+    "composite_score": 8.11
+  },
+  "pharma-supply-chain-risk-mapper-by-role": {
+    "tool_name": "Pharma Supply Chain Risk Mapper by Role",
+    "category": "Pharma",
+    "composite_score": 8.11
+  },
+  "aerospace-hiring-cost-analyzer-by-technology-stack": {
+    "tool_name": "Aerospace Hiring Cost Analyzer by Technology Stack",
+    "category": "Aerospace",
+    "composite_score": 8.11
+  },
+  "pharma-ltv-estimator-by-asset-type": {
+    "tool_name": "Pharma LTV Estimator by Asset Type",
+    "category": "Pharma",
+    "composite_score": 8.11
+  },
+  "education-regulatory-navigator-by-asset-type": {
+    "tool_name": "Education Regulatory Navigator by Asset Type",
+    "category": "Education",
+    "composite_score": 8.11
+  },
+  "retail-margin-analyzer-by-niche": {
+    "tool_name": "Retail Margin Analyzer by Niche",
+    "category": "Retail",
+    "composite_score": 8.11
+  },
+  "logistics-unit-economics-analyzer-by-employee-count": {
+    "tool_name": "Logistics Unit Economics Analyzer by Employee Count",
+    "category": "Logistics",
+    "composite_score": 8.1
+  },
+  "hr-gap-analyzer-by-revenue-bracket": {
+    "tool_name": "HR Gap Analyzer by Revenue Bracket",
+    "category": "Hr",
+    "composite_score": 8.1
+  },
+  "manufacturing-feasibility-study-by-cloud-provider": {
+    "tool_name": "Manufacturing Feasibility Study by Cloud Provider",
+    "category": "Manufacturing",
+    "composite_score": 8.1
+  },
+  "agriculture-unit-economics-analyzer-by-employee-count": {
+    "tool_name": "Agriculture Unit Economics Analyzer by Employee Count",
+    "category": "Agriculture",
+    "composite_score": 8.1
+  },
+  "clean-energy-churn-predictor-by-currency": {
+    "tool_name": "Clean Energy Churn Predictor by Currency",
+    "category": "Clean Energy",
+    "composite_score": 8.09
+  },
+  "adtech-esop-simulator-by-technology-stack": {
+    "tool_name": "Adtech ESOP Simulator by Technology Stack",
+    "category": "Adtech",
+    "composite_score": 8.09
+  },
+  "real-estate-load-estimator-by-hs-code": {
+    "tool_name": "Real Estate Load Estimator by HS Code",
+    "category": "Real Estate",
+    "composite_score": 8.09
+  },
+  "sustainability-margin-analyzer-by-regulation": {
+    "tool_name": "Sustainability Margin Analyzer by Regulation",
+    "category": "Sustainability",
+    "composite_score": 8.09
+  },
+  "adtech-unit-economics-analyzer-by-currency": {
+    "tool_name": "Adtech Unit Economics Analyzer by Currency",
+    "category": "Adtech",
+    "composite_score": 8.09
+  },
+  "chemicals-roi-calculator-by-crop-type": {
+    "tool_name": "Chemicals ROI Calculator by Crop Type",
+    "category": "Chemicals",
+    "composite_score": 8.09
+  },
+  "logistics-retention-predictor-by-language": {
+    "tool_name": "Logistics Retention Predictor by Language",
+    "category": "Logistics",
+    "composite_score": 8.09
+  },
+  "automotive-ltv-estimator-by-transaction-volume": {
+    "tool_name": "Automotive LTV Estimator by Transaction Volume",
+    "category": "Automotive",
+    "composite_score": 8.08
+  },
+  "retail-energy-audit-by-vehicle-type": {
+    "tool_name": "Retail Energy Audit by Vehicle Type",
+    "category": "Retail",
+    "composite_score": 8.08
+  },
+  "hr-margin-analyzer-by-language": {
+    "tool_name": "HR Margin Analyzer by Language",
+    "category": "Hr",
+    "composite_score": 8.08
+  },
+  "hospitality-supply-chain-risk-mapper-by-company-size": {
+    "tool_name": "Hospitality Supply Chain Risk Mapper by Company Size",
+    "category": "Hospitality",
+    "composite_score": 8.08
+  },
+  "fintech-cac-calculator-by-currency": {
+    "tool_name": "Fintech CAC Calculator by Currency",
+    "category": "Fintech",
+    "composite_score": 8.08
+  },
+  "healthtech-legal-fee-predictor-by-asset-type": {
+    "tool_name": "Healthtech Legal Fee Predictor by Asset Type",
+    "category": "Healthtech",
+    "composite_score": 8.07
+  },
+  "agriculture-retention-predictor-by-building-type": {
+    "tool_name": "Agriculture Retention Predictor by Building Type",
+    "category": "Agriculture",
+    "composite_score": 8.07
+  },
+  "food-beverage-unit-economics-analyzer-by-language": {
+    "tool_name": "Food & Beverage Unit Economics Analyzer by Language",
+    "category": "Food & Beverage",
+    "composite_score": 8.07
+  },
+  "legal-safety-audit-by-framework": {
+    "tool_name": "Legal Safety Audit by Framework",
+    "category": "Legal",
+    "composite_score": 8.06
+  },
+  "adtech-load-estimator-by-role": {
+    "tool_name": "Adtech Load Estimator by Role",
+    "category": "Adtech",
+    "composite_score": 8.06
+  },
+  "adtech-contract-value-estimator-by-platform": {
+    "tool_name": "Adtech Contract Value Estimator by Platform",
+    "category": "Adtech",
+    "composite_score": 8.06
+  },
+  "sustainability-legal-fee-predictor-by-hs-code": {
+    "tool_name": "Sustainability Legal Fee Predictor by HS Code",
+    "category": "Sustainability",
+    "composite_score": 8.06
+  },
+  "real-estate-cost-estimator-by-building-type": {
+    "tool_name": "Real Estate Cost Estimator by Building Type",
+    "category": "Real Estate",
+    "composite_score": 8.06
+  },
+  "automotive-emission-estimator-by-niche": {
+    "tool_name": "Automotive Emission Estimator by Niche",
+    "category": "Automotive",
+    "composite_score": 8.05
+  },
+  "electronics-load-calculator-by-technology-stack": {
+    "tool_name": "Electronics Load Calculator by Technology Stack",
+    "category": "Electronics",
+    "composite_score": 8.05
+  },
+  "engineering-patent-cost-estimator-by-industry": {
+    "tool_name": "Engineering Patent Cost Estimator by Industry",
+    "category": "Engineering",
+    "composite_score": 8.05
+  },
+  "education-gap-analyzer-by-storage-type": {
+    "tool_name": "Education Gap Analyzer by Storage Type",
+    "category": "Education",
+    "composite_score": 8.04
+  },
+  "e-commerce-waste-reduction-tracker-by-seniority": {
+    "tool_name": "E-commerce Waste Reduction Tracker by Seniority",
+    "category": "E-Commerce",
+    "composite_score": 8.03
+  },
+  "fintech-water-usage-tracker-by-city": {
+    "tool_name": "Fintech Water Usage Tracker by City",
+    "category": "Fintech",
+    "composite_score": 8.03
+  },
+  "logistics-margin-analyzer-by-asset-type": {
+    "tool_name": "Logistics Margin Analyzer by Asset Type",
+    "category": "Logistics",
+    "composite_score": 8.03
+  },
+  "finance-budget-planner-by-cloud-provider": {
+    "tool_name": "Finance Budget Planner by Cloud Provider",
+    "category": "Finance",
+    "composite_score": 8.03
+  },
+  "healthtech-feasibility-study-by-niche": {
+    "tool_name": "Healthtech Feasibility Study by Niche",
+    "category": "Healthtech",
+    "composite_score": 8.02
+  },
+  "agriculture-safety-audit-by-framework": {
+    "tool_name": "Agriculture Safety Audit by Framework",
+    "category": "Agriculture",
+    "composite_score": 8.02
+  },
+  "healthcare-vendor-evaluator-by-state": {
+    "tool_name": "Healthcare Vendor Evaluator by State",
+    "category": "Healthcare",
+    "composite_score": 8.02
+  },
+  "fintech-yield-predictor-by-state": {
+    "tool_name": "Fintech Yield Predictor by State",
+    "category": "Fintech",
+    "composite_score": 8.02
+  },
+  "sustainability-duty-tariff-calculator-by-country": {
+    "tool_name": "Sustainability Duty & Tariff Calculator by Country",
+    "category": "Sustainability",
+    "composite_score": 8.02
+  },
+  "retail-risk-assessor-by-energy-source": {
+    "tool_name": "Retail Risk Assessor by Energy Source",
+    "category": "Retail",
+    "composite_score": 8.01
+  },
+  "clean-energy-compliance-checker-by-employee-count": {
+    "tool_name": "Clean Energy Compliance Checker by Employee Count",
+    "category": "Clean Energy",
+    "composite_score": 8.01
+  },
+  "fintech-cac-calculator-by-vehicle-type": {
+    "tool_name": "Fintech CAC Calculator by Vehicle Type",
+    "category": "Fintech",
+    "composite_score": 8.01
+  },
+  "compliance-roi-calculator-by-state": {
+    "tool_name": "Compliance ROI Calculator by State",
+    "category": "Compliance",
+    "composite_score": 8.01
+  },
+  "pharma-patent-cost-estimator-by-city": {
+    "tool_name": "Pharma Patent Cost Estimator by City",
+    "category": "Pharma",
+    "composite_score": 8.01
+  },
+  "aerospace-emission-estimator-by-company-size": {
+    "tool_name": "Aerospace Emission Estimator by Company Size",
+    "category": "Aerospace",
+    "composite_score": 8.0
+  },
+  "chemicals-water-usage-tracker-by-category": {
+    "tool_name": "Chemicals Water Usage Tracker by Category",
+    "category": "Chemicals",
+    "composite_score": 8.0
+  },
+  "insurance-tax-nexus-estimator-by-state": {
+    "tool_name": "Insurance Tax Nexus Estimator by State",
+    "category": "Insurance",
+    "composite_score": 8.0
+  },
+  "edtech-hiring-cost-analyzer-by-state": {
+    "tool_name": "Edtech Hiring Cost Analyzer by State",
+    "category": "Edtech",
+    "composite_score": 8.0
+  },
+  "logistics-patent-cost-estimator-by-currency": {
+    "tool_name": "Logistics Patent Cost Estimator by Currency",
+    "category": "Logistics",
+    "composite_score": 8.0
+  },
+  "proptech-duty-tariff-calculator-by-category": {
+    "tool_name": "Proptech Duty & Tariff Calculator by Category",
+    "category": "Proptech",
+    "composite_score": 8.0
+  },
+  "insurance-efficiency-benchmarker-by-framework": {
+    "tool_name": "Insurance Efficiency Benchmarker by Framework",
+    "category": "Insurance",
+    "composite_score": 7.99
+  },
+  "hr-risk-assessor-by-platform": {
+    "tool_name": "HR Risk Assessor by Platform",
+    "category": "Hr",
+    "composite_score": 7.99
+  },
+  "wholesale-retention-predictor-by-storage-type": {
+    "tool_name": "Wholesale Retention Predictor by Storage Type",
+    "category": "Wholesale",
+    "composite_score": 7.99
+  },
+  "clean-energy-esop-simulator-by-material": {
+    "tool_name": "Clean Energy ESOP Simulator by Material",
+    "category": "Clean Energy",
+    "composite_score": 7.98
+  },
+  "pharma-incentive-finder-by-company-size": {
+    "tool_name": "Pharma Incentive Finder by Company Size",
+    "category": "Pharma",
+    "composite_score": 7.98
+  },
+  "electronics-emission-estimator-by-energy-source": {
+    "tool_name": "Electronics Emission Estimator by Energy Source",
+    "category": "Electronics",
+    "composite_score": 7.98
+  },
+  "e-commerce-emission-estimator-by-platform": {
+    "tool_name": "E-commerce Emission Estimator by Platform",
+    "category": "E-Commerce",
+    "composite_score": 7.98
+  },
+  "wholesale-water-usage-tracker-by-revenue-bracket": {
+    "tool_name": "Wholesale Water Usage Tracker by Revenue Bracket",
+    "category": "Wholesale",
+    "composite_score": 7.98
+  },
+  "legal-esop-simulator-by-seniority": {
+    "tool_name": "Legal ESOP Simulator by Seniority",
+    "category": "Legal",
+    "composite_score": 7.98
+  },
+  "cybersecurity-incentive-finder-by-crop-type": {
+    "tool_name": "Cybersecurity Incentive Finder by Crop Type",
+    "category": "Cybersecurity",
+    "composite_score": 7.97
+  },
+  "construction-gap-analyzer-by-industry": {
+    "tool_name": "Construction Gap Analyzer by Industry",
+    "category": "Construction",
+    "composite_score": 7.97
+  },
+  "hospitality-water-usage-tracker-by-category": {
+    "tool_name": "Hospitality Water Usage Tracker by Category",
+    "category": "Hospitality",
+    "composite_score": 7.97
+  },
+  "telecom-esop-simulator-by-crop-type": {
+    "tool_name": "Telecom ESOP Simulator by Crop Type",
+    "category": "Telecom",
+    "composite_score": 7.97
+  },
+  "proptech-legal-fee-predictor-by-material-grade": {
+    "tool_name": "Proptech Legal Fee Predictor by Material Grade",
+    "category": "Proptech",
+    "composite_score": 7.97
+  },
+  "healthtech-supply-chain-risk-mapper-by-employee-count": {
+    "tool_name": "Healthtech Supply Chain Risk Mapper by Employee Count",
+    "category": "Healthtech",
+    "composite_score": 7.96
+  },
+  "hr-ltv-estimator-by-language": {
+    "tool_name": "HR LTV Estimator by Language",
+    "category": "Hr",
+    "composite_score": 7.96
+  },
+  "edtech-efficiency-benchmarker-by-platform": {
+    "tool_name": "Edtech Efficiency Benchmarker by Platform",
+    "category": "Edtech",
+    "composite_score": 7.96
+  },
+  "cybersecurity-roi-calculator-by-language": {
+    "tool_name": "Cybersecurity ROI Calculator by Language",
+    "category": "Cybersecurity",
+    "composite_score": 7.95
+  },
+  "proptech-carbon-footprint-tracker-by-industry": {
+    "tool_name": "Proptech Carbon Footprint Tracker by Industry",
+    "category": "Proptech",
+    "composite_score": 7.95
+  },
+  "real-estate-retention-predictor-by-storage-type": {
+    "tool_name": "Real Estate Retention Predictor by Storage Type",
+    "category": "Real Estate",
+    "composite_score": 7.95
+  },
+  "transportation-duty-tariff-calculator-by-employee-count": {
+    "tool_name": "Transportation Duty & Tariff Calculator by Employee Count",
+    "category": "Transportation",
+    "composite_score": 7.95
+  },
+  "logistics-incentive-finder-by-hs-code": {
+    "tool_name": "Logistics Incentive Finder by HS Code",
+    "category": "Logistics",
+    "composite_score": 7.95
+  },
+  "chemicals-contract-value-estimator-by-material-grade": {
+    "tool_name": "Chemicals Contract Value Estimator by Material Grade",
+    "category": "Chemicals",
+    "composite_score": 7.95
+  },
+  "engineering-patent-cost-estimator-by-platform": {
+    "tool_name": "Engineering Patent Cost Estimator by Platform",
+    "category": "Engineering",
+    "composite_score": 7.95
+  },
+  "e-commerce-budget-planner-by-building-type": {
+    "tool_name": "E-commerce Budget Planner by Building Type",
+    "category": "E-Commerce",
+    "composite_score": 7.94
+  },
+  "edtech-efficiency-benchmarker-by-asset-type": {
+    "tool_name": "Edtech Efficiency Benchmarker by Asset Type",
+    "category": "Edtech",
+    "composite_score": 7.94
+  },
+  "logistics-audit-checklist-by-seniority": {
+    "tool_name": "Logistics Audit Checklist by Seniority",
+    "category": "Logistics",
+    "composite_score": 7.94
+  },
+  "pharma-ltv-estimator-by-company-size": {
+    "tool_name": "Pharma LTV Estimator by Company Size",
+    "category": "Pharma",
+    "composite_score": 7.94
+  },
+  "retail-regulatory-navigator-by-state": {
+    "tool_name": "Retail Regulatory Navigator by State",
+    "category": "Retail",
+    "composite_score": 7.94
+  },
+  "agriculture-hiring-cost-analyzer-by-energy-source": {
+    "tool_name": "Agriculture Hiring Cost Analyzer by Energy Source",
+    "category": "Agriculture",
+    "composite_score": 7.94
+  },
+  "hr-audit-checklist-by-language": {
+    "tool_name": "HR Audit Checklist by Language",
+    "category": "Hr",
+    "composite_score": 7.94
+  },
+  "agriculture-audit-checklist-by-transaction-volume": {
+    "tool_name": "Agriculture Audit Checklist by Transaction Volume",
+    "category": "Agriculture",
+    "composite_score": 7.93
+  },
+  "cybersecurity-hiring-cost-analyzer-by-building-type": {
+    "tool_name": "Cybersecurity Hiring Cost Analyzer by Building Type",
+    "category": "Cybersecurity",
+    "composite_score": 7.93
+  },
+  "marketing-audit-checklist-by-storage-type": {
+    "tool_name": "Marketing Audit Checklist by Storage Type",
+    "category": "Marketing",
+    "composite_score": 7.93
+  },
+  "e-commerce-tax-nexus-estimator-by-transaction-volume": {
+    "tool_name": "E-commerce Tax Nexus Estimator by Transaction Volume",
+    "category": "E-Commerce",
+    "composite_score": 7.93
+  },
+  "telecom-safety-audit-by-category": {
+    "tool_name": "Telecom Safety Audit by Category",
+    "category": "Telecom",
+    "composite_score": 7.92
+  },
+  "retail-incentive-finder-by-employee-count": {
+    "tool_name": "Retail Incentive Finder by Employee Count",
+    "category": "Retail",
+    "composite_score": 7.92
+  },
+  "retail-patent-cost-estimator-by-category": {
+    "tool_name": "Retail Patent Cost Estimator by Category",
+    "category": "Retail",
+    "composite_score": 7.92
+  },
+  "engineering-yield-predictor-by-crop-type": {
+    "tool_name": "Engineering Yield Predictor by Crop Type",
+    "category": "Engineering",
+    "composite_score": 7.92
+  },
+  "chemicals-cac-calculator-by-employee-count": {
+    "tool_name": "Chemicals CAC Calculator by Employee Count",
+    "category": "Chemicals",
+    "composite_score": 7.92
+  },
+  "insurance-waste-reduction-tracker-by-energy-source": {
+    "tool_name": "Insurance Waste Reduction Tracker by Energy Source",
+    "category": "Insurance",
+    "composite_score": 7.92
+  },
+  "pharma-patent-cost-estimator-by-state": {
+    "tool_name": "Pharma Patent Cost Estimator by State",
+    "category": "Pharma",
+    "composite_score": 7.92
+  },
+  "pharma-compliance-checker-by-company-size": {
+    "tool_name": "Pharma Compliance Checker by Company Size",
+    "category": "Pharma",
+    "composite_score": 7.91
+  },
+  "hospitality-hiring-cost-analyzer-by-energy-source": {
+    "tool_name": "Hospitality Hiring Cost Analyzer by Energy Source",
+    "category": "Hospitality",
+    "composite_score": 7.91
+  },
+  "education-contract-value-estimator-by-vehicle-type": {
+    "tool_name": "Education Contract Value Estimator by Vehicle Type",
+    "category": "Education",
+    "composite_score": 7.91
+  },
+  "adtech-legal-fee-predictor-by-niche": {
+    "tool_name": "Adtech Legal Fee Predictor by Niche",
+    "category": "Adtech",
+    "composite_score": 7.91
+  },
+  "healthcare-ltv-estimator-by-energy-source": {
+    "tool_name": "Healthcare LTV Estimator by Energy Source",
+    "category": "Healthcare",
+    "composite_score": 7.91
+  },
+  "energy-waste-reduction-tracker-by-seniority": {
+    "tool_name": "Energy Waste Reduction Tracker by Seniority",
+    "category": "Energy",
+    "composite_score": 7.91
+  },
+  "telecom-duty-tariff-calculator-by-technology-stack": {
+    "tool_name": "Telecom Duty & Tariff Calculator by Technology Stack",
+    "category": "Telecom",
+    "composite_score": 7.91
+  },
+  "adtech-pricing-simulator-by-material": {
+    "tool_name": "Adtech Pricing Simulator by Material",
+    "category": "Adtech",
+    "composite_score": 7.91
+  },
+  "proptech-retention-predictor-by-language": {
+    "tool_name": "Proptech Retention Predictor by Language",
+    "category": "Proptech",
+    "composite_score": 7.91
+  },
+  "edtech-tax-nexus-estimator-by-company-size": {
+    "tool_name": "Edtech Tax Nexus Estimator by Company Size",
+    "category": "Edtech",
+    "composite_score": 7.9
+  },
+  "telecom-benchmark-tool-by-crop-type": {
+    "tool_name": "Telecom Benchmark Tool by Crop Type",
+    "category": "Telecom",
+    "composite_score": 7.9
+  },
+  "compliance-pricing-simulator-by-storage-type": {
+    "tool_name": "Compliance Pricing Simulator by Storage Type",
+    "category": "Compliance",
+    "composite_score": 7.9
+  },
+  "proptech-supply-chain-risk-mapper-by-category": {
+    "tool_name": "Proptech Supply Chain Risk Mapper by Category",
+    "category": "Proptech",
+    "composite_score": 7.9
+  },
+  "agriculture-logistics-optimizer-by-industry": {
+    "tool_name": "Agriculture Logistics Optimizer by Industry",
+    "category": "Agriculture",
+    "composite_score": 7.9
+  },
+  "transportation-roi-calculator-by-cloud-provider": {
+    "tool_name": "Transportation ROI Calculator by Cloud Provider",
+    "category": "Transportation",
+    "composite_score": 7.9
+  },
+  "pharma-ltv-estimator-by-state": {
+    "tool_name": "Pharma LTV Estimator by State",
+    "category": "Pharma",
+    "composite_score": 7.9
+  },
+  "retail-incentive-finder-by-material-grade": {
+    "tool_name": "Retail Incentive Finder by Material Grade",
+    "category": "Retail",
+    "composite_score": 7.9
+  },
+  "utilities-load-estimator-by-jurisdiction": {
+    "tool_name": "Utilities Load Estimator by Jurisdiction",
+    "category": "Utilities",
+    "composite_score": 7.89
+  },
+  "energy-carbon-footprint-tracker-by-state": {
+    "tool_name": "Energy Carbon Footprint Tracker by State",
+    "category": "Energy",
+    "composite_score": 7.89
+  },
+  "real-estate-hiring-cost-analyzer-by-energy-source": {
+    "tool_name": "Real Estate Hiring Cost Analyzer by Energy Source",
+    "category": "Real Estate",
+    "composite_score": 7.89
+  },
+  "adtech-legal-fee-predictor-by-company-size": {
+    "tool_name": "Adtech Legal Fee Predictor by Company Size",
+    "category": "Adtech",
+    "composite_score": 7.89
+  },
+  "pharma-safety-audit-by-currency": {
+    "tool_name": "Pharma Safety Audit by Currency",
+    "category": "Pharma",
+    "composite_score": 7.88
+  },
+  "compliance-pricing-simulator-by-platform": {
+    "tool_name": "Compliance Pricing Simulator by Platform",
+    "category": "Compliance",
+    "composite_score": 7.88
+  },
+  "healthtech-safety-audit-by-material-grade": {
+    "tool_name": "Healthtech Safety Audit by Material Grade",
+    "category": "Healthtech",
+    "composite_score": 7.88
+  },
+  "transportation-hiring-cost-analyzer-by-currency": {
+    "tool_name": "Transportation Hiring Cost Analyzer by Currency",
+    "category": "Transportation",
+    "composite_score": 7.88
+  },
+  "agriculture-load-estimator-by-asset-type": {
+    "tool_name": "Agriculture Load Estimator by Asset Type",
+    "category": "Agriculture",
+    "composite_score": 7.88
+  },
+  "adtech-audit-checklist-by-business-model": {
+    "tool_name": "Adtech Audit Checklist by Business Model",
+    "category": "Adtech",
+    "composite_score": 7.88
+  },
+  "energy-tax-nexus-estimator-by-vehicle-type": {
+    "tool_name": "Energy Tax Nexus Estimator by Vehicle Type",
+    "category": "Energy",
+    "composite_score": 7.88
+  },
+  "clean-energy-churn-predictor-by-role": {
+    "tool_name": "Clean Energy Churn Predictor by Role",
+    "category": "Clean Energy",
+    "composite_score": 7.88
+  },
+  "biotech-regulatory-navigator-by-material": {
+    "tool_name": "Biotech Regulatory Navigator by Material",
+    "category": "Biotech",
+    "composite_score": 7.88
+  },
+  "education-pricing-simulator-by-role": {
+    "tool_name": "Education Pricing Simulator by Role",
+    "category": "Education",
+    "composite_score": 7.88
+  },
+  "chemicals-safety-audit-by-company-size": {
+    "tool_name": "Chemicals Safety Audit by Company Size",
+    "category": "Chemicals",
+    "composite_score": 7.87
+  },
+  "construction-waste-reduction-tracker-by-hs-code": {
+    "tool_name": "Construction Waste Reduction Tracker by HS Code",
+    "category": "Construction",
+    "composite_score": 7.87
+  },
+  "telecom-yield-predictor-by-employee-count": {
+    "tool_name": "Telecom Yield Predictor by Employee Count",
+    "category": "Telecom",
+    "composite_score": 7.87
+  },
+  "wholesale-feasibility-study-by-language": {
+    "tool_name": "Wholesale Feasibility Study by Language",
+    "category": "Wholesale",
+    "composite_score": 7.86
+  },
+  "edtech-regulatory-navigator-by-storage-type": {
+    "tool_name": "Edtech Regulatory Navigator by Storage Type",
+    "category": "Edtech",
+    "composite_score": 7.86
+  },
+  "healthtech-pricing-simulator-by-platform": {
+    "tool_name": "Healthtech Pricing Simulator by Platform",
+    "category": "Healthtech",
+    "composite_score": 7.86
+  },
+  "agriculture-margin-analyzer-by-platform": {
+    "tool_name": "Agriculture Margin Analyzer by Platform",
+    "category": "Agriculture",
+    "composite_score": 7.86
+  },
+  "aerospace-risk-assessor-by-storage-type": {
+    "tool_name": "Aerospace Risk Assessor by Storage Type",
+    "category": "Aerospace",
+    "composite_score": 7.86
+  },
+  "utilities-unit-economics-analyzer-by-transaction-volume": {
+    "tool_name": "Utilities Unit Economics Analyzer by Transaction Volume",
+    "category": "Utilities",
+    "composite_score": 7.86
+  },
+  "construction-load-calculator-by-state": {
+    "tool_name": "Construction Load Calculator by State",
+    "category": "Construction",
+    "composite_score": 7.86
+  },
+  "engineering-pricing-simulator-by-material": {
+    "tool_name": "Engineering Pricing Simulator by Material",
+    "category": "Engineering",
+    "composite_score": 7.86
+  },
+  "pharma-roi-calculator-by-material-grade": {
+    "tool_name": "Pharma ROI Calculator by Material Grade",
+    "category": "Pharma",
+    "composite_score": 7.85
+  },
+  "legal-water-usage-tracker-by-company-size": {
+    "tool_name": "Legal Water Usage Tracker by Company Size",
+    "category": "Legal",
+    "composite_score": 7.85
+  },
+  "fintech-esop-simulator-by-hs-code": {
+    "tool_name": "Fintech ESOP Simulator by HS Code",
+    "category": "Fintech",
+    "composite_score": 7.85
+  },
+  "healthtech-vendor-evaluator-by-company-size": {
+    "tool_name": "Healthtech Vendor Evaluator by Company Size",
+    "category": "Healthtech",
+    "composite_score": 7.85
+  },
+  "agriculture-legal-fee-predictor-by-employee-count": {
+    "tool_name": "Agriculture Legal Fee Predictor by Employee Count",
+    "category": "Agriculture",
+    "composite_score": 7.85
+  },
+  "construction-feasibility-study-by-employee-count": {
+    "tool_name": "Construction Feasibility Study by Employee Count",
+    "category": "Construction",
+    "composite_score": 7.84
+  },
+  "engineering-retention-predictor-by-city": {
+    "tool_name": "Engineering Retention Predictor by City",
+    "category": "Engineering",
+    "composite_score": 7.84
+  },
+  "chemicals-budget-planner-by-hs-code": {
+    "tool_name": "Chemicals Budget Planner by HS Code",
+    "category": "Chemicals",
+    "composite_score": 7.84
+  },
+  "clean-energy-churn-predictor-by-regulation": {
+    "tool_name": "Clean Energy Churn Predictor by Regulation",
+    "category": "Clean Energy",
+    "composite_score": 7.84
+  },
+  "clean-energy-churn-predictor-by-company-size": {
+    "tool_name": "Clean Energy Churn Predictor by Company Size",
+    "category": "Clean Energy",
+    "composite_score": 7.83
+  },
+  "automotive-gap-analyzer-by-asset-type": {
+    "tool_name": "Automotive Gap Analyzer by Asset Type",
+    "category": "Automotive",
+    "composite_score": 7.83
+  },
+  "electronics-churn-predictor-by-crop-type": {
+    "tool_name": "Electronics Churn Predictor by Crop Type",
+    "category": "Electronics",
+    "composite_score": 7.83
+  },
+  "hospitality-vendor-evaluator-by-transaction-volume": {
+    "tool_name": "Hospitality Vendor Evaluator by Transaction Volume",
+    "category": "Hospitality",
+    "composite_score": 7.83
+  },
+  "biotech-cost-estimator-by-hs-code": {
+    "tool_name": "Biotech Cost Estimator by HS Code",
+    "category": "Biotech",
+    "composite_score": 7.83
+  },
+  "construction-safety-audit-by-building-type": {
+    "tool_name": "Construction Safety Audit by Building Type",
+    "category": "Construction",
+    "composite_score": 7.82
+  },
+  "cybersecurity-capacity-calculator-by-material": {
+    "tool_name": "Cybersecurity Capacity Calculator by Material",
+    "category": "Cybersecurity",
+    "composite_score": 7.82
+  },
+  "proptech-optimization-simulator-by-material-grade": {
+    "tool_name": "Proptech Optimization Simulator by Material Grade",
+    "category": "Proptech",
+    "composite_score": 7.82
+  },
+  "agriculture-tax-nexus-estimator-by-currency": {
+    "tool_name": "Agriculture Tax Nexus Estimator by Currency",
+    "category": "Agriculture",
+    "composite_score": 7.82
+  },
+  "education-patent-cost-estimator-by-city": {
+    "tool_name": "Education Patent Cost Estimator by City",
+    "category": "Education",
+    "composite_score": 7.81
+  },
+  "engineering-incentive-finder-by-technology-stack": {
+    "tool_name": "Engineering Incentive Finder by Technology Stack",
+    "category": "Engineering",
+    "composite_score": 7.81
+  },
+  "utilities-risk-assessor-by-storage-type": {
+    "tool_name": "Utilities Risk Assessor by Storage Type",
+    "category": "Utilities",
+    "composite_score": 7.81
+  },
+  "utilities-gap-analyzer-by-platform": {
+    "tool_name": "Utilities Gap Analyzer by Platform",
+    "category": "Utilities",
+    "composite_score": 7.81
+  },
+  "healthtech-efficiency-benchmarker-by-framework": {
+    "tool_name": "Healthtech Efficiency Benchmarker by Framework",
+    "category": "Healthtech",
+    "composite_score": 7.81
+  },
+  "agriculture-energy-audit-by-building-type": {
+    "tool_name": "Agriculture Energy Audit by Building Type",
+    "category": "Agriculture",
+    "composite_score": 7.81
+  },
+  "adtech-roi-calculator-by-framework": {
+    "tool_name": "Adtech ROI Calculator by Framework",
+    "category": "Adtech",
+    "composite_score": 7.81
+  },
+  "aerospace-esop-simulator-by-revenue-bracket": {
+    "tool_name": "Aerospace ESOP Simulator by Revenue Bracket",
+    "category": "Aerospace",
+    "composite_score": 7.81
+  },
+  "legal-churn-predictor-by-industry": {
+    "tool_name": "Legal Churn Predictor by Industry",
+    "category": "Legal",
+    "composite_score": 7.81
+  },
+  "agriculture-unit-economics-analyzer-by-revenue-bracket": {
+    "tool_name": "Agriculture Unit Economics Analyzer by Revenue Bracket",
+    "category": "Agriculture",
+    "composite_score": 7.81
+  },
+  "transportation-contract-value-estimator-by-framework": {
+    "tool_name": "Transportation Contract Value Estimator by Framework",
+    "category": "Transportation",
+    "composite_score": 7.8
+  },
+  "real-estate-hiring-cost-analyzer-by-employee-count": {
+    "tool_name": "Real Estate Hiring Cost Analyzer by Employee Count",
+    "category": "Real Estate",
+    "composite_score": 7.8
+  },
+  "marketing-risk-assessor-by-regulation": {
+    "tool_name": "Marketing Risk Assessor by Regulation",
+    "category": "Marketing",
+    "composite_score": 7.8
+  },
+  "clean-energy-safety-audit-by-regulation": {
+    "tool_name": "Clean Energy Safety Audit by Regulation",
+    "category": "Clean Energy",
+    "composite_score": 7.8
+  },
+  "automotive-risk-assessor-by-state": {
+    "tool_name": "Automotive Risk Assessor by State",
+    "category": "Automotive",
+    "composite_score": 7.8
+  },
+  "cybersecurity-vendor-evaluator-by-material": {
+    "tool_name": "Cybersecurity Vendor Evaluator by Material",
+    "category": "Cybersecurity",
+    "composite_score": 7.8
+  },
+  "construction-margin-analyzer-by-country": {
+    "tool_name": "Construction Margin Analyzer by Country",
+    "category": "Construction",
+    "composite_score": 7.79
+  },
+  "cybersecurity-waste-reduction-tracker-by-business-model": {
+    "tool_name": "Cybersecurity Waste Reduction Tracker by Business Model",
+    "category": "Cybersecurity",
+    "composite_score": 7.79
+  },
+  "utilities-water-usage-tracker-by-platform": {
+    "tool_name": "Utilities Water Usage Tracker by Platform",
+    "category": "Utilities",
+    "composite_score": 7.79
+  },
+  "engineering-esop-simulator-by-category": {
+    "tool_name": "Engineering ESOP Simulator by Category",
+    "category": "Engineering",
+    "composite_score": 7.79
+  },
+  "fintech-compliance-checker-by-transaction-volume": {
+    "tool_name": "Fintech Compliance Checker by Transaction Volume",
+    "category": "Fintech",
+    "composite_score": 7.79
+  },
+  "hospitality-tax-nexus-estimator-by-business-model": {
+    "tool_name": "Hospitality Tax Nexus Estimator by Business Model",
+    "category": "Hospitality",
+    "composite_score": 7.78
+  },
+  "edtech-water-usage-tracker-by-state": {
+    "tool_name": "Edtech Water Usage Tracker by State",
+    "category": "Edtech",
+    "composite_score": 7.78
+  },
+  "agriculture-audit-checklist-by-country": {
+    "tool_name": "Agriculture Audit Checklist by Country",
+    "category": "Agriculture",
+    "composite_score": 7.78
+  },
+  "healthcare-hiring-cost-analyzer-by-city": {
+    "tool_name": "Healthcare Hiring Cost Analyzer by City",
+    "category": "Healthcare",
+    "composite_score": 7.78
+  },
+  "sustainability-incentive-finder-by-technology-stack": {
+    "tool_name": "Sustainability Incentive Finder by Technology Stack",
+    "category": "Sustainability",
+    "composite_score": 7.77
+  },
+  "hr-water-usage-tracker-by-cloud-provider": {
+    "tool_name": "HR Water Usage Tracker by Cloud Provider",
+    "category": "Hr",
+    "composite_score": 7.77
+  },
+  "proptech-feasibility-study-by-framework": {
+    "tool_name": "Proptech Feasibility Study by Framework",
+    "category": "Proptech",
+    "composite_score": 7.77
+  },
+  "education-margin-analyzer-by-employee-count": {
+    "tool_name": "Education Margin Analyzer by Employee Count",
+    "category": "Education",
+    "composite_score": 7.77
+  },
+  "chemicals-waste-reduction-tracker-by-crop-type": {
+    "tool_name": "Chemicals Waste Reduction Tracker by Crop Type",
+    "category": "Chemicals",
+    "composite_score": 7.76
+  },
+  "sustainability-load-estimator-by-country": {
+    "tool_name": "Sustainability Load Estimator by Country",
+    "category": "Sustainability",
+    "composite_score": 7.76
+  },
+  "logistics-regulatory-navigator-by-regulation": {
+    "tool_name": "Logistics Regulatory Navigator by Regulation",
+    "category": "Logistics",
+    "composite_score": 7.76
+  },
+  "cybersecurity-carbon-footprint-tracker-by-asset-type": {
+    "tool_name": "Cybersecurity Carbon Footprint Tracker by Asset Type",
+    "category": "Cybersecurity",
+    "composite_score": 7.76
+  },
+  "agriculture-risk-assessor-by-role": {
+    "tool_name": "Agriculture Risk Assessor by Role",
+    "category": "Agriculture",
+    "composite_score": 7.76
+  },
+  "sustainability-capacity-calculator-by-material-grade": {
+    "tool_name": "Sustainability Capacity Calculator by Material Grade",
+    "category": "Sustainability",
+    "composite_score": 7.76
+  },
+  "telecom-load-estimator-by-asset-type": {
+    "tool_name": "Telecom Load Estimator by Asset Type",
+    "category": "Telecom",
+    "composite_score": 7.76
+  },
+  "proptech-carbon-footprint-tracker-by-seniority": {
+    "tool_name": "Proptech Carbon Footprint Tracker by Seniority",
+    "category": "Proptech",
+    "composite_score": 7.76
+  },
+  "real-estate-emission-estimator-by-jurisdiction": {
+    "tool_name": "Real Estate Emission Estimator by Jurisdiction",
+    "category": "Real Estate",
+    "composite_score": 7.75
+  },
+  "compliance-optimization-simulator-by-building-type": {
+    "tool_name": "Compliance Optimization Simulator by Building Type",
+    "category": "Compliance",
+    "composite_score": 7.75
+  },
+  "transportation-safety-audit-by-crop-type": {
+    "tool_name": "Transportation Safety Audit by Crop Type",
+    "category": "Transportation",
+    "composite_score": 7.75
+  },
+  "aerospace-retention-predictor-by-framework": {
+    "tool_name": "Aerospace Retention Predictor by Framework",
+    "category": "Aerospace",
+    "composite_score": 7.75
+  },
+  "wholesale-esop-simulator-by-role": {
+    "tool_name": "Wholesale ESOP Simulator by Role",
+    "category": "Wholesale",
+    "composite_score": 7.75
+  },
+  "transportation-yield-predictor-by-jurisdiction": {
+    "tool_name": "Transportation Yield Predictor by Jurisdiction",
+    "category": "Transportation",
+    "composite_score": 7.75
+  },
+  "transportation-logistics-optimizer-by-vehicle-type": {
+    "tool_name": "Transportation Logistics Optimizer by Vehicle Type",
+    "category": "Transportation",
+    "composite_score": 7.74
+  },
+  "agriculture-efficiency-benchmarker-by-framework": {
+    "tool_name": "Agriculture Efficiency Benchmarker by Framework",
+    "category": "Agriculture",
+    "composite_score": 7.74
+  },
+  "transportation-energy-audit-by-country": {
+    "tool_name": "Transportation Energy Audit by Country",
+    "category": "Transportation",
+    "composite_score": 7.74
+  },
+  "edtech-carbon-footprint-tracker-by-category": {
+    "tool_name": "Edtech Carbon Footprint Tracker by Category",
+    "category": "Edtech",
+    "composite_score": 7.74
+  },
+  "automotive-yield-predictor-by-business-model": {
+    "tool_name": "Automotive Yield Predictor by Business Model",
+    "category": "Automotive",
+    "composite_score": 7.74
+  },
+  "engineering-compliance-checker-by-seniority": {
+    "tool_name": "Engineering Compliance Checker by Seniority",
+    "category": "Engineering",
+    "composite_score": 7.73
+  },
+  "healthtech-patent-cost-estimator-by-crop-type": {
+    "tool_name": "Healthtech Patent Cost Estimator by Crop Type",
+    "category": "Healthtech",
+    "composite_score": 7.73
+  },
+  "healthcare-contract-value-estimator-by-industry": {
+    "tool_name": "Healthcare Contract Value Estimator by Industry",
+    "category": "Healthcare",
+    "composite_score": 7.72
+  },
+  "engineering-vendor-evaluator-by-material-grade": {
+    "tool_name": "Engineering Vendor Evaluator by Material Grade",
+    "category": "Engineering",
+    "composite_score": 7.72
+  },
+  "hr-compliance-checker-by-storage-type": {
+    "tool_name": "HR Compliance Checker by Storage Type",
+    "category": "Hr",
+    "composite_score": 7.72
+  },
+  "adtech-emission-estimator-by-building-type": {
+    "tool_name": "Adtech Emission Estimator by Building Type",
+    "category": "Adtech",
+    "composite_score": 7.72
+  },
+  "healthcare-optimization-simulator-by-asset-type": {
+    "tool_name": "Healthcare Optimization Simulator by Asset Type",
+    "category": "Healthcare",
+    "composite_score": 7.72
+  },
+  "clean-energy-emission-estimator-by-niche": {
+    "tool_name": "Clean Energy Emission Estimator by Niche",
+    "category": "Clean Energy",
+    "composite_score": 7.72
+  },
+  "telecom-carbon-footprint-tracker-by-category": {
+    "tool_name": "Telecom Carbon Footprint Tracker by Category",
+    "category": "Telecom",
+    "composite_score": 7.72
+  },
+  "automotive-hiring-cost-analyzer-by-language": {
+    "tool_name": "Automotive Hiring Cost Analyzer by Language",
+    "category": "Automotive",
+    "composite_score": 7.72
+  },
+  "fintech-duty-tariff-calculator-by-platform": {
+    "tool_name": "Fintech Duty & Tariff Calculator by Platform",
+    "category": "Fintech",
+    "composite_score": 7.71
+  },
+  "retail-retention-predictor-by-material": {
+    "tool_name": "Retail Retention Predictor by Material",
+    "category": "Retail",
+    "composite_score": 7.71
+  },
+  "construction-margin-analyzer-by-asset-type": {
+    "tool_name": "Construction Margin Analyzer by Asset Type",
+    "category": "Construction",
+    "composite_score": 7.71
+  },
+  "edtech-gap-analyzer-by-vehicle-type": {
+    "tool_name": "Edtech Gap Analyzer by Vehicle Type",
+    "category": "Edtech",
+    "composite_score": 7.71
+  },
+  "hr-margin-analyzer-by-seniority": {
+    "tool_name": "HR Margin Analyzer by Seniority",
+    "category": "Hr",
+    "composite_score": 7.71
+  },
+  "food-beverage-pricing-simulator-by-employee-count": {
+    "tool_name": "Food & Beverage Pricing Simulator by Employee Count",
+    "category": "Food & Beverage",
+    "composite_score": 7.71
+  },
+  "compliance-compliance-checker-by-employee-count": {
+    "tool_name": "Compliance Compliance Checker by Employee Count",
+    "category": "Compliance",
+    "composite_score": 7.71
+  },
+  "insurance-pricing-simulator-by-company-size": {
+    "tool_name": "Insurance Pricing Simulator by Company Size",
+    "category": "Insurance",
+    "composite_score": 7.7
+  },
+  "hospitality-logistics-optimizer-by-platform": {
+    "tool_name": "Hospitality Logistics Optimizer by Platform",
+    "category": "Hospitality",
+    "composite_score": 7.7
+  },
+  "e-commerce-budget-planner-by-employee-count": {
+    "tool_name": "E-commerce Budget Planner by Employee Count",
+    "category": "E-Commerce",
+    "composite_score": 7.7
+  },
+  "healthtech-hiring-cost-analyzer-by-currency": {
+    "tool_name": "Healthtech Hiring Cost Analyzer by Currency",
+    "category": "Healthtech",
+    "composite_score": 7.7
+  },
+  "education-hiring-cost-analyzer-by-asset-type": {
+    "tool_name": "Education Hiring Cost Analyzer by Asset Type",
+    "category": "Education",
+    "composite_score": 7.7
+  },
+  "martech-budget-planner-by-crop-type": {
+    "tool_name": "Martech Budget Planner by Crop Type",
+    "category": "Martech",
+    "composite_score": 7.7
+  },
+  "e-commerce-incentive-finder-by-company-size": {
+    "tool_name": "E-commerce Incentive Finder by Company Size",
+    "category": "E-Commerce",
+    "composite_score": 7.7
+  },
+  "proptech-ltv-estimator-by-category": {
+    "tool_name": "Proptech LTV Estimator by Category",
+    "category": "Proptech",
+    "composite_score": 7.69
+  },
+  "transportation-hiring-cost-analyzer-by-employee-count": {
+    "tool_name": "Transportation Hiring Cost Analyzer by Employee Count",
+    "category": "Transportation",
+    "composite_score": 7.69
+  },
+  "aerospace-audit-checklist-by-framework": {
+    "tool_name": "Aerospace Audit Checklist by Framework",
+    "category": "Aerospace",
+    "composite_score": 7.69
+  },
+  "cybersecurity-load-calculator-by-material": {
+    "tool_name": "Cybersecurity Load Calculator by Material",
+    "category": "Cybersecurity",
+    "composite_score": 7.69
+  },
+  "cybersecurity-optimization-simulator-by-technology-stack": {
+    "tool_name": "Cybersecurity Optimization Simulator by Technology Stack",
+    "category": "Cybersecurity",
+    "composite_score": 7.69
+  },
+  "utilities-esop-simulator-by-platform": {
+    "tool_name": "Utilities ESOP Simulator by Platform",
+    "category": "Utilities",
+    "composite_score": 7.69
+  },
+  "healthcare-vendor-evaluator-by-jurisdiction": {
+    "tool_name": "Healthcare Vendor Evaluator by Jurisdiction",
+    "category": "Healthcare",
+    "composite_score": 7.69
+  },
+  "education-risk-assessor-by-language": {
+    "tool_name": "Education Risk Assessor by Language",
+    "category": "Education",
+    "composite_score": 7.69
+  },
+  "insurance-logistics-optimizer-by-state": {
+    "tool_name": "Insurance Logistics Optimizer by State",
+    "category": "Insurance",
+    "composite_score": 7.69
+  },
+  "manufacturing-carbon-footprint-tracker-by-employee-count": {
+    "tool_name": "Manufacturing Carbon Footprint Tracker by Employee Count",
+    "category": "Manufacturing",
+    "composite_score": 7.69
+  },
+  "edtech-esop-simulator-by-crop-type": {
+    "tool_name": "Edtech ESOP Simulator by Crop Type",
+    "category": "Edtech",
+    "composite_score": 7.69
+  },
+  "biotech-safety-audit-by-language": {
+    "tool_name": "Biotech Safety Audit by Language",
+    "category": "Biotech",
+    "composite_score": 7.69
+  },
+  "retail-compliance-checker-by-jurisdiction": {
+    "tool_name": "Retail Compliance Checker by Jurisdiction",
+    "category": "Retail",
+    "composite_score": 7.68
+  },
+  "transportation-hiring-cost-analyzer-by-hs-code": {
+    "tool_name": "Transportation Hiring Cost Analyzer by HS Code",
+    "category": "Transportation",
+    "composite_score": 7.68
+  },
+  "real-estate-pricing-simulator-by-seniority": {
+    "tool_name": "Real Estate Pricing Simulator by Seniority",
+    "category": "Real Estate",
+    "composite_score": 7.68
+  },
+  "hr-contract-value-estimator-by-country": {
+    "tool_name": "HR Contract Value Estimator by Country",
+    "category": "Hr",
+    "composite_score": 7.68
+  },
+  "e-commerce-waste-reduction-tracker-by-cloud-provider": {
+    "tool_name": "E-commerce Waste Reduction Tracker by Cloud Provider",
+    "category": "E-Commerce",
+    "composite_score": 7.68
+  },
+  "fintech-load-estimator-by-business-model": {
+    "tool_name": "Fintech Load Estimator by Business Model",
+    "category": "Fintech",
+    "composite_score": 7.67
+  },
+  "education-optimization-simulator-by-material-grade": {
+    "tool_name": "Education Optimization Simulator by Material Grade",
+    "category": "Education",
+    "composite_score": 7.67
+  },
+  "edtech-retention-predictor-by-asset-type": {
+    "tool_name": "Edtech Retention Predictor by Asset Type",
+    "category": "Edtech",
+    "composite_score": 7.67
+  },
+  "legal-esop-simulator-by-storage-type": {
+    "tool_name": "Legal ESOP Simulator by Storage Type",
+    "category": "Legal",
+    "composite_score": 7.67
+  },
+  "adtech-waste-reduction-tracker-by-regulation": {
+    "tool_name": "Adtech Waste Reduction Tracker by Regulation",
+    "category": "Adtech",
+    "composite_score": 7.67
+  },
+  "chemicals-gap-analyzer-by-role": {
+    "tool_name": "Chemicals Gap Analyzer by Role",
+    "category": "Chemicals",
+    "composite_score": 7.67
+  },
+  "marketing-retention-predictor-by-business-model": {
+    "tool_name": "Marketing Retention Predictor by Business Model",
+    "category": "Marketing",
+    "composite_score": 7.67
+  },
+  "food-beverage-cac-calculator-by-transaction-volume": {
+    "tool_name": "Food & Beverage CAC Calculator by Transaction Volume",
+    "category": "Food & Beverage",
+    "composite_score": 7.67
+  },
+  "biotech-esop-simulator-by-building-type": {
+    "tool_name": "Biotech ESOP Simulator by Building Type",
+    "category": "Biotech",
+    "composite_score": 7.66
+  },
+  "hr-pricing-simulator-by-city": {
+    "tool_name": "HR Pricing Simulator by City",
+    "category": "Hr",
+    "composite_score": 7.66
+  },
+  "martech-pricing-simulator-by-currency": {
+    "tool_name": "Martech Pricing Simulator by Currency",
+    "category": "Martech",
+    "composite_score": 7.66
+  },
+  "hr-regulatory-navigator-by-niche": {
+    "tool_name": "HR Regulatory Navigator by Niche",
+    "category": "Hr",
+    "composite_score": 7.66
+  },
+  "logistics-margin-analyzer-by-cloud-provider": {
+    "tool_name": "Logistics Margin Analyzer by Cloud Provider",
+    "category": "Logistics",
+    "composite_score": 7.66
+  },
+  "adtech-gap-analyzer-by-energy-source": {
+    "tool_name": "Adtech Gap Analyzer by Energy Source",
+    "category": "Adtech",
+    "composite_score": 7.66
+  },
+  "healthcare-incentive-finder-by-platform": {
+    "tool_name": "Healthcare Incentive Finder by Platform",
+    "category": "Healthcare",
+    "composite_score": 7.65
+  },
+  "e-commerce-churn-predictor-by-jurisdiction": {
+    "tool_name": "E-commerce Churn Predictor by Jurisdiction",
+    "category": "E-Commerce",
+    "composite_score": 7.65
+  },
+  "transportation-churn-predictor-by-business-model": {
+    "tool_name": "Transportation Churn Predictor by Business Model",
+    "category": "Transportation",
+    "composite_score": 7.65
+  },
+  "e-commerce-emission-estimator-by-regulation": {
+    "tool_name": "E-commerce Emission Estimator by Regulation",
+    "category": "E-Commerce",
+    "composite_score": 7.64
+  },
+  "fintech-esop-simulator-by-storage-type": {
+    "tool_name": "Fintech ESOP Simulator by Storage Type",
+    "category": "Fintech",
+    "composite_score": 7.64
+  },
+  "sustainability-churn-predictor-by-energy-source": {
+    "tool_name": "Sustainability Churn Predictor by Energy Source",
+    "category": "Sustainability",
+    "composite_score": 7.64
+  },
+  "construction-tax-nexus-estimator-by-vehicle-type": {
+    "tool_name": "Construction Tax Nexus Estimator by Vehicle Type",
+    "category": "Construction",
+    "composite_score": 7.64
+  },
+  "cybersecurity-roi-calculator-by-revenue-bracket": {
+    "tool_name": "Cybersecurity ROI Calculator by Revenue Bracket",
+    "category": "Cybersecurity",
+    "composite_score": 7.64
+  },
+  "sustainability-cac-calculator-by-vehicle-type": {
+    "tool_name": "Sustainability CAC Calculator by Vehicle Type",
+    "category": "Sustainability",
+    "composite_score": 7.64
+  },
+  "fintech-legal-fee-predictor-by-currency": {
+    "tool_name": "Fintech Legal Fee Predictor by Currency",
+    "category": "Fintech",
+    "composite_score": 7.64
+  },
+  "edtech-optimization-simulator-by-hs-code": {
+    "tool_name": "Edtech Optimization Simulator by HS Code",
+    "category": "Edtech",
+    "composite_score": 7.64
+  },
+  "electronics-unit-economics-analyzer-by-city": {
+    "tool_name": "Electronics Unit Economics Analyzer by City",
+    "category": "Electronics",
+    "composite_score": 7.64
+  },
+  "real-estate-patent-cost-estimator-by-vehicle-type": {
+    "tool_name": "Real Estate Patent Cost Estimator by Vehicle Type",
+    "category": "Real Estate",
+    "composite_score": 7.64
+  },
+  "manufacturing-retention-predictor-by-building-type": {
+    "tool_name": "Manufacturing Retention Predictor by Building Type",
+    "category": "Manufacturing",
+    "composite_score": 7.64
+  },
+  "hr-cost-estimator-by-industry": {
+    "tool_name": "HR Cost Estimator by Industry",
+    "category": "Hr",
+    "composite_score": 7.64
+  },
+  "insurance-supply-chain-risk-mapper-by-asset-type": {
+    "tool_name": "Insurance Supply Chain Risk Mapper by Asset Type",
+    "category": "Insurance",
+    "composite_score": 7.63
+  },
+  "biotech-benchmark-tool-by-framework": {
+    "tool_name": "Biotech Benchmark Tool by Framework",
+    "category": "Biotech",
+    "composite_score": 7.63
+  },
+  "adtech-esop-simulator-by-regulation": {
+    "tool_name": "Adtech ESOP Simulator by Regulation",
+    "category": "Adtech",
+    "composite_score": 7.63
+  },
+  "food-beverage-gap-analyzer-by-business-model": {
+    "tool_name": "Food & Beverage Gap Analyzer by Business Model",
+    "category": "Food & Beverage",
+    "composite_score": 7.63
+  },
+  "telecom-hiring-cost-analyzer-by-employee-count": {
+    "tool_name": "Telecom Hiring Cost Analyzer by Employee Count",
+    "category": "Telecom",
+    "composite_score": 7.63
+  },
+  "adtech-margin-analyzer-by-company-size": {
+    "tool_name": "Adtech Margin Analyzer by Company Size",
+    "category": "Adtech",
+    "composite_score": 7.63
+  },
+  "edtech-emission-estimator-by-hs-code": {
+    "tool_name": "Edtech Emission Estimator by HS Code",
+    "category": "Edtech",
+    "composite_score": 7.63
+  },
+  "healthcare-pricing-simulator-by-transaction-volume": {
+    "tool_name": "Healthcare Pricing Simulator by Transaction Volume",
+    "category": "Healthcare",
+    "composite_score": 7.62
+  },
+  "biotech-unit-economics-analyzer-by-role": {
+    "tool_name": "Biotech Unit Economics Analyzer by Role",
+    "category": "Biotech",
+    "composite_score": 7.62
+  },
+  "agriculture-cac-calculator-by-category": {
+    "tool_name": "Agriculture CAC Calculator by Category",
+    "category": "Agriculture",
+    "composite_score": 7.62
+  },
+  "utilities-budget-planner-by-niche": {
+    "tool_name": "Utilities Budget Planner by Niche",
+    "category": "Utilities",
+    "composite_score": 7.62
+  },
+  "biotech-energy-audit-by-regulation": {
+    "tool_name": "Biotech Energy Audit by Regulation",
+    "category": "Biotech",
+    "composite_score": 7.62
+  },
+  "compliance-load-calculator-by-asset-type": {
+    "tool_name": "Compliance Load Calculator by Asset Type",
+    "category": "Compliance",
+    "composite_score": 7.61
+  },
+  "hospitality-gap-analyzer-by-platform": {
+    "tool_name": "Hospitality Gap Analyzer by Platform",
+    "category": "Hospitality",
+    "composite_score": 7.61
+  },
+  "biotech-churn-predictor-by-company-size": {
+    "tool_name": "Biotech Churn Predictor by Company Size",
+    "category": "Biotech",
+    "composite_score": 7.61
+  },
+  "martech-efficiency-benchmarker-by-asset-type": {
+    "tool_name": "Martech Efficiency Benchmarker by Asset Type",
+    "category": "Martech",
+    "composite_score": 7.61
+  },
+  "transportation-supply-chain-risk-mapper-by-energy-source": {
+    "tool_name": "Transportation Supply Chain Risk Mapper by Energy Source",
+    "category": "Transportation",
+    "composite_score": 7.6
+  },
+  "edtech-margin-analyzer-by-state": {
+    "tool_name": "Edtech Margin Analyzer by State",
+    "category": "Edtech",
+    "composite_score": 7.6
+  },
+  "clean-energy-incentive-finder-by-seniority": {
+    "tool_name": "Clean Energy Incentive Finder by Seniority",
+    "category": "Clean Energy",
+    "composite_score": 7.6
+  },
+  "food-beverage-regulatory-navigator-by-business-model": {
+    "tool_name": "Food & Beverage Regulatory Navigator by Business Model",
+    "category": "Food & Beverage",
+    "composite_score": 7.6
+  },
+  "clean-energy-efficiency-benchmarker-by-transaction-volume": {
+    "tool_name": "Clean Energy Efficiency Benchmarker by Transaction Volume",
+    "category": "Clean Energy",
+    "composite_score": 7.6
+  },
+  "education-risk-assessor-by-storage-type": {
+    "tool_name": "Education Risk Assessor by Storage Type",
+    "category": "Education",
+    "composite_score": 7.6
+  },
+  "clean-energy-incentive-finder-by-state": {
+    "tool_name": "Clean Energy Incentive Finder by State",
+    "category": "Clean Energy",
+    "composite_score": 7.6
+  },
+  "pharma-load-calculator-by-state": {
+    "tool_name": "Pharma Load Calculator by State",
+    "category": "Pharma",
+    "composite_score": 7.6
+  },
+  "logistics-waste-reduction-tracker-by-platform": {
+    "tool_name": "Logistics Waste Reduction Tracker by Platform",
+    "category": "Logistics",
+    "composite_score": 7.59
+  },
+  "engineering-yield-predictor-by-platform": {
+    "tool_name": "Engineering Yield Predictor by Platform",
+    "category": "Engineering",
+    "composite_score": 7.59
+  },
+  "food-beverage-margin-analyzer-by-company-size": {
+    "tool_name": "Food & Beverage Margin Analyzer by Company Size",
+    "category": "Food & Beverage",
+    "composite_score": 7.59
+  },
+  "edtech-waste-reduction-tracker-by-transaction-volume": {
+    "tool_name": "Edtech Waste Reduction Tracker by Transaction Volume",
+    "category": "Edtech",
+    "composite_score": 7.59
+  },
+  "logistics-waste-reduction-tracker-by-industry": {
+    "tool_name": "Logistics Waste Reduction Tracker by Industry",
+    "category": "Logistics",
+    "composite_score": 7.59
+  },
+  "sustainability-legal-fee-predictor-by-state": {
+    "tool_name": "Sustainability Legal Fee Predictor by State",
+    "category": "Sustainability",
+    "composite_score": 7.59
+  },
+  "fintech-water-usage-tracker-by-technology-stack": {
+    "tool_name": "Fintech Water Usage Tracker by Technology Stack",
+    "category": "Fintech",
+    "composite_score": 7.58
+  },
+  "retail-capacity-calculator-by-material-grade": {
+    "tool_name": "Retail Capacity Calculator by Material Grade",
+    "category": "Retail",
+    "composite_score": 7.58
+  },
+  "biotech-efficiency-benchmarker-by-revenue-bracket": {
+    "tool_name": "Biotech Efficiency Benchmarker by Revenue Bracket",
+    "category": "Biotech",
+    "composite_score": 7.58
+  },
+  "biotech-water-usage-tracker-by-role": {
+    "tool_name": "Biotech Water Usage Tracker by Role",
+    "category": "Biotech",
+    "composite_score": 7.58
+  },
+  "telecom-safety-audit-by-building-type": {
+    "tool_name": "Telecom Safety Audit by Building Type",
+    "category": "Telecom",
+    "composite_score": 7.58
+  },
+  "engineering-patent-cost-estimator-by-role": {
+    "tool_name": "Engineering Patent Cost Estimator by Role",
+    "category": "Engineering",
+    "composite_score": 7.58
+  },
+  "education-safety-audit-by-cloud-provider": {
+    "tool_name": "Education Safety Audit by Cloud Provider",
+    "category": "Education",
+    "composite_score": 7.58
+  },
+  "automotive-benchmark-tool-by-state": {
+    "tool_name": "Automotive Benchmark Tool by State",
+    "category": "Automotive",
+    "composite_score": 7.58
+  },
+  "wholesale-roi-calculator-by-revenue-bracket": {
+    "tool_name": "Wholesale ROI Calculator by Revenue Bracket",
+    "category": "Wholesale",
+    "composite_score": 7.58
+  },
+  "healthtech-waste-reduction-tracker-by-material-grade": {
+    "tool_name": "Healthtech Waste Reduction Tracker by Material Grade",
+    "category": "Healthtech",
+    "composite_score": 7.57
+  },
+  "cybersecurity-contract-value-estimator-by-city": {
+    "tool_name": "Cybersecurity Contract Value Estimator by City",
+    "category": "Cybersecurity",
+    "composite_score": 7.57
+  },
+  "pharma-water-usage-tracker-by-employee-count": {
+    "tool_name": "Pharma Water Usage Tracker by Employee Count",
+    "category": "Pharma",
+    "composite_score": 7.57
+  },
+  "chemicals-vendor-evaluator-by-technology-stack": {
+    "tool_name": "Chemicals Vendor Evaluator by Technology Stack",
+    "category": "Chemicals",
+    "composite_score": 7.57
+  },
+  "transportation-roi-calculator-by-asset-type": {
+    "tool_name": "Transportation ROI Calculator by Asset Type",
+    "category": "Transportation",
+    "composite_score": 7.56
+  },
+  "telecom-audit-checklist-by-business-model": {
+    "tool_name": "Telecom Audit Checklist by Business Model",
+    "category": "Telecom",
+    "composite_score": 7.56
+  },
+  "marketing-energy-audit-by-revenue-bracket": {
+    "tool_name": "Marketing Energy Audit by Revenue Bracket",
+    "category": "Marketing",
+    "composite_score": 7.56
+  },
+  "logistics-unit-economics-analyzer-by-platform": {
+    "tool_name": "Logistics Unit Economics Analyzer by Platform",
+    "category": "Logistics",
+    "composite_score": 7.55
+  },
+  "transportation-vendor-evaluator-by-material-grade": {
+    "tool_name": "Transportation Vendor Evaluator by Material Grade",
+    "category": "Transportation",
+    "composite_score": 7.55
+  },
+  "aerospace-gap-analyzer-by-role": {
+    "tool_name": "Aerospace Gap Analyzer by Role",
+    "category": "Aerospace",
+    "composite_score": 7.55
+  },
+  "utilities-energy-audit-by-country": {
+    "tool_name": "Utilities Energy Audit by Country",
+    "category": "Utilities",
+    "composite_score": 7.55
+  },
+  "engineering-tax-nexus-estimator-by-company-size": {
+    "tool_name": "Engineering Tax Nexus Estimator by Company Size",
+    "category": "Engineering",
+    "composite_score": 7.55
+  },
+  "transportation-yield-predictor-by-transaction-volume": {
+    "tool_name": "Transportation Yield Predictor by Transaction Volume",
+    "category": "Transportation",
+    "composite_score": 7.54
+  },
+  "manufacturing-churn-predictor-by-asset-type": {
+    "tool_name": "Manufacturing Churn Predictor by Asset Type",
+    "category": "Manufacturing",
+    "composite_score": 7.54
+  },
+  "healthtech-feasibility-study-by-city": {
+    "tool_name": "Healthtech Feasibility Study by City",
+    "category": "Healthtech",
+    "composite_score": 7.54
+  },
+  "proptech-margin-analyzer-by-building-type": {
+    "tool_name": "Proptech Margin Analyzer by Building Type",
+    "category": "Proptech",
+    "composite_score": 7.53
+  },
+  "hr-duty-tariff-calculator-by-language": {
+    "tool_name": "HR Duty & Tariff Calculator by Language",
+    "category": "Hr",
+    "composite_score": 7.53
+  },
+  "pharma-load-estimator-by-company-size": {
+    "tool_name": "Pharma Load Estimator by Company Size",
+    "category": "Pharma",
+    "composite_score": 7.53
+  },
+  "compliance-churn-predictor-by-niche": {
+    "tool_name": "Compliance Churn Predictor by Niche",
+    "category": "Compliance",
+    "composite_score": 7.53
+  },
+  "manufacturing-ltv-estimator-by-regulation": {
+    "tool_name": "Manufacturing LTV Estimator by Regulation",
+    "category": "Manufacturing",
+    "composite_score": 7.53
+  },
+  "healthcare-vendor-evaluator-by-material": {
+    "tool_name": "Healthcare Vendor Evaluator by Material",
+    "category": "Healthcare",
+    "composite_score": 7.53
+  },
+  "automotive-duty-tariff-calculator-by-city": {
+    "tool_name": "Automotive Duty & Tariff Calculator by City",
+    "category": "Automotive",
+    "composite_score": 7.53
+  },
+  "education-retention-predictor-by-regulation": {
+    "tool_name": "Education Retention Predictor by Regulation",
+    "category": "Education",
+    "composite_score": 7.53
+  },
+  "aerospace-esop-simulator-by-energy-source": {
+    "tool_name": "Aerospace ESOP Simulator by Energy Source",
+    "category": "Aerospace",
+    "composite_score": 7.53
+  },
+  "compliance-risk-assessor-by-building-type": {
+    "tool_name": "Compliance Risk Assessor by Building Type",
+    "category": "Compliance",
+    "composite_score": 7.53
+  },
+  "utilities-waste-reduction-tracker-by-business-model": {
+    "tool_name": "Utilities Waste Reduction Tracker by Business Model",
+    "category": "Utilities",
+    "composite_score": 7.53
+  },
+  "agriculture-load-estimator-by-city": {
+    "tool_name": "Agriculture Load Estimator by City",
+    "category": "Agriculture",
+    "composite_score": 7.52
+  },
+  "utilities-energy-audit-by-material-grade": {
+    "tool_name": "Utilities Energy Audit by Material Grade",
+    "category": "Utilities",
+    "composite_score": 7.52
+  },
+  "education-ltv-estimator-by-company-size": {
+    "tool_name": "Education LTV Estimator by Company Size",
+    "category": "Education",
+    "composite_score": 7.52
+  },
+  "finance-emission-estimator-by-role": {
+    "tool_name": "Finance Emission Estimator by Role",
+    "category": "Finance",
+    "composite_score": 7.52
+  },
+  "clean-energy-cac-calculator-by-business-model": {
+    "tool_name": "Clean Energy CAC Calculator by Business Model",
+    "category": "Clean Energy",
+    "composite_score": 7.52
+  },
+  "energy-risk-assessor-by-industry": {
+    "tool_name": "Energy Risk Assessor by Industry",
+    "category": "Energy",
+    "composite_score": 7.51
+  },
+  "education-retention-predictor-by-hs-code": {
+    "tool_name": "Education Retention Predictor by HS Code",
+    "category": "Education",
+    "composite_score": 7.51
+  },
+  "engineering-ltv-estimator-by-material-grade": {
+    "tool_name": "Engineering LTV Estimator by Material Grade",
+    "category": "Engineering",
+    "composite_score": 7.51
+  },
+  "electronics-gap-analyzer-by-crop-type": {
+    "tool_name": "Electronics Gap Analyzer by Crop Type",
+    "category": "Electronics",
+    "composite_score": 7.51
+  },
+  "logistics-budget-planner-by-regulation": {
+    "tool_name": "Logistics Budget Planner by Regulation",
+    "category": "Logistics",
+    "composite_score": 7.51
+  },
+  "healthtech-audit-checklist-by-currency": {
+    "tool_name": "Healthtech Audit Checklist by Currency",
+    "category": "Healthtech",
+    "composite_score": 7.51
+  },
+  "automotive-patent-cost-estimator-by-industry": {
+    "tool_name": "Automotive Patent Cost Estimator by Industry",
+    "category": "Automotive",
+    "composite_score": 7.5
+  },
+  "clean-energy-optimization-simulator-by-employee-count": {
+    "tool_name": "Clean Energy Optimization Simulator by Employee Count",
+    "category": "Clean Energy",
+    "composite_score": 7.5
+  },
+  "proptech-energy-audit-by-company-size": {
+    "tool_name": "Proptech Energy Audit by Company Size",
+    "category": "Proptech",
+    "composite_score": 7.5
+  },
+  "cybersecurity-gap-analyzer-by-role": {
+    "tool_name": "Cybersecurity Gap Analyzer by Role",
+    "category": "Cybersecurity",
+    "composite_score": 7.5
+  },
+  "e-commerce-tax-nexus-estimator-by-framework": {
+    "tool_name": "E-commerce Tax Nexus Estimator by Framework",
+    "category": "E-Commerce",
+    "composite_score": 7.49
+  },
+  "wholesale-regulatory-navigator-by-material": {
+    "tool_name": "Wholesale Regulatory Navigator by Material",
+    "category": "Wholesale",
+    "composite_score": 7.49
+  },
+  "healthcare-load-estimator-by-niche": {
+    "tool_name": "Healthcare Load Estimator by Niche",
+    "category": "Healthcare",
+    "composite_score": 7.49
+  },
+  "compliance-margin-analyzer-by-crop-type": {
+    "tool_name": "Compliance Margin Analyzer by Crop Type",
+    "category": "Compliance",
+    "composite_score": 7.49
+  },
+  "aerospace-contract-value-estimator-by-energy-source": {
+    "tool_name": "Aerospace Contract Value Estimator by Energy Source",
+    "category": "Aerospace",
+    "composite_score": 7.49
+  },
+  "hospitality-capacity-calculator-by-country": {
+    "tool_name": "Hospitality Capacity Calculator by Country",
+    "category": "Hospitality",
+    "composite_score": 7.49
+  },
+  "electronics-budget-planner-by-technology-stack": {
+    "tool_name": "Electronics Budget Planner by Technology Stack",
+    "category": "Electronics",
+    "composite_score": 7.49
+  },
+  "chemicals-unit-economics-analyzer-by-employee-count": {
+    "tool_name": "Chemicals Unit Economics Analyzer by Employee Count",
+    "category": "Chemicals",
+    "composite_score": 7.49
+  },
+  "proptech-incentive-finder-by-company-size": {
+    "tool_name": "Proptech Incentive Finder by Company Size",
+    "category": "Proptech",
+    "composite_score": 7.49
+  },
+  "proptech-margin-analyzer-by-business-model": {
+    "tool_name": "Proptech Margin Analyzer by Business Model",
+    "category": "Proptech",
+    "composite_score": 7.49
+  },
+  "healthtech-logistics-optimizer-by-country": {
+    "tool_name": "Healthtech Logistics Optimizer by Country",
+    "category": "Healthtech",
+    "composite_score": 7.48
+  },
+  "automotive-capacity-calculator-by-material": {
+    "tool_name": "Automotive Capacity Calculator by Material",
+    "category": "Automotive",
+    "composite_score": 7.48
+  },
+  "finance-gap-analyzer-by-niche": {
+    "tool_name": "Finance Gap Analyzer by Niche",
+    "category": "Finance",
+    "composite_score": 7.48
+  },
+  "telecom-audit-checklist-by-company-size": {
+    "tool_name": "Telecom Audit Checklist by Company Size",
+    "category": "Telecom",
+    "composite_score": 7.48
+  },
+  "healthtech-yield-predictor-by-seniority": {
+    "tool_name": "Healthtech Yield Predictor by Seniority",
+    "category": "Healthtech",
+    "composite_score": 7.48
+  },
+  "electronics-duty-tariff-calculator-by-material": {
+    "tool_name": "Electronics Duty & Tariff Calculator by Material",
+    "category": "Electronics",
+    "composite_score": 7.48
+  },
+  "utilities-roi-calculator-by-employee-count": {
+    "tool_name": "Utilities ROI Calculator by Employee Count",
+    "category": "Utilities",
+    "composite_score": 7.48
+  },
+  "retail-retention-predictor-by-currency": {
+    "tool_name": "Retail Retention Predictor by Currency",
+    "category": "Retail",
+    "composite_score": 7.48
+  },
+  "automotive-gap-analyzer-by-material": {
+    "tool_name": "Automotive Gap Analyzer by Material",
+    "category": "Automotive",
+    "composite_score": 7.47
+  },
+  "automotive-capacity-calculator-by-niche": {
+    "tool_name": "Automotive Capacity Calculator by Niche",
+    "category": "Automotive",
+    "composite_score": 7.47
+  },
+  "adtech-load-estimator-by-language": {
+    "tool_name": "Adtech Load Estimator by Language",
+    "category": "Adtech",
+    "composite_score": 7.47
+  },
+  "compliance-churn-predictor-by-material-grade": {
+    "tool_name": "Compliance Churn Predictor by Material Grade",
+    "category": "Compliance",
+    "composite_score": 7.47
+  },
+  "telecom-cost-estimator-by-energy-source": {
+    "tool_name": "Telecom Cost Estimator by Energy Source",
+    "category": "Telecom",
+    "composite_score": 7.47
+  },
+  "electronics-duty-tariff-calculator-by-business-model": {
+    "tool_name": "Electronics Duty & Tariff Calculator by Business Model",
+    "category": "Electronics",
+    "composite_score": 7.47
+  },
+  "agriculture-logistics-optimizer-by-transaction-volume": {
+    "tool_name": "Agriculture Logistics Optimizer by Transaction Volume",
+    "category": "Agriculture",
+    "composite_score": 7.47
+  },
+  "martech-optimization-simulator-by-role": {
+    "tool_name": "Martech Optimization Simulator by Role",
+    "category": "Martech",
+    "composite_score": 7.47
+  },
+  "legal-optimization-simulator-by-niche": {
+    "tool_name": "Legal Optimization Simulator by Niche",
+    "category": "Legal",
+    "composite_score": 7.46
+  },
+  "finance-optimization-simulator-by-revenue-bracket": {
+    "tool_name": "Finance Optimization Simulator by Revenue Bracket",
+    "category": "Finance",
+    "composite_score": 7.46
+  },
+  "energy-emission-estimator-by-crop-type": {
+    "tool_name": "Energy Emission Estimator by Crop Type",
+    "category": "Energy",
+    "composite_score": 7.46
+  },
+  "utilities-supply-chain-risk-mapper-by-technology-stack": {
+    "tool_name": "Utilities Supply Chain Risk Mapper by Technology Stack",
+    "category": "Utilities",
+    "composite_score": 7.46
+  },
+  "automotive-cost-estimator-by-currency": {
+    "tool_name": "Automotive Cost Estimator by Currency",
+    "category": "Automotive",
+    "composite_score": 7.46
+  },
+  "construction-efficiency-benchmarker-by-revenue-bracket": {
+    "tool_name": "Construction Efficiency Benchmarker by Revenue Bracket",
+    "category": "Construction",
+    "composite_score": 7.46
+  },
+  "martech-yield-predictor-by-category": {
+    "tool_name": "Martech Yield Predictor by Category",
+    "category": "Martech",
+    "composite_score": 7.46
+  },
+  "engineering-waste-reduction-tracker-by-niche": {
+    "tool_name": "Engineering Waste Reduction Tracker by Niche",
+    "category": "Engineering",
+    "composite_score": 7.46
+  },
+  "utilities-logistics-optimizer-by-cloud-provider": {
+    "tool_name": "Utilities Logistics Optimizer by Cloud Provider",
+    "category": "Utilities",
+    "composite_score": 7.45
+  },
+  "sustainability-duty-tariff-calculator-by-energy-source": {
+    "tool_name": "Sustainability Duty & Tariff Calculator by Energy Source",
+    "category": "Sustainability",
+    "composite_score": 7.45
+  },
+  "energy-supply-chain-risk-mapper-by-storage-type": {
+    "tool_name": "Energy Supply Chain Risk Mapper by Storage Type",
+    "category": "Energy",
+    "composite_score": 7.45
+  },
+  "healthtech-feasibility-study-by-material": {
+    "tool_name": "Healthtech Feasibility Study by Material",
+    "category": "Healthtech",
+    "composite_score": 7.45
+  },
+  "martech-water-usage-tracker-by-jurisdiction": {
+    "tool_name": "Martech Water Usage Tracker by Jurisdiction",
+    "category": "Martech",
+    "composite_score": 7.45
+  },
+  "biotech-safety-audit-by-seniority": {
+    "tool_name": "Biotech Safety Audit by Seniority",
+    "category": "Biotech",
+    "composite_score": 7.45
+  },
+  "construction-yield-predictor-by-energy-source": {
+    "tool_name": "Construction Yield Predictor by Energy Source",
+    "category": "Construction",
+    "composite_score": 7.45
+  },
+  "engineering-efficiency-benchmarker-by-building-type": {
+    "tool_name": "Engineering Efficiency Benchmarker by Building Type",
+    "category": "Engineering",
+    "composite_score": 7.45
+  },
+  "telecom-waste-reduction-tracker-by-category": {
+    "tool_name": "Telecom Waste Reduction Tracker by Category",
+    "category": "Telecom",
+    "composite_score": 7.44
+  },
+  "proptech-hiring-cost-analyzer-by-asset-type": {
+    "tool_name": "Proptech Hiring Cost Analyzer by Asset Type",
+    "category": "Proptech",
+    "composite_score": 7.44
+  },
+  "finance-logistics-optimizer-by-jurisdiction": {
+    "tool_name": "Finance Logistics Optimizer by Jurisdiction",
+    "category": "Finance",
+    "composite_score": 7.44
+  },
+  "transportation-efficiency-benchmarker-by-vehicle-type": {
+    "tool_name": "Transportation Efficiency Benchmarker by Vehicle Type",
+    "category": "Transportation",
+    "composite_score": 7.44
+  },
+  "energy-waste-reduction-tracker-by-storage-type": {
+    "tool_name": "Energy Waste Reduction Tracker by Storage Type",
+    "category": "Energy",
+    "composite_score": 7.43
+  },
+  "wholesale-legal-fee-predictor-by-state": {
+    "tool_name": "Wholesale Legal Fee Predictor by State",
+    "category": "Wholesale",
+    "composite_score": 7.43
+  },
+  "biotech-unit-economics-analyzer-by-category": {
+    "tool_name": "Biotech Unit Economics Analyzer by Category",
+    "category": "Biotech",
+    "composite_score": 7.43
+  },
+  "real-estate-margin-analyzer-by-seniority": {
+    "tool_name": "Real Estate Margin Analyzer by Seniority",
+    "category": "Real Estate",
+    "composite_score": 7.43
+  },
+  "hr-churn-predictor-by-vehicle-type": {
+    "tool_name": "HR Churn Predictor by Vehicle Type",
+    "category": "Hr",
+    "composite_score": 7.43
+  },
+  "insurance-esop-simulator-by-employee-count": {
+    "tool_name": "Insurance ESOP Simulator by Employee Count",
+    "category": "Insurance",
+    "composite_score": 7.43
+  },
+  "healthtech-tax-nexus-estimator-by-cloud-provider": {
+    "tool_name": "Healthtech Tax Nexus Estimator by Cloud Provider",
+    "category": "Healthtech",
+    "composite_score": 7.43
+  },
+  "telecom-carbon-footprint-tracker-by-language": {
+    "tool_name": "Telecom Carbon Footprint Tracker by Language",
+    "category": "Telecom",
+    "composite_score": 7.43
+  },
+  "clean-energy-ltv-estimator-by-company-size": {
+    "tool_name": "Clean Energy LTV Estimator by Company Size",
+    "category": "Clean Energy",
+    "composite_score": 7.43
+  },
+  "chemicals-budget-planner-by-company-size": {
+    "tool_name": "Chemicals Budget Planner by Company Size",
+    "category": "Chemicals",
+    "composite_score": 7.43
+  },
+  "transportation-incentive-finder-by-material": {
+    "tool_name": "Transportation Incentive Finder by Material",
+    "category": "Transportation",
+    "composite_score": 7.42
+  },
+  "transportation-gap-analyzer-by-material": {
+    "tool_name": "Transportation Gap Analyzer by Material",
+    "category": "Transportation",
+    "composite_score": 7.42
+  },
+  "sustainability-cac-calculator-by-material": {
+    "tool_name": "Sustainability CAC Calculator by Material",
+    "category": "Sustainability",
+    "composite_score": 7.42
+  },
+  "adtech-tax-nexus-estimator-by-industry": {
+    "tool_name": "Adtech Tax Nexus Estimator by Industry",
+    "category": "Adtech",
+    "composite_score": 7.42
+  },
+  "food-beverage-roi-calculator-by-technology-stack": {
+    "tool_name": "Food & Beverage ROI Calculator by Technology Stack",
+    "category": "Food & Beverage",
+    "composite_score": 7.41
+  },
+  "education-pricing-simulator-by-material-grade": {
+    "tool_name": "Education Pricing Simulator by Material Grade",
+    "category": "Education",
+    "composite_score": 7.41
+  },
+  "clean-energy-safety-audit-by-cloud-provider": {
+    "tool_name": "Clean Energy Safety Audit by Cloud Provider",
+    "category": "Clean Energy",
+    "composite_score": 7.41
+  },
+  "telecom-yield-predictor-by-jurisdiction": {
+    "tool_name": "Telecom Yield Predictor by Jurisdiction",
+    "category": "Telecom",
+    "composite_score": 7.41
+  },
+  "clean-energy-regulatory-navigator-by-company-size": {
+    "tool_name": "Clean Energy Regulatory Navigator by Company Size",
+    "category": "Clean Energy",
+    "composite_score": 7.41
+  },
+  "construction-legal-fee-predictor-by-company-size": {
+    "tool_name": "Construction Legal Fee Predictor by Company Size",
+    "category": "Construction",
+    "composite_score": 7.41
+  },
+  "chemicals-audit-checklist-by-industry": {
+    "tool_name": "Chemicals Audit Checklist by Industry",
+    "category": "Chemicals",
+    "composite_score": 7.41
+  },
+  "telecom-supply-chain-risk-mapper-by-seniority": {
+    "tool_name": "Telecom Supply Chain Risk Mapper by Seniority",
+    "category": "Telecom",
+    "composite_score": 7.41
+  },
+  "biotech-carbon-footprint-tracker-by-employee-count": {
+    "tool_name": "Biotech Carbon Footprint Tracker by Employee Count",
+    "category": "Biotech",
+    "composite_score": 7.41
+  },
+  "agriculture-load-estimator-by-building-type": {
+    "tool_name": "Agriculture Load Estimator by Building Type",
+    "category": "Agriculture",
+    "composite_score": 7.41
+  },
+  "pharma-churn-predictor-by-crop-type": {
+    "tool_name": "Pharma Churn Predictor by Crop Type",
+    "category": "Pharma",
+    "composite_score": 7.4
+  },
+  "retail-gap-analyzer-by-material": {
+    "tool_name": "Retail Gap Analyzer by Material",
+    "category": "Retail",
+    "composite_score": 7.4
+  },
+  "chemicals-gap-analyzer-by-regulation": {
+    "tool_name": "Chemicals Gap Analyzer by Regulation",
+    "category": "Chemicals",
+    "composite_score": 7.4
+  },
+  "hospitality-water-usage-tracker-by-regulation": {
+    "tool_name": "Hospitality Water Usage Tracker by Regulation",
+    "category": "Hospitality",
+    "composite_score": 7.4
+  },
+  "real-estate-tax-nexus-estimator-by-cloud-provider": {
+    "tool_name": "Real Estate Tax Nexus Estimator by Cloud Provider",
+    "category": "Real Estate",
+    "composite_score": 7.4
+  },
+  "construction-load-estimator-by-regulation": {
+    "tool_name": "Construction Load Estimator by Regulation",
+    "category": "Construction",
+    "composite_score": 7.4
+  },
+  "real-estate-energy-audit-by-business-model": {
+    "tool_name": "Real Estate Energy Audit by Business Model",
+    "category": "Real Estate",
+    "composite_score": 7.4
+  },
+  "pharma-feasibility-study-by-revenue-bracket": {
+    "tool_name": "Pharma Feasibility Study by Revenue Bracket",
+    "category": "Pharma",
+    "composite_score": 7.4
+  },
+  "proptech-vendor-evaluator-by-language": {
+    "tool_name": "Proptech Vendor Evaluator by Language",
+    "category": "Proptech",
+    "composite_score": 7.39
+  },
+  "electronics-capacity-calculator-by-business-model": {
+    "tool_name": "Electronics Capacity Calculator by Business Model",
+    "category": "Electronics",
+    "composite_score": 7.39
+  },
+  "proptech-efficiency-benchmarker-by-currency": {
+    "tool_name": "Proptech Efficiency Benchmarker by Currency",
+    "category": "Proptech",
+    "composite_score": 7.39
+  },
+  "utilities-esop-simulator-by-role": {
+    "tool_name": "Utilities ESOP Simulator by Role",
+    "category": "Utilities",
+    "composite_score": 7.39
+  },
+  "electronics-tax-nexus-estimator-by-hs-code": {
+    "tool_name": "Electronics Tax Nexus Estimator by HS Code",
+    "category": "Electronics",
+    "composite_score": 7.38
+  },
+  "aerospace-safety-audit-by-role": {
+    "tool_name": "Aerospace Safety Audit by Role",
+    "category": "Aerospace",
+    "composite_score": 7.38
+  },
+  "construction-supply-chain-risk-mapper-by-material-grade": {
+    "tool_name": "Construction Supply Chain Risk Mapper by Material Grade",
+    "category": "Construction",
+    "composite_score": 7.38
+  },
+  "automotive-margin-analyzer-by-business-model": {
+    "tool_name": "Automotive Margin Analyzer by Business Model",
+    "category": "Automotive",
+    "composite_score": 7.38
+  },
+  "pharma-patent-cost-estimator-by-material": {
+    "tool_name": "Pharma Patent Cost Estimator by Material",
+    "category": "Pharma",
+    "composite_score": 7.38
+  },
+  "food-beverage-duty-tariff-calculator-by-category": {
+    "tool_name": "Food & Beverage Duty & Tariff Calculator by Category",
+    "category": "Food & Beverage",
+    "composite_score": 7.38
+  },
+  "agriculture-incentive-finder-by-industry": {
+    "tool_name": "Agriculture Incentive Finder by Industry",
+    "category": "Agriculture",
+    "composite_score": 7.38
+  },
+  "real-estate-optimization-simulator-by-role": {
+    "tool_name": "Real Estate Optimization Simulator by Role",
+    "category": "Real Estate",
+    "composite_score": 7.38
+  },
+  "logistics-compliance-checker-by-asset-type": {
+    "tool_name": "Logistics Compliance Checker by Asset Type",
+    "category": "Logistics",
+    "composite_score": 7.38
+  },
+  "clean-energy-hiring-cost-analyzer-by-regulation": {
+    "tool_name": "Clean Energy Hiring Cost Analyzer by Regulation",
+    "category": "Clean Energy",
+    "composite_score": 7.37
+  },
+  "edtech-cac-calculator-by-building-type": {
+    "tool_name": "Edtech CAC Calculator by Building Type",
+    "category": "Edtech",
+    "composite_score": 7.37
+  },
+  "proptech-efficiency-benchmarker-by-business-model": {
+    "tool_name": "Proptech Efficiency Benchmarker by Business Model",
+    "category": "Proptech",
+    "composite_score": 7.37
+  },
+  "legal-gap-analyzer-by-company-size": {
+    "tool_name": "Legal Gap Analyzer by Company Size",
+    "category": "Legal",
+    "composite_score": 7.37
+  },
+  "sustainability-carbon-footprint-tracker-by-currency": {
+    "tool_name": "Sustainability Carbon Footprint Tracker by Currency",
+    "category": "Sustainability",
+    "composite_score": 7.37
+  },
+  "education-ltv-estimator-by-employee-count": {
+    "tool_name": "Education LTV Estimator by Employee Count",
+    "category": "Education",
+    "composite_score": 7.36
+  },
+  "aerospace-yield-predictor-by-niche": {
+    "tool_name": "Aerospace Yield Predictor by Niche",
+    "category": "Aerospace",
+    "composite_score": 7.36
+  },
+  "hospitality-retention-predictor-by-employee-count": {
+    "tool_name": "Hospitality Retention Predictor by Employee Count",
+    "category": "Hospitality",
+    "composite_score": 7.36
+  },
+  "edtech-roi-calculator-by-industry": {
+    "tool_name": "Edtech ROI Calculator by Industry",
+    "category": "Edtech",
+    "composite_score": 7.36
+  },
+  "engineering-budget-planner-by-material": {
+    "tool_name": "Engineering Budget Planner by Material",
+    "category": "Engineering",
+    "composite_score": 7.35
+  },
+  "agriculture-esop-simulator-by-material-grade": {
+    "tool_name": "Agriculture ESOP Simulator by Material Grade",
+    "category": "Agriculture",
+    "composite_score": 7.35
+  },
+  "adtech-contract-value-estimator-by-city": {
+    "tool_name": "Adtech Contract Value Estimator by City",
+    "category": "Adtech",
+    "composite_score": 7.35
+  },
+  "electronics-cac-calculator-by-revenue-bracket": {
+    "tool_name": "Electronics CAC Calculator by Revenue Bracket",
+    "category": "Electronics",
+    "composite_score": 7.35
+  },
+  "hr-budget-planner-by-transaction-volume": {
+    "tool_name": "HR Budget Planner by Transaction Volume",
+    "category": "Hr",
+    "composite_score": 7.35
+  },
+  "healthcare-waste-reduction-tracker-by-revenue-bracket": {
+    "tool_name": "Healthcare Waste Reduction Tracker by Revenue Bracket",
+    "category": "Healthcare",
+    "composite_score": 7.34
+  },
+  "manufacturing-tax-nexus-estimator-by-state": {
+    "tool_name": "Manufacturing Tax Nexus Estimator by State",
+    "category": "Manufacturing",
+    "composite_score": 7.34
+  },
+  "proptech-load-estimator-by-state": {
+    "tool_name": "Proptech Load Estimator by State",
+    "category": "Proptech",
+    "composite_score": 7.34
+  },
+  "aerospace-vendor-evaluator-by-country": {
+    "tool_name": "Aerospace Vendor Evaluator by Country",
+    "category": "Aerospace",
+    "composite_score": 7.34
+  },
+  "logistics-waste-reduction-tracker-by-language": {
+    "tool_name": "Logistics Waste Reduction Tracker by Language",
+    "category": "Logistics",
+    "composite_score": 7.34
+  },
+  "aerospace-retention-predictor-by-jurisdiction": {
+    "tool_name": "Aerospace Retention Predictor by Jurisdiction",
+    "category": "Aerospace",
+    "composite_score": 7.34
+  },
+  "energy-logistics-optimizer-by-regulation": {
+    "tool_name": "Energy Logistics Optimizer by Regulation",
+    "category": "Energy",
+    "composite_score": 7.34
+  },
+  "martech-optimization-simulator-by-cloud-provider": {
+    "tool_name": "Martech Optimization Simulator by Cloud Provider",
+    "category": "Martech",
+    "composite_score": 7.33
+  },
+  "cybersecurity-audit-checklist-by-revenue-bracket": {
+    "tool_name": "Cybersecurity Audit Checklist by Revenue Bracket",
+    "category": "Cybersecurity",
+    "composite_score": 7.33
+  },
+  "agriculture-hiring-cost-analyzer-by-vehicle-type": {
+    "tool_name": "Agriculture Hiring Cost Analyzer by Vehicle Type",
+    "category": "Agriculture",
+    "composite_score": 7.33
+  },
+  "electronics-hiring-cost-analyzer-by-revenue-bracket": {
+    "tool_name": "Electronics Hiring Cost Analyzer by Revenue Bracket",
+    "category": "Electronics",
+    "composite_score": 7.32
+  },
+  "automotive-carbon-footprint-tracker-by-city": {
+    "tool_name": "Automotive Carbon Footprint Tracker by City",
+    "category": "Automotive",
+    "composite_score": 7.32
+  },
+  "clean-energy-hiring-cost-analyzer-by-language": {
+    "tool_name": "Clean Energy Hiring Cost Analyzer by Language",
+    "category": "Clean Energy",
+    "composite_score": 7.32
+  },
+  "insurance-churn-predictor-by-transaction-volume": {
+    "tool_name": "Insurance Churn Predictor by Transaction Volume",
+    "category": "Insurance",
+    "composite_score": 7.32
+  },
+  "transportation-carbon-footprint-tracker-by-material-grade": {
+    "tool_name": "Transportation Carbon Footprint Tracker by Material Grade",
+    "category": "Transportation",
+    "composite_score": 7.32
+  },
+  "healthcare-patent-cost-estimator-by-energy-source": {
+    "tool_name": "Healthcare Patent Cost Estimator by Energy Source",
+    "category": "Healthcare",
+    "composite_score": 7.32
+  },
+  "chemicals-capacity-calculator-by-transaction-volume": {
+    "tool_name": "Chemicals Capacity Calculator by Transaction Volume",
+    "category": "Chemicals",
+    "composite_score": 7.32
+  },
+  "insurance-retention-predictor-by-energy-source": {
+    "tool_name": "Insurance Retention Predictor by Energy Source",
+    "category": "Insurance",
+    "composite_score": 7.32
+  },
+  "chemicals-unit-economics-analyzer-by-regulation": {
+    "tool_name": "Chemicals Unit Economics Analyzer by Regulation",
+    "category": "Chemicals",
+    "composite_score": 7.32
+  },
+  "telecom-supply-chain-risk-mapper-by-material-grade": {
+    "tool_name": "Telecom Supply Chain Risk Mapper by Material Grade",
+    "category": "Telecom",
+    "composite_score": 7.31
+  },
+  "electronics-roi-calculator-by-regulation": {
+    "tool_name": "Electronics ROI Calculator by Regulation",
+    "category": "Electronics",
+    "composite_score": 7.31
+  },
+  "insurance-supply-chain-risk-mapper-by-jurisdiction": {
+    "tool_name": "Insurance Supply Chain Risk Mapper by Jurisdiction",
+    "category": "Insurance",
+    "composite_score": 7.31
+  },
+  "finance-contract-value-estimator-by-country": {
+    "tool_name": "Finance Contract Value Estimator by Country",
+    "category": "Finance",
+    "composite_score": 7.31
+  },
+  "chemicals-feasibility-study-by-category": {
+    "tool_name": "Chemicals Feasibility Study by Category",
+    "category": "Chemicals",
+    "composite_score": 7.31
+  },
+  "cybersecurity-yield-predictor-by-jurisdiction": {
+    "tool_name": "Cybersecurity Yield Predictor by Jurisdiction",
+    "category": "Cybersecurity",
+    "composite_score": 7.3
+  },
+  "manufacturing-regulatory-navigator-by-framework": {
+    "tool_name": "Manufacturing Regulatory Navigator by Framework",
+    "category": "Manufacturing",
+    "composite_score": 7.3
+  },
+  "insurance-capacity-calculator-by-role": {
+    "tool_name": "Insurance Capacity Calculator by Role",
+    "category": "Insurance",
+    "composite_score": 7.3
+  },
+  "education-churn-predictor-by-crop-type": {
+    "tool_name": "Education Churn Predictor by Crop Type",
+    "category": "Education",
+    "composite_score": 7.3
+  },
+  "edtech-contract-value-estimator-by-crop-type": {
+    "tool_name": "Edtech Contract Value Estimator by Crop Type",
+    "category": "Edtech",
+    "composite_score": 7.29
+  },
+  "utilities-energy-audit-by-seniority": {
+    "tool_name": "Utilities Energy Audit by Seniority",
+    "category": "Utilities",
+    "composite_score": 7.29
+  },
+  "healthtech-emission-estimator-by-business-model": {
+    "tool_name": "Healthtech Emission Estimator by Business Model",
+    "category": "Healthtech",
+    "composite_score": 7.29
+  },
+  "wholesale-energy-audit-by-jurisdiction": {
+    "tool_name": "Wholesale Energy Audit by Jurisdiction",
+    "category": "Wholesale",
+    "composite_score": 7.29
+  },
+  "electronics-contract-value-estimator-by-country": {
+    "tool_name": "Electronics Contract Value Estimator by Country",
+    "category": "Electronics",
+    "composite_score": 7.28
+  },
+  "energy-efficiency-benchmarker-by-company-size": {
+    "tool_name": "Energy Efficiency Benchmarker by Company Size",
+    "category": "Energy",
+    "composite_score": 7.28
+  },
+  "wholesale-benchmark-tool-by-framework": {
+    "tool_name": "Wholesale Benchmark Tool by Framework",
+    "category": "Wholesale",
+    "composite_score": 7.28
+  },
+  "construction-yield-predictor-by-niche": {
+    "tool_name": "Construction Yield Predictor by Niche",
+    "category": "Construction",
+    "composite_score": 7.28
+  },
+  "compliance-cac-calculator-by-industry": {
+    "tool_name": "Compliance CAC Calculator by Industry",
+    "category": "Compliance",
+    "composite_score": 7.28
+  },
+  "electronics-load-calculator-by-asset-type": {
+    "tool_name": "Electronics Load Calculator by Asset Type",
+    "category": "Electronics",
+    "composite_score": 7.27
+  },
+  "transportation-efficiency-benchmarker-by-framework": {
+    "tool_name": "Transportation Efficiency Benchmarker by Framework",
+    "category": "Transportation",
+    "composite_score": 7.27
+  },
+  "proptech-cac-calculator-by-city": {
+    "tool_name": "Proptech CAC Calculator by City",
+    "category": "Proptech",
+    "composite_score": 7.27
+  },
+  "martech-optimization-simulator-by-industry": {
+    "tool_name": "Martech Optimization Simulator by Industry",
+    "category": "Martech",
+    "composite_score": 7.26
+  },
+  "utilities-esop-simulator-by-category": {
+    "tool_name": "Utilities ESOP Simulator by Category",
+    "category": "Utilities",
+    "composite_score": 7.26
+  },
+  "sustainability-churn-predictor-by-niche": {
+    "tool_name": "Sustainability Churn Predictor by Niche",
+    "category": "Sustainability",
+    "composite_score": 7.26
+  },
+  "adtech-unit-economics-analyzer-by-role": {
+    "tool_name": "Adtech Unit Economics Analyzer by Role",
+    "category": "Adtech",
+    "composite_score": 7.26
+  },
+  "pharma-yield-predictor-by-material-grade": {
+    "tool_name": "Pharma Yield Predictor by Material Grade",
+    "category": "Pharma",
+    "composite_score": 7.26
+  },
+  "education-ltv-estimator-by-regulation": {
+    "tool_name": "Education LTV Estimator by Regulation",
+    "category": "Education",
+    "composite_score": 7.26
+  },
+  "healthcare-gap-analyzer-by-material-grade": {
+    "tool_name": "Healthcare Gap Analyzer by Material Grade",
+    "category": "Healthcare",
+    "composite_score": 7.25
+  },
+  "adtech-gap-analyzer-by-revenue-bracket": {
+    "tool_name": "Adtech Gap Analyzer by Revenue Bracket",
+    "category": "Adtech",
+    "composite_score": 7.25
+  },
+  "insurance-patent-cost-estimator-by-revenue-bracket": {
+    "tool_name": "Insurance Patent Cost Estimator by Revenue Bracket",
+    "category": "Insurance",
+    "composite_score": 7.25
+  },
+  "real-estate-roi-calculator-by-language": {
+    "tool_name": "Real Estate ROI Calculator by Language",
+    "category": "Real Estate",
+    "composite_score": 7.25
+  },
+  "agriculture-energy-audit-by-cloud-provider": {
+    "tool_name": "Agriculture Energy Audit by Cloud Provider",
+    "category": "Agriculture",
+    "composite_score": 7.24
+  },
+  "electronics-budget-planner-by-framework": {
+    "tool_name": "Electronics Budget Planner by Framework",
+    "category": "Electronics",
+    "composite_score": 7.24
+  },
+  "wholesale-benchmark-tool-by-language": {
+    "tool_name": "Wholesale Benchmark Tool by Language",
+    "category": "Wholesale",
+    "composite_score": 7.24
+  },
+  "proptech-vendor-evaluator-by-category": {
+    "tool_name": "Proptech Vendor Evaluator by Category",
+    "category": "Proptech",
+    "composite_score": 7.24
+  },
+  "edtech-unit-economics-analyzer-by-industry": {
+    "tool_name": "Edtech Unit Economics Analyzer by Industry",
+    "category": "Edtech",
+    "composite_score": 7.24
+  },
+  "legal-supply-chain-risk-mapper-by-revenue-bracket": {
+    "tool_name": "Legal Supply Chain Risk Mapper by Revenue Bracket",
+    "category": "Legal",
+    "composite_score": 7.23
+  },
+  "biotech-logistics-optimizer-by-language": {
+    "tool_name": "Biotech Logistics Optimizer by Language",
+    "category": "Biotech",
+    "composite_score": 7.23
+  },
+  "chemicals-ltv-estimator-by-cloud-provider": {
+    "tool_name": "Chemicals LTV Estimator by Cloud Provider",
+    "category": "Chemicals",
+    "composite_score": 7.22
+  },
+  "automotive-budget-planner-by-crop-type": {
+    "tool_name": "Automotive Budget Planner by Crop Type",
+    "category": "Automotive",
+    "composite_score": 7.22
+  },
+  "hr-budget-planner-by-crop-type": {
+    "tool_name": "HR Budget Planner by Crop Type",
+    "category": "Hr",
+    "composite_score": 7.22
+  },
+  "clean-energy-gap-analyzer-by-framework": {
+    "tool_name": "Clean Energy Gap Analyzer by Framework",
+    "category": "Clean Energy",
+    "composite_score": 7.22
+  },
+  "sustainability-gap-analyzer-by-crop-type": {
+    "tool_name": "Sustainability Gap Analyzer by Crop Type",
+    "category": "Sustainability",
+    "composite_score": 7.22
+  },
+  "chemicals-efficiency-benchmarker-by-crop-type": {
+    "tool_name": "Chemicals Efficiency Benchmarker by Crop Type",
+    "category": "Chemicals",
+    "composite_score": 7.22
+  },
+  "biotech-pricing-simulator-by-country": {
+    "tool_name": "Biotech Pricing Simulator by Country",
+    "category": "Biotech",
+    "composite_score": 7.22
+  },
+  "telecom-regulatory-navigator-by-employee-count": {
+    "tool_name": "Telecom Regulatory Navigator by Employee Count",
+    "category": "Telecom",
+    "composite_score": 7.22
+  },
+  "fintech-vendor-evaluator-by-cloud-provider": {
+    "tool_name": "Fintech Vendor Evaluator by Cloud Provider",
+    "category": "Fintech",
+    "composite_score": 7.21
+  },
+  "manufacturing-vendor-evaluator-by-seniority": {
+    "tool_name": "Manufacturing Vendor Evaluator by Seniority",
+    "category": "Manufacturing",
+    "composite_score": 7.21
+  },
+  "aerospace-budget-planner-by-energy-source": {
+    "tool_name": "Aerospace Budget Planner by Energy Source",
+    "category": "Aerospace",
+    "composite_score": 7.21
+  },
+  "aerospace-logistics-optimizer-by-business-model": {
+    "tool_name": "Aerospace Logistics Optimizer by Business Model",
+    "category": "Aerospace",
+    "composite_score": 7.21
+  },
+  "proptech-roi-calculator-by-building-type": {
+    "tool_name": "Proptech ROI Calculator by Building Type",
+    "category": "Proptech",
+    "composite_score": 7.21
+  },
+  "automotive-optimization-simulator-by-building-type": {
+    "tool_name": "Automotive Optimization Simulator by Building Type",
+    "category": "Automotive",
+    "composite_score": 7.21
+  },
+  "e-commerce-logistics-optimizer-by-category": {
+    "tool_name": "E-commerce Logistics Optimizer by Category",
+    "category": "E-Commerce",
+    "composite_score": 7.21
+  },
+  "real-estate-incentive-finder-by-cloud-provider": {
+    "tool_name": "Real Estate Incentive Finder by Cloud Provider",
+    "category": "Real Estate",
+    "composite_score": 7.2
+  },
+  "aerospace-risk-assessor-by-transaction-volume": {
+    "tool_name": "Aerospace Risk Assessor by Transaction Volume",
+    "category": "Aerospace",
+    "composite_score": 7.2
+  },
+  "clean-energy-efficiency-benchmarker-by-hs-code": {
+    "tool_name": "Clean Energy Efficiency Benchmarker by HS Code",
+    "category": "Clean Energy",
+    "composite_score": 7.2
+  },
+  "aerospace-cac-calculator-by-seniority": {
+    "tool_name": "Aerospace CAC Calculator by Seniority",
+    "category": "Aerospace",
+    "composite_score": 7.19
+  },
+  "chemicals-churn-predictor-by-language": {
+    "tool_name": "Chemicals Churn Predictor by Language",
+    "category": "Chemicals",
+    "composite_score": 7.19
+  },
+  "e-commerce-churn-predictor-by-vehicle-type": {
+    "tool_name": "E-commerce Churn Predictor by Vehicle Type",
+    "category": "E-Commerce",
+    "composite_score": 7.18
+  },
+  "marketing-patent-cost-estimator-by-currency": {
+    "tool_name": "Marketing Patent Cost Estimator by Currency",
+    "category": "Marketing",
+    "composite_score": 7.18
+  },
+  "adtech-roi-calculator-by-revenue-bracket": {
+    "tool_name": "Adtech ROI Calculator by Revenue Bracket",
+    "category": "Adtech",
+    "composite_score": 7.18
+  },
+  "fintech-churn-predictor-by-employee-count": {
+    "tool_name": "Fintech Churn Predictor by Employee Count",
+    "category": "Fintech",
+    "composite_score": 7.18
+  },
+  "e-commerce-feasibility-study-by-company-size": {
+    "tool_name": "E-commerce Feasibility Study by Company Size",
+    "category": "E-Commerce",
+    "composite_score": 7.18
+  },
+  "manufacturing-patent-cost-estimator-by-niche": {
+    "tool_name": "Manufacturing Patent Cost Estimator by Niche",
+    "category": "Manufacturing",
+    "composite_score": 7.18
+  },
+  "sustainability-energy-audit-by-role": {
+    "tool_name": "Sustainability Energy Audit by Role",
+    "category": "Sustainability",
+    "composite_score": 7.17
+  },
+  "wholesale-load-calculator-by-crop-type": {
+    "tool_name": "Wholesale Load Calculator by Crop Type",
+    "category": "Wholesale",
+    "composite_score": 7.17
+  },
+  "chemicals-compliance-checker-by-crop-type": {
+    "tool_name": "Chemicals Compliance Checker by Crop Type",
+    "category": "Chemicals",
+    "composite_score": 7.17
+  },
+  "food-beverage-benchmark-tool-by-currency": {
+    "tool_name": "Food & Beverage Benchmark Tool by Currency",
+    "category": "Food & Beverage",
+    "composite_score": 7.17
+  },
+  "proptech-feasibility-study-by-material": {
+    "tool_name": "Proptech Feasibility Study by Material",
+    "category": "Proptech",
+    "composite_score": 7.17
+  },
+  "proptech-retention-predictor-by-city": {
+    "tool_name": "Proptech Retention Predictor by City",
+    "category": "Proptech",
+    "composite_score": 7.17
+  },
+  "manufacturing-supply-chain-risk-mapper-by-storage-type": {
+    "tool_name": "Manufacturing Supply Chain Risk Mapper by Storage Type",
+    "category": "Manufacturing",
+    "composite_score": 7.17
+  },
+  "marketing-supply-chain-risk-mapper-by-hs-code": {
+    "tool_name": "Marketing Supply Chain Risk Mapper by HS Code",
+    "category": "Marketing",
+    "composite_score": 7.17
+  },
+  "cybersecurity-hiring-cost-analyzer-by-cloud-provider": {
+    "tool_name": "Cybersecurity Hiring Cost Analyzer by Cloud Provider",
+    "category": "Cybersecurity",
+    "composite_score": 7.17
+  },
+  "clean-energy-margin-analyzer-by-country": {
+    "tool_name": "Clean Energy Margin Analyzer by Country",
+    "category": "Clean Energy",
+    "composite_score": 7.16
+  },
+  "healthcare-risk-assessor-by-cloud-provider": {
+    "tool_name": "Healthcare Risk Assessor by Cloud Provider",
+    "category": "Healthcare",
+    "composite_score": 7.16
+  },
+  "healthcare-capacity-calculator-by-material": {
+    "tool_name": "Healthcare Capacity Calculator by Material",
+    "category": "Healthcare",
+    "composite_score": 7.16
+  },
+  "retail-risk-assessor-by-role": {
+    "tool_name": "Retail Risk Assessor by Role",
+    "category": "Retail",
+    "composite_score": 7.16
+  },
+  "utilities-supply-chain-risk-mapper-by-language": {
+    "tool_name": "Utilities Supply Chain Risk Mapper by Language",
+    "category": "Utilities",
+    "composite_score": 7.15
+  },
+  "legal-safety-audit-by-company-size": {
+    "tool_name": "Legal Safety Audit by Company Size",
+    "category": "Legal",
+    "composite_score": 7.15
+  },
+  "real-estate-contract-value-estimator-by-category": {
+    "tool_name": "Real Estate Contract Value Estimator by Category",
+    "category": "Real Estate",
+    "composite_score": 7.15
+  },
+  "finance-load-estimator-by-material": {
+    "tool_name": "Finance Load Estimator by Material",
+    "category": "Finance",
+    "composite_score": 7.14
+  },
+  "engineering-tax-nexus-estimator-by-regulation": {
+    "tool_name": "Engineering Tax Nexus Estimator by Regulation",
+    "category": "Engineering",
+    "composite_score": 7.14
+  },
+  "food-beverage-duty-tariff-calculator-by-currency": {
+    "tool_name": "Food & Beverage Duty & Tariff Calculator by Currency",
+    "category": "Food & Beverage",
+    "composite_score": 7.14
+  },
+  "chemicals-vendor-evaluator-by-niche": {
+    "tool_name": "Chemicals Vendor Evaluator by Niche",
+    "category": "Chemicals",
+    "composite_score": 7.14
+  },
+  "energy-compliance-checker-by-state": {
+    "tool_name": "Energy Compliance Checker by State",
+    "category": "Energy",
+    "composite_score": 7.14
+  },
+  "cybersecurity-incentive-finder-by-company-size": {
+    "tool_name": "Cybersecurity Incentive Finder by Company Size",
+    "category": "Cybersecurity",
+    "composite_score": 7.14
+  },
+  "martech-compliance-checker-by-material": {
+    "tool_name": "Martech Compliance Checker by Material",
+    "category": "Martech",
+    "composite_score": 7.14
+  },
+  "insurance-yield-predictor-by-currency": {
+    "tool_name": "Insurance Yield Predictor by Currency",
+    "category": "Insurance",
+    "composite_score": 7.14
+  },
+  "hr-tax-nexus-estimator-by-building-type": {
+    "tool_name": "HR Tax Nexus Estimator by Building Type",
+    "category": "Hr",
+    "composite_score": 7.14
+  },
+  "transportation-vendor-evaluator-by-jurisdiction": {
+    "tool_name": "Transportation Vendor Evaluator by Jurisdiction",
+    "category": "Transportation",
+    "composite_score": 7.13
+  },
+  "energy-gap-analyzer-by-country": {
+    "tool_name": "Energy Gap Analyzer by Country",
+    "category": "Energy",
+    "composite_score": 7.13
+  },
+  "martech-cost-estimator-by-city": {
+    "tool_name": "Martech Cost Estimator by City",
+    "category": "Martech",
+    "composite_score": 7.13
+  },
+  "adtech-gap-analyzer-by-crop-type": {
+    "tool_name": "Adtech Gap Analyzer by Crop Type",
+    "category": "Adtech",
+    "composite_score": 7.13
+  },
+  "hospitality-safety-audit-by-crop-type": {
+    "tool_name": "Hospitality Safety Audit by Crop Type",
+    "category": "Hospitality",
+    "composite_score": 7.13
+  },
+  "chemicals-yield-predictor-by-storage-type": {
+    "tool_name": "Chemicals Yield Predictor by Storage Type",
+    "category": "Chemicals",
+    "composite_score": 7.13
+  },
+  "marketing-efficiency-benchmarker-by-storage-type": {
+    "tool_name": "Marketing Efficiency Benchmarker by Storage Type",
+    "category": "Marketing",
+    "composite_score": 7.13
+  },
+  "aerospace-load-estimator-by-transaction-volume": {
+    "tool_name": "Aerospace Load Estimator by Transaction Volume",
+    "category": "Aerospace",
+    "composite_score": 7.13
+  },
+  "cybersecurity-audit-checklist-by-company-size": {
+    "tool_name": "Cybersecurity Audit Checklist by Company Size",
+    "category": "Cybersecurity",
+    "composite_score": 7.12
+  },
+  "biotech-benchmark-tool-by-regulation": {
+    "tool_name": "Biotech Benchmark Tool by Regulation",
+    "category": "Biotech",
+    "composite_score": 7.12
+  },
+  "energy-incentive-finder-by-technology-stack": {
+    "tool_name": "Energy Incentive Finder by Technology Stack",
+    "category": "Energy",
+    "composite_score": 7.12
+  },
+  "sustainability-supply-chain-risk-mapper-by-platform": {
+    "tool_name": "Sustainability Supply Chain Risk Mapper by Platform",
+    "category": "Sustainability",
+    "composite_score": 7.11
+  },
+  "marketing-hiring-cost-analyzer-by-building-type": {
+    "tool_name": "Marketing Hiring Cost Analyzer by Building Type",
+    "category": "Marketing",
+    "composite_score": 7.1
+  },
+  "food-beverage-margin-analyzer-by-jurisdiction": {
+    "tool_name": "Food & Beverage Margin Analyzer by Jurisdiction",
+    "category": "Food & Beverage",
+    "composite_score": 7.1
+  },
+  "legal-regulatory-navigator-by-material": {
+    "tool_name": "Legal Regulatory Navigator by Material",
+    "category": "Legal",
+    "composite_score": 7.1
+  },
+  "electronics-unit-economics-analyzer-by-industry": {
+    "tool_name": "Electronics Unit Economics Analyzer by Industry",
+    "category": "Electronics",
+    "composite_score": 7.1
+  },
+  "insurance-cac-calculator-by-company-size": {
+    "tool_name": "Insurance CAC Calculator by Company Size",
+    "category": "Insurance",
+    "composite_score": 7.1
+  },
+  "clean-energy-duty-tariff-calculator-by-crop-type": {
+    "tool_name": "Clean Energy Duty & Tariff Calculator by Crop Type",
+    "category": "Clean Energy",
+    "composite_score": 7.09
+  },
+  "wholesale-optimization-simulator-by-vehicle-type": {
+    "tool_name": "Wholesale Optimization Simulator by Vehicle Type",
+    "category": "Wholesale",
+    "composite_score": 7.09
+  },
+  "engineering-feasibility-study-by-category": {
+    "tool_name": "Engineering Feasibility Study by Category",
+    "category": "Engineering",
+    "composite_score": 7.09
+  },
+  "hr-patent-cost-estimator-by-niche": {
+    "tool_name": "HR Patent Cost Estimator by Niche",
+    "category": "Hr",
+    "composite_score": 7.08
+  },
+  "aerospace-risk-assessor-by-crop-type": {
+    "tool_name": "Aerospace Risk Assessor by Crop Type",
+    "category": "Aerospace",
+    "composite_score": 7.08
+  },
+  "edtech-water-usage-tracker-by-jurisdiction": {
+    "tool_name": "Edtech Water Usage Tracker by Jurisdiction",
+    "category": "Edtech",
+    "composite_score": 7.08
+  },
+  "clean-energy-benchmark-tool-by-hs-code": {
+    "tool_name": "Clean Energy Benchmark Tool by HS Code",
+    "category": "Clean Energy",
+    "composite_score": 7.08
+  },
+  "electronics-carbon-footprint-tracker-by-storage-type": {
+    "tool_name": "Electronics Carbon Footprint Tracker by Storage Type",
+    "category": "Electronics",
+    "composite_score": 7.08
+  },
+  "compliance-esop-simulator-by-hs-code": {
+    "tool_name": "Compliance ESOP Simulator by HS Code",
+    "category": "Compliance",
+    "composite_score": 7.08
+  },
+  "healthcare-optimization-simulator-by-cloud-provider": {
+    "tool_name": "Healthcare Optimization Simulator by Cloud Provider",
+    "category": "Healthcare",
+    "composite_score": 7.08
+  },
+  "automotive-contract-value-estimator-by-industry": {
+    "tool_name": "Automotive Contract Value Estimator by Industry",
+    "category": "Automotive",
+    "composite_score": 7.08
+  },
+  "telecom-emission-estimator-by-transaction-volume": {
+    "tool_name": "Telecom Emission Estimator by Transaction Volume",
+    "category": "Telecom",
+    "composite_score": 7.07
+  },
+  "adtech-carbon-footprint-tracker-by-cloud-provider": {
+    "tool_name": "Adtech Carbon Footprint Tracker by Cloud Provider",
+    "category": "Adtech",
+    "composite_score": 7.06
+  },
+  "biotech-waste-reduction-tracker-by-cloud-provider": {
+    "tool_name": "Biotech Waste Reduction Tracker by Cloud Provider",
+    "category": "Biotech",
+    "composite_score": 7.06
+  },
+  "hospitality-vendor-evaluator-by-regulation": {
+    "tool_name": "Hospitality Vendor Evaluator by Regulation",
+    "category": "Hospitality",
+    "composite_score": 7.06
+  },
+  "wholesale-optimization-simulator-by-category": {
+    "tool_name": "Wholesale Optimization Simulator by Category",
+    "category": "Wholesale",
+    "composite_score": 7.05
+  },
+  "wholesale-incentive-finder-by-language": {
+    "tool_name": "Wholesale Incentive Finder by Language",
+    "category": "Wholesale",
+    "composite_score": 7.05
+  },
+  "manufacturing-carbon-footprint-tracker-by-city": {
+    "tool_name": "Manufacturing Carbon Footprint Tracker by City",
+    "category": "Manufacturing",
+    "composite_score": 7.05
+  },
+  "finance-margin-analyzer-by-transaction-volume": {
+    "tool_name": "Finance Margin Analyzer by Transaction Volume",
+    "category": "Finance",
+    "composite_score": 7.05
+  },
+  "pharma-capacity-calculator-by-category": {
+    "tool_name": "Pharma Capacity Calculator by Category",
+    "category": "Pharma",
+    "composite_score": 7.05
+  },
+  "aerospace-risk-assessor-by-category": {
+    "tool_name": "Aerospace Risk Assessor by Category",
+    "category": "Aerospace",
+    "composite_score": 7.05
+  },
+  "e-commerce-cac-calculator-by-currency": {
+    "tool_name": "E-commerce CAC Calculator by Currency",
+    "category": "E-Commerce",
+    "composite_score": 7.04
+  },
+  "agriculture-supply-chain-risk-mapper-by-technology-stack": {
+    "tool_name": "Agriculture Supply Chain Risk Mapper by Technology Stack",
+    "category": "Agriculture",
+    "composite_score": 7.04
+  },
+  "automotive-vendor-evaluator-by-transaction-volume": {
+    "tool_name": "Automotive Vendor Evaluator by Transaction Volume",
+    "category": "Automotive",
+    "composite_score": 7.04
+  },
+  "aerospace-esop-simulator-by-regulation": {
+    "tool_name": "Aerospace ESOP Simulator by Regulation",
+    "category": "Aerospace",
+    "composite_score": 7.04
+  },
+  "agriculture-patent-cost-estimator-by-jurisdiction": {
+    "tool_name": "Agriculture Patent Cost Estimator by Jurisdiction",
+    "category": "Agriculture",
+    "composite_score": 7.04
+  },
+  "finance-energy-audit-by-company-size": {
+    "tool_name": "Finance Energy Audit by Company Size",
+    "category": "Finance",
+    "composite_score": 7.04
+  },
+  "retail-incentive-finder-by-crop-type": {
+    "tool_name": "Retail Incentive Finder by Crop Type",
+    "category": "Retail",
+    "composite_score": 7.04
+  },
+  "cybersecurity-carbon-footprint-tracker-by-technology-stack": {
+    "tool_name": "Cybersecurity Carbon Footprint Tracker by Technology Stack",
+    "category": "Cybersecurity",
+    "composite_score": 7.03
+  },
+  "insurance-esop-simulator-by-storage-type": {
+    "tool_name": "Insurance ESOP Simulator by Storage Type",
+    "category": "Insurance",
+    "composite_score": 7.03
+  },
+  "sustainability-safety-audit-by-business-model": {
+    "tool_name": "Sustainability Safety Audit by Business Model",
+    "category": "Sustainability",
+    "composite_score": 7.02
+  },
+  "automotive-vendor-evaluator-by-revenue-bracket": {
+    "tool_name": "Automotive Vendor Evaluator by Revenue Bracket",
+    "category": "Automotive",
+    "composite_score": 7.02
+  },
+  "sustainability-patent-cost-estimator-by-material-grade": {
+    "tool_name": "Sustainability Patent Cost Estimator by Material Grade",
+    "category": "Sustainability",
+    "composite_score": 7.02
+  },
+  "telecom-load-estimator-by-transaction-volume": {
+    "tool_name": "Telecom Load Estimator by Transaction Volume",
+    "category": "Telecom",
+    "composite_score": 7.02
+  },
+  "aerospace-margin-analyzer-by-crop-type": {
+    "tool_name": "Aerospace Margin Analyzer by Crop Type",
+    "category": "Aerospace",
+    "composite_score": 7.02
+  },
+  "utilities-benchmark-tool-by-country": {
+    "tool_name": "Utilities Benchmark Tool by Country",
+    "category": "Utilities",
+    "composite_score": 7.02
+  },
+  "real-estate-contract-value-estimator-by-niche": {
+    "tool_name": "Real Estate Contract Value Estimator by Niche",
+    "category": "Real Estate",
+    "composite_score": 7.02
+  },
+  "compliance-duty-tariff-calculator-by-storage-type": {
+    "tool_name": "Compliance Duty & Tariff Calculator by Storage Type",
+    "category": "Compliance",
+    "composite_score": 7.02
+  },
+  "healthtech-risk-assessor-by-vehicle-type": {
+    "tool_name": "Healthtech Risk Assessor by Vehicle Type",
+    "category": "Healthtech",
+    "composite_score": 7.01
+  },
+  "finance-emission-estimator-by-language": {
+    "tool_name": "Finance Emission Estimator by Language",
+    "category": "Finance",
+    "composite_score": 7.01
+  },
+  "healthtech-ltv-estimator-by-city": {
+    "tool_name": "Healthtech LTV Estimator by City",
+    "category": "Healthtech",
+    "composite_score": 7.01
+  },
+  "biotech-capacity-calculator-by-currency": {
+    "tool_name": "Biotech Capacity Calculator by Currency",
+    "category": "Biotech",
+    "composite_score": 7.01
+  },
+  "healthtech-duty-tariff-calculator-by-state": {
+    "tool_name": "Healthtech Duty & Tariff Calculator by State",
+    "category": "Healthtech",
+    "composite_score": 7.0
+  },
+  "transportation-logistics-optimizer-by-material-grade": {
+    "tool_name": "Transportation Logistics Optimizer by Material Grade",
+    "category": "Transportation",
+    "composite_score": 7.0
+  },
+  "pharma-waste-reduction-tracker-by-cloud-provider": {
+    "tool_name": "Pharma Waste Reduction Tracker by Cloud Provider",
+    "category": "Pharma",
+    "composite_score": 7.0
+  },
+  "automotive-unit-economics-analyzer-by-technology-stack": {
+    "tool_name": "Automotive Unit Economics Analyzer by Technology Stack",
+    "category": "Automotive",
+    "composite_score": 7.0
+  },
+  "insurance-vendor-evaluator-by-crop-type": {
+    "tool_name": "Insurance Vendor Evaluator by Crop Type",
+    "category": "Insurance",
+    "composite_score": 7.0
+  },
+  "electronics-carbon-footprint-tracker-by-building-type": {
+    "tool_name": "Electronics Carbon Footprint Tracker by Building Type",
+    "category": "Electronics",
+    "composite_score": 7.0
+  },
+  "proptech-water-usage-tracker-by-revenue-bracket": {
+    "tool_name": "Proptech Water Usage Tracker by Revenue Bracket",
+    "category": "Proptech",
+    "composite_score": 6.99
+  },
+  "manufacturing-carbon-footprint-tracker-by-seniority": {
+    "tool_name": "Manufacturing Carbon Footprint Tracker by Seniority",
+    "category": "Manufacturing",
+    "composite_score": 6.99
+  },
+  "proptech-risk-assessor-by-country": {
+    "tool_name": "Proptech Risk Assessor by Country",
+    "category": "Proptech",
+    "composite_score": 6.99
+  },
+  "aerospace-efficiency-benchmarker-by-cloud-provider": {
+    "tool_name": "Aerospace Efficiency Benchmarker by Cloud Provider",
+    "category": "Aerospace",
+    "composite_score": 6.98
+  },
+  "chemicals-capacity-calculator-by-category": {
+    "tool_name": "Chemicals Capacity Calculator by Category",
+    "category": "Chemicals",
+    "composite_score": 6.98
+  },
+  "hospitality-emission-estimator-by-country": {
+    "tool_name": "Hospitality Emission Estimator by Country",
+    "category": "Hospitality",
+    "composite_score": 6.98
+  },
+  "utilities-load-calculator-by-language": {
+    "tool_name": "Utilities Load Calculator by Language",
+    "category": "Utilities",
+    "composite_score": 6.98
+  },
+  "clean-energy-load-calculator-by-regulation": {
+    "tool_name": "Clean Energy Load Calculator by Regulation",
+    "category": "Clean Energy",
+    "composite_score": 6.98
+  },
+  "legal-logistics-optimizer-by-asset-type": {
+    "tool_name": "Legal Logistics Optimizer by Asset Type",
+    "category": "Legal",
+    "composite_score": 6.98
+  },
+  "chemicals-efficiency-benchmarker-by-regulation": {
+    "tool_name": "Chemicals Efficiency Benchmarker by Regulation",
+    "category": "Chemicals",
+    "composite_score": 6.97
+  },
+  "retail-pricing-simulator-by-asset-type": {
+    "tool_name": "Retail Pricing Simulator by Asset Type",
+    "category": "Retail",
+    "composite_score": 6.97
+  },
+  "clean-energy-risk-assessor-by-platform": {
+    "tool_name": "Clean Energy Risk Assessor by Platform",
+    "category": "Clean Energy",
+    "composite_score": 6.96
+  },
+  "insurance-supply-chain-risk-mapper-by-technology-stack": {
+    "tool_name": "Insurance Supply Chain Risk Mapper by Technology Stack",
+    "category": "Insurance",
+    "composite_score": 6.96
+  },
+  "telecom-incentive-finder-by-framework": {
+    "tool_name": "Telecom Incentive Finder by Framework",
+    "category": "Telecom",
+    "composite_score": 6.95
+  },
+  "real-estate-benchmark-tool-by-transaction-volume": {
+    "tool_name": "Real Estate Benchmark Tool by Transaction Volume",
+    "category": "Real Estate",
+    "composite_score": 6.95
+  },
+  "e-commerce-budget-planner-by-material": {
+    "tool_name": "E-commerce Budget Planner by Material",
+    "category": "E-Commerce",
+    "composite_score": 6.94
+  },
+  "biotech-risk-assessor-by-city": {
+    "tool_name": "Biotech Risk Assessor by City",
+    "category": "Biotech",
+    "composite_score": 6.94
+  },
+  "utilities-supply-chain-risk-mapper-by-asset-type": {
+    "tool_name": "Utilities Supply Chain Risk Mapper by Asset Type",
+    "category": "Utilities",
+    "composite_score": 6.94
+  },
+  "pharma-cost-estimator-by-framework": {
+    "tool_name": "Pharma Cost Estimator by Framework",
+    "category": "Pharma",
+    "composite_score": 6.94
+  },
+  "healthcare-waste-reduction-tracker-by-platform": {
+    "tool_name": "Healthcare Waste Reduction Tracker by Platform",
+    "category": "Healthcare",
+    "composite_score": 6.93
+  },
+  "sustainability-retention-predictor-by-industry": {
+    "tool_name": "Sustainability Retention Predictor by Industry",
+    "category": "Sustainability",
+    "composite_score": 6.93
+  },
+  "transportation-logistics-optimizer-by-employee-count": {
+    "tool_name": "Transportation Logistics Optimizer by Employee Count",
+    "category": "Transportation",
+    "composite_score": 6.92
+  },
+  "manufacturing-supply-chain-risk-mapper-by-regulation": {
+    "tool_name": "Manufacturing Supply Chain Risk Mapper by Regulation",
+    "category": "Manufacturing",
+    "composite_score": 6.91
+  },
+  "energy-roi-calculator-by-currency": {
+    "tool_name": "Energy ROI Calculator by Currency",
+    "category": "Energy",
+    "composite_score": 6.91
+  },
+  "electronics-cac-calculator-by-city": {
+    "tool_name": "Electronics CAC Calculator by City",
+    "category": "Electronics",
+    "composite_score": 6.91
+  },
+  "automotive-hiring-cost-analyzer-by-state": {
+    "tool_name": "Automotive Hiring Cost Analyzer by State",
+    "category": "Automotive",
+    "composite_score": 6.9
+  },
+  "adtech-retention-predictor-by-storage-type": {
+    "tool_name": "Adtech Retention Predictor by Storage Type",
+    "category": "Adtech",
+    "composite_score": 6.9
+  },
+  "logistics-efficiency-benchmarker-by-regulation": {
+    "tool_name": "Logistics Efficiency Benchmarker by Regulation",
+    "category": "Logistics",
+    "composite_score": 6.9
+  },
+  "fintech-benchmark-tool-by-storage-type": {
+    "tool_name": "Fintech Benchmark Tool by Storage Type",
+    "category": "Fintech",
+    "composite_score": 6.89
+  },
+  "retail-supply-chain-risk-mapper-by-framework": {
+    "tool_name": "Retail Supply Chain Risk Mapper by Framework",
+    "category": "Retail",
+    "composite_score": 6.89
+  },
+  "marketing-vendor-evaluator-by-regulation": {
+    "tool_name": "Marketing Vendor Evaluator by Regulation",
+    "category": "Marketing",
+    "composite_score": 6.89
+  },
+  "edtech-incentive-finder-by-business-model": {
+    "tool_name": "Edtech Incentive Finder by Business Model",
+    "category": "Edtech",
+    "composite_score": 6.89
+  },
+  "automotive-yield-predictor-by-material-grade": {
+    "tool_name": "Automotive Yield Predictor by Material Grade",
+    "category": "Automotive",
+    "composite_score": 6.88
+  },
+  "marketing-hiring-cost-analyzer-by-company-size": {
+    "tool_name": "Marketing Hiring Cost Analyzer by Company Size",
+    "category": "Marketing",
+    "composite_score": 6.88
+  },
+  "aerospace-roi-calculator-by-country": {
+    "tool_name": "Aerospace ROI Calculator by Country",
+    "category": "Aerospace",
+    "composite_score": 6.88
+  },
+  "fintech-carbon-footprint-tracker-by-country": {
+    "tool_name": "Fintech Carbon Footprint Tracker by Country",
+    "category": "Fintech",
+    "composite_score": 6.87
+  },
+  "sustainability-optimization-simulator-by-platform": {
+    "tool_name": "Sustainability Optimization Simulator by Platform",
+    "category": "Sustainability",
+    "composite_score": 6.87
+  },
+  "martech-risk-assessor-by-role": {
+    "tool_name": "Martech Risk Assessor by Role",
+    "category": "Martech",
+    "composite_score": 6.86
+  },
+  "transportation-gap-analyzer-by-crop-type": {
+    "tool_name": "Transportation Gap Analyzer by Crop Type",
+    "category": "Transportation",
+    "composite_score": 6.86
+  },
+  "e-commerce-safety-audit-by-transaction-volume": {
+    "tool_name": "E-commerce Safety Audit by Transaction Volume",
+    "category": "E-Commerce",
+    "composite_score": 6.86
+  },
+  "adtech-water-usage-tracker-by-technology-stack": {
+    "tool_name": "Adtech Water Usage Tracker by Technology Stack",
+    "category": "Adtech",
+    "composite_score": 6.86
+  },
+  "edtech-pricing-simulator-by-framework": {
+    "tool_name": "Edtech Pricing Simulator by Framework",
+    "category": "Edtech",
+    "composite_score": 6.86
+  },
+  "hospitality-retention-predictor-by-storage-type": {
+    "tool_name": "Hospitality Retention Predictor by Storage Type",
+    "category": "Hospitality",
+    "composite_score": 6.86
+  },
+  "electronics-hiring-cost-analyzer-by-crop-type": {
+    "tool_name": "Electronics Hiring Cost Analyzer by Crop Type",
+    "category": "Electronics",
+    "composite_score": 6.85
+  },
+  "hr-safety-audit-by-energy-source": {
+    "tool_name": "HR Safety Audit by Energy Source",
+    "category": "Hr",
+    "composite_score": 6.85
+  },
+  "sustainability-carbon-footprint-tracker-by-niche": {
+    "tool_name": "Sustainability Carbon Footprint Tracker by Niche",
+    "category": "Sustainability",
+    "composite_score": 6.85
+  },
+  "martech-unit-economics-analyzer-by-building-type": {
+    "tool_name": "Martech Unit Economics Analyzer by Building Type",
+    "category": "Martech",
+    "composite_score": 6.85
+  },
+  "martech-esop-simulator-by-platform": {
+    "tool_name": "Martech ESOP Simulator by Platform",
+    "category": "Martech",
+    "composite_score": 6.84
+  },
+  "wholesale-risk-assessor-by-city": {
+    "tool_name": "Wholesale Risk Assessor by City",
+    "category": "Wholesale",
+    "composite_score": 6.84
+  },
+  "retail-hiring-cost-analyzer-by-material": {
+    "tool_name": "Retail Hiring Cost Analyzer by Material",
+    "category": "Retail",
+    "composite_score": 6.84
+  },
+  "marketing-unit-economics-analyzer-by-asset-type": {
+    "tool_name": "Marketing Unit Economics Analyzer by Asset Type",
+    "category": "Marketing",
+    "composite_score": 6.84
+  },
+  "utilities-emission-estimator-by-technology-stack": {
+    "tool_name": "Utilities Emission Estimator by Technology Stack",
+    "category": "Utilities",
+    "composite_score": 6.82
+  },
+  "real-estate-hiring-cost-analyzer-by-material": {
+    "tool_name": "Real Estate Hiring Cost Analyzer by Material",
+    "category": "Real Estate",
+    "composite_score": 6.82
+  },
+  "clean-energy-cac-calculator-by-company-size": {
+    "tool_name": "Clean Energy CAC Calculator by Company Size",
+    "category": "Clean Energy",
+    "composite_score": 6.82
+  },
+  "cybersecurity-cost-estimator-by-state": {
+    "tool_name": "Cybersecurity Cost Estimator by State",
+    "category": "Cybersecurity",
+    "composite_score": 6.82
+  },
+  "agriculture-ltv-estimator-by-industry": {
+    "tool_name": "Agriculture LTV Estimator by Industry",
+    "category": "Agriculture",
+    "composite_score": 6.82
+  },
+  "food-beverage-logistics-optimizer-by-employee-count": {
+    "tool_name": "Food & Beverage Logistics Optimizer by Employee Count",
+    "category": "Food & Beverage",
+    "composite_score": 6.82
+  },
+  "fintech-retention-predictor-by-crop-type": {
+    "tool_name": "Fintech Retention Predictor by Crop Type",
+    "category": "Fintech",
+    "composite_score": 6.82
+  },
+  "adtech-budget-planner-by-business-model": {
+    "tool_name": "Adtech Budget Planner by Business Model",
+    "category": "Adtech",
+    "composite_score": 6.81
+  },
+  "finance-roi-calculator-by-vehicle-type": {
+    "tool_name": "Finance ROI Calculator by Vehicle Type",
+    "category": "Finance",
+    "composite_score": 6.81
+  },
+  "aerospace-contract-value-estimator-by-role": {
+    "tool_name": "Aerospace Contract Value Estimator by Role",
+    "category": "Aerospace",
+    "composite_score": 6.8
+  },
+  "real-estate-safety-audit-by-role": {
+    "tool_name": "Real Estate Safety Audit by Role",
+    "category": "Real Estate",
+    "composite_score": 6.8
+  },
+  "energy-duty-tariff-calculator-by-energy-source": {
+    "tool_name": "Energy Duty & Tariff Calculator by Energy Source",
+    "category": "Energy",
+    "composite_score": 6.79
+  },
+  "edtech-safety-audit-by-city": {
+    "tool_name": "Edtech Safety Audit by City",
+    "category": "Edtech",
+    "composite_score": 6.79
+  },
+  "e-commerce-capacity-calculator-by-currency": {
+    "tool_name": "E-commerce Capacity Calculator by Currency",
+    "category": "E-Commerce",
+    "composite_score": 6.79
+  },
+  "clean-energy-water-usage-tracker-by-city": {
+    "tool_name": "Clean Energy Water Usage Tracker by City",
+    "category": "Clean Energy",
+    "composite_score": 6.79
+  },
+  "automotive-tax-nexus-estimator-by-role": {
+    "tool_name": "Automotive Tax Nexus Estimator by Role",
+    "category": "Automotive",
+    "composite_score": 6.78
+  },
+  "pharma-feasibility-study-by-jurisdiction": {
+    "tool_name": "Pharma Feasibility Study by Jurisdiction",
+    "category": "Pharma",
+    "composite_score": 6.78
+  },
+  "healthcare-hiring-cost-analyzer-by-company-size": {
+    "tool_name": "Healthcare Hiring Cost Analyzer by Company Size",
+    "category": "Healthcare",
+    "composite_score": 6.78
+  },
+  "wholesale-ltv-estimator-by-business-model": {
+    "tool_name": "Wholesale LTV Estimator by Business Model",
+    "category": "Wholesale",
+    "composite_score": 6.77
+  },
+  "engineering-budget-planner-by-role": {
+    "tool_name": "Engineering Budget Planner by Role",
+    "category": "Engineering",
+    "composite_score": 6.77
+  },
+  "healthtech-audit-checklist-by-seniority": {
+    "tool_name": "Healthtech Audit Checklist by Seniority",
+    "category": "Healthtech",
+    "composite_score": 6.77
+  },
+  "adtech-roi-calculator-by-jurisdiction": {
+    "tool_name": "Adtech ROI Calculator by Jurisdiction",
+    "category": "Adtech",
+    "composite_score": 6.77
+  },
+  "wholesale-benchmark-tool-by-seniority": {
+    "tool_name": "Wholesale Benchmark Tool by Seniority",
+    "category": "Wholesale",
+    "composite_score": 6.76
+  },
+  "wholesale-ltv-estimator-by-platform": {
+    "tool_name": "Wholesale LTV Estimator by Platform",
+    "category": "Wholesale",
+    "composite_score": 6.75
+  },
+  "construction-ltv-estimator-by-material-grade": {
+    "tool_name": "Construction LTV Estimator by Material Grade",
+    "category": "Construction",
+    "composite_score": 6.75
+  },
+  "chemicals-waste-reduction-tracker-by-seniority": {
+    "tool_name": "Chemicals Waste Reduction Tracker by Seniority",
+    "category": "Chemicals",
+    "composite_score": 6.74
+  },
+  "chemicals-vendor-evaluator-by-city": {
+    "tool_name": "Chemicals Vendor Evaluator by City",
+    "category": "Chemicals",
+    "composite_score": 6.73
+  },
+  "edtech-tax-nexus-estimator-by-hs-code": {
+    "tool_name": "Edtech Tax Nexus Estimator by HS Code",
+    "category": "Edtech",
+    "composite_score": 6.73
+  },
+  "adtech-supply-chain-risk-mapper-by-cloud-provider": {
+    "tool_name": "Adtech Supply Chain Risk Mapper by Cloud Provider",
+    "category": "Adtech",
+    "composite_score": 6.73
+  },
+  "manufacturing-budget-planner-by-asset-type": {
+    "tool_name": "Manufacturing Budget Planner by Asset Type",
+    "category": "Manufacturing",
+    "composite_score": 6.73
+  },
+  "telecom-tax-nexus-estimator-by-role": {
+    "tool_name": "Telecom Tax Nexus Estimator by Role",
+    "category": "Telecom",
+    "composite_score": 6.73
+  },
+  "aerospace-benchmark-tool-by-city": {
+    "tool_name": "Aerospace Benchmark Tool by City",
+    "category": "Aerospace",
+    "composite_score": 6.73
+  },
+  "pharma-gap-analyzer-by-vehicle-type": {
+    "tool_name": "Pharma Gap Analyzer by Vehicle Type",
+    "category": "Pharma",
+    "composite_score": 6.73
+  },
+  "hospitality-compliance-checker-by-material": {
+    "tool_name": "Hospitality Compliance Checker by Material",
+    "category": "Hospitality",
+    "composite_score": 6.73
+  },
+  "proptech-cost-estimator-by-role": {
+    "tool_name": "Proptech Cost Estimator by Role",
+    "category": "Proptech",
+    "composite_score": 6.72
+  },
+  "fintech-audit-checklist-by-language": {
+    "tool_name": "Fintech Audit Checklist by Language",
+    "category": "Fintech",
+    "composite_score": 6.72
+  },
+  "healthtech-incentive-finder-by-vehicle-type": {
+    "tool_name": "Healthtech Incentive Finder by Vehicle Type",
+    "category": "Healthtech",
+    "composite_score": 6.72
+  },
+  "aerospace-budget-planner-by-language": {
+    "tool_name": "Aerospace Budget Planner by Language",
+    "category": "Aerospace",
+    "composite_score": 6.71
+  },
+  "edtech-energy-audit-by-energy-source": {
+    "tool_name": "Edtech Energy Audit by Energy Source",
+    "category": "Edtech",
+    "composite_score": 6.71
+  },
+  "marketing-duty-tariff-calculator-by-regulation": {
+    "tool_name": "Marketing Duty & Tariff Calculator by Regulation",
+    "category": "Marketing",
+    "composite_score": 6.71
+  },
+  "utilities-esop-simulator-by-seniority": {
+    "tool_name": "Utilities ESOP Simulator by Seniority",
+    "category": "Utilities",
+    "composite_score": 6.71
+  },
+  "adtech-pricing-simulator-by-language": {
+    "tool_name": "Adtech Pricing Simulator by Language",
+    "category": "Adtech",
+    "composite_score": 6.71
+  },
+  "engineering-contract-value-estimator-by-language": {
+    "tool_name": "Engineering Contract Value Estimator by Language",
+    "category": "Engineering",
+    "composite_score": 6.7
+  },
+  "aerospace-hiring-cost-analyzer-by-currency": {
+    "tool_name": "Aerospace Hiring Cost Analyzer by Currency",
+    "category": "Aerospace",
+    "composite_score": 6.7
+  },
+  "proptech-contract-value-estimator-by-jurisdiction": {
+    "tool_name": "Proptech Contract Value Estimator by Jurisdiction",
+    "category": "Proptech",
+    "composite_score": 6.7
+  },
+  "transportation-optimization-simulator-by-storage-type": {
+    "tool_name": "Transportation Optimization Simulator by Storage Type",
+    "category": "Transportation",
+    "composite_score": 6.7
+  },
+  "proptech-hiring-cost-analyzer-by-storage-type": {
+    "tool_name": "Proptech Hiring Cost Analyzer by Storage Type",
+    "category": "Proptech",
+    "composite_score": 6.69
+  },
+  "sustainability-ltv-estimator-by-technology-stack": {
+    "tool_name": "Sustainability LTV Estimator by Technology Stack",
+    "category": "Sustainability",
+    "composite_score": 6.69
+  },
+  "cybersecurity-efficiency-benchmarker-by-niche": {
+    "tool_name": "Cybersecurity Efficiency Benchmarker by Niche",
+    "category": "Cybersecurity",
+    "composite_score": 6.69
+  },
+  "insurance-patent-cost-estimator-by-energy-source": {
+    "tool_name": "Insurance Patent Cost Estimator by Energy Source",
+    "category": "Insurance",
+    "composite_score": 6.69
+  },
+  "clean-energy-efficiency-benchmarker-by-state": {
+    "tool_name": "Clean Energy Efficiency Benchmarker by State",
+    "category": "Clean Energy",
+    "composite_score": 6.69
+  },
+  "manufacturing-cac-calculator-by-jurisdiction": {
+    "tool_name": "Manufacturing CAC Calculator by Jurisdiction",
+    "category": "Manufacturing",
+    "composite_score": 6.68
+  },
+  "edtech-water-usage-tracker-by-niche": {
+    "tool_name": "Edtech Water Usage Tracker by Niche",
+    "category": "Edtech",
+    "composite_score": 6.68
+  },
+  "aerospace-hiring-cost-analyzer-by-building-type": {
+    "tool_name": "Aerospace Hiring Cost Analyzer by Building Type",
+    "category": "Aerospace",
+    "composite_score": 6.67
+  },
+  "hr-feasibility-study-by-cloud-provider": {
+    "tool_name": "HR Feasibility Study by Cloud Provider",
+    "category": "Hr",
+    "composite_score": 6.67
+  },
+  "agriculture-energy-audit-by-role": {
+    "tool_name": "Agriculture Energy Audit by Role",
+    "category": "Agriculture",
+    "composite_score": 6.67
+  },
+  "education-roi-calculator-by-niche": {
+    "tool_name": "Education ROI Calculator by Niche",
+    "category": "Education",
+    "composite_score": 6.66
+  },
+  "biotech-efficiency-benchmarker-by-role": {
+    "tool_name": "Biotech Efficiency Benchmarker by Role",
+    "category": "Biotech",
+    "composite_score": 6.66
+  },
+  "e-commerce-efficiency-benchmarker-by-jurisdiction": {
+    "tool_name": "E-commerce Efficiency Benchmarker by Jurisdiction",
+    "category": "E-Commerce",
+    "composite_score": 6.65
+  },
+  "healthcare-roi-calculator-by-country": {
+    "tool_name": "Healthcare ROI Calculator by Country",
+    "category": "Healthcare",
+    "composite_score": 6.65
+  },
+  "fintech-capacity-calculator-by-employee-count": {
+    "tool_name": "Fintech Capacity Calculator by Employee Count",
+    "category": "Fintech",
+    "composite_score": 6.65
+  },
+  "insurance-cac-calculator-by-asset-type": {
+    "tool_name": "Insurance CAC Calculator by Asset Type",
+    "category": "Insurance",
+    "composite_score": 6.65
+  },
+  "engineering-gap-analyzer-by-business-model": {
+    "tool_name": "Engineering Gap Analyzer by Business Model",
+    "category": "Engineering",
+    "composite_score": 6.64
+  },
+  "clean-energy-risk-assessor-by-cloud-provider": {
+    "tool_name": "Clean Energy Risk Assessor by Cloud Provider",
+    "category": "Clean Energy",
+    "composite_score": 6.64
+  },
+  "hospitality-load-estimator-by-category": {
+    "tool_name": "Hospitality Load Estimator by Category",
+    "category": "Hospitality",
+    "composite_score": 6.64
+  },
+  "agriculture-emission-estimator-by-country": {
+    "tool_name": "Agriculture Emission Estimator by Country",
+    "category": "Agriculture",
+    "composite_score": 6.64
+  },
+  "fintech-margin-analyzer-by-energy-source": {
+    "tool_name": "Fintech Margin Analyzer by Energy Source",
+    "category": "Fintech",
+    "composite_score": 6.64
+  },
+  "electronics-cost-estimator-by-platform": {
+    "tool_name": "Electronics Cost Estimator by Platform",
+    "category": "Electronics",
+    "composite_score": 6.64
+  },
+  "wholesale-esop-simulator-by-transaction-volume": {
+    "tool_name": "Wholesale ESOP Simulator by Transaction Volume",
+    "category": "Wholesale",
+    "composite_score": 6.64
+  },
+  "manufacturing-load-calculator-by-state": {
+    "tool_name": "Manufacturing Load Calculator by State",
+    "category": "Manufacturing",
+    "composite_score": 6.63
+  },
+  "education-retention-predictor-by-storage-type": {
+    "tool_name": "Education Retention Predictor by Storage Type",
+    "category": "Education",
+    "composite_score": 6.62
+  },
+  "utilities-emission-estimator-by-energy-source": {
+    "tool_name": "Utilities Emission Estimator by Energy Source",
+    "category": "Utilities",
+    "composite_score": 6.62
+  },
+  "martech-benchmark-tool-by-country": {
+    "tool_name": "Martech Benchmark Tool by Country",
+    "category": "Martech",
+    "composite_score": 6.62
+  },
+  "utilities-benchmark-tool-by-seniority": {
+    "tool_name": "Utilities Benchmark Tool by Seniority",
+    "category": "Utilities",
+    "composite_score": 6.62
+  },
+  "finance-vendor-evaluator-by-industry": {
+    "tool_name": "Finance Vendor Evaluator by Industry",
+    "category": "Finance",
+    "composite_score": 6.62
+  },
+  "energy-cac-calculator-by-platform": {
+    "tool_name": "Energy CAC Calculator by Platform",
+    "category": "Energy",
+    "composite_score": 6.61
+  },
+  "insurance-patent-cost-estimator-by-business-model": {
+    "tool_name": "Insurance Patent Cost Estimator by Business Model",
+    "category": "Insurance",
+    "composite_score": 6.61
+  },
+  "automotive-regulatory-navigator-by-transaction-volume": {
+    "tool_name": "Automotive Regulatory Navigator by Transaction Volume",
+    "category": "Automotive",
+    "composite_score": 6.61
+  },
+  "biotech-contract-value-estimator-by-framework": {
+    "tool_name": "Biotech Contract Value Estimator by Framework",
+    "category": "Biotech",
+    "composite_score": 6.59
+  },
+  "biotech-cac-calculator-by-transaction-volume": {
+    "tool_name": "Biotech CAC Calculator by Transaction Volume",
+    "category": "Biotech",
+    "composite_score": 6.59
+  },
+  "edtech-regulatory-navigator-by-framework": {
+    "tool_name": "Edtech Regulatory Navigator by Framework",
+    "category": "Edtech",
+    "composite_score": 6.58
+  },
+  "wholesale-cac-calculator-by-asset-type": {
+    "tool_name": "Wholesale CAC Calculator by Asset Type",
+    "category": "Wholesale",
+    "composite_score": 6.58
+  },
+  "logistics-hiring-cost-analyzer-by-regulation": {
+    "tool_name": "Logistics Hiring Cost Analyzer by Regulation",
+    "category": "Logistics",
+    "composite_score": 6.57
+  },
+  "construction-supply-chain-risk-mapper-by-language": {
+    "tool_name": "Construction Supply Chain Risk Mapper by Language",
+    "category": "Construction",
+    "composite_score": 6.57
+  },
+  "chemicals-patent-cost-estimator-by-technology-stack": {
+    "tool_name": "Chemicals Patent Cost Estimator by Technology Stack",
+    "category": "Chemicals",
+    "composite_score": 6.57
+  },
+  "retail-emission-estimator-by-crop-type": {
+    "tool_name": "Retail Emission Estimator by Crop Type",
+    "category": "Retail",
+    "composite_score": 6.57
+  },
+  "automotive-roi-calculator-by-revenue-bracket": {
+    "tool_name": "Automotive ROI Calculator by Revenue Bracket",
+    "category": "Automotive",
+    "composite_score": 6.56
+  },
+  "healthcare-risk-assessor-by-asset-type": {
+    "tool_name": "Healthcare Risk Assessor by Asset Type",
+    "category": "Healthcare",
+    "composite_score": 6.56
+  },
+  "adtech-load-estimator-by-jurisdiction": {
+    "tool_name": "Adtech Load Estimator by Jurisdiction",
+    "category": "Adtech",
+    "composite_score": 6.56
+  },
+  "utilities-gap-analyzer-by-transaction-volume": {
+    "tool_name": "Utilities Gap Analyzer by Transaction Volume",
+    "category": "Utilities",
+    "composite_score": 6.56
+  },
+  "chemicals-churn-predictor-by-revenue-bracket": {
+    "tool_name": "Chemicals Churn Predictor by Revenue Bracket",
+    "category": "Chemicals",
+    "composite_score": 6.54
+  },
+  "wholesale-cost-estimator-by-material-grade": {
+    "tool_name": "Wholesale Cost Estimator by Material Grade",
+    "category": "Wholesale",
+    "composite_score": 6.54
+  },
+  "fintech-waste-reduction-tracker-by-industry": {
+    "tool_name": "Fintech Waste Reduction Tracker by Industry",
+    "category": "Fintech",
+    "composite_score": 6.53
+  },
+  "edtech-hiring-cost-analyzer-by-vehicle-type": {
+    "tool_name": "Edtech Hiring Cost Analyzer by Vehicle Type",
+    "category": "Edtech",
+    "composite_score": 6.53
+  },
+  "marketing-logistics-optimizer-by-material": {
+    "tool_name": "Marketing Logistics Optimizer by Material",
+    "category": "Marketing",
+    "composite_score": 6.52
+  },
+  "insurance-safety-audit-by-city": {
+    "tool_name": "Insurance Safety Audit by City",
+    "category": "Insurance",
+    "composite_score": 6.52
+  },
+  "fintech-feasibility-study-by-industry": {
+    "tool_name": "Fintech Feasibility Study by Industry",
+    "category": "Fintech",
+    "composite_score": 6.51
+  },
+  "chemicals-waste-reduction-tracker-by-energy-source": {
+    "tool_name": "Chemicals Waste Reduction Tracker by Energy Source",
+    "category": "Chemicals",
+    "composite_score": 6.5
+  },
+  "pharma-supply-chain-risk-mapper-by-material-grade": {
+    "tool_name": "Pharma Supply Chain Risk Mapper by Material Grade",
+    "category": "Pharma",
+    "composite_score": 6.5
+  },
+  "education-incentive-finder-by-cloud-provider": {
+    "tool_name": "Education Incentive Finder by Cloud Provider",
+    "category": "Education",
+    "composite_score": 6.5
+  }
+}

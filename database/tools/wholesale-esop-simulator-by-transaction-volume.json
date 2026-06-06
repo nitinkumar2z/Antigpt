@@ -1,0 +1,23 @@
+{
+  "tool_id": "wholesale-esop-simulator-by-transaction-volume",
+  "tool_name": "Wholesale ESOP Simulator by Transaction Volume",
+  "category": "Wholesale",
+  "rank": 969,
+  "composite_score": 6.64,
+  "volume": 7271,
+  "kd": 27,
+  "pages": 339,
+  "target_user": "Professionals in Wholesale",
+  "problem_solved": "Automates complex Wholesale ESOP Simulator by Transaction Volume tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

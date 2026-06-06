@@ -1,0 +1,23 @@
+{
+  "tool_id": "clean-energy-compliance-checker-by-employee-count",
+  "tool_name": "Clean Energy Compliance Checker by Employee Count",
+  "category": "Clean Energy",
+  "rank": 262,
+  "composite_score": 8.01,
+  "volume": 22878,
+  "kd": 15,
+  "pages": 597,
+  "target_user": "Professionals in Clean Energy",
+  "problem_solved": "Automates complex Clean Energy Compliance Checker by Employee Count tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

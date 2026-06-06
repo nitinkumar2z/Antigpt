@@ -1,0 +1,23 @@
+{
+  "tool_id": "healthtech-audit-checklist-by-seniority",
+  "tool_name": "Healthtech Audit Checklist by Seniority",
+  "category": "Healthtech",
+  "rank": 921,
+  "composite_score": 6.77,
+  "volume": 6835,
+  "kd": 34,
+  "pages": 535,
+  "target_user": "Professionals in Healthtech",
+  "problem_solved": "Automates complex Healthtech Audit Checklist by Seniority tasks",
+  "why_ai_resistant": "Requires specific data/logic not easily modeled by general LLMs",
+  "monetization": "Subscription / Lead Gen / API access",
+  "saas_evolution": "Workflow automation platform",
+  "score_breakdown": null,
+  "source": "T2OTYCOON 1,000 Opportunity Database (2026-2030)",
+  "priority_score": null,
+  "seo_score": null,
+  "traffic_score": null,
+  "monetization_score": null,
+  "competition_score": null,
+  "status": "pending"
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "category": "Agriculture",
+    "tool_count": 35,
+    "average_score": 7.7,
+    "average_volume": 37481.63
+  },
+  {
+    "category": "Clean Energy",
+    "tool_count": 35,
+    "average_score": 7.59,
+    "average_volume": 33796.46
+  },
+  {
+    "category": "Utilities",
+    "tool_count": 34,
+    "average_score": 7.62,
+    "average_volume": 36061.76
+  },
+  {
+    "category": "Edtech",
+    "tool_count": 34,
+    "average_score": 7.59,
+    "average_volume": 32118.5
+  },
+  {
+    "category": "Proptech",
+    "tool_count": 34,
+    "average_score": 7.57,
+    "average_volume": 40532.47
+  },
+  {
+    "category": "Aerospace",
+    "tool_count": 33,
+    "average_score": 7.4,
+    "average_volume": 30984.97
+  },
+  {
+    "category": "Adtech",
+    "tool_count": 33,
+    "average_score": 7.53,
+    "average_volume": 35616.94
+  },
+  {
+    "category": "Pharma",
+    "tool_count": 32,
+    "average_score": 7.79,
+    "average_volume": 33258.03
+  },
+  {
+    "category": "Chemicals",
+    "tool_count": 32,
+    "average_score": 7.42,
+    "average_volume": 27222.88
+  },
+  {
+    "category": "Transportation",
+    "tool_count": 31,
+    "average_score": 7.67,
+    "average_volume": 38165.84
+  },
+  {
+    "category": "Cybersecurity",
+    "tool_count": 30,
+    "average_score": 7.87,
+    "average_volume": 34728.43
+  },
+  {
+    "category": "Electronics",
+    "tool_count": 30,
+    "average_score": 7.65,
+    "average_volume": 32648.1
+  },
+  {
+    "category": "Education",
+    "tool_count": 29,
+    "average_score": 7.78,
+    "average_volume": 37620.1
+  },
+  {
+    "category": "Telecom",
+    "tool_count": 28,
+    "average_score": 7.72,
+    "average_volume": 34577.64
+  },
+  {
+    "category": "Sustainability",
+    "tool_count": 28,
+    "average_score": 7.59,
+    "average_volume": 35526.96
+  },
+  {
+    "category": "Automotive",
+    "tool_count": 28,
+    "average_score": 7.41,
+    "average_volume": 31553.11
+  },
+  {
+    "category": "Logistics",
+    "tool_count": 26,
+    "average_score": 7.98,
+    "average_volume": 38371.27
+  },
+  {
+    "category": "Engineering",
+    "tool_count": 26,
+    "average_score": 7.67,
+    "average_volume": 35652.69
+  },
+  {
+    "category": "Hr",
+    "tool_count": 26,
+    "average_score": 7.73,
+    "average_volume": 36825.96
+  },
+  {
+    "category": "Insurance",
+    "tool_count": 25,
+    "average_score": 7.51,
+    "average_volume": 32178.0
+  },
+  {
+    "category": "Real Estate",
+    "tool_count": 25,
+    "average_score": 7.68,
+    "average_volume": 31527.16
+  },
+  {
+    "category": "Wholesale",
+    "tool_count": 25,
+    "average_score": 7.37,
+    "average_volume": 28663.84
+  },
+  {
+    "category": "Biotech",
+    "tool_count": 25,
+    "average_score": 7.46,
+    "average_volume": 31117.12
+  },
+  {
+    "category": "Compliance",
+    "tool_count": 24,
+    "average_score": 8.07,
+    "average_volume": 33518.33
+  },
+  {
+    "category": "E-Commerce",
+    "tool_count": 24,
+    "average_score": 7.7,
+    "average_volume": 37369.46
+  },
+  {
+    "category": "Healthtech",
+    "tool_count": 24,
+    "average_score": 7.58,
+    "average_volume": 30239.62
+  },
+  {
+    "category": "Fintech",
+    "tool_count": 24,
+    "average_score": 7.46,
+    "average_volume": 29032.71
+  },
+  {
+    "category": "Martech",
+    "tool_count": 23,
+    "average_score": 7.67,
+    "average_volume": 34036.26
+  },
+  {
+    "category": "Energy",
+    "tool_count": 23,
+    "average_score": 7.68,
+    "average_volume": 33245.3
+  },
+  {
+    "category": "Finance",
+    "tool_count": 22,
+    "average_score": 7.82,
+    "average_volume": 34501.14
+  },
+  {
+    "category": "Construction",
+    "tool_count": 21,
+    "average_score": 7.72,
+    "average_volume": 29334.0
+  },
+  {
+    "category": "Food & Beverage",
+    "tool_count": 20,
+    "average_score": 7.84,
+    "average_volume": 35409.55
+  },
+  {
+    "category": "Retail",
+    "tool_count": 20,
+    "average_score": 7.58,
+    "average_volume": 38791.85
+  },
+  {
+    "category": "Healthcare",
+    "tool_count": 20,
+    "average_score": 7.37,
+    "average_volume": 28982.6
+  },
+  {
+    "category": "Legal",
+    "tool_count": 19,
+    "average_score": 8.01,
+    "average_volume": 33036.05
+  },
+  {
+    "category": "Hospitality",
+    "tool_count": 18,
+    "average_score": 7.56,
+    "average_volume": 27541.83
+  },
+  {
+    "category": "Marketing",
+    "tool_count": 17,
+    "average_score": 7.44,
+    "average_volume": 30174.65
+  },
+  {
+    "category": "Manufacturing",
+    "tool_count": 17,
+    "average_score": 7.28,
+    "average_volume": 31560.53
+  }
+]
