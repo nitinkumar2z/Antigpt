@@ -142,6 +142,7 @@ This report evaluates each of the **System Governor Components** against the 7 p
   - Verified by local git commits:
     - `938fa2a` - feat(governor): implement report generation, cron schedules, and gating policies
     - `78ba231` - docs: add architecture reports, plans, and system governor lite integration
+    - `e0da599` - docs: add GOVERNOR_RUNTIME_AUDIT.md tracking all 8 governor components
     - `2fc060f` - docs: append commit hash in governor layer audit report
 - **GitHub Sync Proof:** YES
   - Verified by remote origin synchronization configuration matching remote main ref in [GITHUB_SYNC_AUDIT.md](file:///root/GITHUB_SYNC_AUDIT.md).
