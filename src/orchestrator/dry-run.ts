@@ -8,7 +8,7 @@ import '../skills/index.js'; // Bootstrap skills registry
 
 async function main() {
   const engine = new OrchestratorEngine();
-  const niche = 'SEO Keyword Density Calculator';
+  const niche = 'PDF to Markdown Converter';
 
   console.log('=== FACTORY ORCHESTRATOR DRY-RUN INITIATED ===');
   try {

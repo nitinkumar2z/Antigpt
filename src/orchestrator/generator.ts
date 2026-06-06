@@ -13,6 +13,7 @@ export function generateToolAssets(spec: ToolSpecification): GeneratedFile[] {
   const toolTitle = toolName.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   
   // Detect tool niches
+  const isPdf = toolName.toLowerCase().includes('pdf');
   const isDensity = toolName.toLowerCase().includes('density');
   const isGenerator = toolName.toLowerCase().includes('generator') || toolName.toLowerCase().includes('builder');
   const isCalculator = toolName.toLowerCase().includes('calculator') || toolName.toLowerCase().includes('score') || toolName.toLowerCase().includes('estimator');
@@ -47,7 +48,7 @@ body {
   border-radius: 20px;
   padding: 2.5rem;
   width: 100%;
-  max-width: ${isDensity ? '650px' : '500px'};
+  max-width: ${(isDensity || isPdf) ? '650px' : '500px'};
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(59, 130, 246, 0.15);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -168,7 +169,100 @@ input:focus, select:focus, textarea:focus {
 
   // 2. Generate Interactive Client Javascript
   let jsContent = '';
-  if (isDensity) {
+  if (isPdf) {
+    jsContent = `// Interactive logic for PDF to Markdown Converter
+// Ensure pdf.js is initialized
+const pdfjsLib = window['pdfjs-dist/build/pdf'];
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+
+document.getElementById('tool-form')?.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const fileInput = document.getElementById('pdf-file');
+  const file = fileInput.files?.[0];
+  if (!file) return;
+  
+  const statusMsg = document.getElementById('status-message');
+  const panel = document.getElementById('results-box');
+  const output = document.getElementById('res-value');
+  
+  if (statusMsg && panel) {
+    statusMsg.innerText = 'Initializing conversion...';
+    statusMsg.style.display = 'block';
+    panel.style.display = 'block';
+  }
+  
+  try {
+    const reader = new FileReader();
+    reader.onload = async function() {
+      try {
+        const typedarray = new Uint8Array(this.result);
+        const loadingTask = pdfjsLib.getDocument(typedarray);
+        
+        loadingTask.onProgress = function(progress) {
+          const pct = (progress.loaded / progress.total) * 100;
+          if (statusMsg) statusMsg.innerText = 'Loading PDF: ' + pct.toFixed(0) + '%';
+        };
+        
+        const pdf = await loadingTask.promise;
+        let markdown = '';
+        
+        for (let i = 1; i <= pdf.numPages; i++) {
+          if (statusMsg) statusMsg.innerText = 'Converting Page ' + i + ' of ' + pdf.numPages + '...';
+          const page = await pdf.getPage(i);
+          const textContent = await page.getTextContent();
+          
+          let pageText = '## Page ' + i + '\\n\\n';
+          let lastY = -1;
+          
+          for (const item of textContent.items) {
+            if (lastY !== -1 && Math.abs(item.transform[5] - lastY) > 12) {
+              pageText += '\\n';
+            }
+            pageText += item.str + ' ';
+            lastY = item.transform[5];
+          }
+          markdown += pageText + '\\n\\n';
+        }
+        
+        if (output) output.value = markdown;
+        if (statusMsg) statusMsg.innerText = 'Conversion Complete!';
+      } catch (err) {
+        if (statusMsg) statusMsg.innerText = 'Error parsing PDF: ' + err.message;
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  } catch (err) {
+    if (statusMsg) statusMsg.innerText = 'Error: ' + err.message;
+  }
+});
+
+// Copy clip hook
+document.getElementById('copy-btn')?.addEventListener('click', () => {
+  const output = document.getElementById('res-value');
+  if (output) {
+    navigator.clipboard.writeText(output.value);
+    const btn = document.getElementById('copy-btn');
+    if (btn) {
+      const originalText = btn.innerText;
+      btn.innerText = 'Copied!';
+      setTimeout(() => btn.innerText = originalText, 1500);
+    }
+  }
+});
+
+// Download MD hook
+document.getElementById('download-btn')?.addEventListener('click', () => {
+  const output = document.getElementById('res-value');
+  if (output && output.value) {
+    const blob = new Blob([output.value], { type: 'text/markdown' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'extracted_document.md';
+    link.click();
+  }
+});`;
+  } else if (isDensity) {
     jsContent = `// Interactive keyword density logic for ${toolTitle}
 document.getElementById('tool-form')?.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -179,7 +273,7 @@ document.getElementById('tool-form')?.addEventListener('submit', (e) => {
   // Clean and split words
   const words = text
     .toLowerCase()
-    .replace(/[.,\\/#!$%\\^&\\*;:{}=\\-_~()?"'\\n\\r]/g, " ")
+    .replace(/[.,\\/#!$%\\^&\\*;:{}=\\-_~()?\"'\\n\\r]/g, " ")
     .split(/\\s+/)
     .filter(w => w.length > 1);
     
@@ -235,7 +329,7 @@ document.getElementById('tool-form')?.addEventListener('submit', (e) => {
     tableContainer.innerHTML = '';
     
     if (sortedKeywords.length === 0) {
-      tableContainer.innerHTML = '<div style="color: var(--text-muted); font-size: 0.9rem;">No keywords analyzed yet.</div>';
+      tableContainer.innerHTML = '<div style=\"color: var(--text-muted); font-size: 0.9rem;\">No keywords analyzed yet.</div>';
     } else {
       sortedKeywords.forEach(([kw, count]) => {
         const pct = totalCount > 0 ? (count / totalCount) * 100 : 0;
@@ -339,7 +433,31 @@ document.getElementById('tool-form')?.addEventListener('submit', (e) => {
 
   // 3. Generate Astro Page wrapping the Layout
   let bodyHtml = '';
-  if (isDensity) {
+  if (isPdf) {
+    bodyHtml = `<div class="tool-card">
+  <h1>PDF to Markdown Converter</h1>
+  <p class="description">Select a PDF document to extract its full text content and convert it into clean formatted Markdown code instantaneously.</p>
+  
+  <form id="tool-form">
+    <div class="input-group">
+      <label for="pdf-file">Choose PDF File</label>
+      <input type="file" id="pdf-file" accept=".pdf" required style="padding: 0.5rem;" />
+    </div>
+    
+    <button type="submit" class="action-btn">Convert to Markdown</button>
+  </form>
+  
+  <div id="results-box" class="results-panel">
+    <div id="status-message" style="color: var(--secondary-glow); margin-bottom: 1rem; font-size: 0.9rem; text-align: center; display: none;">Converting...</div>
+    <label>Converted Markdown Output</label>
+    <textarea id="res-value" readonly rows="8" style="background: rgba(0,0,0,0.5); font-family: monospace;"></textarea>
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+      <button id="copy-btn" class="action-btn" style="background: var(--primary-glow); flex: 1;">Copy to Clipboard</button>
+      <button id="download-btn" class="action-btn" style="background: var(--secondary-glow); flex: 1;">Download .md</button>
+    </div>
+  </div>
+</div>`;
+  } else if (isDensity) {
     bodyHtml = `<div class="tool-card">
   <h1>SEO Keyword Density Calculator</h1>
   <p class="description">Paste your content to analyze keyword distribution ratios, word counts, and optimization density percentages instantly.</p>
@@ -482,6 +600,7 @@ description: "${spec.description}"
 </head>
 <body>
   ${bodyHtml}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
   <script src="/scripts/${spec.name}.js" defer></script>
 </body>
 </html>
