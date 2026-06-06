@@ -6,6 +6,18 @@ All notable changes to this project will be documented in this file.
 - Ongoing refactoring of remaining checks to use the centralized Skills Layer.
 
 ## [2026-06-06]
+### Commit: `e0da599` / `1df340e` / `e0da599` ("docs: add GOVERNOR_RUNTIME_AUDIT.md tracking all 8 governor components")
+- **Changes:**
+  - Audited and verified Governor Layer and all 8 governor components under LAYER_COMPLETION_POLICY.md.
+  - Generated and verified GOVERNOR_LAYER_AUDIT.md and GOVERNOR_RUNTIME_AUDIT.md.
+- **Reason:** Verify Governor Layer completion.
+
+### Commit: `268c587` / `491b864` ("docs: add APPLICATION_SKILLS_RUNTIME_AUDIT.md tracking 10 application skills")
+- **Changes:**
+  - Audited and verified Skills Layer and the 10 application skills.
+  - Generated and verified SKILLS_LAYER_AUDIT.md and APPLICATION_SKILLS_RUNTIME_AUDIT.md.
+- **Reason:** Verify Skills Layer and Application Skills status.
+
 ### Commit: `e4c7dc9` ("docs: add GITHUB_CONNECTION_REPORT.md")
 - **Changes:** Created GITHUB_CONNECTION_REPORT.md describing remote push actions.
 - **Reason:** Verify repository URL transition.
