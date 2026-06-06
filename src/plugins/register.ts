@@ -9,6 +9,7 @@
  * @version 2.0.0
  */
 
+import '../skills/index.js';
 import { pluginLifecycleManager } from './engine/lifecycle.js';
 import { pluginRegistry } from './engine/registry.js';
 import { pluginExecutor } from './engine/executor.js';

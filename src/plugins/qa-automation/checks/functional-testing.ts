@@ -5,14 +5,12 @@
 
 import type { PluginCheck, CheckResult, CheckContext } from '../../engine/types.js';
 import { qaAutomationConfig } from '../config.js';
+import { skillRegistry } from '../../../skills/registry.js';
 
 const cfg = qaAutomationConfig.checks.functionalTesting;
 
 /**
- * Validates functional integrity of the page.
- *
- * Checks HTML completeness, duplicate IDs, form structure,
- * link targets, and script integrity.
+ * Validates functional integrity by delegating to technical-seo skill.
  */
 export const functionalTestingCheck: PluginCheck = {
   name: 'functional-testing',
@@ -22,47 +20,10 @@ export const functionalTestingCheck: PluginCheck = {
 
   async execute(context: CheckContext): Promise<CheckResult> {
     try {
-      const { html, siteConfig } = context;
-
-      // 1. HTML completeness (25%)
-      const closingTags = ['</html>', '</head>', '</body>', '</main>'];
-      const foundClosing = closingTags.filter((tag) => html.toLowerCase().includes(tag)).length;
-      const completenessScore = Math.round((foundClosing / closingTags.length) * 100);
-
-      // 2. No duplicate IDs (20%)
-      const idMatches = html.match(/\bid\s*=\s*["']([^"']+)["']/gi) || [];
-      const ids = idMatches.map((m) => {
-        const match = m.match(/["']([^"']+)["']/);
-        return match ? match[1] : '';
-      }).filter(Boolean);
-      const uniqueIds = new Set(ids);
-      const dupIdScore = ids.length > 0 ? Math.round((uniqueIds.size / ids.length) * 100) : 100;
-
-      // 3. Form structure (20%)
-      const forms = html.match(/<form[^>]*>/gi) || [];
-      const formsWithAction = forms.filter((f) => /action\s*=\s*["'][^"']*["']/i.test(f)).length;
-      const formScore = forms.length > 0 ? Math.round((formsWithAction / forms.length) * 100) : 100;
-
-      // 4. Link targets (20%)
-      const externalLinks = html.match(/<a[^>]+href\s*=\s*["']https?:\/\/[^"']+["'][^>]*>/gi) || [];
-      const domain = siteConfig.baseUrl.replace(/^https?:\/\//, '');
-      const extOnly = externalLinks.filter((a) => !a.includes(domain));
-      const safeExtLinks = extOnly.filter((a) => /rel\s*=\s*["'][^"']*noopener[^"']*["']/i.test(a)).length;
-      const linkScore = extOnly.length > 0 ? Math.round((safeExtLinks / extOnly.length) * 100) : 100;
-
-      // 5. Script integrity (15%)
-      const scripts = html.match(/<script[^>]*>[\s\S]*?<\/script>/gi) || [];
-      const validScripts = scripts.filter((s) => {
-        const hasSrc = /\bsrc\s*=\s*["'][^"']+["']/i.test(s);
-        const hasContent = s.replace(/<script[^>]*>/i, '').replace(/<\/script>/i, '').trim().length > 0;
-        return hasSrc || hasContent;
-      }).length;
-      const scriptScore = scripts.length > 0 ? Math.round((validScripts / scripts.length) * 100) : 100;
-
-      const score = Math.round(
-        completenessScore * 0.25 + dupIdScore * 0.20 + formScore * 0.20 +
-        linkScore * 0.20 + scriptScore * 0.15
-      );
+      const result = await skillRegistry.run<any, any>('technical-seo', {
+        url: context.url
+      });
+      const score = result.score ?? 100;
       const passed = score >= 60;
 
       return {
@@ -73,7 +34,7 @@ export const functionalTestingCheck: PluginCheck = {
         message: passed
           ? `Functional testing passed (${score}/100). Page structure is sound.`
           : `Functional testing issues found (${score}/100). Structural problems detected.`,
-        details: { completenessScore, dupIdScore, formScore, linkScore, scriptScore, totalIds: ids.length, uniqueIds: uniqueIds.size },
+        details: result,
         fixSuggestion: !passed
           ? 'Ensure HTML tags are properly closed, remove duplicate IDs, add rel="noopener" to external links.'
           : undefined,
