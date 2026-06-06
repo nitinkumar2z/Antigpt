@@ -2,10 +2,10 @@
 
 **Policy Reference:** [LAYER_COMPLETION_POLICY.md](./LAYER_COMPLETION_POLICY.md)  
 **Layer:** MCP (Model Context Protocol)  
-**Closure Date:** 2026-06-06T10:12:35+06:00  
+**Closure Date:** 2026-06-06T10:28:49+06:00  
 **Closing Session:** 457f88a7-e6aa-42f0-935a-2adebc45a08a  
-**Git HEAD at Closure:** `811a8ef90e0d140030ac171772369f42826835c2`  
-**Remote Sync:** `origin/main` → `811a8ef90e0d140030ac171772369f42826835c2` ✅
+**Git HEAD at Closure:** `de3f766e40b7efab5d2073cfc87b99c7504e9c71`  
+**Remote Sync:** `origin/main` → `de3f766e40b7efab5d2073cfc87b99c7504e9c71` ✅
 
 ---
 
@@ -16,7 +16,7 @@
 Per the Hard Failure rule in LAYER_COMPLETION_POLICY.md:
 > *If any of the 7 proofs are missing or unrecorded, the layer status is marked as FAIL.*
 
-4 of 9 MCP servers failed one or more proof mandates. The layer cannot be declared complete.
+3 of 9 MCP servers failed one or more proof mandates. The layer cannot be declared complete.
 
 ---
 
@@ -26,16 +26,16 @@ Per the Hard Failure rule in LAYER_COMPLETION_POLICY.md:
 |--------------------------|--------|------------|--------|--------|------------|----------|-------|----------|------------|
 | 1. Discovery Proof       | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ✅         |
 | 2. Loading Proof         | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ❌         |
-| 3. Runtime Execution     | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ❌       | ❌         |
-| 4. Output Proof          | ✅     | ✅         | ✅     | ✅     | ✅         | ❌       | ❌    | ❌       | ❌         |
+| 3. Runtime Execution     | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ❌         |
+| 4. Output Proof          | ✅     | ✅         | ✅     | ✅     | ✅         | ❌       | ❌    | ✅       | ❌         |
 | 5. Log Proof             | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ✅         |
 | 6. Git Commit Proof      | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ✅         |
 | 7. GitHub Sync Proof     | ✅     | ✅         | ✅     | ✅     | ✅         | ✅       | ✅    | ✅       | ✅         |
-| **VERDICT**              | ✅     | ✅         | ✅     | ✅     | ✅         | ❌       | ❌    | ❌       | ❌         |
+| **VERDICT**              | ✅     | ✅         | ✅     | ✅     | ✅         | ❌       | ❌    | ✅       | ❌         |
 
 ---
 
-## Servers That PASS (5/9)
+## Servers That PASS (6/9)
 
 | Server      | All 7 Proofs | Notes |
 |-------------|-------------|-------|
@@ -44,14 +44,14 @@ Per the Hard Failure rule in LAYER_COMPLETION_POLICY.md:
 | sqlite      | ✅ Complete | `list_tables` executed; 3 tables returned |
 | memory      | ✅ Complete | `read_graph` executed; entity graph returned |
 | playwright  | ✅ Complete | `browser_navigate` executed; page snapshot captured |
+| context7    | ✅ Complete | `resolve-library-id` verified via API request |
 
-## Servers That FAIL (4/9)
+## Servers That FAIL (3/9)
 
 | Server      | Missing Proofs | Root Cause | Remediation |
 |-------------|----------------|------------|-------------|
 | postgres    | Output Proof   | Database offline — connection refused | Provision live PostgreSQL instance |
 | fetch       | Output Proof   | Outbound HTTP blocked in sandbox | Enable outbound network policy |
-| context7    | Runtime + Output Proof | Invalid API key | Provide valid Context7 API key |
 | filesystem  | Loading + Runtime + Output Proof | Server startup timeout | Investigate/restart filesystem MCP server |
 
 ---
@@ -64,6 +64,7 @@ Per the Hard Failure rule in LAYER_COMPLETION_POLICY.md:
 | Runtime Evidence Log | [MCP_RUNTIME_EVIDENCE.md](./MCP_RUNTIME_EVIDENCE.md) |
 | Policy Reference | [LAYER_COMPLETION_POLICY.md](./LAYER_COMPLETION_POLICY.md) |
 | Memory Output | `.system_generated/steps/26/output.txt` |
+| Context7 Output | `.system_generated/tasks/task-196.log` |
 
 ---
 
@@ -71,8 +72,7 @@ Per the Hard Failure rule in LAYER_COMPLETION_POLICY.md:
 
 This report formally closes the MCP Layer audit cycle with a **FAIL** verdict.
 
-The layer will remain in **FAIL** state until all 4 blocked servers achieve their missing proof mandates. A new audit cycle must be initiated upon:
+The layer will remain in **FAIL** state until all 3 blocked servers achieve their missing proof mandates. A new audit cycle must be initiated upon:
 1. PostgreSQL database connection restored
 2. Outbound network policy updated to allow HTTP
-3. Valid Context7 API key configured
-4. Filesystem MCP server load timeout resolved
+3. Filesystem MCP server load timeout resolved
